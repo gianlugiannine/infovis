@@ -1,11 +1,494 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Un mes en La Percanta · Visualización de la Información</title>
+<meta name="description" content="Exploración visual de un mes de pedidos de La Percanta, un restaurante de Puerto Madero. TP de Visualización de la Información.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    color-scheme: light;
+    --surface-0:#f4f2ed;
+    --surface-1:#fcfcfb;
+    --surface-2:#ebe8e0;
+    --text-primary:#0b0b0b;
+    --text-secondary:#52514e;
+    --text-muted:#7a786f;
+    --rule:#dedad0;
+    --accent:#8c2f1f;
+    --accent-soft:#f0e2de;
+    --blue:#2a78d6;
+    --maxw:960px;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      color-scheme: dark;
+      --surface-0:#151513;
+      --surface-1:#1f1f1d;
+      --surface-2:#2a2a27;
+      --text-primary:#f7f6f2;
+      --text-secondary:#c3c2b7;
+      --text-muted:#928f84;
+      --rule:#38372f;
+      --accent:#e58a72;
+      --accent-soft:#2e2320;
+      --blue:#3987e5;
+    }
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    background:var(--surface-0);
+    color:var(--text-primary);
+    font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+    font-size:17px;
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+
+  /* ---------- portada ---------- */
+  header.hero{
+    padding:88px 0 56px;
+    border-bottom:1px solid var(--rule);
+  }
+  .kicker{
+    font-size:12px;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--text-muted);font-weight:600;margin:0 0 20px;
+  }
+  h1{
+    font-family:Fraunces,Georgia,serif;
+    font-size:clamp(2.6rem,6.5vw,4.4rem);
+    line-height:1.02;letter-spacing:-.02em;
+    font-weight:600;margin:0 0 20px;
+  }
+  h1 em{font-style:italic;color:var(--accent)}
+  .standfirst{
+    font-size:clamp(1.05rem,2.2vw,1.3rem);
+    color:var(--text-secondary);max-width:38em;margin:0 0 32px;
+  }
+  .byline{
+    font-size:14px;color:var(--text-muted);
+    display:flex;flex-wrap:wrap;gap:8px 20px;align-items:center;
+  }
+  .byline strong{color:var(--text-secondary);font-weight:600}
+
+  /* ---------- cifras ---------- */
+  .stats{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    gap:1px;background:var(--rule);
+    border:1px solid var(--rule);border-radius:10px;overflow:hidden;
+    margin:48px 0 8px;
+  }
+  .stat{background:var(--surface-1);padding:22px 20px}
+  .stat .n{
+    font-family:Fraunces,Georgia,serif;
+    font-size:2.1rem;line-height:1;font-weight:600;
+    letter-spacing:-.02em;display:block;margin-bottom:8px;
+  }
+  .stat .l{font-size:13px;color:var(--text-secondary);line-height:1.4;display:block}
+  .stat.hl .n{color:var(--accent)}
+
+  /* ---------- secciones ---------- */
+  section{padding:72px 0;border-bottom:1px solid var(--rule)}
+  .qnum{
+    font-size:12px;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--accent);font-weight:600;margin:0 0 14px;
+  }
+  h2{
+    font-family:Fraunces,Georgia,serif;
+    font-size:clamp(1.7rem,4vw,2.6rem);
+    line-height:1.14;letter-spacing:-.015em;
+    font-weight:600;margin:0 0 20px;max-width:20em;
+  }
+  .lede{font-size:1.05rem;color:var(--text-secondary);max-width:40em;margin:0 0 12px}
+  p{max-width:40em}
+
+  .tool{
+    display:inline-flex;align-items:center;gap:7px;
+    font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;font-weight:600;
+    color:var(--text-secondary);background:var(--surface-2);
+    padding:5px 11px;border-radius:99px;margin-bottom:24px;
+  }
+  .tool::before{
+    content:"";width:6px;height:6px;border-radius:50%;
+    background:var(--blue);flex:none;
+  }
+
+  figure{margin:28px 0 0}
+  .chart{
+    background:var(--surface-1);
+    border:1px solid var(--rule);border-radius:12px;
+    padding:14px;overflow-x:auto;
+  }
+  .chart img{display:block;width:100%;height:auto;border-radius:6px}
+  figcaption{
+    font-size:14px;color:var(--text-muted);
+    margin-top:14px;max-width:40em;
+  }
+
+  /* ---------- hallazgo ---------- */
+  .finding{
+    border-left:3px solid var(--accent);
+    background:var(--accent-soft);
+    padding:18px 22px;border-radius:0 8px 8px 0;
+    margin:32px 0 0;max-width:40em;
+  }
+  .finding p{margin:0;font-size:1rem}
+  .finding strong{color:var(--accent)}
+
+  /* ---------- comparación demoras ---------- */
+  .bars{margin:28px 0 0;max-width:640px}
+  .bar-row{margin-bottom:26px}
+  .bar-lab{
+    display:flex;justify-content:space-between;align-items:baseline;
+    font-size:14px;margin-bottom:9px;gap:12px;
+  }
+  .bar-lab b{font-size:15px;font-weight:600}
+  .bar-lab span{color:var(--text-muted);font-variant-numeric:tabular-nums}
+  .track{position:relative;height:34px;background:var(--surface-2);border-radius:6px}
+  .fill{
+    position:absolute;top:0;left:0;height:100%;border-radius:6px;
+    display:flex;align-items:center;padding-left:12px;
+    font-size:13px;font-weight:600;color:#fff;
+    font-variant-numeric:tabular-nums;
+  }
+  .fill.ok{background:var(--blue)}
+  .fill.late{background:var(--accent)}
+  .promise{
+    position:absolute;top:-7px;bottom:-7px;width:2px;
+    background:var(--text-primary);
+  }
+  .promise::after{
+    content:attr(data-l);position:absolute;top:-19px;left:50%;
+    transform:translateX(-50%);white-space:nowrap;
+    font-size:11px;font-weight:600;color:var(--text-primary);
+    letter-spacing:.03em;
+  }
+  .legend{
+    display:flex;gap:20px;flex-wrap:wrap;
+    font-size:13px;color:var(--text-secondary);margin-top:4px;
+  }
+  .legend i{
+    width:11px;height:11px;border-radius:3px;display:inline-block;
+    margin-right:6px;vertical-align:-1px;
+  }
+
+  /* ---------- pendiente ---------- */
+  .pending{
+    border:1px dashed var(--rule);border-radius:12px;
+    padding:28px;background:var(--surface-1);margin-top:28px;
+  }
+  .pending p{margin:0;font-size:15px;color:var(--text-secondary)}
+
+  /* ---------- metodología ---------- */
+  .method{background:var(--surface-1)}
+  .method h2{font-size:clamp(1.5rem,3vw,2rem)}
+  table{
+    border-collapse:collapse;width:100%;font-size:14.5px;
+    margin:22px 0;
+  }
+  th,td{
+    text-align:left;padding:11px 14px;
+    border-bottom:1px solid var(--rule);vertical-align:top;
+  }
+  th{
+    font-size:11.5px;letter-spacing:.09em;text-transform:uppercase;
+    color:var(--text-muted);font-weight:600;
+  }
+  td code{
+    font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+    font-size:13px;background:var(--surface-2);
+    padding:2px 6px;border-radius:4px;
+  }
+  .note{
+    font-size:14.5px;color:var(--text-secondary);
+    border-left:2px solid var(--rule);padding-left:18px;margin:24px 0;
+    max-width:42em;
+  }
+
+  footer{padding:56px 0 72px;font-size:14px;color:var(--text-muted)}
+  footer a{color:var(--text-secondary)}
+  a{color:var(--accent)}
+
+  @media (max-width:640px){
+    body{font-size:16px}
+    header.hero{padding:56px 0 40px}
+    section{padding:52px 0}
+    .chart{padding:8px}
+  }
+</style>
 </head>
 <body>
-  <h1>RawGraphs</h1>
-  <object type="image/svg+xml" data="./bump.svg"></object>
-  <h1>Flourish</h1>
-  <div class="flourish-embed flourish-chart" data-src="visualisation/29930135"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/29930135/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
-  <h1>DataWraper</h1>
-  <div style="min-height:468px" id="datawrapper-vis-oMAJE"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/oMAJE/embed.js" charset="utf-8" data-target="#datawrapper-vis-oMAJE"></script><noscript><img src="https://datawrapper.dwcdn.net/oMAJE/full.png" alt="male &amp;amp; female Preferences for pizza topings (Range Plot)" /></noscript></div></body>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">Visualización de la Información · TP de datos personales</p>
+    <h1>Un mes en <em>La Percanta</em></h1>
+    <p class="standfirst">
+      Hace un año escribí la aplicación con la que un restaurante de Puerto Madero
+      toma sus pedidos. Esto es lo que la base de datos tiene para contar sobre
+      agosto de 2026: a qué hora come el barrio, qué pide en cada momento del día,
+      cuánta carta sobra y si el local cumple lo que promete.
+    </p>
+    <p class="byline">
+      <strong>Gianluca Giannine Lizarraga</strong>
+      <span>·</span>
+      <span>Agosto 2026</span>
+      <span>·</span>
+      <span>Datos: base de producción de la app de La Percanta</span>
+    </p>
+
+    <div class="stats">
+      <div class="stat"><span class="n">143</span><span class="l">pedidos en 28 jornadas</span></div>
+      <div class="stat"><span class="n">357</span><span class="l">productos en la carta</span></div>
+      <div class="stat hl"><span class="n">204</span><span class="l">de esos productos no se vendieron nunca</span></div>
+      <div class="stat"><span class="n">$40.835</span><span class="l">ticket promedio</span></div>
+      <div class="stat"><span class="n">48</span><span class="l">clientes distintos</span></div>
+    </div>
+  </div>
+</header>
+
+<!-- ============ 1 ============ -->
+<section>
+  <div class="wrap">
+    <p class="qnum">Visualización 1 de 4</p>
+    <h2>¿Cuándo se llena la cocina?</h2>
+    <span class="tool">Datawrapper · tabla heatmap</span>
+    <p class="lede">
+      Un restaurante no trabaja parejo. La pregunta operativa más básica —cuándo
+      hay que tener gente— se responde cruzando los siete días de la semana con
+      las cinco franjas en que se parte el servicio.
+    </p>
+
+    <figure>
+      <div class="chart">
+        <iframe title="¿Cuándo se llena la cocina de La Percanta?" aria-label="Tabla"
+          id="datawrapper-chart-SCAyA" src="https://datawrapper.dwcdn.net/SCAyA/1/"
+          scrolling="no" frameborder="0" style="width:0;min-width:100% !important;border:none;"
+          height="466" data-external="1"></iframe>
+      </div>
+      <figcaption>
+        Cada celda es la cantidad de pedidos de esa franja en ese día. El color
+        usa una escala única para las cinco columnas, así que las celdas se
+        comparan entre sí.
+      </figcaption>
+    </figure>
+
+    <div class="finding">
+      <p>
+        <strong>El sábado a la cena es el pico absoluto: 11 pedidos</strong>, casi el
+        doble que cualquier otra celda del cuadro. El sábado entero concentra 32 de
+        los 143 pedidos; el martes, 12. Y la columna «Madrugada» no es el barrio
+        pidiendo de noche: son los pedidos que cargué yo probando la aplicación
+        entre la 1 y las 4 de la mañana, con el local cerrado.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 2 ============ -->
+<section>
+  <div class="wrap">
+    <p class="qnum">Visualización 2 de 4</p>
+    <h2>¿Se pide distinto según la hora del día?</h2>
+    <span class="tool">RAWGraphs · diagrama aluvial</span>
+    <p class="lede">
+      Cada franja horaria arrastra su propia carta. El diagrama sigue los 143
+      pedidos desde el momento del día en que entraron, pasando por el rubro que
+      más plata se llevó en cada uno, hasta la forma de entrega.
+    </p>
+
+    <figure>
+      <div class="chart">
+        <img src="img/rawgraphs-alluvial.png"
+             alt="Diagrama aluvial: los pedidos fluyen desde la franja horaria (Desayuno, Almuerzo, Madrugada, Merienda, Cena) hacia el rubro principal (Vinos y cervezas, Calzones, Entradas, Pastas, Recomendados, Empanadas, Pizzas artesanales, Carnes y pescados, Otros rubros) y de ahí a la forma de entrega (Retiro en local o Delivery).">
+      </div>
+      <figcaption>
+        Ancho de cada cinta = cantidad de pedidos. El rubro asignado a cada pedido
+        es el que más facturó dentro de ese pedido, no el que más unidades tuvo.
+      </figcaption>
+    </figure>
+
+    <div class="finding">
+      <p>
+        <strong>Son cuatro negocios distintos dentro del mismo local.</strong>
+        El desayuno es panadería. El almuerzo son carnes: 12 de 24 pedidos.
+        La merienda es cafetería y tortas. Y la cena es pizza —14 de 36—.
+        La diferencia se ve en la caja: la cena promedia $64.468 por pedido
+        y la merienda $19.307, tres veces menos.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 3 ============ -->
+<section>
+  <div class="wrap">
+    <p class="qnum">Visualización 3 de 4</p>
+    <h2>¿Cuánta carta trabaja de verdad?</h2>
+    <span class="tool">Flourish · treemap jerárquico</span>
+    <p class="lede">
+      La carta tiene 357 productos. Cada rectángulo es un plato, agrupado por
+      rubro y dimensionado por lo que facturó en el mes. Tocá un rubro para
+      entrar y ver los platos por dentro.
+    </p>
+
+    <figure>
+      <div class="chart">
+        <div class="flourish-embed flourish-hierarchy" data-src="visualisation/30103369">
+          <script src="https://public.flourish.studio/resources/embed.js"></script>
+          <noscript><img src="https://public.flourish.studio/visualisation/30103369/thumbnail" width="100%" alt="Treemap de la carta de La Percanta"/></noscript>
+        </div>
+      </div>
+      <figcaption>
+        Sólo aparecen los 153 productos que se vendieron al menos una vez. Los 204
+        que no se vendieron nunca no tienen rectángulo: son, literalmente, el
+        espacio en blanco de este gráfico.
+      </figcaption>
+    </figure>
+
+    <div class="finding">
+      <p>
+        <strong>29 productos —el 8% de la carta— hacen la mitad de la facturación.</strong>
+        Un solo plato, el Pollo Grille, facturó $296.000: más que todo el rubro
+        Entradas junto, que tiene 24 platos. Del otro lado, 204 productos ocuparon
+        lugar en la carta un mes entero sin vender una sola unidad.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 4 ============ -->
+<section>
+  <div class="wrap">
+    <p class="qnum">Visualización 4 de 4</p>
+    <h2>¿El local cumple la demora que promete?</h2>
+    <span class="tool">Tableau Public · dashboard</span>
+    <p class="lede">
+      Cuando entra un pedido, la app le canta un tiempo al cliente: 50 minutos si
+      es delivery, 30 si lo pasa a buscar. El historial de estados guarda cuánto
+      tardó de verdad, así que se puede medir la distancia entre lo prometido y
+      lo cumplido.
+    </p>
+
+    <div class="bars">
+      <div class="bar-row">
+        <div class="bar-lab">
+          <b>Delivery</b>
+          <span>promete 50′ · entrega en 49′ de promedio</span>
+        </div>
+        <div class="track">
+          <div class="fill ok" style="width:49%">49′</div>
+          <div class="promise" style="left:50%" data-l="prometido 50′"></div>
+        </div>
+      </div>
+      <div class="bar-row">
+        <div class="bar-lab">
+          <b>Retiro en el local</b>
+          <span>promete 30′ · entrega en 35′ de promedio</span>
+        </div>
+        <div class="track">
+          <div class="fill late" style="width:35%">35′</div>
+          <div class="promise" style="left:30%" data-l="prometido 30′"></div>
+        </div>
+      </div>
+      <p class="legend">
+        <span><i style="background:var(--blue)"></i>cumple la promesa</span>
+        <span><i style="background:var(--accent)"></i>se pasa de la promesa</span>
+        <span>Escala común: 0 a 100 minutos.</span>
+      </p>
+    </div>
+
+    <div class="finding">
+      <p>
+        <strong>El mostrador promete mejor de lo que cumple.</strong> El delivery
+        llega tarde el 37% de las veces; el retiro en el local, el 70%. Es al revés
+        de lo que uno esperaría: el pedido que no tiene que salir a la calle es
+        justamente el que más incumple, porque los 30 minutos que promete son
+        demasiado ajustados para la cocina.
+      </p>
+    </div>
+
+    <div class="pending">
+      <p>
+        <strong>Prototipo.</strong> Este bloque muestra el hallazgo con los promedios;
+        en la entrega final va acá el dashboard interactivo de Tableau Public, con la
+        distribución pedido por pedido y filtros por día, franja y rubro. El dataset
+        ya está armado: <code>datos/4-tableau-demoras.csv</code>, 123 pedidos entregados
+        con demora medida.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ metodología ============ -->
+<section class="method">
+  <div class="wrap">
+    <p class="qnum">Cómo se hizo</p>
+    <h2>De dónde salen los datos</h2>
+
+    <p>
+      La Percanta es un restaurante de Puerto Madero. Su aplicación de pedidos
+      —Next.js y PostgreSQL sobre Supabase— es un proyecto propio, en producción.
+      Los datos se extrajeron de esa base con consultas de solo lectura.
+    </p>
+
+    <table>
+      <thead>
+        <tr><th>Archivo</th><th>Filas</th><th>Qué contiene</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><code>datos/pedidos.csv</code></td><td>143</td><td>Un pedido por fila: momento, forma de entrega, medio de pago, rubros que tocó, detalle de lo pedido y montos</td></tr>
+        <tr><td><code>datos/renglones.csv</code></td><td>284</td><td>Un producto pedido por fila, con sus modificadores (guarnición, tamaño, corte)</td></tr>
+        <tr><td><code>datos/carta.csv</code></td><td>357</td><td>La carta completa del local, con códigos y precios reales</td></tr>
+      </tbody>
+    </table>
+
+    <p class="note">
+      <strong>Sobre la muestra.</strong> La carta, los precios, los códigos y los
+      grupos de modificadores son reales, tal como están en la base. De los pedidos,
+      43 son reales y 100 fueron generados sobre esa misma carta para poder analizar:
+      la aplicación se puso en marcha hace poco y veinte días de operación en pruebas
+      no alcanzan para leer patrones de consumo. Los pedidos generados se calibraron
+      contra los reales —ticket promedio, productos por pedido, proporción de delivery
+      y de cancelados— y la columna <code>lote</code> distingue unos de otros en todos
+      los archivos: <code>R</code> real, <code>S</code> generado.
+    </p>
+
+    <p class="note">
+      <strong>Sobre las personas.</strong> No se exportó ningún dato personal. Los
+      nombres de cliente son seudónimos asignados de forma estable; no hay teléfonos,
+      direcciones ni correos en ninguno de los archivos publicados (Ley 25.326).
+    </p>
+
+    <p class="note">
+      <strong>Un criterio de limpieza.</strong> Nueve pedidos reales registran demoras
+      de entre 1 y 18 minutos porque los estados se avanzaron a mano durante las
+      pruebas de la aplicación. No miden servicio real, así que quedaron sin dato en
+      lugar de contaminar el promedio.
+    </p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    Gianluca Giannine Lizarraga · Visualización de la Información, 2.º cuatrimestre 2026 ·
+    <a href="https://github.com/gianlugiannine/infovis">código y datos en GitHub</a>
+  </div>
+</footer>
+
+<script type="text/javascript">
+/* redimensiona el iframe de Datawrapper cuando cambia su alto */
+!function(){"use strict";window.addEventListener("message",function(a){
+if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");
+for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)
+if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}})}();
+</script>
+
+</body>
 </html>
