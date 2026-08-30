@@ -4,7 +4,7 @@ Trabajo práctico de **Visualización de la Información** (2.º cuatrimestre 20
 Exploración visual de un mes de pedidos de La Percanta, un restaurante de Puerto
 Madero cuya aplicación de pedidos es un proyecto propio.
 
-**→ [gianlugiannine.github.io/infovis](https://gianlugiannine.github.io/infovis/)**
+**→ [gianlugiannine.github.io/infovis](https://gianlugiannine.github.io/infovis/)** · [ejercicios de clase](https://gianlugiannine.github.io/infovis/practica.html)
 
 ## Las cuatro preguntas
 
