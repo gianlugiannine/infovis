@@ -1,0 +1,358 @@
+﻿codigo,producto,rubro,precio
+0213,Provoleta Clásica,Recomendados,14600
+0302,Tabla Percanta,Recomendados,47500
+0401,Empanada de Carne Suave,Recomendados,3800
+0706,Sorrentino (Jamón y Mozzarella),Recomendados,14800
+0804,Milanesa de Ternera,Recomendados,21000
+0805,Lomo a la Pimienta Negra,Recomendados,28500
+0809,Ojo de Bife,Recomendados,28500
+1210,Percanta (para compartir),Recomendados,28000
+1410,Chocotorta,Recomendados,8900
+1508,Flan casero,Recomendados,8200
+0201,Bruschetta Tradicional,Entradas,13800
+0202,Bruschetta de Salmón Ahumado,Entradas,16400
+0203,Nachos,Entradas,14200
+0204,Nachos Mex,Entradas,14600
+0205,Romana Rabas (con salsa Provenzal),Entradas,18500
+0206,Romana Langostinos,Entradas,20500
+0207,Pan de Pizza con Provolone (chico 6 porc.),Entradas,27800
+0208,Papas Bravas o Tranquilas (Cheddar fundido),Entradas,13900
+0209,Papas Fritas (Provenzal o regular),Entradas,10600
+0210,Papa Puré,Entradas,10500
+0211,Huevos x 2 (fritos o duros),Entradas,10400
+0212,Caldo de Huesos,Entradas,6200
+0214,Provoleta Flambeada,Entradas,15200
+0215,Mozzarella Flor di Latte,Entradas,15400
+0216,Pinchos de pollo grillados (Salsa Tártara),Entradas,14800
+0217,Mozzarella Marinara,Entradas,13900
+0218,Omelette de Jamón y Queso,Entradas,13900
+0219,Omelette Especial,Entradas,14500
+0220,Omelette de Zanahoria y Queso,Entradas,14500
+0221,Omelette de Espinaca y Queso,Entradas,14500
+0222,Tortilla de papa,Entradas,14500
+0223,Tortilla española,Entradas,15800
+0224,Fainá (porción),Entradas,3300
+0225,Fainá Percanta (porción),Entradas,3900
+0301,Tablita de Quesos,Tablas,22200
+0303,Tablita de Quesos y Fiambres,Tablas,21700
+0304,Cazuela Individual,Tablas,11200
+0402,Empanada de Carne Picante,Empanadas,3800
+0403,Empanada de Pollo,Empanadas,3500
+0404,Empanada de Jamón y Queso,Empanadas,3400
+0405,Empanada de Verdura,Empanadas,3400
+0406,Empanada Caprese,Empanadas,3400
+0407,Empanada de Choclo,Empanadas,3400
+0408,Empanada de Roquefort,Empanadas,3400
+0409,Empanada de Queso y Cebolla,Empanadas,3400
+0410,Empanada de Atún,Empanadas,4000
+0501,Pizza Mozzarella,Pizzas artesanales,22600
+0502,Pizza Napolitana,Pizzas artesanales,27200
+0503,Pizza Caprese,Pizzas artesanales,27200
+0504,Pizza Mexicana,Pizzas artesanales,32800
+0505,Pizza Provolone,Pizzas artesanales,32900
+0506,Pizza Roquefort,Pizzas artesanales,32800
+0507,Pizza Cuatro quesos,Pizzas artesanales,33000
+0508,Pizza Veneciana,Pizzas artesanales,32800
+0509,Pizza Calabresa,Pizzas artesanales,32900
+0510,Pizza Leonesa,Pizzas artesanales,33300
+0511,Pizza Americana,Pizzas artesanales,32900
+0512,Pizza Fugazza Cabrona,Pizzas artesanales,32900
+0513,Pizza Salmón Ahumado,Pizzas artesanales,39700
+0514,Pizza Salmón Ahumado y Brie,Pizzas artesanales,41500
+0515,Pizza Anchoas,Pizzas artesanales,34100
+0516,Pizza Atún,Pizzas artesanales,34100
+0517,Pizza Percanta,Pizzas artesanales,36200
+0518,Pizza Margarita,Pizzas artesanales,27400
+0519,Pizza Jamón y morrones,Pizzas artesanales,27600
+0520,Pizza Sorrentina,Pizzas artesanales,27500
+0521,Pizza Fugazza,Pizzas artesanales,27100
+0522,Pizza Fugazza con mozzarella,Pizzas artesanales,27200
+0523,Pizza Fugazza morada,Pizzas artesanales,27300
+0524,Pizza Fugazzeta rellena,Pizzas artesanales,34100
+0525,Pizza Vegetariana,Pizzas artesanales,32900
+0526,"Pizza Rúcula, Crudo y parmesano",Pizzas artesanales,34100
+0527,Pizza Rúcula y Brie,Pizzas artesanales,34600
+0528,Pizza Rúcula/Tomates Confitados,Pizzas artesanales,34100
+0529,Pizza Palmitos,Pizzas artesanales,33900
+0530,Pizza Champignon,Pizzas artesanales,33900
+0531,Pizza Mediterránea,Pizzas artesanales,32900
+0532,Pizza Espárragos a la Parmesana,Pizzas artesanales,33100
+0533,Pizza Ananá,Pizzas artesanales,33000
+0534,Pan de Pizza,Pizzas artesanales,27800
+0535,Vegetariana,Pizzas artesanales,32900
+0536,Rúcula Crudo y Parmesano,Pizzas artesanales,34100
+0537,Rúcula y Brie,Pizzas artesanales,34600
+0538,Rúcula / Tomates Confitados,Pizzas artesanales,34100
+0539,Palmitos,Pizzas artesanales,33900
+0540,Champignon,Pizzas artesanales,33900
+0541,Mediterránea,Pizzas artesanales,32900
+0542,Espárragos a la Parmesana,Pizzas artesanales,33100
+0543,Ananá,Pizzas artesanales,33000
+0601,Calzone Napolitano (pequeño),Calzones,35800
+0602,Calzón Napolitano (pequeño),Calzones,35800
+0603,Calzón Percanta (pequeño),Calzones,36500
+0604,Calzón Calabrés (pequeño),Calzones,35800
+0605,Calzón Italiano (grande),Calzones,40500
+0701,Tallarín casero,Pastas,13600
+0702,Gnocchi,Pastas,13600
+0703,Gnocchi rellenos,Pastas,14200
+0704,Ravioles de Ricotta,Pastas,14400
+0705,Ravioles de Verdura,Pastas,14400
+0707,Sorrentino (Salmón),Pastas,17100
+0708,Tagliatelle,Pastas,13400
+0709,Tagliatelle de espinaca,Pastas,13400
+0710,Spaguetti,Pastas,13400
+0711,Penne Rigatti,Pastas,13600
+0712,Panzotti de Calabaza,Pastas,14600
+0713,Panzotti de Pollo-Funghi,Pastas,15400
+0714,Cappelletti,Pastas,15400
+0715,Spaghetti integral (de morrón y remolacha),Pastas,13400
+0716,Spaghetti integral (de espinaca),Pastas,13400
+0717,Penne Rigatti sin gluten,Pastas,13600
+0801,Ribbs Percanta,Carnes y pescados,26800
+0802,Medallón de Lomo,Carnes y pescados,28000
+0803,Matambrito de Cerdo,Carnes y pescados,21000
+0806,American Ribbs,Carnes y pescados,26800
+0807,Bife de Chorizo,Carnes y pescados,26000
+0808,Bife de Costilla,Carnes y pescados,24500
+0810,Lomo al Champignon,Carnes y pescados,28500
+0811,Pollo Grille,Carnes y pescados,18500
+0812,Suprema Rellena con Papas a la Española,Carnes y pescados,23000
+0813,Pollo al Verdeo,Carnes y pescados,23000
+0814,Suprema de Pollo,Carnes y pescados,19800
+0815,Salmón Rosado,Carnes y pescados,32400
+0816,Merluza,Carnes y pescados,22000
+0817,Trucha Ahumada,Carnes y pescados,27000
+0818,Mongolian Beef (Picante),Carnes y pescados,28500
+0819,Pollo al Curry,Carnes y pescados,25800
+0820,Wok de Vegetales,Carnes y pescados,20600
+0821,Risotto al Frutti di Mare,Carnes y pescados,27800
+0822,Risotto Pollo,Carnes y pescados,23000
+0823,Risotto de Vegetales,Carnes y pescados,21000
+0901,Classic-Burger,Hamburguesas,16800
+0902,Mex-Burger,Hamburguesas,17200
+0903,Patagonia Burger,Hamburguesas,17400
+0904,Veggie-Burger,Hamburguesas,16800
+0905,Blue-Burger,Hamburguesas,17200
+0906,Doble Burger,Hamburguesas,20800
+1001,Sándwiches de Miga de Jamón y Queso (x3),Sándwiches,9100
+1002,Sándwiches de Miga Especiales de Jamón y/o Queso (x3),Sándwiches,9500
+1003,Sándwiches de Miga de Crudo y Queso (x3),Sándwiches,10500
+1004,Sándwiches de Miga Especiales Premium (x3),Sándwiches,11000
+1005,Sándwich de Pan de Molde de Jamón Cocido,Sándwiches,9800
+1006,Sándwich de Pan de Molde de Jamón Crudo,Sándwiches,11800
+1007,Sándwich de Pan de Molde de Atún,Sándwiches,12300
+1008,Sándwich de Pan de Molde de Salmón Ahumado,Sándwiches,17400
+1009,Panini Caprese,Sándwiches,11000
+1010,Panini de Vegetales,Sándwiches,11000
+1011,Panini de Pollo,Sándwiches,14600
+1012,Panini de Lomo,Sándwiches,16800
+1013,Panini Vegetales,Sándwiches,11000
+1014,Panini Pollo,Sándwiches,14600
+1015,Panini Lomo,Sándwiches,16800
+1101,Armá tu ensalada (hasta 4 variedades),Ensaladas,12500
+1102,Zen Antioxidante,Ensaladas,15800
+1103,Carpaccio de Calabaza,Ensaladas,15400
+1104,Arco Iris,Ensaladas,15400
+1105,Armá tu ensalada,Ensaladas,12500
+1106,Cítrica,Ensaladas,15400
+1107,Pampeana,Ensaladas,15400
+1108,Caprese,Ensaladas,15600
+1109,Oriental con Atún,Ensaladas,17200
+1110,Del Mar con Salmón Ahumado,Ensaladas,21900
+1111,Carpaccio de Lomo,Ensaladas,17200
+1112,Americana con Pollo,Ensaladas,17100
+1113,Primavera con Pollo,Ensaladas,17100
+1114,Caesar con Pollo,Ensaladas,17100
+1115,Mediterráneo con Pollo,Ensaladas,17100
+1116,Palacio con Langostinos,Ensaladas,21000
+1117,Madero con Langostinos,Ensaladas,21000
+1118,Patagónica con Trucha,Ensaladas,21900
+1201,Yogurt con cereales Frutos Rojos,Desayuno y merienda,5100
+1202,Fruta,Desayuno y merienda,4300
+1203,Madero,Desayuno y merienda,7500
+1204,Continental,Desayuno y merienda,13000
+1205,Casual,Desayuno y merienda,7600
+1206,Americano,Desayuno y merienda,18000
+1207,Detox (Licuado),Desayuno y merienda,7600
+1208,Energético,Desayuno y merienda,11000
+1209,Deportivo,Desayuno y merienda,12400
+1301,Medialunas (Manteca o Grasa),Panadería y dulces,2000
+1302,Coquito,Panadería y dulces,5500
+1303,Cookie: Avena y Almendras,Panadería y dulces,5600
+1304,Cookie: Avena y Nuez,Panadería y dulces,5600
+1305,Cookie: Chocolate,Panadería y dulces,5600
+1306,"Cookie: Manzana, Canela y Almendras",Panadería y dulces,5600
+1307,Budín: Naranja y Amapola,Panadería y dulces,5800
+1308,Budín: Nuez,Panadería y dulces,5800
+1309,Budín: Multicereal,Panadería y dulces,5800
+1310,Budín: Limón,Panadería y dulces,5800
+1311,Cuadradito: Brownie,Panadería y dulces,5800
+1312,Cuadradito: Limón,Panadería y dulces,5500
+1313,Cuadradito: Crumble Manzana,Panadería y dulces,5600
+1314,Pasta Frola Membrillo,Panadería y dulces,5600
+1315,"Florentino (Frutos Secos, Cerezas y otras Frutas)",Panadería y dulces,8700
+1316,Muffin,Panadería y dulces,5900
+1317,Medialuna de jamón y queso,Panadería y dulces,5600
+1318,Tostado de jamón y queso,Panadería y dulces,8500
+1319,Tostada Pan Integral con Palta,Panadería y dulces,8500
+1320,"Huevos revueltos, panceta / pan de campo",Panadería y dulces,8900
+1321,"Tostada Pan Integral, Palta y huevo poché",Panadería y dulces,9300
+1322,Scons,Panadería y dulces,5600
+1323,Alfajor de Dulce de Leche,Panadería y dulces,5600
+1324,Alfajores de Maizena (con Dulce de leche),Panadería y dulces,5400
+1325,Alfajores de Coco (con Dulce de leche),Panadería y dulces,6200
+1326,Macarrón,Panadería y dulces,6200
+1327,Conito de Dulce de Leche y Chocolate,Panadería y dulces,5600
+1328,Naranjitas confitadas con chocolate x 6,Panadería y dulces,5600
+1329,Naranjitas confitadas con chocolate x 12,Panadería y dulces,6000
+1330,Tostadas de Multicereal c/ Manteca y Dulce,Panadería y dulces,5800
+1331,Tostada Baguette Blancas c/ Manteca y Dulce,Panadería y dulces,5800
+1332,Tostadas Pan Sin Gluten c/ Dulce de Leche,Panadería y dulces,6200
+1333,Adicionales: Dulces,Panadería y dulces,2200
+1401,Clásico Balcarce,Tortas,9700
+1402,Chesse Cake,Tortas,10600
+1403,"Brownie, Dulce de Leche y Merengue",Tortas,9000
+1404,Rogel de Dulce de Leche,Tortas,8600
+1405,Nutella,Tortas,8800
+1406,Carrot Cake y Cream Cheese,Tortas,8800
+1407,Tarteleta,Tortas,6500
+1408,Lemon Pie,Tortas,8600
+1409,Dulce de leche y Coco,Tortas,8800
+1411,Ricotta,Tortas,6100
+1412,Galesa (Invernal),Tortas,6600
+1501,Copa Marron Glacé,Hora dulce,11800
+1502,Brownie Tibio,Hora dulce,10500
+1503,Crumble tibia de Manzana,Hora dulce,10400
+1504,Crema Bávara de Sambayón,Hora dulce,10700
+1505,New York Cheese Cake - Caramel,Hora dulce,10700
+1506,Crepe de Dulce de Leche (con o sin),Hora dulce,10200
+1507,Postre Vigilante,Hora dulce,8000
+1509,Copa Helada Frutal (para compartir),Hora dulce,10300
+1510,Ensalada de Frutas,Hora dulce,8000
+1511,Plato de Frutas,Hora dulce,10000
+1512,Frutillas con Crema,Hora dulce,10200
+1513,Volcán de Chocolate,Hora dulce,11200
+1514,Tentación de Mousses,Hora dulce,11000
+1515,Torta Turrón de Frutos Secos,Hora dulce,10700
+1516,Nidito de crujiente merengue,Hora dulce,10400
+1517,Cheese Cake,Hora dulce,10600
+1518,Crepe de Manzana,Hora dulce,11000
+1519,Postre Martín Fierro,Hora dulce,8000
+1520,Tiramisú,Hora dulce,10700
+1521,Copa Helada Golosos (para compartir),Hora dulce,11000
+1522,Tulipa Infantil (bocha helado de un gusto),Hora dulce,7900
+1523,Copa Helada (dos Gustos),Hora dulce,10200
+1601,Café Macchiatto,Cafetería,3500
+1602,Café con crema,Cafetería,3800
+1603,Café (americano / uruguayo),Cafetería,4000
+1604,Capuchino (americano / uruguayo),Cafetería,4300
+1605,Capuchino a la Italiana,Cafetería,4600
+1606,Café doble,Cafetería,5500
+1607,Café con leche,Cafetería,4600
+1608,Café con Leche en Tazón,Cafetería,5300
+1609,Café Proteico (c/Coco Batido/Ghee),Cafetería,6600
+1610,Café con Leche Almendras,Cafetería,6600
+1611,Leche,Cafetería,3500
+1612,Infusión (Té),Cafetería,4300
+1613,Infusión aromática,Cafetería,4600
+1614,Infusión Té Negro en Hebras,Cafetería,4800
+1615,Submarino,Cafetería,5300
+1616,Chocolate Caliente (Temporada Invernal),Cafetería,5700
+1617,Capuchino doble,Cafetería,6200
+1618,Calypso,Cafetería,6600
+1619,Baileys,Cafetería,6600
+1620,Percanta,Cafetería,6600
+1621,Capuchino doble Proteico,Cafetería,7300
+1622,Capuchino doble italiana,Cafetería,6600
+1623,Carajillo,Cafetería,6600
+1624,Irish Coffee,Cafetería,6600
+1625,Vienes,Cafetería,6600
+1626,Le France,Cafetería,6600
+1627,Banana Split coffee Frape,Cafetería,6600
+1628,Red Fruit Coffee Frape,Cafetería,6600
+1629,Café Latte,Cafetería,6600
+1630,Baileys Coffee Frape,Cafetería,6600
+1631,Frescolate Coffee,Cafetería,6600
+1632,Vainilla Coffee Ice,Cafetería,6600
+1633,Peach Ice Tea,Cafetería,6600
+1634,Lemon Honey Ice Tea,Cafetería,6600
+1635,Frizze de Naranja y Fresa,Cafetería,6600
+1701,Jugo de Naranja,Bebidas,5400
+1702,Jugo de Naranja y Pasto de Trigo (Wheatgrass),Bebidas,6700
+1703,Agua Mineral Sin Gas (Villavicencio),Bebidas,4200
+1704,Agua Mineral Con Gas,Bebidas,4200
+1705,Agua Saborizada Levite,Bebidas,4200
+1706,Agua Saborizada We by Ser,Bebidas,3500
+1707,Coca-Cola Regular,Bebidas,4200
+1708,Coca-Cola Light,Bebidas,4200
+1709,Coca-Cola Zero,Bebidas,4200
+1710,Sprite,Bebidas,4200
+1711,Sprite Zero,Bebidas,4200
+1712,Fanta Naranja,Bebidas,4200
+1713,Fanta Pomelo,Bebidas,4200
+1714,Tónica Schweppes,Bebidas,4200
+1715,Jugo Natural Chico Naranja / Limón,Bebidas,5400
+1716,"Agua Saborizada Levite (Pomelo, Naranja Dulce, Manzana Cero)",Bebidas,4200
+1717,"Agua Saborizada We by Ser (Citrus, Limón)",Bebidas,3500
+1718,Jugo Natural Grande Naranja,Bebidas,7300
+1719,Licuado (banana o durazno o frutilla o ananá o naranja),Bebidas,7000
+1720,Licuado Multifruta,Bebidas,7500
+1721,Licuado con leche o Jugo Naranja,Bebidas,7800
+1722,Ice tea (Té Frío),Bebidas,4200
+1723,Limonada,Bebidas,6000
+1724,Limonada con Menta y Jengibre,Bebidas,6400
+1725,Milk shake (Vainilla o Chocolate o Americana con leche),Bebidas,8700
+1801,Cerveza Grolsch,Vinos y cervezas,6200
+1802,Cerveza Warsteiner,Vinos y cervezas,6000
+1803,Cerveza Heineken,Vinos y cervezas,6200
+1804,Cerveza Sol (porrón),Vinos y cervezas,6800
+1805,Trumpeter Brut Nature (750cc) - Bodega La Rural,Vinos y cervezas,26500
+1806,San Felipe Extra Brut (750cc),Vinos y cervezas,21500
+1807,Uxmal Extra Brut - Bodega Uxmal,Vinos y cervezas,25000
+1808,Alamos Extra Brut - Catena Zapata,Vinos y cervezas,27000
+1809,1888 (200cc),Vinos y cervezas,4500
+1810,Chandon Baron B. Extra Brut (750cc),Vinos y cervezas,58000
+1811,Chandon Extra Brut,Vinos y cervezas,9800
+1812,Mumm Extra Brut,Vinos y cervezas,9000
+1813,Uxmal Malbec,Vinos y cervezas,8200
+1814,Uxmal Cabernet - Sauvignon,Vinos y cervezas,8200
+1815,Uxmal Chardonay,Vinos y cervezas,8200
+1816,Uxmal Sauvignon Blanc-Semillón,Vinos y cervezas,14000
+1817,Uxmal Red Blend,Vinos y cervezas,14000
+1818,Uxmal Moscatel de Alejandría,Vinos y cervezas,14000
+1819,Bravo Malbec,Vinos y cervezas,7000
+1820,Bravo Sauvignon Blanc,Vinos y cervezas,7000
+1821,Estiba I Cabernet Sauvignon,Vinos y cervezas,13500
+1822,Estiba I Malbec,Vinos y cervezas,9000
+1823,Estiba I Chardonnay,Vinos y cervezas,9000
+1824,Estiba I Syrah,Vinos y cervezas,13500
+1825,Estiba I Rosé,Vinos y cervezas,13500
+1826,D.V. Catena Malbec-Malbec,Vinos y cervezas,52000
+1827,D.V. Catena Cabernet-Malbec,Vinos y cervezas,38000
+1828,Angélica Zapata Malbec,Vinos y cervezas,72000
+1829,Angélica Zapata Cabernet Sauvignon,Vinos y cervezas,55000
+1830,Angélica Zapata Chardonnay,Vinos y cervezas,60000
+1831,Saint Felicien Cabernet-Merlot 2005,Vinos y cervezas,28000
+1832,Saint Felicien Malbec 2005,Vinos y cervezas,28000
+1833,Saint Felicien Chardonay roble,Vinos y cervezas,28000
+1834,Nicasia Malbec,Vinos y cervezas,27000
+1835,Nicasia Cabernet Franc,Vinos y cervezas,27000
+1836,Nicasia Blanc de blancs,Vinos y cervezas,27000
+1837,Alamos Cabernet Sauvignon,Vinos y cervezas,24000
+1838,Alamos Malbec,Vinos y cervezas,24000
+1839,Alamos Chardonnay,Vinos y cervezas,24000
+1840,Rutini Cabernet Malbec,Vinos y cervezas,25000
+1841,Rutini Chardonnay (750cc),Vinos y cervezas,34000
+1842,Rutini Malbec,Vinos y cervezas,42000
+1843,Trumpeter Malbec,Vinos y cervezas,12500
+1844,Trumpeter Cabernet Sauvignon,Vinos y cervezas,21500
+1845,Trumpeter Rosé,Vinos y cervezas,21500
+1846,Trumpeter Sauvignon Blanc,Vinos y cervezas,12500
+1847,Terrazas Cabernet Sauvignon (750cc),Vinos y cervezas,25000
+1848,Terrazas Malbec (750cc),Vinos y cervezas,25000
+1849,Terrazas Chardonay (750cc),Vinos y cervezas,25000
+1850,Latitud 33 Malbec (750cc),Vinos y cervezas,15000
+1851,Latitud 33 Cabernet - Sauvignon (750cc),Vinos y cervezas,15000
+1852,Santa Julia Cosecha Tardía 500cc,Vinos y cervezas,11800
+1853,Norton Cosecha Tardía 750cc,Vinos y cervezas,13500
