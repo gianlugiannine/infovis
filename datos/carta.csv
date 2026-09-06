@@ -1,14 +1,4 @@
 ﻿codigo,producto,rubro,precio
-0213,Provoleta Clásica,Recomendados,14600
-0302,Tabla Percanta,Recomendados,47500
-0401,Empanada de Carne Suave,Recomendados,3800
-0706,Sorrentino (Jamón y Mozzarella),Recomendados,14800
-0804,Milanesa de Ternera,Recomendados,21000
-0805,Lomo a la Pimienta Negra,Recomendados,28500
-0809,Ojo de Bife,Recomendados,28500
-1210,Percanta (para compartir),Recomendados,28000
-1410,Chocotorta,Recomendados,8900
-1508,Flan casero,Recomendados,8200
 0201,Bruschetta Tradicional,Entradas,13800
 0202,Bruschetta de Salmón Ahumado,Entradas,16400
 0203,Nachos,Entradas,14200
@@ -21,6 +11,7 @@
 0210,Papa Puré,Entradas,10500
 0211,Huevos x 2 (fritos o duros),Entradas,10400
 0212,Caldo de Huesos,Entradas,6200
+0213,Provoleta Clásica,Entradas,14600
 0214,Provoleta Flambeada,Entradas,15200
 0215,Mozzarella Flor di Latte,Entradas,15400
 0216,Pinchos de pollo grillados (Salsa Tártara),Entradas,14800
@@ -34,8 +25,10 @@
 0224,Fainá (porción),Entradas,3300
 0225,Fainá Percanta (porción),Entradas,3900
 0301,Tablita de Quesos,Tablas,22200
+0302,Tabla Percanta,Tablas,47500
 0303,Tablita de Quesos y Fiambres,Tablas,21700
 0304,Cazuela Individual,Tablas,11200
+0401,Empanada de Carne Suave,Empanadas,3800
 0402,Empanada de Carne Picante,Empanadas,3800
 0403,Empanada de Pollo,Empanadas,3500
 0404,Empanada de Jamón y Queso,Empanadas,3400
@@ -98,6 +91,7 @@
 0703,Gnocchi rellenos,Pastas,14200
 0704,Ravioles de Ricotta,Pastas,14400
 0705,Ravioles de Verdura,Pastas,14400
+0706,Sorrentino (Jamón y Mozzarella),Pastas,14800
 0707,Sorrentino (Salmón),Pastas,17100
 0708,Tagliatelle,Pastas,13400
 0709,Tagliatelle de espinaca,Pastas,13400
@@ -112,9 +106,12 @@
 0801,Ribbs Percanta,Carnes y pescados,26800
 0802,Medallón de Lomo,Carnes y pescados,28000
 0803,Matambrito de Cerdo,Carnes y pescados,21000
+0804,Milanesa de Ternera,Carnes y pescados,21000
+0805,Lomo a la Pimienta Negra,Carnes y pescados,28500
 0806,American Ribbs,Carnes y pescados,26800
 0807,Bife de Chorizo,Carnes y pescados,26000
 0808,Bife de Costilla,Carnes y pescados,24500
+0809,Ojo de Bife,Carnes y pescados,28500
 0810,Lomo al Champignon,Carnes y pescados,28500
 0811,Pollo Grille,Carnes y pescados,18500
 0812,Suprema Rellena con Papas a la Española,Carnes y pescados,23000
@@ -177,6 +174,7 @@
 1207,Detox (Licuado),Desayuno y merienda,7600
 1208,Energético,Desayuno y merienda,11000
 1209,Deportivo,Desayuno y merienda,12400
+1210,Percanta (para compartir),Desayuno y merienda,28000
 1301,Medialunas (Manteca o Grasa),Panadería y dulces,2000
 1302,Coquito,Panadería y dulces,5500
 1303,Cookie: Avena y Almendras,Panadería y dulces,5600
@@ -219,6 +217,7 @@
 1407,Tarteleta,Tortas,6500
 1408,Lemon Pie,Tortas,8600
 1409,Dulce de leche y Coco,Tortas,8800
+1410,Chocotorta,Tortas,8900
 1411,Ricotta,Tortas,6100
 1412,Galesa (Invernal),Tortas,6600
 1501,Copa Marron Glacé,Hora dulce,11800
@@ -228,6 +227,7 @@
 1505,New York Cheese Cake - Caramel,Hora dulce,10700
 1506,Crepe de Dulce de Leche (con o sin),Hora dulce,10200
 1507,Postre Vigilante,Hora dulce,8000
+1508,Flan casero,Hora dulce,8200
 1509,Copa Helada Frutal (para compartir),Hora dulce,10300
 1510,Ensalada de Frutas,Hora dulce,8000
 1511,Plato de Frutas,Hora dulce,10000

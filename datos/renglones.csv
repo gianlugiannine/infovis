@@ -1,245 +1,209 @@
-﻿pedido,lote,fecha,hora,franja,dia_semana,tipo_entrega,codigo,producto,categoria,cantidad,precio_unitario,modificadores,extra_modificadores,total_renglon
-LP-260801-S01,S,2026-08-01,22,Cena,Sábado,Retiro en local,0217,Mozzarella Marinara,Entradas,1,13900,,0,13900
-LP-260801-S02,S,2026-08-01,18,Merienda,Sábado,Delivery,1305,Cookie: Chocolate,Panadería y dulces,1,5600,,0,5600
-LP-260801-S03,S,2026-08-01,0,Cena,Sábado,Retiro en local,0537,Rúcula y Brie,Pizzas artesanales,1,34600,Tamaño: 6 porciones,0,34600
-LP-260801-S03,S,2026-08-01,0,Cena,Sábado,Retiro en local,0808,Bife de Costilla,Carnes y pescados,1,24500,Guarnición: Papas fritas,0,24500
-LP-260801-S04,S,2026-08-01,10,Desayuno,Sábado,Retiro en local,1325,Alfajores de Coco (con Dulce de leche),Panadería y dulces,2,6200,,0,12400
-LP-260801-S04,S,2026-08-01,10,Desayuno,Sábado,Retiro en local,1205,Casual,Desayuno y merienda,1,7600,,0,7600
-LP-260801-S04,S,2026-08-01,10,Desayuno,Sábado,Retiro en local,1303,Cookie: Avena y Almendras,Panadería y dulces,1,5600,,0,5600
-LP-260801-S05,S,2026-08-01,19,Merienda,Sábado,Delivery,1329,Naranjitas confitadas con chocolate x 12,Panadería y dulces,1,6000,,0,6000
-LP-260801-S06,S,2026-08-01,14,Almuerzo,Sábado,Retiro en local,0819,Pollo al Curry,Carnes y pescados,1,25800,Acompañamiento: Arroz,0,25800
-LP-260801-S06,S,2026-08-01,14,Almuerzo,Sábado,Retiro en local,0707,Sorrentino (Salmón),Pastas,1,17100,Salsa: Mediterránea,8200,25300
-LP-260801-S07,S,2026-08-01,9,Desayuno,Sábado,Delivery,1332,Tostadas Pan Sin Gluten c/ Dulce de Leche,Panadería y dulces,1,6200,,0,6200
-LP-260801-S07,S,2026-08-01,9,Desayuno,Sábado,Delivery,1306,"Cookie: Manzana, Canela y Almendras",Panadería y dulces,2,5600,,0,11200
-LP-260801-S08,S,2026-08-01,22,Cena,Sábado,Delivery,0822,Risotto Pollo,Carnes y pescados,1,23000,,0,23000
-LP-260802-S01,S,2026-08-02,23,Cena,Domingo,Delivery,0702,Gnocchi,Pastas,2,13600,Salsa: Crema de Puerros,12400,39600
-LP-260802-S01,S,2026-08-02,23,Cena,Domingo,Delivery,0404,Empanada de Jamón y Queso,Empanadas,3,3400,,0,10200
-LP-260802-S01,S,2026-08-02,23,Cena,Domingo,Delivery,0208,Papas Bravas o Tranquilas (Cheddar fundido),Entradas,2,13900,Versión: Bravas,0,27800
-LP-260802-S01,S,2026-08-02,23,Cena,Domingo,Delivery,0604,Calzón Calabrés (pequeño),Calzones,1,35800,,0,35800
-LP-260802-S01,S,2026-08-02,23,Cena,Domingo,Delivery,0401,Empanada de Carne Suave,Recomendados,1,3800,,0,3800
-LP-260802-S02,S,2026-08-02,22,Cena,Domingo,Delivery,0810,Lomo al Champignon,Carnes y pescados,2,28500,Guarnición: Ensalada básica,0,57000
-LP-260802-S03,S,2026-08-02,14,Almuerzo,Domingo,Delivery,0812,Suprema Rellena con Papas a la Española,Carnes y pescados,1,23000,Guarnición: Papas fritas,0,23000
-LP-260802-S03,S,2026-08-02,14,Almuerzo,Domingo,Delivery,1118,Patagónica con Trucha,Ensaladas,1,21900,,0,21900
-LP-260802-S03,S,2026-08-02,14,Almuerzo,Domingo,Delivery,1704,Agua Mineral Con Gas,Bebidas,1,4200,,0,4200
+﻿pedido,lote,fecha,hora,franja,dia_semana,tipo_entrega,codigo,producto,rubro,cantidad,precio_unitario,modificadores,extra_modificadores,total_renglon
+LP-260801-S01,S,2026-08-01,21,Cena,Sábado,Delivery,1817,Uxmal Red Blend,Vinos y cervezas,1,14000,,0,14000
+LP-260801-S01,S,2026-08-01,21,Cena,Sábado,Delivery,1718,Jugo Natural Grande Naranja,Bebidas,1,7300,,0,7300
+LP-260801-S02,S,2026-08-01,0,Cena,Sábado,Delivery,0408,Empanada de Roquefort,Empanadas,3,3400,,0,10200
+LP-260801-S02,S,2026-08-01,0,Cena,Sábado,Delivery,0818,Mongolian Beef (Picante),Carnes y pescados,1,28500,Acompañamiento: Arroz,0,28500
+LP-260801-S03,S,2026-08-01,19,Merienda,Sábado,Delivery,1201,Yogurt con cereales Frutos Rojos,Desayuno y merienda,1,5100,,0,5100
+LP-260801-S03,S,2026-08-01,19,Merienda,Sábado,Delivery,1313,Cuadradito: Crumble Manzana,Panadería y dulces,2,5600,,0,11200
+LP-260801-S04,S,2026-08-01,22,Cena,Sábado,Delivery,0504,Pizza Mexicana,Pizzas artesanales,1,32800,Tamaño: 6 porciones,0,32800
+LP-260801-S05,S,2026-08-01,21,Cena,Sábado,Delivery,0820,Wok de Vegetales,Carnes y pescados,1,20600,Acompañamiento: Arroz,0,20600
+LP-260802-S01,S,2026-08-02,20,Cena,Domingo,Delivery,0804,Milanesa de Ternera,Carnes y pescados,1,21000,Guarnición: Puré de calabaza,0,21000
+LP-260802-S01,S,2026-08-02,20,Cena,Domingo,Delivery,0217,Mozzarella Marinara,Entradas,1,13900,,0,13900
+LP-260802-S01,S,2026-08-02,20,Cena,Domingo,Delivery,0408,Empanada de Roquefort,Empanadas,3,3400,,0,10200
+LP-260802-S02,S,2026-08-02,22,Cena,Domingo,Delivery,1806,San Felipe Extra Brut (750cc),Vinos y cervezas,1,21500,,0,21500
+LP-260802-S02,S,2026-08-02,22,Cena,Domingo,Delivery,0804,Milanesa de Ternera,Carnes y pescados,1,21000,Guarnición: Ensalada básica,0,21000
+LP-260802-S03,S,2026-08-02,16,Merienda,Domingo,Retiro en local,1608,Café con Leche en Tazón,Cafetería,1,5300,,0,5300
+LP-260802-S04,S,2026-08-02,21,Cena,Domingo,Retiro en local,0512,Pizza Fugazza Cabrona,Pizzas artesanales,2,32900,Tamaño: 8 porciones,9400,75200
+LP-260802-S04,S,2026-08-02,21,Cena,Domingo,Retiro en local,0714,Cappelletti,Pastas,1,15400,Salsa: Crema de Puerros,6200,21600
+LP-260802-S04,S,2026-08-02,21,Cena,Domingo,Retiro en local,0817,Trucha Ahumada,Carnes y pescados,1,27000,,0,27000
+LP-260802-S05,S,2026-08-02,12,Almuerzo,Domingo,Retiro en local,0801,Ribbs Percanta,Carnes y pescados,2,26800,Guarnición: Puré de calabaza,0,53600
+LP-260802-S06,S,2026-08-02,19,Merienda,Domingo,Retiro en local,1620,Percanta,Cafetería,1,6600,,0,6600
+LP-260803-S01,S,2026-08-03,22,Cena,Lunes,Delivery,0404,Empanada de Jamón y Queso,Empanadas,6,3400,,0,20400
+LP-260803-S01,S,2026-08-03,22,Cena,Lunes,Delivery,0902,Mex-Burger,Hamburguesas,1,17200,Formato: Pan Sin Gluten,0,17200
+LP-260803-S02,S,2026-08-03,8,Desayuno,Lunes,Retiro en local,1210,Percanta (para compartir),Desayuno y merienda,1,28000,,0,28000
 LP-260804-001,R,2026-08-04,2,Madrugada,Martes,Delivery,1703,Agua Mineral Sin Gas (Villavicencio),Bebidas,2,4200,,0,8400
 LP-260804-001,R,2026-08-04,2,Madrugada,Martes,Delivery,0811,Pollo Grille,Carnes y pescados,1,18500,Guarnición: Puré de papa,0,18500
 LP-260804-001,R,2026-08-04,2,Madrugada,Martes,Delivery,0822,Risotto Pollo,Carnes y pescados,1,23000,,0,23000
-LP-260804-S01,S,2026-08-04,22,Cena,Martes,Delivery,0528,Pizza Rúcula/Tomates Confitados,Pizzas artesanales,1,34100,Tamaño: 8 porciones,4800,38900
-LP-260804-S02,S,2026-08-04,21,Cena,Martes,Delivery,1104,Arco Iris,Ensaladas,1,15400,,0,15400
-LP-260805-S01,S,2026-08-05,21,Cena,Miércoles,Delivery,0204,Nachos Mex,Entradas,1,14600,,0,14600
-LP-260805-S02,S,2026-08-05,14,Almuerzo,Miércoles,Delivery,0821,Risotto al Frutti di Mare,Carnes y pescados,1,27800,,0,27800
-LP-260805-S03,S,2026-08-05,22,Cena,Miércoles,Retiro en local,0510,Pizza Leonesa,Pizzas artesanales,2,33300,Tamaño: 6 porciones,0,66600
-LP-260805-S03,S,2026-08-05,22,Cena,Miércoles,Retiro en local,0809,Ojo de Bife,Recomendados,1,28500,Guarnición: Puré de calabaza,0,28500
-LP-260805-S03,S,2026-08-05,22,Cena,Miércoles,Retiro en local,0803,Matambrito de Cerdo,Carnes y pescados,1,21000,Guarnición: Ensalada básica,0,21000
-LP-260805-S04,S,2026-08-05,22,Cena,Miércoles,Delivery,0508,Pizza Veneciana,Pizzas artesanales,1,32800,Tamaño: 8 porciones,4700,37500
-LP-260805-S04,S,2026-08-05,22,Cena,Miércoles,Delivery,0535,Vegetariana,Pizzas artesanales,1,32900,Tamaño: 8 porciones,4700,37600
-LP-260805-S05,S,2026-08-05,14,Almuerzo,Miércoles,Delivery,1113,Primavera con Pollo,Ensaladas,2,17100,,0,34200
-LP-260805-S05,S,2026-08-05,14,Almuerzo,Miércoles,Delivery,0904,Veggie-Burger,Hamburguesas,1,16800,Formato: Con pan clásico,0,16800
-LP-260806-S01,S,2026-08-06,17,Merienda,Jueves,Retiro en local,1616,Chocolate Caliente (Temporada Invernal),Cafetería,3,5700,,0,17100
-LP-260806-S02,S,2026-08-06,12,Almuerzo,Jueves,Retiro en local,0703,Gnocchi rellenos,Pastas,1,14200,Salsa: Cuatro Quesos,7600,21800
-LP-260806-S02,S,2026-08-06,12,Almuerzo,Jueves,Retiro en local,0821,Risotto al Frutti di Mare,Carnes y pescados,1,27800,,0,27800
-LP-260806-S02,S,2026-08-06,12,Almuerzo,Jueves,Retiro en local,0221,Omelette de Espinaca y Queso,Entradas,1,14500,,0,14500
-LP-260806-S02,S,2026-08-06,12,Almuerzo,Jueves,Retiro en local,1712,Fanta Naranja,Bebidas,1,4200,,0,4200
-LP-260806-S03,S,2026-08-06,17,Merienda,Jueves,Delivery,1626,Le France,Cafetería,1,6600,,0,6600
+LP-260805-S01,S,2026-08-05,20,Cena,Miércoles,Delivery,0201,Bruschetta Tradicional,Entradas,1,13800,,0,13800
+LP-260805-S01,S,2026-08-05,20,Cena,Miércoles,Delivery,1719,Licuado (banana o durazno o frutilla o ananá o naranja),Bebidas,1,7000,,0,7000
+LP-260805-S02,S,2026-08-05,10,Desayuno,Miércoles,Retiro en local,1322,Scons,Panadería y dulces,1,5600,,0,5600
+LP-260806-S01,S,2026-08-06,20,Cena,Jueves,Delivery,0408,Empanada de Roquefort,Empanadas,12,3400,,0,40800
+LP-260806-S01,S,2026-08-06,20,Cena,Jueves,Delivery,0520,Pizza Sorrentina,Pizzas artesanales,1,27500,Tamaño: 8 porciones,8300,35800
 LP-260807-001,R,2026-08-07,2,Madrugada,Viernes,Delivery,0903,Patagonia Burger,Hamburguesas,1,17400,Formato: Con pan clásico,0,17400
 LP-260807-002,R,2026-08-07,2,Madrugada,Viernes,Retiro en local,0814,Suprema de Pollo,Carnes y pescados,1,19800,Guarnición: Papas fritas,0,19800
-LP-260807-002,R,2026-08-07,2,Madrugada,Viernes,Retiro en local,0804,Milanesa de Ternera,Recomendados,1,21000,"¿A la napolitana?: Sí, napolitana + Guarnición: Papas fritas",600,21600
-LP-260807-S01,S,2026-08-07,15,Almuerzo,Viernes,Retiro en local,0808,Bife de Costilla,Carnes y pescados,1,24500,Guarnición: Papas fritas,0,24500
-LP-260807-S01,S,2026-08-07,15,Almuerzo,Viernes,Retiro en local,0715,Spaghetti integral (de morrón y remolacha),Pastas,1,13400,Salsa: Amatriciana,8200,21600
-LP-260807-S01,S,2026-08-07,15,Almuerzo,Viernes,Retiro en local,1712,Fanta Naranja,Bebidas,1,4200,,0,4200
-LP-260807-S02,S,2026-08-07,19,Merienda,Viernes,Delivery,1607,Café con leche,Cafetería,1,4600,,0,4600
-LP-260807-S03,S,2026-08-07,18,Merienda,Viernes,Delivery,1322,Scons,Panadería y dulces,1,5600,,0,5600
-LP-260807-S03,S,2026-08-07,18,Merienda,Viernes,Delivery,1635,Frizze de Naranja y Fresa,Cafetería,2,6600,,0,13200
+LP-260807-002,R,2026-08-07,2,Madrugada,Viernes,Retiro en local,0804,Milanesa de Ternera,Carnes y pescados,1,21000,"¿A la napolitana?: Sí, napolitana + Guarnición: Papas fritas",600,21600
+LP-260807-S01,S,2026-08-07,12,Almuerzo,Viernes,Delivery,0209,Papas Fritas (Provenzal o regular),Entradas,1,10600,Preparación: Provenzal,0,10600
+LP-260807-S01,S,2026-08-07,12,Almuerzo,Viernes,Delivery,1002,Sándwiches de Miga Especiales de Jamón y/o Queso (x3),Sándwiches,1,9500,,0,9500
+LP-260807-S01,S,2026-08-07,12,Almuerzo,Viernes,Delivery,0811,Pollo Grille,Carnes y pescados,1,18500,Corte: Patamuslo + Guarnición: Puré de calabaza,0,18500
+LP-260807-S02,S,2026-08-07,14,Almuerzo,Viernes,Retiro en local,0906,Doble Burger,Hamburguesas,1,20800,Formato: Con pan clásico,0,20800
+LP-260807-S02,S,2026-08-07,14,Almuerzo,Viernes,Retiro en local,0904,Veggie-Burger,Hamburguesas,1,16800,Formato: Al plato,0,16800
+LP-260807-S02,S,2026-08-07,14,Almuerzo,Viernes,Retiro en local,0819,Pollo al Curry,Carnes y pescados,2,25800,Acompañamiento: Fideos de arroz,0,51600
+LP-260807-S02,S,2026-08-07,14,Almuerzo,Viernes,Retiro en local,1714,Tónica Schweppes,Bebidas,1,4200,,0,4200
 LP-260808-001,R,2026-08-08,2,Madrugada,Sábado,Delivery,0405,Empanada de Verdura,Empanadas,1,3400,,0,3400
 LP-260808-001,R,2026-08-08,2,Madrugada,Sábado,Delivery,0404,Empanada de Jamón y Queso,Empanadas,5,3400,,0,17000
 LP-260808-001,R,2026-08-08,2,Madrugada,Sábado,Delivery,0403,Empanada de Pollo,Empanadas,3,3500,,0,10500
-LP-260808-001,R,2026-08-08,2,Madrugada,Sábado,Delivery,0401,Empanada de Carne Suave,Recomendados,3,3800,,0,11400
-LP-260808-002,R,2026-08-08,2,Madrugada,Sábado,Retiro en local,0401,Empanada de Carne Suave,Recomendados,4,3800,,0,15200
-LP-260808-S01,S,2026-08-08,23,Cena,Sábado,Retiro en local,0504,Pizza Mexicana,Pizzas artesanales,1,32800,Tamaño: 8 porciones,4700,37500
-LP-260808-S01,S,2026-08-08,23,Cena,Sábado,Retiro en local,1818,Uxmal Moscatel de Alejandría,Vinos y cervezas,1,14000,,0,14000
-LP-260808-S02,S,2026-08-08,21,Cena,Sábado,Delivery,0803,Matambrito de Cerdo,Carnes y pescados,1,21000,Guarnición: Arroz,0,21000
-LP-260808-S02,S,2026-08-08,21,Cena,Sábado,Delivery,0519,Pizza Jamón y morrones,Pizzas artesanales,1,27600,Tamaño: 8 porciones,8300,35900
-LP-260808-S02,S,2026-08-08,21,Cena,Sábado,Delivery,1410,Chocotorta,Recomendados,1,8900,,0,8900
-LP-260808-S03,S,2026-08-08,0,Cena,Sábado,Retiro en local,0507,Pizza Cuatro quesos,Pizzas artesanales,1,33000,Tamaño: 8 porciones,4800,37800
-LP-260808-S03,S,2026-08-08,0,Cena,Sábado,Retiro en local,1832,Saint Felicien Malbec 2005,Vinos y cervezas,1,28000,,0,28000
-LP-260808-S04,S,2026-08-08,16,Merienda,Sábado,Delivery,1411,Ricotta,Tortas,1,6100,,0,6100
+LP-260808-001,R,2026-08-08,2,Madrugada,Sábado,Delivery,0401,Empanada de Carne Suave,Empanadas,3,3800,,0,11400
+LP-260808-002,R,2026-08-08,2,Madrugada,Sábado,Retiro en local,0401,Empanada de Carne Suave,Empanadas,4,3800,,0,15200
+LP-260808-S01,S,2026-08-08,21,Cena,Sábado,Delivery,0406,Empanada Caprese,Empanadas,6,3400,,0,20400
+LP-260808-S01,S,2026-08-08,21,Cena,Sábado,Delivery,0903,Patagonia Burger,Hamburguesas,2,17400,Formato: Al plato,0,34800
+LP-260808-S02,S,2026-08-08,20,Cena,Sábado,Delivery,1844,Trumpeter Cabernet Sauvignon,Vinos y cervezas,1,21500,,0,21500
+LP-260808-S02,S,2026-08-08,20,Cena,Sábado,Delivery,0407,Empanada de Choclo,Empanadas,3,3400,,0,10200
+LP-260808-S02,S,2026-08-08,20,Cena,Sábado,Delivery,0524,Pizza Fugazzeta rellena,Pizzas artesanales,1,34100,Tamaño: 8 porciones,4800,38900
+LP-260808-S02,S,2026-08-08,20,Cena,Sábado,Delivery,1723,Limonada,Bebidas,1,6000,,0,6000
+LP-260808-S03,S,2026-08-08,13,Almuerzo,Sábado,Delivery,1111,Carpaccio de Lomo,Ensaladas,1,17200,,0,17200
+LP-260808-S03,S,2026-08-08,13,Almuerzo,Sábado,Delivery,1724,Limonada con Menta y Jengibre,Bebidas,2,6400,,0,12800
+LP-260808-S04,S,2026-08-08,22,Cena,Sábado,Retiro en local,0403,Empanada de Pollo,Empanadas,3,3500,,0,10500
+LP-260808-S04,S,2026-08-08,22,Cena,Sábado,Retiro en local,0823,Risotto de Vegetales,Carnes y pescados,2,21000,,0,42000
+LP-260808-S05,S,2026-08-08,14,Almuerzo,Sábado,Retiro en local,0703,Gnocchi rellenos,Pastas,1,14200,Salsa: Parisien,8200,22400
+LP-260808-S05,S,2026-08-08,14,Almuerzo,Sábado,Retiro en local,0701,Tallarín casero,Pastas,1,13600,Salsa: Crema de Nuez,6200,19800
 LP-260809-001,R,2026-08-09,2,Madrugada,Domingo,Retiro en local,0501,Pizza Mozzarella,Pizzas artesanales,1,22600,Tamaño: 6 porciones,0,22600
 LP-260809-002,R,2026-08-09,2,Madrugada,Domingo,Retiro en local,0409,Empanada de Queso y Cebolla,Empanadas,3,3400,,0,10200
 LP-260809-002,R,2026-08-09,2,Madrugada,Domingo,Retiro en local,0404,Empanada de Jamón y Queso,Empanadas,2,3400,,0,6800
 LP-260809-002,R,2026-08-09,2,Madrugada,Domingo,Retiro en local,0405,Empanada de Verdura,Empanadas,2,3400,,0,6800
-LP-260809-002,R,2026-08-09,2,Madrugada,Domingo,Retiro en local,0401,Empanada de Carne Suave,Recomendados,5,3800,,0,19000
-LP-260809-S01,S,2026-08-09,14,Almuerzo,Domingo,Delivery,1105,Armá tu ensalada,Ensaladas,1,12500,Ensalada (hasta 4 variedades): Lechugas mixtas + Adicionales: Tomate Cherry,2800,15300
-LP-260809-S02,S,2026-08-09,17,Merienda,Domingo,Retiro en local,1618,Calypso,Cafetería,1,6600,,0,6600
-LP-260809-S02,S,2026-08-09,17,Merienda,Domingo,Retiro en local,1315,"Florentino (Frutos Secos, Cerezas y otras Frutas)",Panadería y dulces,1,8700,,0,8700
-LP-260809-S02,S,2026-08-09,17,Merienda,Domingo,Retiro en local,1602,Café con crema,Cafetería,1,3800,,0,3800
-LP-260809-S03,S,2026-08-09,10,Desayuno,Domingo,Delivery,1723,Limonada,Bebidas,2,6000,,0,12000
-LP-260809-S03,S,2026-08-09,10,Desayuno,Domingo,Delivery,1204,Continental,Desayuno y merienda,1,13000,,0,13000
-LP-260809-S04,S,2026-08-09,13,Almuerzo,Domingo,Delivery,0715,Spaghetti integral (de morrón y remolacha),Pastas,1,13400,Salsa: Crema de Puerros,6200,19600
-LP-260809-S05,S,2026-08-09,21,Cena,Domingo,Delivery,0812,Suprema Rellena con Papas a la Española,Carnes y pescados,3,23000,Guarnición: Puré de calabaza,0,69000
-LP-260809-S05,S,2026-08-09,21,Cena,Domingo,Delivery,1410,Chocotorta,Recomendados,1,8900,,0,8900
-LP-260809-S05,S,2026-08-09,21,Cena,Domingo,Delivery,1503,Crumble tibia de Manzana,Hora dulce,1,10400,,0,10400
+LP-260809-002,R,2026-08-09,2,Madrugada,Domingo,Retiro en local,0401,Empanada de Carne Suave,Empanadas,5,3800,,0,19000
+LP-260809-S01,S,2026-08-09,23,Cena,Domingo,Retiro en local,0816,Merluza,Carnes y pescados,3,22000,,0,66000
+LP-260809-S01,S,2026-08-09,23,Cena,Domingo,Retiro en local,1708,Coca-Cola Light,Bebidas,1,4200,,0,4200
+LP-260809-S02,S,2026-08-09,10,Desayuno,Domingo,Delivery,1608,Café con Leche en Tazón,Cafetería,2,5300,,0,10600
+LP-260809-S02,S,2026-08-09,10,Desayuno,Domingo,Delivery,1317,Medialuna de jamón y queso,Panadería y dulces,1,5600,,0,5600
+LP-260809-S02,S,2026-08-09,10,Desayuno,Domingo,Delivery,1207,Detox (Licuado),Desayuno y merienda,1,7600,,0,7600
+LP-260809-S02,S,2026-08-09,10,Desayuno,Domingo,Delivery,1201,Yogurt con cereales Frutos Rojos,Desayuno y merienda,2,5100,,0,10200
+LP-260809-S03,S,2026-08-09,23,Cena,Domingo,Delivery,1839,Alamos Chardonnay,Vinos y cervezas,1,24000,,0,24000
 LP-260810-001,R,2026-08-10,18,Merienda,Lunes,Retiro en local,1114,Caesar con Pollo,Ensaladas,2,17100,,0,34200
-LP-260810-S01,S,2026-08-10,21,Cena,Lunes,Retiro en local,0702,Gnocchi,Pastas,1,13600,Salsa: Crema de Nuez,6200,19800
-LP-260810-S01,S,2026-08-10,21,Cena,Lunes,Retiro en local,0405,Empanada de Verdura,Empanadas,6,3400,,0,20400
-LP-260810-S01,S,2026-08-10,21,Cena,Lunes,Retiro en local,0212,Caldo de Huesos,Entradas,1,6200,,0,6200
-LP-260810-S01,S,2026-08-10,21,Cena,Lunes,Retiro en local,1508,Flan casero,Recomendados,1,8200,,0,8200
-LP-260810-S01,S,2026-08-10,21,Cena,Lunes,Retiro en local,0604,Calzón Calabrés (pequeño),Calzones,2,35800,,0,71600
-LP-260810-S02,S,2026-08-10,21,Cena,Lunes,Delivery,0604,Calzón Calabrés (pequeño),Calzones,1,35800,,0,35800
-LP-260810-S02,S,2026-08-10,21,Cena,Lunes,Delivery,1504,Crema Bávara de Sambayón,Hora dulce,1,10700,,0,10700
-LP-260810-S02,S,2026-08-10,21,Cena,Lunes,Delivery,0204,Nachos Mex,Entradas,1,14600,,0,14600
-LP-260810-S02,S,2026-08-10,21,Cena,Lunes,Delivery,1825,Estiba I Rosé,Vinos y cervezas,1,13500,,0,13500
-LP-260810-S02,S,2026-08-10,21,Cena,Lunes,Delivery,0711,Penne Rigatti,Pastas,2,13600,Salsa: Crema de Puerros,12400,39600
 LP-260811-001,R,2026-08-11,19,Merienda,Martes,Retiro en local,0813,Pollo al Verdeo,Carnes y pescados,1,23000,Guarnición: Papas fritas,0,23000
 LP-260811-001,R,2026-08-11,19,Merienda,Martes,Retiro en local,0811,Pollo Grille,Carnes y pescados,1,18500,Guarnición: Papas fritas,0,18500
-LP-260811-001,R,2026-08-11,19,Merienda,Martes,Retiro en local,0706,Sorrentino (Jamón y Mozzarella),Recomendados,1,14800,Salsa: Funghi,6200,21000
-LP-260811-S01,S,2026-08-11,21,Cena,Martes,Delivery,0807,Bife de Chorizo,Carnes y pescados,1,26000,Guarnición: Papas fritas,0,26000
-LP-260811-S02,S,2026-08-11,12,Almuerzo,Martes,Delivery,0820,Wok de Vegetales,Carnes y pescados,1,20600,Acompañamiento: Fideos de arroz,0,20600
-LP-260811-S02,S,2026-08-11,12,Almuerzo,Martes,Delivery,1113,Primavera con Pollo,Ensaladas,1,17100,,0,17100
-LP-260811-S02,S,2026-08-11,12,Almuerzo,Martes,Delivery,0819,Pollo al Curry,Carnes y pescados,1,25800,Acompañamiento: Spaguetti,0,25800
-LP-260811-S02,S,2026-08-11,12,Almuerzo,Martes,Delivery,0210,Papa Puré,Entradas,1,10500,,0,10500
+LP-260811-001,R,2026-08-11,19,Merienda,Martes,Retiro en local,0706,Sorrentino (Jamón y Mozzarella),Pastas,1,14800,Salsa: Funghi,6200,21000
+LP-260811-S01,S,2026-08-11,19,Merienda,Martes,Delivery,1404,Rogel de Dulce de Leche,Tortas,1,8600,,0,8600
+LP-260811-S02,S,2026-08-11,8,Desayuno,Martes,Retiro en local,1207,Detox (Licuado),Desayuno y merienda,1,7600,,0,7600
+LP-260811-S02,S,2026-08-11,8,Desayuno,Martes,Retiro en local,1012,Panini de Lomo,Sándwiches,1,16800,,0,16800
 LP-260812-001,R,2026-08-12,19,Merienda,Miércoles,Delivery,0811,Pollo Grille,Carnes y pescados,1,18500,Corte: Pechuga + Guarnición: Puré de calabaza,0,18500
-LP-260812-002,R,2026-08-12,20,Cena,Miércoles,Delivery,0401,Empanada de Carne Suave,Recomendados,13,3800,,0,49400
+LP-260812-002,R,2026-08-12,20,Cena,Miércoles,Delivery,0401,Empanada de Carne Suave,Empanadas,13,3800,,0,49400
 LP-260812-002,R,2026-08-12,20,Cena,Miércoles,Delivery,0501,Pizza Mozzarella,Pizzas artesanales,1,22600,Tamaño: 8 porciones,5400,28000
 LP-260812-003,R,2026-08-12,1,Madrugada,Miércoles,Delivery,0402,Empanada de Carne Picante,Empanadas,2,3800,,0,7600
-LP-260812-003,R,2026-08-12,1,Madrugada,Miércoles,Delivery,0401,Empanada de Carne Suave,Recomendados,4,3800,,0,15200
+LP-260812-003,R,2026-08-12,1,Madrugada,Miércoles,Delivery,0401,Empanada de Carne Suave,Empanadas,4,3800,,0,15200
 LP-260812-004,R,2026-08-12,2,Madrugada,Miércoles,Delivery,0502,Pizza Napolitana,Pizzas artesanales,1,27200,Tamaño: 8 porciones,8200,35400
-LP-260812-004,R,2026-08-12,2,Madrugada,Miércoles,Delivery,0401,Empanada de Carne Suave,Recomendados,2,3800,,0,7600
-LP-260812-S01,S,2026-08-12,19,Merienda,Miércoles,Retiro en local,1404,Rogel de Dulce de Leche,Tortas,1,8600,,0,8600
-LP-260812-S02,S,2026-08-12,19,Merienda,Miércoles,Delivery,1708,Coca-Cola Light,Bebidas,2,4200,,0,8400
-LP-260812-S02,S,2026-08-12,19,Merienda,Miércoles,Delivery,1709,Coca-Cola Zero,Bebidas,1,4200,,0,4200
-LP-260812-S02,S,2026-08-12,19,Merienda,Miércoles,Delivery,1604,Capuchino (americano / uruguayo),Cafetería,2,4300,,0,8600
-LP-260812-S02,S,2026-08-12,19,Merienda,Miércoles,Delivery,1619,Baileys,Cafetería,1,6600,,0,6600
-LP-260812-S02,S,2026-08-12,19,Merienda,Miércoles,Delivery,1611,Leche,Cafetería,1,3500,,0,3500
-LP-260812-S03,S,2026-08-12,20,Cena,Miércoles,Delivery,0213,Provoleta Clásica,Recomendados,1,14600,,0,14600
+LP-260812-004,R,2026-08-12,2,Madrugada,Miércoles,Delivery,0401,Empanada de Carne Suave,Empanadas,2,3800,,0,7600
+LP-260812-S01,S,2026-08-12,20,Cena,Miércoles,Delivery,0705,Ravioles de Verdura,Pastas,1,14400,Salsa: Funghi,6200,20600
+LP-260812-S01,S,2026-08-12,20,Cena,Miércoles,Delivery,1701,Jugo de Naranja,Bebidas,1,5400,Tamaño: Normal,0,5400
+LP-260812-S02,S,2026-08-12,23,Cena,Miércoles,Delivery,0404,Empanada de Jamón y Queso,Empanadas,3,3400,,0,10200
+LP-260812-S02,S,2026-08-12,23,Cena,Miércoles,Delivery,0710,Spaguetti,Pastas,1,13400,Salsa: Bolognesa,7600,21000
+LP-260812-S02,S,2026-08-12,23,Cena,Miércoles,Delivery,1811,Chandon Extra Brut,Vinos y cervezas,2,9800,Tamaño: 187cc,0,19600
+LP-260812-S02,S,2026-08-12,23,Cena,Miércoles,Delivery,1810,Chandon Baron B. Extra Brut (750cc),Vinos y cervezas,1,58000,,0,58000
 LP-260813-001,R,2026-08-13,18,Merienda,Jueves,Delivery,0811,Pollo Grille,Carnes y pescados,1,18500,Corte: Pechuga + Guarnición: Puré de calabaza,0,18500
-LP-260813-002,R,2026-08-13,1,Madrugada,Jueves,Delivery,0804,Milanesa de Ternera,Recomendados,2,21000,Guarnición: Papas fritas,0,42000
+LP-260813-002,R,2026-08-13,1,Madrugada,Jueves,Delivery,0804,Milanesa de Ternera,Carnes y pescados,2,21000,Guarnición: Papas fritas,0,42000
 LP-260813-002,R,2026-08-13,1,Madrugada,Jueves,Delivery,0217,Mozzarella Marinara,Entradas,1,13900,,0,13900
 LP-260813-003,R,2026-08-13,2,Madrugada,Jueves,Delivery,0205,Romana Rabas (con salsa Provenzal),Entradas,1,18500,,0,18500
-LP-260813-003,R,2026-08-13,2,Madrugada,Jueves,Delivery,0805,Lomo a la Pimienta Negra,Recomendados,1,28500,Guarnición: Puré de papa,0,28500
+LP-260813-003,R,2026-08-13,2,Madrugada,Jueves,Delivery,0805,Lomo a la Pimienta Negra,Carnes y pescados,1,28500,Guarnición: Puré de papa,0,28500
 LP-260813-003,R,2026-08-13,2,Madrugada,Jueves,Delivery,1114,Caesar con Pollo,Ensaladas,1,17100,,0,17100
 LP-260813-003,R,2026-08-13,2,Madrugada,Jueves,Delivery,0219,Omelette Especial,Entradas,1,14500,,0,14500
 LP-260813-004,R,2026-08-13,3,Madrugada,Jueves,Delivery,0716,Spaghetti integral (de espinaca),Pastas,1,13400,Salsa: Carbonara,8200,21600
-LP-260813-S01,S,2026-08-13,16,Merienda,Jueves,Retiro en local,1633,Peach Ice Tea,Cafetería,1,6600,,0,6600
-LP-260813-S02,S,2026-08-13,13,Almuerzo,Jueves,Delivery,0406,Empanada Caprese,Empanadas,6,3400,,0,20400
-LP-260813-S02,S,2026-08-13,13,Almuerzo,Jueves,Delivery,1708,Coca-Cola Light,Bebidas,2,4200,,0,8400
-LP-260813-S02,S,2026-08-13,13,Almuerzo,Jueves,Delivery,0713,Panzotti de Pollo-Funghi,Pastas,1,15400,Salsa: Crema de Puerros,6200,21600
-LP-260813-S03,S,2026-08-13,17,Merienda,Jueves,Delivery,1408,Lemon Pie,Tortas,1,8600,,0,8600
-LP-260813-S03,S,2026-08-13,17,Merienda,Jueves,Delivery,1709,Coca-Cola Zero,Bebidas,2,4200,,0,8400
-LP-260813-S03,S,2026-08-13,17,Merienda,Jueves,Delivery,1319,Tostada Pan Integral con Palta,Panadería y dulces,2,8500,,0,17000
-LP-260813-S04,S,2026-08-13,20,Cena,Jueves,Retiro en local,0404,Empanada de Jamón y Queso,Empanadas,6,3400,,0,20400
-LP-260813-S04,S,2026-08-13,20,Cena,Jueves,Retiro en local,0524,Pizza Fugazzeta rellena,Pizzas artesanales,1,34100,Tamaño: 6 porciones,0,34100
-LP-260814-001,R,2026-08-14,2,Madrugada,Viernes,Retiro en local,0804,Milanesa de Ternera,Recomendados,1,21000,"¿A la napolitana?: Sí, napolitana + Guarnición: Puré de papa",600,21600
+LP-260813-S01,S,2026-08-13,13,Almuerzo,Jueves,Retiro en local,0809,Ojo de Bife,Carnes y pescados,1,28500,Guarnición: Ensalada básica,0,28500
+LP-260813-S01,S,2026-08-13,13,Almuerzo,Jueves,Retiro en local,0704,Ravioles de Ricotta,Pastas,1,14400,Salsa: Parisien,8200,22600
+LP-260813-S01,S,2026-08-13,13,Almuerzo,Jueves,Retiro en local,1014,Panini Pollo,Sándwiches,1,14600,,0,14600
+LP-260813-S01,S,2026-08-13,13,Almuerzo,Jueves,Retiro en local,1710,Sprite,Bebidas,1,4200,,0,4200
+LP-260813-S02,S,2026-08-13,10,Desayuno,Jueves,Delivery,1317,Medialuna de jamón y queso,Panadería y dulces,1,5600,,0,5600
+LP-260813-S02,S,2026-08-13,10,Desayuno,Jueves,Delivery,1207,Detox (Licuado),Desayuno y merienda,1,7600,,0,7600
+LP-260814-001,R,2026-08-14,2,Madrugada,Viernes,Retiro en local,0804,Milanesa de Ternera,Carnes y pescados,1,21000,"¿A la napolitana?: Sí, napolitana + Guarnición: Puré de papa",600,21600
 LP-260814-001,R,2026-08-14,2,Madrugada,Viernes,Retiro en local,0813,Pollo al Verdeo,Carnes y pescados,2,23000,Corte: Pechuga + Guarnición: Arroz,0,46000
-LP-260814-002,R,2026-08-14,2,Madrugada,Viernes,Delivery,0401,Empanada de Carne Suave,Recomendados,4,3800,,0,15200
+LP-260814-002,R,2026-08-14,2,Madrugada,Viernes,Delivery,0401,Empanada de Carne Suave,Empanadas,4,3800,,0,15200
 LP-260814-002,R,2026-08-14,2,Madrugada,Viernes,Delivery,0405,Empanada de Verdura,Empanadas,1,3400,,0,3400
 LP-260814-002,R,2026-08-14,2,Madrugada,Viernes,Delivery,0404,Empanada de Jamón y Queso,Empanadas,6,3400,,0,20400
 LP-260814-002,R,2026-08-14,2,Madrugada,Viernes,Delivery,0403,Empanada de Pollo,Empanadas,2,3500,,0,7000
-LP-260814-S01,S,2026-08-14,22,Cena,Viernes,Retiro en local,0206,Romana Langostinos,Entradas,1,20500,,0,20500
-LP-260814-S01,S,2026-08-14,22,Cena,Viernes,Retiro en local,0816,Merluza,Carnes y pescados,1,22000,,0,22000
-LP-260814-S01,S,2026-08-14,22,Cena,Viernes,Retiro en local,0822,Risotto Pollo,Carnes y pescados,1,23000,,0,23000
-LP-260814-S01,S,2026-08-14,22,Cena,Viernes,Retiro en local,0407,Empanada de Choclo,Empanadas,6,3400,,0,20400
-LP-260814-S02,S,2026-08-14,17,Merienda,Viernes,Delivery,1708,Coca-Cola Light,Bebidas,1,4200,,0,4200
-LP-260814-S02,S,2026-08-14,17,Merienda,Viernes,Delivery,1307,Budín: Naranja y Amapola,Panadería y dulces,1,5800,,0,5800
-LP-260814-S02,S,2026-08-14,17,Merienda,Viernes,Delivery,1302,Coquito,Panadería y dulces,1,5500,,0,5500
-LP-260814-S03,S,2026-08-14,20,Cena,Viernes,Retiro en local,0535,Vegetariana,Pizzas artesanales,1,32900,Tamaño: 4 porciones,0,32900
+LP-260814-S01,S,2026-08-14,19,Merienda,Viernes,Delivery,1403,"Brownie, Dulce de Leche y Merengue",Tortas,1,9000,,0,9000
+LP-260814-S02,S,2026-08-14,22,Cena,Viernes,Retiro en local,0404,Empanada de Jamón y Queso,Empanadas,3,3400,,0,10200
+LP-260814-S03,S,2026-08-14,12,Almuerzo,Viernes,Retiro en local,0901,Classic-Burger,Hamburguesas,2,16800,Formato: Con pan clásico,0,33600
+LP-260814-S03,S,2026-08-14,12,Almuerzo,Viernes,Retiro en local,0805,Lomo a la Pimienta Negra,Carnes y pescados,1,28500,Guarnición: Puré de papa,0,28500
+LP-260814-S03,S,2026-08-14,12,Almuerzo,Viernes,Retiro en local,1012,Panini de Lomo,Sándwiches,1,16800,,0,16800
+LP-260814-S04,S,2026-08-14,22,Cena,Viernes,Retiro en local,1807,Uxmal Extra Brut - Bodega Uxmal,Vinos y cervezas,1,25000,,0,25000
 LP-260815-001,R,2026-08-15,18,Merienda,Sábado,Delivery,0222,Tortilla de papa,Entradas,1,14500,,0,14500
 LP-260815-002,R,2026-08-15,4,Madrugada,Sábado,Retiro en local,0519,Pizza Jamón y morrones,Pizzas artesanales,1,27600,Tamaño: 4 porciones,0,27600
-LP-260815-S01,S,2026-08-15,22,Cena,Sábado,Delivery,0508,Pizza Veneciana,Pizzas artesanales,1,32800,Tamaño: 8 porciones,4700,37500
-LP-260815-S01,S,2026-08-15,22,Cena,Sábado,Delivery,0904,Veggie-Burger,Hamburguesas,1,16800,Formato: Con pan clásico,0,16800
-LP-260815-S01,S,2026-08-15,22,Cena,Sábado,Delivery,0407,Empanada de Choclo,Empanadas,3,3400,,0,10200
-LP-260815-S02,S,2026-08-15,20,Cena,Sábado,Retiro en local,0220,Omelette de Zanahoria y Queso,Entradas,1,14500,,0,14500
-LP-260815-S03,S,2026-08-15,21,Cena,Sábado,Delivery,0409,Empanada de Queso y Cebolla,Empanadas,3,3400,,0,10200
-LP-260815-S04,S,2026-08-15,13,Almuerzo,Sábado,Retiro en local,1523,Copa Helada (dos Gustos),Hora dulce,1,10200,Gustos: Dulce de Leche Granizado,0,10200
-LP-260815-S05,S,2026-08-15,11,Desayuno,Sábado,Retiro en local,1614,Infusión Té Negro en Hebras,Cafetería,2,4800,,0,9600
-LP-260815-S05,S,2026-08-15,11,Desayuno,Sábado,Retiro en local,1202,Fruta,Desayuno y merienda,2,4300,,0,8600
-LP-260815-S05,S,2026-08-15,11,Desayuno,Sábado,Retiro en local,1624,Irish Coffee,Cafetería,1,6600,,0,6600
-LP-260816-S01,S,2026-08-16,14,Almuerzo,Domingo,Retiro en local,0821,Risotto al Frutti di Mare,Carnes y pescados,1,27800,,0,27800
+LP-260815-S01,S,2026-08-15,23,Cena,Sábado,Retiro en local,0704,Ravioles de Ricotta,Pastas,1,14400,Salsa: Putanesca,7800,22200
+LP-260815-S01,S,2026-08-15,23,Cena,Sábado,Retiro en local,0407,Empanada de Choclo,Empanadas,6,3400,,0,20400
+LP-260815-S01,S,2026-08-15,23,Cena,Sábado,Retiro en local,0709,Tagliatelle de espinaca,Pastas,1,13400,Salsa: Frutos del Mar,13500,26900
+LP-260815-S02,S,2026-08-15,23,Cena,Sábado,Delivery,0405,Empanada de Verdura,Empanadas,12,3400,,0,40800
+LP-260815-S02,S,2026-08-15,23,Cena,Sábado,Delivery,0816,Merluza,Carnes y pescados,2,22000,,0,44000
+LP-260815-S03,S,2026-08-15,20,Cena,Sábado,Retiro en local,0208,Papas Bravas o Tranquilas (Cheddar fundido),Entradas,1,13900,Versión: Tranquilas,0,13900
+LP-260815-S03,S,2026-08-15,20,Cena,Sábado,Retiro en local,0211,Huevos x 2 (fritos o duros),Entradas,1,10400,Preparación: Fritos,0,10400
+LP-260815-S03,S,2026-08-15,20,Cena,Sábado,Retiro en local,1720,Licuado Multifruta,Bebidas,1,7500,,0,7500
+LP-260815-S04,S,2026-08-15,22,Cena,Sábado,Delivery,0541,Mediterránea,Pizzas artesanales,2,32900,Tamaño: 6 porciones,0,65800
+LP-260815-S04,S,2026-08-15,22,Cena,Sábado,Delivery,1706,Agua Saborizada We by Ser,Bebidas,1,3500,,0,3500
+LP-260815-S05,S,2026-08-15,10,Desayuno,Sábado,Delivery,1617,Capuchino doble,Cafetería,1,6200,,0,6200
+LP-260815-S05,S,2026-08-15,10,Desayuno,Sábado,Delivery,1332,Tostadas Pan Sin Gluten c/ Dulce de Leche,Panadería y dulces,1,6200,,0,6200
+LP-260816-S01,S,2026-08-16,17,Merienda,Domingo,Delivery,1512,Frutillas con Crema,Hora dulce,1,10200,,0,10200
+LP-260816-S01,S,2026-08-16,17,Merienda,Domingo,Delivery,1623,Carajillo,Cafetería,1,6600,,0,6600
+LP-260816-S02,S,2026-08-16,22,Cena,Domingo,Retiro en local,0508,Pizza Veneciana,Pizzas artesanales,1,32800,Tamaño: 8 porciones,4700,37500
+LP-260816-S02,S,2026-08-16,22,Cena,Domingo,Retiro en local,1718,Jugo Natural Grande Naranja,Bebidas,1,7300,,0,7300
 LP-260817-001,R,2026-08-17,19,Merienda,Lunes,Delivery,0702,Gnocchi,Pastas,1,13600,Salsa: Crema,6100,19700
 LP-260817-002,R,2026-08-17,2,Madrugada,Lunes,Delivery,0811,Pollo Grille,Carnes y pescados,2,18500,Corte: Pechuga + Guarnición: Arroz,0,37000
 LP-260817-003,R,2026-08-17,2,Madrugada,Lunes,Delivery,0811,Pollo Grille,Carnes y pescados,2,18500,Corte: Pechuga + Guarnición: Papas fritas,0,37000
-LP-260817-S01,S,2026-08-17,9,Desayuno,Lunes,Delivery,1204,Continental,Desayuno y merienda,1,13000,,0,13000
-LP-260817-S01,S,2026-08-17,9,Desayuno,Lunes,Delivery,1604,Capuchino (americano / uruguayo),Cafetería,2,4300,,0,8600
-LP-260817-S01,S,2026-08-17,9,Desayuno,Lunes,Delivery,1303,Cookie: Avena y Almendras,Panadería y dulces,1,5600,,0,5600
-LP-260817-S01,S,2026-08-17,9,Desayuno,Lunes,Delivery,1619,Baileys,Cafetería,2,6600,,0,13200
-LP-260817-S01,S,2026-08-17,9,Desayuno,Lunes,Delivery,1202,Fruta,Desayuno y merienda,1,4300,,0,4300
-LP-260817-S02,S,2026-08-17,19,Merienda,Lunes,Retiro en local,1510,Ensalada de Frutas,Hora dulce,1,8000,,0,8000
-LP-260817-S02,S,2026-08-17,19,Merienda,Lunes,Retiro en local,1328,Naranjitas confitadas con chocolate x 6,Panadería y dulces,3,5600,,0,16800
-LP-260817-S03,S,2026-08-17,14,Almuerzo,Lunes,Delivery,0806,American Ribbs,Carnes y pescados,2,26800,Guarnición: Arroz,0,53600
-LP-260817-S04,S,2026-08-17,22,Cena,Lunes,Delivery,0408,Empanada de Roquefort,Empanadas,3,3400,,0,10200
-LP-260817-S04,S,2026-08-17,22,Cena,Lunes,Delivery,1826,D.V. Catena Malbec-Malbec,Vinos y cervezas,1,52000,,0,52000
-LP-260817-S05,S,2026-08-17,13,Almuerzo,Lunes,Retiro en local,0717,Penne Rigatti sin gluten,Pastas,2,13600,Salsa: Crema de Nuez,12400,39600
-LP-260817-S05,S,2026-08-17,13,Almuerzo,Lunes,Retiro en local,1111,Carpaccio de Lomo,Ensaladas,2,17200,,0,34400
-LP-260817-S06,S,2026-08-17,9,Desayuno,Lunes,Delivery,1206,Americano,Desayuno y merienda,1,18000,,0,18000
-LP-260817-S06,S,2026-08-17,9,Desayuno,Lunes,Delivery,1723,Limonada,Bebidas,1,6000,,0,6000
-LP-260817-S06,S,2026-08-17,9,Desayuno,Lunes,Delivery,1307,Budín: Naranja y Amapola,Panadería y dulces,1,5800,,0,5800
-LP-260818-001,R,2026-08-18,19,Merienda,Martes,Delivery,0804,Milanesa de Ternera,Recomendados,1,21000,Guarnición: Puré de calabaza,0,21000
+LP-260817-S01,S,2026-08-17,11,Desayuno,Lunes,Retiro en local,1005,Sándwich de Pan de Molde de Jamón Cocido,Sándwiches,2,9800,Pan: Blanco,0,19600
+LP-260817-S02,S,2026-08-17,16,Merienda,Lunes,Delivery,1506,Crepe de Dulce de Leche (con o sin),Hora dulce,1,10200,,0,10200
+LP-260818-001,R,2026-08-18,19,Merienda,Martes,Delivery,0804,Milanesa de Ternera,Carnes y pescados,1,21000,Guarnición: Puré de calabaza,0,21000
 LP-260818-002,R,2026-08-18,3,Madrugada,Martes,Delivery,0507,Pizza Cuatro quesos,Pizzas artesanales,1,33000,Tamaño: 8 porciones,4800,37800
-LP-260818-002,R,2026-08-18,3,Madrugada,Martes,Delivery,0401,Empanada de Carne Suave,Recomendados,2,3800,,0,7600
-LP-260818-S01,S,2026-08-18,9,Desayuno,Martes,Delivery,1202,Fruta,Desayuno y merienda,2,4300,,0,8600
-LP-260818-S02,S,2026-08-18,12,Almuerzo,Martes,Delivery,0201,Bruschetta Tradicional,Entradas,1,13800,,0,13800
-LP-260819-001,R,2026-08-19,20,Cena,Miércoles,Delivery,0804,Milanesa de Ternera,Recomendados,1,21000,Guarnición: Puré de calabaza,0,21000
-LP-260819-S01,S,2026-08-19,14,Almuerzo,Miércoles,Delivery,0408,Empanada de Roquefort,Empanadas,6,3400,,0,20400
-LP-260819-S01,S,2026-08-19,14,Almuerzo,Miércoles,Delivery,0201,Bruschetta Tradicional,Entradas,2,13800,,0,27600
-LP-260819-S02,S,2026-08-19,20,Cena,Miércoles,Retiro en local,0408,Empanada de Roquefort,Empanadas,3,3400,,0,10200
-LP-260819-S02,S,2026-08-19,20,Cena,Miércoles,Retiro en local,0517,Pizza Percanta,Pizzas artesanales,2,36200,Tamaño: 8 porciones,13000,85400
-LP-260819-S03,S,2026-08-19,23,Cena,Miércoles,Retiro en local,0823,Risotto de Vegetales,Carnes y pescados,1,21000,,0,21000
-LP-260819-S03,S,2026-08-19,23,Cena,Miércoles,Retiro en local,0407,Empanada de Choclo,Empanadas,3,3400,,0,10200
-LP-260819-S03,S,2026-08-19,23,Cena,Miércoles,Retiro en local,0410,Empanada de Atún,Empanadas,12,4000,,0,48000
-LP-260819-S03,S,2026-08-19,23,Cena,Miércoles,Retiro en local,0405,Empanada de Verdura,Empanadas,3,3400,,0,10200
-LP-260819-S04,S,2026-08-19,19,Merienda,Miércoles,Retiro en local,1403,"Brownie, Dulce de Leche y Merengue",Tortas,1,9000,,0,9000
+LP-260818-002,R,2026-08-18,3,Madrugada,Martes,Delivery,0401,Empanada de Carne Suave,Empanadas,2,3800,,0,7600
+LP-260818-S01,S,2026-08-18,9,Desayuno,Martes,Delivery,1633,Peach Ice Tea,Cafetería,1,6600,,0,6600
+LP-260819-001,R,2026-08-19,20,Cena,Miércoles,Delivery,0804,Milanesa de Ternera,Carnes y pescados,1,21000,Guarnición: Puré de calabaza,0,21000
+LP-260819-S01,S,2026-08-19,9,Desayuno,Miércoles,Retiro en local,1626,Le France,Cafetería,1,6600,,0,6600
+LP-260819-S02,S,2026-08-19,12,Almuerzo,Miércoles,Delivery,0904,Veggie-Burger,Hamburguesas,2,16800,Formato: Al plato,0,33600
+LP-260819-S02,S,2026-08-19,12,Almuerzo,Miércoles,Delivery,1710,Sprite,Bebidas,2,4200,,0,8400
+LP-260819-S03,S,2026-08-19,18,Merienda,Miércoles,Retiro en local,1629,Café Latte,Cafetería,1,6600,,0,6600
+LP-260819-S04,S,2026-08-19,21,Cena,Miércoles,Delivery,0506,Pizza Roquefort,Pizzas artesanales,2,32800,Tamaño: 6 porciones,0,65600
+LP-260819-S05,S,2026-08-19,14,Almuerzo,Miércoles,Delivery,0707,Sorrentino (Salmón),Pastas,3,17100,Salsa: Scarparo,23100,74400
+LP-260819-S05,S,2026-08-19,14,Almuerzo,Miércoles,Delivery,0710,Spaguetti,Pastas,2,13400,Salsa: Crema de Puerros,12400,39200
+LP-260819-S05,S,2026-08-19,14,Almuerzo,Miércoles,Delivery,0806,American Ribbs,Carnes y pescados,1,26800,Guarnición: Puré de papa,0,26800
+LP-260819-S05,S,2026-08-19,14,Almuerzo,Miércoles,Delivery,0410,Empanada de Atún,Empanadas,12,4000,,0,48000
 LP-260820-001,R,2026-08-20,20,Cena,Jueves,Delivery,0404,Empanada de Jamón y Queso,Empanadas,6,3400,,0,20400
-LP-260820-001,R,2026-08-20,20,Cena,Jueves,Delivery,0401,Empanada de Carne Suave,Recomendados,12,3800,,0,45600
+LP-260820-001,R,2026-08-20,20,Cena,Jueves,Delivery,0401,Empanada de Carne Suave,Empanadas,12,3800,,0,45600
 LP-260820-002,R,2026-08-20,2,Madrugada,Jueves,Delivery,0811,Pollo Grille,Carnes y pescados,1,18500,Corte: Pechuga + Guarnición: Papas fritas,0,18500
 LP-260820-003,R,2026-08-20,3,Madrugada,Jueves,Delivery,0701,Tallarín casero,Pastas,1,13600,Salsa: Parisien,8200,21800
 LP-260820-003,R,2026-08-20,3,Madrugada,Jueves,Delivery,1114,Caesar con Pollo,Ensaladas,1,17100,,0,17100
-LP-260821-S01,S,2026-08-21,22,Cena,Viernes,Delivery,0602,Calzón Napolitano (pequeño),Calzones,3,35800,,0,107400
-LP-260821-S02,S,2026-08-21,20,Cena,Viernes,Retiro en local,0809,Ojo de Bife,Recomendados,2,28500,Guarnición: Puré de calabaza,0,57000
-LP-260821-S02,S,2026-08-21,20,Cena,Viernes,Retiro en local,1721,Licuado con leche o Jugo Naranja,Bebidas,2,7800,,0,15600
-LP-260822-001,R,2026-08-22,20,Cena,Sábado,Retiro en local,0401,Empanada de Carne Suave,Recomendados,1,3800,,0,3800
+LP-260820-S01,S,2026-08-20,10,Desayuno,Jueves,Retiro en local,1209,Deportivo,Desayuno y merienda,2,12400,,0,24800
+LP-260820-S02,S,2026-08-20,21,Cena,Jueves,Delivery,0219,Omelette Especial,Entradas,1,14500,,0,14500
+LP-260820-S02,S,2026-08-20,21,Cena,Jueves,Delivery,0210,Papa Puré,Entradas,1,10500,,0,10500
+LP-260820-S02,S,2026-08-20,21,Cena,Jueves,Delivery,0527,Pizza Rúcula y Brie,Pizzas artesanales,1,34600,Tamaño: 8 porciones,4800,39400
+LP-260820-S02,S,2026-08-20,21,Cena,Jueves,Delivery,0605,Calzón Italiano (grande),Calzones,1,40500,,0,40500
+LP-260821-S01,S,2026-08-21,22,Cena,Viernes,Delivery,1844,Trumpeter Cabernet Sauvignon,Vinos y cervezas,2,21500,,0,43000
+LP-260821-S01,S,2026-08-21,22,Cena,Viernes,Delivery,0208,Papas Bravas o Tranquilas (Cheddar fundido),Entradas,1,13900,Versión: Bravas,0,13900
+LP-260821-S02,S,2026-08-21,21,Cena,Viernes,Delivery,0603,Calzón Percanta (pequeño),Calzones,1,36500,,0,36500
+LP-260821-S02,S,2026-08-21,21,Cena,Viernes,Delivery,1834,Nicasia Malbec,Vinos y cervezas,2,27000,,0,54000
+LP-260821-S03,S,2026-08-21,13,Almuerzo,Viernes,Delivery,0902,Mex-Burger,Hamburguesas,1,17200,Formato: Pan Sin Gluten,0,17200
+LP-260821-S03,S,2026-08-21,13,Almuerzo,Viernes,Delivery,1715,Jugo Natural Chico Naranja / Limón,Bebidas,1,5400,,0,5400
+LP-260821-S04,S,2026-08-21,14,Almuerzo,Viernes,Delivery,1711,Sprite Zero,Bebidas,3,4200,,0,12600
+LP-260821-S04,S,2026-08-21,14,Almuerzo,Viernes,Delivery,1718,Jugo Natural Grande Naranja,Bebidas,1,7300,,0,7300
+LP-260822-001,R,2026-08-22,20,Cena,Sábado,Retiro en local,0401,Empanada de Carne Suave,Empanadas,1,3800,,0,3800
 LP-260822-002,R,2026-08-22,2,Madrugada,Sábado,Retiro en local,0502,Pizza Napolitana,Pizzas artesanales,1,27200,Tamaño: 8 porciones,8200,35400
-LP-260822-002,R,2026-08-22,2,Madrugada,Sábado,Retiro en local,0401,Empanada de Carne Suave,Recomendados,1,3800,,0,3800
+LP-260822-002,R,2026-08-22,2,Madrugada,Sábado,Retiro en local,0401,Empanada de Carne Suave,Empanadas,1,3800,,0,3800
 LP-260822-003,R,2026-08-22,3,Madrugada,Sábado,Retiro en local,0811,Pollo Grille,Carnes y pescados,1,18500,Corte: Pechuga + Guarnición: Puré de calabaza,0,18500
 LP-260822-003,R,2026-08-22,3,Madrugada,Sábado,Retiro en local,0813,Pollo al Verdeo,Carnes y pescados,1,23000,Corte: Pechuga + Guarnición: Arroz,0,23000
-LP-260822-S01,S,2026-08-22,10,Desayuno,Sábado,Delivery,1310,Budín: Limón,Panadería y dulces,1,5800,,0,5800
-LP-260822-S01,S,2026-08-22,10,Desayuno,Sábado,Delivery,1611,Leche,Cafetería,1,3500,,0,3500
-LP-260822-S02,S,2026-08-22,21,Cena,Sábado,Retiro en local,0410,Empanada de Atún,Empanadas,3,4000,,0,12000
-LP-260822-S03,S,2026-08-22,21,Cena,Sábado,Delivery,0504,Pizza Mexicana,Pizzas artesanales,1,32800,Tamaño: 8 porciones,4700,37500
-LP-260822-S03,S,2026-08-22,21,Cena,Sábado,Delivery,1711,Sprite Zero,Bebidas,1,4200,,0,4200
-LP-260822-S04,S,2026-08-22,22,Cena,Sábado,Retiro en local,0804,Milanesa de Ternera,Recomendados,1,21000,"Guarnición: Arroz + ¿A la napolitana?: Sí, napolitana",600,21600
-LP-260822-S04,S,2026-08-22,22,Cena,Sábado,Retiro en local,0817,Trucha Ahumada,Carnes y pescados,1,27000,,0,27000
-LP-260822-S04,S,2026-08-22,22,Cena,Sábado,Retiro en local,0537,Rúcula y Brie,Pizzas artesanales,1,34600,Tamaño: 4 porciones,0,34600
-LP-260822-S05,S,2026-08-22,21,Cena,Sábado,Retiro en local,0518,Pizza Margarita,Pizzas artesanales,1,27400,Tamaño: 6 porciones,0,27400
-LP-260822-S05,S,2026-08-22,21,Cena,Sábado,Retiro en local,0806,American Ribbs,Carnes y pescados,1,26800,Guarnición: Arroz,0,26800
-LP-260822-S05,S,2026-08-22,21,Cena,Sábado,Retiro en local,0706,Sorrentino (Jamón y Mozzarella),Recomendados,1,14800,Salsa: Crema,6100,20900
-LP-260822-S06,S,2026-08-22,17,Merienda,Sábado,Delivery,1323,Alfajor de Dulce de Leche,Panadería y dulces,2,5600,,0,11200
-LP-260822-S07,S,2026-08-22,19,Merienda,Sábado,Delivery,1330,Tostadas de Multicereal c/ Manteca y Dulce,Panadería y dulces,2,5800,,0,11600
-LP-260822-S07,S,2026-08-22,19,Merienda,Sábado,Delivery,1523,Copa Helada (dos Gustos),Hora dulce,1,10200,Gustos: Sabayón,0,10200
-LP-260822-S08,S,2026-08-22,8,Desayuno,Sábado,Delivery,1015,Panini Lomo,Sándwiches,1,16800,,0,16800
-LP-260822-S09,S,2026-08-22,18,Merienda,Sábado,Retiro en local,1404,Rogel de Dulce de Leche,Tortas,1,8600,,0,8600
-LP-260822-S09,S,2026-08-22,18,Merienda,Sábado,Retiro en local,1205,Casual,Desayuno y merienda,1,7600,,0,7600
+LP-260822-S01,S,2026-08-22,13,Almuerzo,Sábado,Delivery,1711,Sprite Zero,Bebidas,1,4200,,0,4200
+LP-260822-S01,S,2026-08-22,13,Almuerzo,Sábado,Delivery,1013,Panini Vegetales,Sándwiches,1,11000,,0,11000
+LP-260822-S02,S,2026-08-22,22,Cena,Sábado,Delivery,0402,Empanada de Carne Picante,Empanadas,12,3800,,0,45600
+LP-260822-S03,S,2026-08-22,18,Merienda,Sábado,Retiro en local,1601,Café Macchiatto,Cafetería,1,3500,,0,3500
+LP-260822-S03,S,2026-08-22,18,Merienda,Sábado,Retiro en local,1205,Casual,Desayuno y merienda,1,7600,,0,7600
 LP-260823-001,R,2026-08-23,2,Madrugada,Domingo,Delivery,0224,Fainá (porción),Entradas,1,3300,,0,3300
 LP-260823-001,R,2026-08-23,2,Madrugada,Domingo,Delivery,0501,Pizza Mozzarella,Pizzas artesanales,1,22600,Tamaño: 8 porciones,5400,28000
-LP-260823-S01,S,2026-08-23,17,Merienda,Domingo,Delivery,1332,Tostadas Pan Sin Gluten c/ Dulce de Leche,Panadería y dulces,1,6200,,0,6200
-LP-260823-S01,S,2026-08-23,17,Merienda,Domingo,Delivery,1206,Americano,Desayuno y merienda,1,18000,,0,18000
-LP-260823-S02,S,2026-08-23,19,Merienda,Domingo,Delivery,1614,Infusión Té Negro en Hebras,Cafetería,2,4800,,0,9600
-LP-260824-S01,S,2026-08-24,14,Almuerzo,Lunes,Delivery,1715,Jugo Natural Chico Naranja / Limón,Bebidas,1,5400,,0,5400
-LP-260825-S01,S,2026-08-25,23,Cena,Martes,Retiro en local,0405,Empanada de Verdura,Empanadas,6,3400,,0,20400
-LP-260825-S02,S,2026-08-25,13,Almuerzo,Martes,Delivery,1005,Sándwich de Pan de Molde de Jamón Cocido,Sándwiches,1,9800,Pan: Blanco,0,9800
-LP-260825-S02,S,2026-08-25,13,Almuerzo,Martes,Delivery,1210,Percanta (para compartir),Recomendados,2,28000,,0,56000
-LP-260825-S03,S,2026-08-25,13,Almuerzo,Martes,Delivery,0406,Empanada Caprese,Empanadas,3,3400,,0,10200
-LP-260825-S03,S,2026-08-25,13,Almuerzo,Martes,Delivery,1005,Sándwich de Pan de Molde de Jamón Cocido,Sándwiches,1,9800,Pan: Integral,0,9800
-LP-260825-S03,S,2026-08-25,13,Almuerzo,Martes,Delivery,1704,Agua Mineral Con Gas,Bebidas,1,4200,,0,4200
-LP-260825-S04,S,2026-08-25,11,Desayuno,Martes,Delivery,1612,Infusión (Té),Cafetería,2,4300,,0,8600
+LP-260823-S01,S,2026-08-23,14,Almuerzo,Domingo,Delivery,0815,Salmón Rosado,Carnes y pescados,1,32400,,0,32400
+LP-260823-S01,S,2026-08-23,14,Almuerzo,Domingo,Delivery,1009,Panini Caprese,Sándwiches,1,11000,,0,11000
+LP-260823-S01,S,2026-08-23,14,Almuerzo,Domingo,Delivery,1706,Agua Saborizada We by Ser,Bebidas,2,3500,,0,7000
+LP-260823-S01,S,2026-08-23,14,Almuerzo,Domingo,Delivery,0807,Bife de Chorizo,Carnes y pescados,1,26000,Guarnición: Puré de calabaza,0,26000
+LP-260823-S02,S,2026-08-23,20,Cena,Domingo,Delivery,0605,Calzón Italiano (grande),Calzones,1,40500,,0,40500
+LP-260823-S02,S,2026-08-23,20,Cena,Domingo,Delivery,1810,Chandon Baron B. Extra Brut (750cc),Vinos y cervezas,2,58000,,0,116000
+LP-260823-S03,S,2026-08-23,20,Cena,Domingo,Delivery,0810,Lomo al Champignon,Carnes y pescados,2,28500,Guarnición: Papas fritas,0,57000
+LP-260823-S04,S,2026-08-23,20,Cena,Domingo,Delivery,0304,Cazuela Individual,Tablas,1,11200,Cazuela: Queso,0,11200
+LP-260823-S04,S,2026-08-23,20,Cena,Domingo,Delivery,1802,Cerveza Warsteiner,Vinos y cervezas,1,6000,Tamaño: Pinta (500cc),1100,7100
+LP-260823-S05,S,2026-08-23,11,Desayuno,Domingo,Delivery,1313,Cuadradito: Crumble Manzana,Panadería y dulces,1,5600,,0,5600
+LP-260823-S05,S,2026-08-23,11,Desayuno,Domingo,Delivery,1318,Tostado de jamón y queso,Panadería y dulces,1,8500,,0,8500
+LP-260823-S05,S,2026-08-23,11,Desayuno,Domingo,Delivery,1324,Alfajores de Maizena (con Dulce de leche),Panadería y dulces,1,5400,,0,5400
+LP-260823-S05,S,2026-08-23,11,Desayuno,Domingo,Delivery,1322,Scons,Panadería y dulces,3,5600,,0,16800
+LP-260824-S01,S,2026-08-24,21,Cena,Lunes,Retiro en local,1831,Saint Felicien Cabernet-Merlot 2005,Vinos y cervezas,1,28000,,0,28000
 LP-260826-001,R,2026-08-26,18,Merienda,Miércoles,Delivery,,MITAD Calabresa + MITAD Provolone,Pizzas artesanales,1,32900,Tamaño: 8 porciones,4700,37600
 LP-260826-001,R,2026-08-26,18,Merienda,Miércoles,Delivery,0501,Pizza Mozzarella,Pizzas artesanales,1,22600,Tamaño: 8 porciones,5400,28000
 LP-260826-001,R,2026-08-26,18,Merienda,Miércoles,Delivery,0522,Pizza Fugazza con mozzarella,Pizzas artesanales,1,27200,Tamaño: 8 porciones,8200,35400
-LP-260826-S01,S,2026-08-26,13,Almuerzo,Miércoles,Retiro en local,0807,Bife de Chorizo,Carnes y pescados,1,26000,Guarnición: Ensalada básica,0,26000
-LP-260826-S01,S,2026-08-26,13,Almuerzo,Miércoles,Retiro en local,0211,Huevos x 2 (fritos o duros),Entradas,2,10400,Preparación: Duros,0,20800
-LP-260826-S02,S,2026-08-26,22,Cena,Miércoles,Delivery,0543,Ananá,Pizzas artesanales,1,33000,Tamaño: 8 porciones,4600,37600
-LP-260826-S02,S,2026-08-26,22,Cena,Miércoles,Delivery,0710,Spaguetti,Pastas,1,13400,Salsa: Scarparo,7700,21100
-LP-260826-S03,S,2026-08-26,12,Almuerzo,Miércoles,Delivery,0221,Omelette de Espinaca y Queso,Entradas,1,14500,,0,14500
-LP-260826-S04,S,2026-08-26,18,Merienda,Miércoles,Delivery,1605,Capuchino a la Italiana,Cafetería,1,4600,,0,4600
-LP-260826-S04,S,2026-08-26,18,Merienda,Miércoles,Delivery,1406,Carrot Cake y Cream Cheese,Tortas,1,8800,,0,8800
+LP-260826-S01,S,2026-08-26,23,Cena,Miércoles,Delivery,0820,Wok de Vegetales,Carnes y pescados,1,20600,Acompañamiento: Fideos de arroz,0,20600
+LP-260826-S01,S,2026-08-26,23,Cena,Miércoles,Delivery,0215,Mozzarella Flor di Latte,Entradas,1,15400,,0,15400
+LP-260826-S02,S,2026-08-26,11,Desayuno,Miércoles,Delivery,1616,Chocolate Caliente (Temporada Invernal),Cafetería,2,5700,,0,11400
+LP-260826-S03,S,2026-08-26,14,Almuerzo,Miércoles,Retiro en local,0821,Risotto al Frutti di Mare,Carnes y pescados,1,27800,,0,27800
+LP-260826-S04,S,2026-08-26,21,Cena,Miércoles,Delivery,0710,Spaguetti,Pastas,1,13400,Salsa: Mediterránea,8200,21600
+LP-260826-S04,S,2026-08-26,21,Cena,Miércoles,Delivery,1807,Uxmal Extra Brut - Bodega Uxmal,Vinos y cervezas,1,25000,,0,25000
 LP-260827-001,R,2026-08-27,18,Merienda,Jueves,Delivery,0405,Empanada de Verdura,Empanadas,2,3400,,0,6800
 LP-260827-002,R,2026-08-27,2,Madrugada,Jueves,Delivery,0811,Pollo Grille,Carnes y pescados,3,18500,Corte: Patamuslo + Guarnición: Papas fritas,0,55500
 LP-260827-003,R,2026-08-27,3,Madrugada,Jueves,Delivery,0811,Pollo Grille,Carnes y pescados,1,18500,Corte: Pechuga + Guarnición: Papas fritas,0,18500
@@ -250,36 +214,114 @@ LP-260827-003,R,2026-08-27,3,Madrugada,Jueves,Delivery,0813,Pollo al Verdeo,Carn
 LP-260827-004,R,2026-08-27,4,Madrugada,Jueves,Delivery,0408,Empanada de Roquefort,Empanadas,2,3400,,0,6800
 LP-260827-004,R,2026-08-27,4,Madrugada,Jueves,Delivery,0404,Empanada de Jamón y Queso,Empanadas,2,3400,,0,6800
 LP-260827-004,R,2026-08-27,4,Madrugada,Jueves,Delivery,0402,Empanada de Carne Picante,Empanadas,1,3800,,0,3800
-LP-260827-004,R,2026-08-27,4,Madrugada,Jueves,Delivery,0401,Empanada de Carne Suave,Recomendados,3,3800,,0,11400
-LP-260827-S01,S,2026-08-27,14,Almuerzo,Jueves,Delivery,0813,Pollo al Verdeo,Carnes y pescados,1,23000,Corte: Patamuslo + Guarnición: Ensalada básica,0,23000
-LP-260827-S01,S,2026-08-27,14,Almuerzo,Jueves,Delivery,0710,Spaguetti,Pastas,1,13400,Salsa: Pesto de Rúcula,6200,19600
-LP-260827-S02,S,2026-08-27,19,Merienda,Jueves,Retiro en local,1523,Copa Helada (dos Gustos),Hora dulce,1,10200,Gustos: Mousse de Limón,0,10200
-LP-260827-S03,S,2026-08-27,17,Merienda,Jueves,Delivery,1510,Ensalada de Frutas,Hora dulce,1,8000,,0,8000
-LP-260827-S04,S,2026-08-27,23,Cena,Jueves,Delivery,1808,Alamos Extra Brut - Catena Zapata,Vinos y cervezas,1,27000,,0,27000
-LP-260827-S04,S,2026-08-27,23,Cena,Jueves,Delivery,0302,Tabla Percanta,Recomendados,1,47500,,0,47500
-LP-260827-S04,S,2026-08-27,23,Cena,Jueves,Delivery,0525,Pizza Vegetariana,Pizzas artesanales,1,32900,Tamaño: 8 porciones,4700,37600
-LP-260827-S04,S,2026-08-27,23,Cena,Jueves,Delivery,0901,Classic-Burger,Hamburguesas,2,16800,Formato: Con pan clásico,0,33600
-LP-260827-S04,S,2026-08-27,23,Cena,Jueves,Delivery,0524,Pizza Fugazzeta rellena,Pizzas artesanales,1,34100,Tamaño: 8 porciones,4800,38900
-LP-260827-S05,S,2026-08-27,15,Almuerzo,Jueves,Delivery,0711,Penne Rigatti,Pastas,1,13600,Salsa: Amatriciana,8200,21800
-LP-260827-S05,S,2026-08-27,15,Almuerzo,Jueves,Delivery,0808,Bife de Costilla,Carnes y pescados,1,24500,Guarnición: Ensalada básica,0,24500
-LP-260827-S06,S,2026-08-27,17,Merienda,Jueves,Delivery,1701,Jugo de Naranja,Bebidas,2,5400,Tamaño: Normal,0,10800
-LP-260827-S07,S,2026-08-27,13,Almuerzo,Jueves,Retiro en local,0815,Salmón Rosado,Carnes y pescados,2,32400,,0,64800
-LP-260827-S07,S,2026-08-27,13,Almuerzo,Jueves,Retiro en local,0716,Spaghetti integral (de espinaca),Pastas,1,13400,Salsa: Olio,6100,19500
+LP-260827-004,R,2026-08-27,4,Madrugada,Jueves,Delivery,0401,Empanada de Carne Suave,Empanadas,3,3800,,0,11400
+LP-260827-S01,S,2026-08-27,21,Cena,Jueves,Delivery,0710,Spaguetti,Pastas,1,13400,Salsa: Crema de Nuez,6200,19600
+LP-260827-S02,S,2026-08-27,13,Almuerzo,Jueves,Retiro en local,1111,Carpaccio de Lomo,Ensaladas,1,17200,,0,17200
+LP-260827-S02,S,2026-08-27,13,Almuerzo,Jueves,Retiro en local,0711,Penne Rigatti,Pastas,1,13600,Salsa: Putanesca,7800,21400
+LP-260827-S02,S,2026-08-27,13,Almuerzo,Jueves,Retiro en local,0905,Blue-Burger,Hamburguesas,1,17200,Formato: Con pan clásico,0,17200
 LP-260828-001,R,2026-08-28,19,Merienda,Viernes,Retiro en local,0408,Empanada de Roquefort,Empanadas,1,3400,,0,3400
 LP-260828-001,R,2026-08-28,19,Merienda,Viernes,Retiro en local,0409,Empanada de Queso y Cebolla,Empanadas,1,3400,,0,3400
 LP-260828-001,R,2026-08-28,19,Merienda,Viernes,Retiro en local,0404,Empanada de Jamón y Queso,Empanadas,3,3400,,0,10200
-LP-260828-001,R,2026-08-28,19,Merienda,Viernes,Retiro en local,0401,Empanada de Carne Suave,Recomendados,2,3800,,0,7600
-LP-260828-S01,S,2026-08-28,22,Cena,Viernes,Delivery,0506,Pizza Roquefort,Pizzas artesanales,1,32800,Tamaño: 6 porciones,0,32800
-LP-260828-S01,S,2026-08-28,22,Cena,Viernes,Delivery,0706,Sorrentino (Jamón y Mozzarella),Recomendados,2,14800,Salsa: Crema de Nuez,12400,42000
-LP-260828-S01,S,2026-08-28,22,Cena,Viernes,Delivery,1828,Angélica Zapata Malbec,Vinos y cervezas,1,72000,,0,72000
-LP-260828-S01,S,2026-08-28,22,Cena,Viernes,Delivery,0213,Provoleta Clásica,Recomendados,1,14600,,0,14600
-LP-260828-S02,S,2026-08-28,13,Almuerzo,Viernes,Delivery,1503,Crumble tibia de Manzana,Hora dulce,1,10400,,0,10400
-LP-260828-S03,S,2026-08-28,20,Cena,Viernes,Retiro en local,0710,Spaguetti,Pastas,1,13400,Salsa: Amatriciana,8200,21600
-LP-260828-S04,S,2026-08-28,17,Merienda,Viernes,Delivery,1405,Nutella,Tortas,1,8800,,0,8800
-LP-260828-S04,S,2026-08-28,17,Merienda,Viernes,Delivery,1631,Frescolate Coffee,Cafetería,1,6600,,0,6600
-LP-260828-S04,S,2026-08-28,17,Merienda,Viernes,Delivery,1615,Submarino,Cafetería,2,5300,,0,10600
-LP-260828-S05,S,2026-08-28,16,Merienda,Viernes,Delivery,1632,Vainilla Coffee Ice,Cafetería,1,6600,,0,6600
-LP-260829-001,R,2026-08-29,17,Merienda,Sábado,Retiro en local,1210,Percanta (para compartir),Recomendados,1,28000,,0,28000
+LP-260828-001,R,2026-08-28,19,Merienda,Viernes,Retiro en local,0401,Empanada de Carne Suave,Empanadas,2,3800,,0,7600
+LP-260828-S01,S,2026-08-28,12,Almuerzo,Viernes,Delivery,0814,Suprema de Pollo,Carnes y pescados,1,19800,Guarnición: Ensalada básica,0,19800
+LP-260828-S02,S,2026-08-28,13,Almuerzo,Viernes,Delivery,0818,Mongolian Beef (Picante),Carnes y pescados,2,28500,Acompañamiento: Arroz,0,57000
+LP-260828-S02,S,2026-08-28,13,Almuerzo,Viernes,Delivery,0815,Salmón Rosado,Carnes y pescados,2,32400,,0,64800
+LP-260828-S02,S,2026-08-28,13,Almuerzo,Viernes,Delivery,1724,Limonada con Menta y Jengibre,Bebidas,1,6400,,0,6400
+LP-260829-001,R,2026-08-29,17,Merienda,Sábado,Retiro en local,1210,Percanta (para compartir),Desayuno y merienda,1,28000,,0,28000
 LP-260829-002,R,2026-08-29,2,Madrugada,Sábado,Delivery,0505,Pizza Provolone,Pizzas artesanales,1,32900,Tamaño: 8 porciones,4700,37600
 LP-260829-003,R,2026-08-29,2,Madrugada,Sábado,Delivery,0811,Pollo Grille,Carnes y pescados,2,18500,Corte: Pechuga + Guarnición: Papas fritas,0,37000
-LP-260829-S01,S,2026-08-29,14,Almuerzo,Sábado,Retiro en local,0820,Wok de Vegetales,Carnes y pescados,1,20600,Acompañamiento: Arroz,0,20600
+LP-260829-S01,S,2026-08-29,14,Almuerzo,Sábado,Delivery,1107,Pampeana,Ensaladas,1,15400,,0,15400
+LP-260829-S01,S,2026-08-29,14,Almuerzo,Sábado,Delivery,1711,Sprite Zero,Bebidas,1,4200,,0,4200
+LP-260829-S02,S,2026-08-29,14,Almuerzo,Sábado,Delivery,0710,Spaguetti,Pastas,1,13400,Salsa: Crema de Puerros,6200,19600
+LP-260829-S02,S,2026-08-29,14,Almuerzo,Sábado,Delivery,1714,Tónica Schweppes,Bebidas,1,4200,,0,4200
+LP-260829-S03,S,2026-08-29,22,Cena,Sábado,Delivery,0508,Pizza Veneciana,Pizzas artesanales,1,32800,Tamaño: 8 porciones,4700,37500
+LP-260829-S03,S,2026-08-29,22,Cena,Sábado,Delivery,0536,Rúcula Crudo y Parmesano,Pizzas artesanales,1,34100,Tamaño: 8 porciones,4800,38900
+LP-260829-S04,S,2026-08-29,17,Merienda,Sábado,Delivery,1401,Clásico Balcarce,Tortas,1,9700,,0,9700
+LP-260829-S04,S,2026-08-29,17,Merienda,Sábado,Delivery,1321,"Tostada Pan Integral, Palta y huevo poché",Panadería y dulces,1,9300,,0,9300
+LP-260829-S05,S,2026-08-29,23,Cena,Sábado,Delivery,0507,Pizza Cuatro quesos,Pizzas artesanales,1,33000,Tamaño: 8 porciones,4800,37800
+LP-260829-S05,S,2026-08-29,23,Cena,Sábado,Delivery,0804,Milanesa de Ternera,Carnes y pescados,1,21000,"Guarnición: Puré de calabaza + ¿A la napolitana?: Sí, napolitana",600,21600
+LP-260829-S05,S,2026-08-29,23,Cena,Sábado,Delivery,1725,Milk shake (Vainilla o Chocolate o Americana con leche),Bebidas,1,8700,,0,8700
+LP-260829-S06,S,2026-08-29,20,Cena,Sábado,Retiro en local,0809,Ojo de Bife,Carnes y pescados,1,28500,Guarnición: Puré de papa,0,28500
+LP-260829-S06,S,2026-08-29,20,Cena,Sábado,Retiro en local,0540,Champignon,Pizzas artesanales,1,33900,Tamaño: 6 porciones,0,33900
+LP-260829-S06,S,2026-08-29,20,Cena,Sábado,Retiro en local,0529,Pizza Palmitos,Pizzas artesanales,1,33900,Tamaño: 8 porciones,4700,38600
+LP-260829-S06,S,2026-08-29,20,Cena,Sábado,Retiro en local,0543,Ananá,Pizzas artesanales,1,33000,Tamaño: 6 porciones,0,33000
+LP-260830-001,R,2026-08-30,2,Madrugada,Domingo,Delivery,0224,Fainá (porción),Entradas,1,3300,,0,3300
+LP-260830-001,R,2026-08-30,2,Madrugada,Domingo,Delivery,0519,Pizza Jamón y morrones,Pizzas artesanales,1,27600,Tamaño: 6 porciones,0,27600
+LP-260830-001,R,2026-08-30,2,Madrugada,Domingo,Delivery,0501,Pizza Mozzarella,Pizzas artesanales,1,22600,Tamaño: 8 porciones,5400,28000
+LP-260830-002,R,2026-08-30,2,Madrugada,Domingo,Retiro en local,0404,Empanada de Jamón y Queso,Empanadas,3,3400,,0,10200
+LP-260830-002,R,2026-08-30,2,Madrugada,Domingo,Retiro en local,0401,Empanada de Carne Suave,Empanadas,4,3800,,0,15200
+LP-260830-S01,S,2026-08-30,23,Cena,Domingo,Delivery,1102,Zen Antioxidante,Ensaladas,1,15800,,0,15800
+LP-260830-S01,S,2026-08-30,23,Cena,Domingo,Delivery,0802,Medallón de Lomo,Carnes y pescados,1,28000,Guarnición: Puré de calabaza,0,28000
+LP-260830-S01,S,2026-08-30,23,Cena,Domingo,Delivery,0537,Rúcula y Brie,Pizzas artesanales,1,34600,Tamaño: 6 porciones,0,34600
+LP-260830-S01,S,2026-08-30,23,Cena,Domingo,Delivery,0204,Nachos Mex,Entradas,1,14600,,0,14600
+LP-260830-S02,S,2026-08-30,21,Cena,Domingo,Delivery,0542,Espárragos a la Parmesana,Pizzas artesanales,1,33100,Tamaño: 6 porciones,0,33100
+LP-260830-S02,S,2026-08-30,21,Cena,Domingo,Delivery,0801,Ribbs Percanta,Carnes y pescados,2,26800,Guarnición: Ensalada básica,0,53600
+LP-260830-S03,S,2026-08-30,14,Almuerzo,Domingo,Delivery,1010,Panini de Vegetales,Sándwiches,1,11000,,0,11000
+LP-260830-S03,S,2026-08-30,14,Almuerzo,Domingo,Delivery,0704,Ravioles de Ricotta,Pastas,1,14400,Salsa: Frutos del Mar,13500,27900
+LP-260830-S03,S,2026-08-30,14,Almuerzo,Domingo,Delivery,1715,Jugo Natural Chico Naranja / Limón,Bebidas,2,5400,,0,10800
+LP-260830-S04,S,2026-08-30,13,Almuerzo,Domingo,Delivery,0701,Tallarín casero,Pastas,1,13600,Salsa: Funghi,6200,19800
+LP-260831-001,R,2026-08-31,3,Madrugada,Lunes,Retiro en local,0804,Milanesa de Ternera,Carnes y pescados,1,21000,Guarnición: Papas fritas,0,21000
+LP-260831-S01,S,2026-08-31,12,Almuerzo,Lunes,Delivery,0823,Risotto de Vegetales,Carnes y pescados,1,21000,,0,21000
+LP-260831-S01,S,2026-08-31,12,Almuerzo,Lunes,Delivery,1009,Panini Caprese,Sándwiches,1,11000,,0,11000
+LP-260901-001,R,2026-09-01,19,Merienda,Martes,Delivery,0807,Bife de Chorizo,Carnes y pescados,1,26000,Guarnición: Ensalada básica + Guarnición: Puré de papa,0,26000
+LP-260901-001,R,2026-09-01,19,Merienda,Martes,Delivery,0807,Bife de Chorizo,Carnes y pescados,1,26000,Guarnición: Ensalada básica + Guarnición: Puré de papa,0,26000
+LP-260901-002,R,2026-09-01,2,Madrugada,Martes,Delivery,0804,Milanesa de Ternera,Carnes y pescados,1,21000,"¿A la napolitana?: Sí, napolitana + Guarnición: Ensalada básica + Guarnición: Puré de papa",600,21600
+LP-260901-002,R,2026-09-01,2,Madrugada,Martes,Delivery,0804,Milanesa de Ternera,Carnes y pescados,1,21000,"¿A la napolitana?: Sí, napolitana + Guarnición: Ensalada básica + Guarnición: Puré de papa",0,21000
+LP-260901-003,R,2026-09-01,2,Madrugada,Martes,Delivery,0814,Suprema de Pollo,Carnes y pescados,1,19800,Guarnición: Papas fritas,0,19800
+LP-260901-S01,S,2026-09-01,13,Almuerzo,Martes,Delivery,1117,Madero con Langostinos,Ensaladas,1,21000,,0,21000
+LP-260901-S01,S,2026-09-01,13,Almuerzo,Martes,Delivery,1716,"Agua Saborizada Levite (Pomelo, Naranja Dulce, Manzana Cero)",Bebidas,1,4200,,0,4200
+LP-260901-S02,S,2026-09-01,21,Cena,Martes,Retiro en local,0813,Pollo al Verdeo,Carnes y pescados,1,23000,Corte: Patamuslo + Guarnición: Ensalada básica,0,23000
+LP-260901-S02,S,2026-09-01,21,Cena,Martes,Retiro en local,1111,Carpaccio de Lomo,Ensaladas,1,17200,,0,17200
+LP-260901-S02,S,2026-09-01,21,Cena,Martes,Retiro en local,0404,Empanada de Jamón y Queso,Empanadas,6,3400,,0,20400
+LP-260901-S02,S,2026-09-01,21,Cena,Martes,Retiro en local,1717,"Agua Saborizada We by Ser (Citrus, Limón)",Bebidas,2,3500,,0,7000
+LP-260901-S03,S,2026-09-01,22,Cena,Martes,Delivery,0815,Salmón Rosado,Carnes y pescados,1,32400,,0,32400
+LP-260901-S03,S,2026-09-01,22,Cena,Martes,Delivery,0402,Empanada de Carne Picante,Empanadas,6,3800,,0,22800
+LP-260902-001,R,2026-09-02,2,Madrugada,Miércoles,Delivery,0404,Empanada de Jamón y Queso,Empanadas,3,3400,,0,10200
+LP-260902-001,R,2026-09-02,2,Madrugada,Miércoles,Delivery,0401,Empanada de Carne Suave,Empanadas,5,3800,,0,19000
+LP-260902-001,R,2026-09-02,2,Madrugada,Miércoles,Delivery,0407,Empanada de Choclo,Empanadas,3,3400,,0,10200
+LP-260902-001,R,2026-09-02,2,Madrugada,Miércoles,Delivery,0603,Calzón Percanta (pequeño),Calzones,1,36500,,0,36500
+LP-260902-S01,S,2026-09-02,9,Desayuno,Miércoles,Delivery,1311,Cuadradito: Brownie,Panadería y dulces,1,5800,,0,5800
+LP-260902-S01,S,2026-09-02,9,Desayuno,Miércoles,Delivery,1308,Budín: Nuez,Panadería y dulces,1,5800,,0,5800
+LP-260902-S01,S,2026-09-02,9,Desayuno,Miércoles,Delivery,1621,Capuchino doble Proteico,Cafetería,3,7300,,0,21900
+LP-260903-001,R,2026-09-03,2,Madrugada,Jueves,Delivery,0222,Tortilla de papa,Entradas,2,14500,,0,29000
+LP-260903-002,R,2026-09-03,4,Madrugada,Jueves,Delivery,1114,Caesar con Pollo,Ensaladas,1,17100,,0,17100
+LP-260903-002,R,2026-09-03,4,Madrugada,Jueves,Delivery,0701,Tallarín casero,Pastas,1,13600,Salsa: Parisien,8200,21800
+LP-260903-S01,S,2026-09-03,10,Desayuno,Jueves,Retiro en local,1306,"Cookie: Manzana, Canela y Almendras",Panadería y dulces,1,5600,,0,5600
+LP-260903-S01,S,2026-09-03,10,Desayuno,Jueves,Retiro en local,1324,Alfajores de Maizena (con Dulce de leche),Panadería y dulces,1,5400,,0,5400
+LP-260903-S01,S,2026-09-03,10,Desayuno,Jueves,Retiro en local,1618,Calypso,Cafetería,2,6600,,0,13200
+LP-260903-S02,S,2026-09-03,14,Almuerzo,Jueves,Retiro en local,0710,Spaguetti,Pastas,1,13400,Salsa: Crema de Puerros,6200,19600
+LP-260903-S03,S,2026-09-03,21,Cena,Jueves,Delivery,0216,Pinchos de pollo grillados (Salsa Tártara),Entradas,2,14800,,0,29600
+LP-260903-S04,S,2026-09-03,9,Desayuno,Jueves,Retiro en local,1208,Energético,Desayuno y merienda,2,11000,,0,22000
+LP-260903-S04,S,2026-09-03,9,Desayuno,Jueves,Retiro en local,1321,"Tostada Pan Integral, Palta y huevo poché",Panadería y dulces,2,9300,,0,18600
+LP-260904-001,R,2026-09-04,2,Madrugada,Viernes,Delivery,0404,Empanada de Jamón y Queso,Empanadas,1,3400,,0,3400
+LP-260904-001,R,2026-09-04,2,Madrugada,Viernes,Delivery,0409,Empanada de Queso y Cebolla,Empanadas,1,3400,,0,3400
+LP-260904-001,R,2026-09-04,2,Madrugada,Viernes,Delivery,0408,Empanada de Roquefort,Empanadas,1,3400,,0,3400
+LP-260904-001,R,2026-09-04,2,Madrugada,Viernes,Delivery,0407,Empanada de Choclo,Empanadas,1,3400,,0,3400
+LP-260904-001,R,2026-09-04,2,Madrugada,Viernes,Delivery,0402,Empanada de Carne Picante,Empanadas,2,3800,,0,7600
+LP-260904-001,R,2026-09-04,2,Madrugada,Viernes,Delivery,0401,Empanada de Carne Suave,Empanadas,4,3800,,0,15200
+LP-260904-002,R,2026-09-04,2,Madrugada,Viernes,Delivery,0702,Gnocchi,Pastas,1,13600,Salsa: Crema,6100,19700
+LP-260904-002,R,2026-09-04,2,Madrugada,Viernes,Delivery,0706,Sorrentino (Jamón y Mozzarella),Pastas,1,14800,Salsa: Crema,6100,20900
+LP-260904-S01,S,2026-09-04,18,Merienda,Viernes,Delivery,1401,Clásico Balcarce,Tortas,1,9700,,0,9700
+LP-260904-S02,S,2026-09-04,19,Merienda,Viernes,Delivery,1314,Pasta Frola Membrillo,Panadería y dulces,1,5600,,0,5600
+LP-260904-S02,S,2026-09-04,19,Merienda,Viernes,Delivery,1201,Yogurt con cereales Frutos Rojos,Desayuno y merienda,2,5100,,0,10200
+LP-260904-S02,S,2026-09-04,19,Merienda,Viernes,Delivery,1325,Alfajores de Coco (con Dulce de leche),Panadería y dulces,1,6200,,0,6200
+LP-260904-S03,S,2026-09-04,20,Cena,Viernes,Delivery,0516,Pizza Atún,Pizzas artesanales,1,34100,Tamaño: 6 porciones,0,34100
+LP-260904-S03,S,2026-09-04,20,Cena,Viernes,Delivery,0709,Tagliatelle de espinaca,Pastas,1,13400,Salsa: Bolognesa,7600,21000
+LP-260904-S03,S,2026-09-04,20,Cena,Viernes,Delivery,0401,Empanada de Carne Suave,Empanadas,3,3800,,0,11400
+LP-260904-S04,S,2026-09-04,9,Desayuno,Viernes,Retiro en local,1209,Deportivo,Desayuno y merienda,1,12400,,0,12400
+LP-260904-S04,S,2026-09-04,9,Desayuno,Viernes,Retiro en local,1201,Yogurt con cereales Frutos Rojos,Desayuno y merienda,1,5100,,0,5100
+LP-260904-S05,S,2026-09-04,13,Almuerzo,Viernes,Retiro en local,1112,Americana con Pollo,Ensaladas,3,17100,,0,51300
+LP-260904-S05,S,2026-09-04,13,Almuerzo,Viernes,Retiro en local,0709,Tagliatelle de espinaca,Pastas,1,13400,Salsa: Amatriciana,8200,21600
+LP-260904-S05,S,2026-09-04,13,Almuerzo,Viernes,Retiro en local,1711,Sprite Zero,Bebidas,1,4200,,0,4200
+LP-260904-S06,S,2026-09-04,20,Cena,Viernes,Retiro en local,0809,Ojo de Bife,Carnes y pescados,1,28500,Guarnición: Puré de papa,0,28500
+LP-260905-001,R,2026-09-05,19,Merienda,Sábado,Delivery,1012,Panini de Lomo,Sándwiches,1,16800,,0,16800
+LP-260905-001,R,2026-09-05,19,Merienda,Sábado,Delivery,1011,Panini de Pollo,Sándwiches,1,14600,,0,14600
+LP-260905-002,R,2026-09-05,2,Madrugada,Sábado,Delivery,0501,Pizza Mozzarella,Pizzas artesanales,1,22600,Tamaño: 6 porciones,0,22600
+LP-260905-003,R,2026-09-05,2,Madrugada,Sábado,Delivery,0402,Empanada de Carne Picante,Empanadas,2,3800,,0,7600
+LP-260905-003,R,2026-09-05,2,Madrugada,Sábado,Delivery,0404,Empanada de Jamón y Queso,Empanadas,4,3400,,0,13600
+LP-260905-003,R,2026-09-05,2,Madrugada,Sábado,Delivery,0401,Empanada de Carne Suave,Empanadas,9,3800,,0,34200
+LP-260905-004,R,2026-09-05,3,Madrugada,Sábado,Delivery,0209,Papas Fritas (Provenzal o regular),Entradas,1,10600,Preparación: Regular,0,10600
+LP-260905-S01,S,2026-09-05,10,Desayuno,Sábado,Delivery,1203,Madero,Desayuno y merienda,1,7500,,0,7500
+LP-260905-S01,S,2026-09-05,10,Desayuno,Sábado,Delivery,1314,Pasta Frola Membrillo,Panadería y dulces,1,5600,,0,5600
+LP-260905-S01,S,2026-09-05,10,Desayuno,Sábado,Delivery,1320,"Huevos revueltos, panceta / pan de campo",Panadería y dulces,2,8900,,0,17800
+LP-260905-S01,S,2026-09-05,10,Desayuno,Sábado,Delivery,1703,Agua Mineral Sin Gas (Villavicencio),Bebidas,1,4200,,0,4200
