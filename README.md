@@ -1,7 +1,7 @@
 # Un mes en La Percanta
 
 Trabajo práctico de **Visualización de la Información** (2.º cuatrimestre 2026).
-Exploración visual de un mes de pedidos de La Percanta, un restaurante de Puerto
+Exploración visual de cinco semanas de pedidos de La Percanta, un restaurante de Puerto
 Madero cuya aplicación de pedidos es un proyecto propio.
 
 **→ [gianlugiannine.github.io/infovis](https://gianlugiannine.github.io/infovis/)** · [ejercicios de clase](https://gianlugiannine.github.io/infovis/practica.html)
@@ -13,7 +13,7 @@ Madero cuya aplicación de pedidos es un proyecto propio.
 | 1 | ¿Cuándo se llena la cocina? | Datawrapper — tabla heatmap |
 | 2 | ¿Se pide distinto según la hora del día? | RAWGraphs — diagrama aluvial |
 | 3 | ¿Cuánta carta trabaja de verdad? | Flourish — treemap jerárquico |
-| 4 | ¿El local cumple la demora que promete? | Tableau Public — *pendiente* |
+| 4 | ¿El local cumple la demora que promete? | Tableau Public — barras de desvío |
 
 ## Datos
 

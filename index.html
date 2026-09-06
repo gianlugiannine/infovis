@@ -58,17 +58,18 @@
   <h1>Trabajo Práctico Infovis - Gianluca Giannine Lizarraga</h1>
 
   <p>
-    Este proyecto analiza un mes de pedidos de La Percanta, un restaurante de Puerto
-    Madero cuya aplicación de pedidos es un proyecto propio. A partir de los datos de
-    esa base exploro a qué hora come el barrio, qué pide en cada momento del día,
+    Este proyecto analiza cinco semanas de pedidos de La Percanta, un restaurante de
+    Puerto Madero cuya aplicación de pedidos es un proyecto propio. A partir de los datos
+    de esa base exploro a qué hora come el barrio, qué pide en cada momento del día,
     cuánta carta sobra y si el local cumple los tiempos que promete.
   </p>
 
-  <h2>Los números del mes</h2>
+  <h2>Los números del período</h2>
   <p>
-    143 pedidos en 28 jornadas, 48 clientes y un ticket promedio de $40.835.
-    La carta tiene <span class="dato">357 productos</span> y
-    <span class="dato">204 no se vendieron ni una vez</span>.
+    158 pedidos entre el 1 de agosto y el 5 de septiembre de 2026, en 35 jornadas, de
+    68 clientes distintos y con un ticket promedio de $40.203. La carta tiene
+    <span class="dato">357 productos</span> y
+    <span class="dato">196 no se vendieron ni una vez</span>.
   </p>
 
   <!-- ============ 1 · DATAWRAPPER ============ -->
@@ -76,20 +77,21 @@
   <p class="tool">Datawrapper</p>
   <p>
     Un restaurante no trabaja parejo. Cruzando los siete días de la semana con las cinco
-    franjas del servicio aparece el pico: <span class="dato">el sábado a la cena, con 11
-    pedidos</span>, casi el doble que cualquier otra celda. El sábado entero concentra 32
-    de los 143 pedidos; el martes, 12. La franja «Madrugada» no es el barrio pidiendo de
-    noche: son los pedidos que cargué yo probando la aplicación entre la 1 y las 4 de la
-    mañana, con el local cerrado.
+    franjas del servicio aparece el pico: <span class="dato">el sábado a la cena, con 14
+    pedidos</span>. La columna de la derecha responde la pregunta operativa de fondo,
+    que es qué días sale más trabajo del local: <span class="dato">el sábado saca 36
+    pedidos y el lunes apenas 8</span>, cuatro veces menos. La franja «Madrugada» no es
+    el barrio pidiendo de noche: son los pedidos que cargué yo probando la aplicación
+    entre la 1 y las 4 de la mañana, con el local cerrado.
   </p>
 
   <iframe
     title="¿Cuándo se llena la cocina de La Percanta?"
-    src="https://datawrapper.dwcdn.net/SCAyA/1/"
+    src="https://datawrapper.dwcdn.net/SCAyA/2/"
     scrolling="no"
     frameborder="0"
     style="width: 0; min-width: 100% !important; border: none;"
-    height="500">
+    height="520">
   </iframe>
 
   <script>
@@ -109,15 +111,19 @@
   <h2>¿Se pide distinto según la hora del día?</h2>
   <p class="tool">RawGraphs</p>
   <p>
-    El diagrama sigue los 143 pedidos desde el momento del día en que entraron, pasando
-    por el rubro que más facturó dentro de cada uno, hasta la forma de entrega.
-    <span class="dato">Son cuatro negocios distintos dentro del mismo local</span>: el
-    desayuno es panadería, el almuerzo son carnes (12 de 24 pedidos), la merienda es
-    cafetería y la cena es pizza (14 de 36). La diferencia se ve en la caja: la cena
-    promedia $64.468 por pedido y la merienda $19.307, tres veces menos.
+    Cada línea es un pedido. Entra por la franja en que se hizo, pasa por el rubro que
+    más facturó dentro de ese pedido y sale por la forma en que se entregó; cuanto más
+    gruesa la cinta, más pedidos hicieron ese mismo recorrido.
+    <span class="dato">El desayuno es café y panadería, sin excepción</span>: ni un solo
+    pedido de la mañana tiene su plato principal fuera de Cafetería, Panadería o Desayuno
+    y merienda. Del almuerzo en adelante manda Carnes y pescados, la merienda suma tortas,
+    y las pizzas aparecen casi solo de noche: 17 de los 19 pedidos de pizza son de la cena
+    o más tarde. A la derecha se ve que el delivery se lleva
+    <span class="dato">102 de los 143 pedidos</span>, pero no parejo: en el desayuno casi
+    la mitad se retira por el local y en la cena solo uno de cada cinco.
   </p>
 
-  <img class="viz" src="img/rawgraphs-alluvial.png"
+  <img class="viz" src="img/rawgraphs-alluvial.svg"
        alt="Diagrama aluvial: los pedidos fluyen desde la franja horaria hacia el rubro principal y de ahí a la forma de entrega." />
 
   <!-- ============ 3 · FLOURISH ============ -->
@@ -125,11 +131,11 @@
   <p class="tool">Flourish</p>
   <p>
     Cada rectángulo es un plato, agrupado por rubro y dimensionado por lo que facturó en
-    el mes; se puede tocar un rubro para entrar. Sólo aparecen los 153 productos que se
-    vendieron al menos una vez, así que los 204 que nunca se vendieron son literalmente
-    el espacio en blanco del gráfico. <span class="dato">29 productos —el 8% de la
+    el período; se puede tocar un rubro para entrar. Solo aparecen los 161 productos que
+    se vendieron al menos una vez, así que los 196 que nunca se vendieron son literalmente
+    el espacio en blanco del gráfico. <span class="dato">28 productos —el 8% de la
     carta— hacen la mitad de la facturación</span>, y un solo plato, el Pollo Grille,
-    facturó $296.000: más que todo el rubro Entradas junto, que tiene 24 platos.
+    facturó $314.500: más que todo el rubro Entradas junto, que tiene 25 platos.
   </p>
 
   <div class="flourish-embed flourish-hierarchy" data-src="visualisation/30103369">
@@ -143,19 +149,47 @@
   <p>
     Cuando entra un pedido la app le canta un tiempo al cliente: 50 minutos si es
     delivery, 30 si lo pasa a buscar. El historial de estados guarda cuánto tardó de
-    verdad. El delivery promete 50′ y entrega en 49′ de promedio, así que llega tarde el
-    37% de las veces. El retiro en el local promete 30′ y entrega en 35′:
-    <span class="dato">llega tarde el 70% de las veces</span>. Es al revés de lo que uno
+    verdad, así que se puede medir la distancia entre lo prometido y lo cumplido. Cada
+    barra son los minutos que el local se pasa (+) o se adelanta (−) respecto de lo que
+    prometió. <span class="dato">El retiro en el local está entero del lado equivocado</span>:
+    llega tarde en las cinco franjas, y en total el 81% de las veces. El delivery, en
+    cambio, cumple más de lo que falla: llega tarde el 38%. Es al revés de lo que uno
     esperaría — el pedido que no sale a la calle es el que más incumple, porque los 30
     minutos que promete son demasiado ajustados para la cocina.
   </p>
 
-  <p>
-    <em>Pendiente para la entrega final: el dashboard interactivo de Tableau Public con
-    la distribución pedido por pedido y filtros por día, franja y rubro. El dataset ya
-    está armado en <code>datos/4-tableau-demoras.csv</code>, con los 123 pedidos
-    entregados que tienen demora medida.</em>
-  </p>
+  <div class='tableauPlaceholder' id='vizPercantaDemoras' style='position: relative'>
+    <noscript>
+      <a href='https://public.tableau.com/views/TPInfovisLaPercanta-Demoras/Hoja1'>
+        <img alt='¿El local cumple la demora que promete?' src='https://public.tableau.com/static/images/TP/TPInfovisLaPercanta-Demoras/Hoja1/1_rss.png' style='border: none' />
+      </a>
+    </noscript>
+    <object class='tableauViz' style='display:none;'>
+      <param name='host_url' value='https://public.tableau.com/' />
+      <param name='embed_code_version' value='3' />
+      <param name='site_root' value='' />
+      <param name='name' value='TPInfovisLaPercanta-Demoras/Hoja1' />
+      <param name='tabs' value='no' />
+      <param name='toolbar' value='yes' />
+      <param name='static_image' value='https://public.tableau.com/static/images/TP/TPInfovisLaPercanta-Demoras/Hoja1/1.png' />
+      <param name='animate_transition' value='yes' />
+      <param name='display_static_image' value='yes' />
+      <param name='display_spinner' value='yes' />
+      <param name='display_overlay' value='yes' />
+      <param name='display_count' value='yes' />
+      <param name='language' value='es-ES' />
+    </object>
+  </div>
+
+  <script>
+    var divPercanta = document.getElementById('vizPercantaDemoras');
+    var vizPercanta = divPercanta.getElementsByTagName('object')[0];
+    vizPercanta.style.width = '100%';
+    vizPercanta.style.height = (divPercanta.offsetWidth * 0.62) + 'px';
+    var scPercanta = document.createElement('script');
+    scPercanta.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+    vizPercanta.parentNode.insertBefore(scPercanta, vizPercanta);
+  </script>
 
   <!-- ============ METODOLOGÍA ============ -->
   <h2>De dónde salen los datos</h2>
@@ -168,12 +202,12 @@
     <tr><th>Archivo</th><th>Filas</th><th>Qué contiene</th></tr>
     <tr>
       <td><a href="datos/pedidos.csv">datos/pedidos.csv</a></td>
-      <td>143</td>
+      <td>158</td>
       <td>Un pedido por fila: momento, forma de entrega, medio de pago, rubros que tocó, detalle de lo pedido y montos</td>
     </tr>
     <tr>
       <td><a href="datos/renglones.csv">datos/renglones.csv</a></td>
-      <td>284</td>
+      <td>326</td>
       <td>Un producto pedido por fila, con sus modificadores (guarnición, tamaño, corte)</td>
     </tr>
     <tr>
@@ -184,13 +218,20 @@
   </table>
 
   <p>
+    <strong>Sobre los rubros.</strong> La carta tiene una categoría «Recomendados» que no
+    es un rubro sino una vidriera: son diez platos destacados que ya pertenecen a su rubro
+    real. Cada uno se cuenta en el suyo —la Milanesa de Ternera en Carnes y pescados, la
+    Empanada de Carne Suave en Empanadas— y así quedan 17 rubros reales.
+  </p>
+
+  <p>
     <strong>Sobre la muestra.</strong> La carta, los precios, los códigos y los grupos de
-    modificadores son reales. De los pedidos, 43 son reales y 100 fueron generados sobre
-    esa misma carta para poder analizar: la aplicación se puso en marcha hace poco y
-    veinte días de operación en pruebas no alcanzan para leer patrones de consumo. Los
-    pedidos generados se calibraron contra los reales —ticket promedio, productos por
-    pedido, proporción de delivery y de cancelados— y la columna <code>lote</code>
-    distingue unos de otros: <code>R</code> real, <code>S</code> generado.
+    modificadores son reales. De los pedidos, 58 son reales y 100 fueron generados sobre
+    esa misma carta para poder analizar: la aplicación se puso en marcha hace poco y su
+    volumen todavía no alcanza para leer patrones de consumo. Los pedidos generados se
+    calibraron contra los reales —ticket promedio, productos por pedido, proporción de
+    delivery y de cancelados— y la columna <code>lote</code> distingue unos de otros:
+    <code>R</code> real, <code>S</code> generado.
   </p>
 
   <p>
@@ -200,7 +241,7 @@
   </p>
 
   <p>
-    <strong>Un criterio de limpieza.</strong> Nueve pedidos reales registran demoras de
+    <strong>Un criterio de limpieza.</strong> Algunos pedidos reales registran demoras de
     entre 1 y 18 minutos porque los estados se avanzaron a mano durante las pruebas de la
     aplicación. No miden servicio real, así que quedaron sin dato en lugar de contaminar
     el promedio.
