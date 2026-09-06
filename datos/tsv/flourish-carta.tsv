@@ -1,25 +1,21 @@
 rubro	producto	facturacion	unidades	precio
-Carnes y pescados	Pollo Grille	314500	17	18500
-Empanadas	Empanada de Carne Suave	307800	81	3800
+Carnes y pescados	Pollo Grille	296000	16	18500
+Empanadas	Empanada de Carne Suave	258400	68	3800
 Carnes y pescados	Milanesa de Ternera	254400	12	21000
-Empanadas	Empanada de Jamón y Queso	180200	53	3400
-Vinos y cervezas	Chandon Baron B. Extra Brut (750cc)	174000	3	58000
 Pizzas artesanales	Pizza Mozzarella	157200	6	22600
-Pastas	Spaguetti	140600	7	13400
+Empanadas	Empanada de Jamón y Queso	149600	44	3400
 Carnes y pescados	Pollo al Verdeo	138000	6	23000
 Carnes y pescados	Merluza	132000	6	22000
 Carnes y pescados	Salmón Rosado	129600	4	32400
+Pastas	Spaguetti	119600	6	13400
 Carnes y pescados	Ribbs Percanta	107200	4	26800
 Empanadas	Empanada de Carne Picante	95000	25	3800
-Carnes y pescados	Ojo de Bife	85500	3	28500
 Carnes y pescados	Mongolian Beef (Picante)	85500	3	28500
 Ensaladas	Caesar con Pollo	85500	5	17100
 Pastas	Tallarín casero	83200	4	13600
-Calzones	Calzón Italiano (grande)	81000	2	40500
 Carnes y pescados	Suprema de Pollo	80400	4	19800
 Carnes y pescados	Bife de Chorizo	78000	3	26000
 Pizzas artesanales	Pizza Cuatro quesos	75600	2	33000
-Pizzas artesanales	Pizza Fugazza Cabrona	75200	2	32900
 Pizzas artesanales	Pizza Veneciana	75000	2	32800
 Empanadas	Empanada de Roquefort	74800	22	3400
 Pastas	Sorrentino (Salmón)	74400	3	17100
@@ -29,42 +25,37 @@ Pizzas artesanales	Pizza Napolitana	70800	2	27200
 Pastas	Tagliatelle de espinaca	69500	3	13400
 Pizzas artesanales	Mediterránea	65800	2	32900
 Pizzas artesanales	Pizza Roquefort	65600	2	32800
-Vinos y cervezas	Trumpeter Cabernet Sauvignon	64500	3	21500
 Carnes y pescados	Risotto de Vegetales	63000	3	21000
 Empanadas	Empanada de Verdura	61200	18	3400
 Pastas	Gnocchi	59100	3	13600
 Carnes y pescados	Lomo a la Pimienta Negra	57000	2	28500
+Carnes y pescados	Ojo de Bife	57000	2	28500
 Carnes y pescados	Lomo al Champignon	57000	2	28500
-Desayuno y merienda	Percanta (para compartir)	56000	2	28000
 Pizzas artesanales	Pizza Jamón y morrones	55200	2	27600
 Vinos y cervezas	Nicasia Malbec	54000	2	27000
 Hamburguesas	Patagonia Burger	52200	3	17400
 Carnes y pescados	Pollo al Curry	51600	2	25800
-Ensaladas	Carpaccio de Lomo	51600	3	17200
 Ensaladas	Americana con Pollo	51300	3	17100
 Hamburguesas	Veggie-Burger	50400	3	16800
 Sándwiches	Panini de Lomo	50400	3	16800
-Vinos y cervezas	Uxmal Extra Brut - Bodega Uxmal	50000	2	25000
 Empanadas	Empanada de Atún	48000	12	4000
 Empanadas	Empanada de Choclo	44200	13	3400
 Entradas	Tortilla de papa	43500	3	14500
 Pastas	Sorrentino (Jamón y Mozzarella)	41900	2	14800
-Carnes y pescados	Wok de Vegetales	41200	2	20600
+Calzones	Calzón Italiano (grande)	40500	1	40500
 Pizzas artesanales	Pizza Rúcula y Brie	39400	1	34600
 Pizzas artesanales	Pizza Fugazzeta rellena	38900	1	34100
 Pizzas artesanales	Rúcula Crudo y Parmesano	38900	1	34100
-Pizzas artesanales	Pizza Palmitos	38600	1	33900
 Pizzas artesanales	Pizza Provolone	37600	1	32900
 Desayuno y merienda	Deportivo	37200	3	12400
 Pizzas artesanales	Pizza Sorrentina	35800	1	27500
 Pizzas artesanales	Pizza Fugazza con mozzarella	35400	1	27200
 Pizzas artesanales	Rúcula y Brie	34600	1	34600
 Hamburguesas	Mex-Burger	34400	2	17200
+Ensaladas	Carpaccio de Lomo	34400	2	17200
 Pizzas artesanales	Pizza Atún	34100	1	34100
-Pizzas artesanales	Champignon	33900	1	33900
 Hamburguesas	Classic-Burger	33600	2	16800
 Pizzas artesanales	Espárragos a la Parmesana	33100	1	33100
-Pizzas artesanales	Ananá	33000	1	33000
 Pizzas artesanales	Pizza Mexicana	32800	1	32800
 Desayuno y merienda	Yogurt con cereales Frutos Rojos	30600	6	5100
 Entradas	Pinchos de pollo grillados (Salsa Tártara)	29600	2	14800
@@ -73,12 +64,11 @@ Empanadas	Empanada de Pollo	28000	8	3500
 Carnes y pescados	Medallón de Lomo	28000	1	28000
 Vinos y cervezas	Saint Felicien Cabernet-Merlot 2005	28000	1	28000
 Panadería y dulces	Tostada Pan Integral, Palta y huevo poché	27900	3	9300
-Entradas	Papas Bravas o Tranquilas (Cheddar fundido)	27800	2	13900
 Entradas	Mozzarella Marinara	27800	2	13900
 Carnes y pescados	Risotto al Frutti di Mare	27800	1	27800
-Carnes y pescados	Trucha Ahumada	27000	1	27000
 Carnes y pescados	American Ribbs	26800	1	26800
 Bebidas	Sprite Zero	25200	6	4200
+Vinos y cervezas	Uxmal Extra Brut - Bodega Uxmal	25000	1	25000
 Vinos y cervezas	Alamos Chardonnay	24000	1	24000
 Carnes y pescados	Risotto Pollo	23000	1	23000
 Desayuno y merienda	Detox (Licuado)	22800	3	7600
@@ -88,33 +78,30 @@ Sándwiches	Panini Caprese	22000	2	11000
 Desayuno y merienda	Energético	22000	2	11000
 Cafetería	Capuchino doble Proteico	21900	3	7300
 Bebidas	Jugo Natural Grande Naranja	21900	3	7300
-Pastas	Cappelletti	21600	1	15400
 Pastas	Spaghetti integral (de espinaca)	21600	1	13400
 Vinos y cervezas	San Felipe Extra Brut (750cc)	21500	1	21500
-Pastas	Penne Rigatti	21400	1	13600
+Vinos y cervezas	Trumpeter Cabernet Sauvignon	21500	1	21500
 Entradas	Papas Fritas (Provenzal o regular)	21200	2	10600
 Ensaladas	Madero con Langostinos	21000	1	21000
 Hamburguesas	Doble Burger	20800	1	20800
 Pastas	Ravioles de Verdura	20600	1	14400
+Carnes y pescados	Wok de Vegetales	20600	1	20600
 Empanadas	Empanada Caprese	20400	6	3400
-Sándwiches	Sándwich de Pan de Molde de Jamón Cocido	19600	2	9800
-Vinos y cervezas	Chandon Extra Brut	19600	2	9800
 Tortas	Clásico Balcarce	19400	2	9700
 Bebidas	Limonada con Menta y Jengibre	19200	3	6400
 Entradas	Romana Rabas (con salsa Provenzal)	18500	1	18500
 Panadería y dulces	Huevos revueltos, panceta / pan de campo	17800	2	8900
-Hamburguesas	Blue-Burger	17200	1	17200
 Empanadas	Empanada de Queso y Cebolla	17000	5	3400
 Panadería y dulces	Cuadradito: Crumble Manzana	16800	3	5600
 Bebidas	Jugo Natural Chico Naranja / Limón	16200	3	5400
 Cafetería	Café con Leche en Tazón	15900	3	5300
 Ensaladas	Zen Antioxidante	15800	1	15800
-Entradas	Mozzarella Flor di Latte	15400	1	15400
 Ensaladas	Pampeana	15400	1	15400
 Entradas	Nachos Mex	14600	1	14600
 Sándwiches	Panini de Pollo	14600	1	14600
 Sándwiches	Panini Pollo	14600	1	14600
 Vinos y cervezas	Uxmal Red Blend	14000	1	14000
+Entradas	Papas Bravas o Tranquilas (Cheddar fundido)	13900	1	13900
 Entradas	Bruschetta Tradicional	13800	1	13800
 Cafetería	Calypso	13200	2	6600
 Bebidas	Agua Mineral Sin Gas (Villavicencio)	12600	3	4200
@@ -129,7 +116,6 @@ Panadería y dulces	Alfajores de Maizena (con Dulce de leche)	10800	2	5400
 Entradas	Papa Puré	10500	1	10500
 Bebidas	Agua Saborizada We by Ser	10500	3	3500
 Entradas	Huevos x 2 (fritos o duros)	10400	1	10400
-Hora dulce	Crepe de Dulce de Leche (con o sin)	10200	1	10200
 Hora dulce	Frutillas con Crema	10200	1	10200
 Sándwiches	Sándwiches de Miga Especiales de Jamón y/o Queso (x3)	9500	1	9500
 Tortas	Brownie, Dulce de Leche y Merengue	9000	1	9000
