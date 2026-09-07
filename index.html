@@ -174,30 +174,32 @@
   <p>
     Cuando entra un pedido la app le canta un tiempo al cliente: 50 minutos si es
     delivery, 30 si lo pasa a buscar. El historial de estados guarda cuánto tardó de
-    verdad, así que se puede medir la distancia entre lo prometido y lo cumplido. Cada
-    barra son los minutos que el local se pasa (+) o se adelanta (−) respecto de lo que
-    prometió, sobre los 136 pedidos entregados que tienen la demora medida.
-    <span class="dato">El retiro en el local está entero del lado equivocado</span>:
-    llega tarde en las cinco franjas, y en total el 81% de las veces. El delivery, en
-    cambio, cumple más de lo que falla: llega tarde el 38%. Es al revés de lo que uno
-    esperaría — el pedido que no sale a la calle es el que más incumple, porque los 30
-    minutos que promete son demasiado ajustados para la cocina.
+    verdad. Acá cada punto es uno de los 136 pedidos entregados con la demora medida: la
+    hora en que entró en el eje horizontal, los minutos que tardó en el vertical, y el
+    color según cómo terminó — <span class="dato">verde si llegó dentro de lo prometido,
+    amarillo si se pasó hasta 10 minutos, rojo si se pasó más</span>. La mitad de los
+    pedidos es verde, pero están muy mal repartidos:
+    <span class="dato">en el delivery 61 de 99 llegan a tiempo; en el retiro por
+    mostrador, apenas 7 de 37</span>. Y los rojos no se reparten parejo a lo largo del
+    día: se amontonan de noche, cuando la cocina tiene todo junto. Es al revés de lo que
+    uno esperaría — el pedido que no sale a la calle es el que más incumple, porque los
+    30 minutos que promete son demasiado ajustados.
   </p>
 
   <div class='tableauPlaceholder' id='vizPercantaDemoras' style='position: relative'>
     <noscript>
-      <a href='https://public.tableau.com/views/TPInfovisLaPercanta-Demoras/Hoja1'>
-        <img alt='¿El local cumple la demora que promete?' src='https://public.tableau.com/static/images/TP/TPInfovisLaPercanta-Demoras/Hoja1/1_rss.png' style='border: none' />
+      <a href='https://public.tableau.com/views/TPInfovisLaPercanta-Semaforodedemoras/Hoja1'>
+        <img alt='¿El local cumple la demora que promete?' src='https://public.tableau.com/static/images/TP/TPInfovisLaPercanta-Semaforodedemoras/Hoja1/1_rss.png' style='border: none' />
       </a>
     </noscript>
     <object class='tableauViz' style='display:none;'>
       <param name='host_url' value='https://public.tableau.com/' />
       <param name='embed_code_version' value='3' />
       <param name='site_root' value='' />
-      <param name='name' value='TPInfovisLaPercanta-Demoras/Hoja1' />
+      <param name='name' value='TPInfovisLaPercanta-Semaforodedemoras/Hoja1' />
       <param name='tabs' value='no' />
       <param name='toolbar' value='yes' />
-      <param name='static_image' value='https://public.tableau.com/static/images/TP/TPInfovisLaPercanta-Demoras/Hoja1/1.png' />
+      <param name='static_image' value='https://public.tableau.com/static/images/TP/TPInfovisLaPercanta-Semaforodedemoras/Hoja1/1.png' />
       <param name='animate_transition' value='yes' />
       <param name='display_static_image' value='yes' />
       <param name='display_spinner' value='yes' />
