@@ -20,7 +20,7 @@ aplicación, así que el dataset describe lo que se pide por la app, no todo el 
 | `1-datawrapper-heatmap-dia-hora.csv` | 7 | Pedidos entregados por día de la semana × hora de entrada |
 | `2-rawgraphs-alluvial-franja-rubro-entrega.csv` | 23 | Franja → rubro principal → forma de entrega |
 | `3-flourish-carta.csv` | 71 | Facturación y unidades por producto vendido |
-| `4-tableau-mapa-delivery.csv` | 81 | Un punto por pedido de delivery entregado, a nivel de edificio, con su ticket y rango |
+| `4-tableau-mapa-delivery.csv` | 81 | Un pedido de delivery entregado por fila, a nivel de edificio: ticket, rango, distancia al local y frecuencia del edificio |
 
 ## `pedidos.csv` — columnas
 
@@ -54,10 +54,16 @@ ingreso del pedido a la marca de entregado)
   el resto va a «Otros rubros».
 - **Treemap:** una pizza mitad y mitad reparte su facturación y su unidad en partes
   iguales entre los dos sabores.
-- **Rangos de gasto:** hasta $15.000 · $15.000 a $25.000 · $25.000 a $35.000 ·
-  $35.000 a $45.000 · más de $45.000. El CSV trae el rango de cada pedido
-  (`rango_ticket`); el tablero de Tableau los aplica al ticket promedio de cada edificio,
-  con el tamaño del círculo según la plata total. Ningún pedido cae justo en un límite.
+- **Rangos de gasto (3):** hasta $30.000 · $30.000 a $45.000 · más de $45.000. En el mapa
+  de Tableau se aplican al ticket promedio de cada edificio (10 / 13 / 13 edificios); en
+  las barras de distancia, a cada pedido (`rango_ticket`: 30 / 25 / 26 pedidos). Ningún
+  pedido ni promedio cae justo en un límite.
+- **Distancia:** `distancia_m` es la distancia en línea recta (haversine, radio
+  6.371.000 m) desde el local hasta el edificio; `banda_distancia` la agrupa en menos de
+  200 m, de 200 a 400 m y más de 400 m (21 / 33 / 27 pedidos).
+- **Frecuencia del edificio:** `frecuencia_edificio` agrupa según `pedidos_edificio`
+  (pedidos de delivery del edificio en todo el período): una sola vez, de 2 a 4, o 5 o
+  más (18 / 15 / 3 edificios).
 - **Mapa:** calle y altura geocodificadas con el normalizador de la Ciudad (USIG). Juana
   Manso 1965 no existe en el callejero oficial y se ubicó en la última altura válida de
   la calle (1900). `Latitude`/`Longitude` son las del edificio; `lat_punto`/`lng_punto`

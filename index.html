@@ -171,14 +171,16 @@
   <p class="tool">Tableau Public</p>
   <p>
     Casi 7 de cada 10 pedidos salen por delivery, y la aplicación guarda la dirección de
-    cada uno. La ubiqué edificio por edificio y armé un tablero con dos mapas del mismo
-    barrio, porque la pregunta tiene dos partes que no dan lo mismo. El de la izquierda
-    cuenta <strong>pedidos</strong>: es un mapa de calor donde cada entrega suma calor en
-    su edificio, así que cuanto más rojo, más pedidos salieron a ese punto. El de la
-    derecha cuenta <strong>plata</strong>: cada edificio es un círculo cuyo tamaño es lo
-    que gastó en total, pintado según su ticket promedio en cinco rangos, del celeste
-    (hasta $15.000) al azul marino (más de $45.000). En los dos, el cuadrado negro es el
-    local, en Aimé Painé 1607, y el filtro de la derecha separa el almuerzo de la cena (a
+    cada uno. La ubiqué edificio por edificio y armé un tablero de cuatro gráficos que
+    responden la pregunta en dos pasos. Arriba, dos mapas del mismo barrio. El de la
+    izquierda cuenta <strong>pedidos</strong>: es un mapa de calor donde cada entrega suma
+    calor en su edificio, así que cuanto más rojo, más pedidos salieron a ese punto. El de
+    la derecha cuenta <strong>plata</strong>: cada edificio es un círculo cuyo tamaño es lo
+    que gastó en total, pintado según su ticket promedio en tres tramos de verde (hasta
+    $30.000, de $30.000 a $45.000 y más de $45.000). En los dos, el cuadrado negro es el
+    local, en Aimé Painé 1607. Abajo, dos barras que explican lo que los mapas dejan
+    adivinar: cómo cambia el ticket con la distancia y de qué edificios viene la plata. El
+    filtro de la derecha separa el almuerzo de la cena en los cuatro gráficos a la vez (a
     la tarde no hubo ningún delivery).
   </p>
   <p>
@@ -186,17 +188,20 @@
     deliveries viaja menos de 400 metros en línea recta</span>, 77 de los 81 quedan a menos
     de un kilómetro y del otro lado de los diques llegaron apenas 3. El de la plata cambia
     el orden: el edificio que más pide también es el que más gasta ($518.000, el 15% de
-    todo el delivery), pero <span class="dato">el tercero en cantidad de pedidos baja al
-    sexto lugar en plata</span>, porque su ticket promedio es de $25.400, y un edificio
-    que pidió una sola vez gastó $140.100. Los pedidos de más de $45.000 son uno de cada
-    tres, pero hacen el 55% de la plata del delivery, y quien pide de más lejos gasta más:
-    el ticket mediano pasa de $34.300 a menos de 400 metros a $42.600 más allá.
+    todo el delivery), pero el tercero en cantidad de pedidos baja al sexto lugar en
+    plata, porque su ticket promedio es de $25.400. Las barras lo explican.
+    <span class="dato">Cuanto más lejos, más grande el pedido</span>: los de más de $45.000
+    pasan del 24% a menos de 200 metros al 41% a más de 400, y el ticket mediano sube de
+    $31.800 a $42.600. Y la plata no depende solo de los clientes fieles: los 18 edificios
+    que pidieron una sola vez, la mitad del mapa, dejaron el 28% de la plata, casi lo
+    mismo que los 3 edificios que pidieron cinco veces o más (29%). Con el filtro en
+    almuerzo hay solo 15 envíos, así que ahí conviene mirar el mapa y no los porcentajes.
   </p>
 
   <div class='tableauPlaceholder' id='vizPercantaMapa' style='position: relative'>
     <noscript>
       <a href='https://public.tableau.com/views/TPInfovisLaPercanta-Delivery/Tablero'>
-        <img alt='Tablero con dos mapas de Puerto Madero: dónde se concentran los pedidos de delivery y dónde se concentra la plata' src='https://public.tableau.com/static/images/TP/TPInfovisLaPercanta-Delivery/Tablero/1_rss.png' style='border: none' />
+        <img alt='Tablero de cuatro gráficos: mapa de calor de los pedidos de delivery, mapa de la plata por edificio, ticket según la distancia y plata según la frecuencia de cada edificio' src='https://public.tableau.com/static/images/TP/TPInfovisLaPercanta-Delivery/Tablero/1_rss.png' style='border: none' />
       </a>
     </noscript>
     <object class='tableauViz' style='display:none;'>
@@ -223,9 +228,9 @@
       function ajustar() {
         var ancho = div.offsetWidth;
         viz.style.width = '100%';
-        // dos mapas lado a lado: apaisado en pantallas anchas; en el celular Tableau
-        // los apila, así que ahí hace falta mucho más alto
-        viz.style.height = Math.max(480, ancho * (ancho < 600 ? 2.2 : 0.6)) + 'px';
+        // cuatro gráficos en dos filas; en el celular Tableau los apila, así que ahí
+        // hace falta mucho más alto
+        viz.style.height = Math.max(560, ancho * (ancho < 600 ? 3.4 : 0.78)) + 'px';
       }
       ajustar();
       window.addEventListener('resize', ajustar);
@@ -305,9 +310,10 @@
     <strong>Sobre los mapas.</strong> Las direcciones se ubicaron con el normalizador
     de direcciones del Gobierno de la Ciudad (USIG), enviando solo la calle y la altura.
     Una altura que el callejero oficial no tiene (Juana Manso 1965) se ubicó en la última
-    altura válida de esa calle. Los rangos de gasto se aplican al ticket promedio de cada
-    edificio, y se recalculan con el filtro de franja. Las distancias son en línea recta
-    desde el local.
+    altura válida de esa calle. En el mapa, los tres tramos de gasto se aplican al ticket
+    promedio de cada edificio; en las barras de distancia, a cada pedido. Los dos se
+    recalculan con el filtro de franja. Las distancias son en línea recta desde el local, y
+    la frecuencia de cada edificio cuenta sus pedidos en todo el período.
   </p>
 
   <p>
