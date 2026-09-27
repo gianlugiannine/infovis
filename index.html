@@ -62,34 +62,29 @@
 </head>
 
 <body>
-  <h1>airbnb argentina</h1>
-<div class='tableauPlaceholder' id='viz1788797319624' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ai&#47;AirbbGianninelizarraga2&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='AirbbGianninelizarraga2&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ai&#47;AirbbGianninelizarraga2&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-GB' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1788797319624');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='900px';vizElement.style.height='1227px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='900px';vizElement.style.height='1227px';} else { vizElement.style.width='100%';vizElement.style.height='1327px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 
   <h1>Trabajo Práctico Infovis - Gianluca Giannine Lizarraga</h1>
 
   <p>
-    Este proyecto analiza cinco semanas de pedidos de La Percanta, un restaurante de
-    Puerto Madero cuya aplicación de pedidos es un proyecto propio. A partir de los datos
-    de esa base exploro a qué hora come el barrio, qué pide en cada momento del día,
-    cuánta carta sobra y si el local cumple los tiempos que promete.
+    Este proyecto analiza los pedidos de La Percanta, un restaurante de Puerto Madero cuya
+    aplicación de pedidos es un proyecto propio. A partir de los datos de esa base exploro a
+    qué hora pide el barrio, qué pide en cada momento del día, cuánta carta sobra y desde
+    dónde llegan los pedidos de delivery.
   </p>
 
   <div class="aviso">
     <p>
-      <strong>Qué estás mirando.</strong> La base tiene 158 pedidos entre el 1 de agosto y
-      el 5 de septiembre de 2026. <strong>Los cuatro gráficos usan los 143 que se
-      entregaron</strong>, dejando afuera los 15 cancelados: un pedido cancelado no es
-      trabajo hecho ni plata cobrada. Todas las cifras de esta página están calculadas
-      sobre esos 143.
+      <strong>Qué estás mirando.</strong> Todos los pedidos que entraron por la aplicación
+      web entre el 4 de agosto y el 26 de septiembre de 2026: 124 en total.
+      <strong>Los cuatro gráficos usan los 119 que se entregaron</strong>, dejando afuera los
+      5 cancelados: un pedido cancelado no es trabajo hecho ni plata cobrada.
     </p>
     <p>
-      <strong>De dónde salen.</strong> La carta es real —357 productos con sus precios y
-      códigos—, y 58 pedidos se leyeron de la base de producción. Los otros 100 fueron
-      <strong>generados</strong> sobre esa misma carta, porque la aplicación se puso en
-      marcha hace poco y su volumen real todavía no alcanza para leer patrones. La columna
-      <code>lote</code> de los CSV distingue unos de otros (<code>R</code> real,
-      <code>S</code> generado) y el detalle del método está
-      <a href="#metodo">al final de la página</a>.
+      <strong>De dónde salen.</strong> Son todos reales. Se leyeron de la base de producción
+      de la aplicación con consultas de solo lectura, sin ningún pedido inventado. En el
+      prototipo la muestra estaba completada con pedidos generados porque la aplicación
+      recién arrancaba; con casi dos meses de uso real, la versión final trabaja solo con lo
+      que pasó. El detalle del método está <a href="#metodo">al final de la página</a>.
     </p>
   </div>
 
@@ -97,19 +92,20 @@
   <h2>¿Cuándo se llena la cocina?</h2>
   <p class="tool">Datawrapper</p>
   <p>
-    Un restaurante no trabaja parejo. Cruzando los siete días de la semana con las cinco
-    franjas del servicio aparece el pico: <span class="dato">el sábado a la cena, con 14
-    pedidos</span>. La columna de la derecha responde la pregunta operativa de fondo,
-    que es qué días sale más trabajo del local: <span class="dato">el sábado saca 36
-    pedidos y el lunes apenas 8</span>, cuatro veces y media menos. Ojo con la franja
-    «Madrugada»: no es el barrio pidiendo de noche, son pedidos que cargué yo probando la
-    aplicación entre la 1 y las 4 de la mañana, con el local cerrado. Son 41 de los 58
-    pedidos reales, así que esa columna habla del desarrollo de la app y no del negocio.
+    Un restaurante no trabaja parejo. Cruzando los siete días de la semana con la hora en
+    que entró cada pedido aparecen dos turnos bien separados: el mediodía, entre las 12 y
+    las 14, y la noche, que arranca cuando la web empieza a tomar los pedidos del delivery
+    de las 20. Entre las 15 y las 17 no entró ni un pedido. El pico es muy marcado:
+    <span class="dato">a las 20 horas entraron 50 de los 119 pedidos</span>, y los dos
+    casilleros más oscuros son el sábado y el domingo a esa hora, con 12 cada uno. La
+    columna de la derecha responde la pregunta operativa de fondo, que es qué días sale más
+    trabajo: <span class="dato">el sábado saca 26 pedidos y el lunes 9</span>, casi tres
+    veces menos.
   </p>
 
   <iframe
     title="¿Cuándo se llena la cocina de La Percanta?"
-    src="https://datawrapper.dwcdn.net/SCAyA/2/"
+    src="https://datawrapper.dwcdn.net/SCAyA/3/"
     scrolling="no"
     frameborder="0"
     style="width: 0; min-width: 100% !important; border: none;"
@@ -135,21 +131,19 @@
   <p>
     Cada línea es un pedido. Entra por la franja en que se hizo, pasa por el rubro que
     más facturó dentro de ese pedido y sale por la forma en que se entregó; cuanto más
-    gruesa la cinta, más pedidos hicieron ese mismo recorrido.
-    <span class="dato">El desayuno es café y panadería: 14 de sus 15 pedidos</span> tienen
-    su plato principal en Cafetería, Panadería y dulces o Desayuno y merienda, y la única
-    cinta que se escapa es un Panini de Lomo. Las pizzas van al revés y son todavía más
-    marcadas: <span class="dato">18 de los 19 pedidos de pizza son de la cena o de la
-    madrugada</span>. En el medio, entre el almuerzo y la merienda, no manda nadie con
-    claridad: Carnes y pescados lidera el almuerzo con 9 de 24, y en la merienda empata
-    4 a 4 con Tortas. A la derecha, el delivery se lleva
-    <span class="dato">102 de los 143 pedidos</span>, pero no parejo: en el desayuno casi
-    la mitad se retira por el local y en la cena solo uno de cada cinco.
+    gruesa la cinta, más pedidos hicieron ese mismo recorrido. Lo primero que se ve es el
+    tamaño de la noche: <span class="dato">la cena se lleva 90 de los 119 pedidos</span>, y
+    ahí mandan tres rubros casi empatados, empanadas (27), pizzas (24) y carnes y pescados
+    (24). Al mediodía lidera carnes y pescados, con 9 de 22. La tarde es chica y muy
+    particular: <span class="dato">sus 7 pedidos son para retirar en el local, y 6 son de
+    empanadas</span>. A la derecha, el delivery se lleva 81 de los 119 pedidos. Las
+    empanadas son el rubro que más se retira por mostrador (15 de 37), y las pastas no se
+    retiraron nunca: sus 8 pedidos salieron todos por delivery.
   </p>
 
   <div class="viz-scroll">
     <img class="viz" src="img/rawgraphs-alluvial.svg"
-         alt="Diagrama aluvial: los 143 pedidos entregados fluyen desde la franja horaria hacia el rubro principal y de ahí a la forma de entrega." />
+         alt="Diagrama aluvial: los 119 pedidos entregados fluyen desde la franja horaria hacia el rubro principal y de ahí a la forma de entrega." />
   </div>
 
   <!-- ============ 3 · FLOURISH ============ -->
@@ -157,12 +151,14 @@
   <p class="tool">Flourish</p>
   <p>
     Cada rectángulo es un plato, agrupado por rubro y dimensionado por lo que facturó; se
-    puede tocar un rubro para entrar. Solo aparecen los 147 productos que se vendieron al
-    menos una vez en los 143 pedidos entregados, así que
-    <span class="dato">los 210 que nunca se vendieron son literalmente el espacio en
-    blanco del gráfico</span>. La concentración es brutal: 25 productos —el 7% de la
-    carta— hacen la mitad de la facturación, y un solo plato, el Pollo Grille, facturó
-    $296.000, más que todo el rubro Entradas junto, que tiene 25 platos.
+    puede tocar un rubro para entrar. Solo aparecen los 71 productos que se vendieron al
+    menos una vez en los 119 pedidos entregados, así que
+    <span class="dato">los 286 que nunca se vendieron son literalmente el espacio en
+    blanco del gráfico</span>. Hay rubros enteros que la aplicación no vendió ni una vez:
+    cafetería, panadería y dulces, desayuno y merienda, tablas, y vinos y cervezas. La
+    concentración es brutal: <span class="dato">8 productos, el 2% de la carta, hacen la
+    mitad de la facturación</span>, y una sola empanada, la de carne suave, facturó
+    $710.600: el 14% de todo lo que vendió la aplicación.
   </p>
 
   <div class="flourish-embed flourish-hierarchy" data-src="visualisation/30103369">
@@ -171,37 +167,37 @@
   </div>
 
   <!-- ============ 4 · TABLEAU ============ -->
-  <h2>¿El local cumple la demora que promete?</h2>
+  <h2>¿Desde dónde piden el delivery?</h2>
   <p class="tool">Tableau Public</p>
   <p>
-    Cuando entra un pedido la app le canta un tiempo al cliente: 50 minutos si es
-    delivery, 30 si lo pasa a buscar. El historial de estados guarda cuánto tardó de
-    verdad. Acá cada punto es uno de los 136 pedidos entregados con la demora medida: la
-    hora en que entró en el eje horizontal, los minutos que tardó en el vertical, y el
-    color según cómo terminó — <span class="dato">verde si llegó dentro de lo prometido,
-    amarillo si se pasó hasta 10 minutos, rojo si se pasó más</span>. La mitad de los
-    pedidos es verde, pero están muy mal repartidos:
-    <span class="dato">en el delivery 61 de 99 llegan a tiempo; en el retiro por
-    mostrador, apenas 7 de 37</span>. Y los rojos no se reparten parejo a lo largo del
-    día: se amontonan de noche, cuando la cocina tiene todo junto. Es al revés de lo que
-    uno esperaría — el pedido que no sale a la calle es el que más incumple, porque los
-    30 minutos que promete son demasiado ajustados.
+    Casi 7 de cada 10 pedidos salen por delivery, y la aplicación guarda la dirección de
+    cada uno. La ubiqué edificio por edificio y la dibujé como un mapa de calor: cada
+    pedido suma calor en el edificio al que se entregó, así que cuanto más rojo, más
+    pedidos salieron a ese punto. El punto negro es el local, en Aimé Painé 1607. Lo que
+    aparece es un barrio chico: <span class="dato">la mitad de los deliveries viaja menos
+    de 400 metros en línea recta</span>, y 77 de los 81 quedan a menos de un kilómetro.
+    Casi todo el calor está del lado este de los diques, en las torres de Juana Manso,
+    Olga Cossettini y Julieta Lanteri; del otro lado del agua llegaron apenas 3 pedidos. Y
+    está concentrado: <span class="dato">el edificio que más pide recibió 12 pedidos y los
+    tres primeros suman 26 de los 81</span>, mientras que 18 edificios pidieron una sola
+    vez. El filtro de la derecha separa el almuerzo de la cena (a la tarde no hubo
+    ningún delivery).
   </p>
 
-  <div class='tableauPlaceholder' id='vizPercantaDemoras' style='position: relative'>
+  <div class='tableauPlaceholder' id='vizPercantaMapa' style='position: relative'>
     <noscript>
-      <a href='https://public.tableau.com/views/TPInfovisLaPercanta-Semaforodedemoras/Hoja1'>
-        <img alt='¿El local cumple la demora que promete?' src='https://public.tableau.com/static/images/TP/TPInfovisLaPercanta-Semaforodedemoras/Hoja1/1_rss.png' style='border: none' />
+      <a href='https://public.tableau.com/views/TPInfovisLaPercanta-Mapadecalordeldelivery/Mapa'>
+        <img alt='¿Desde dónde piden el delivery de La Percanta?' src='https://public.tableau.com/static/images/TP/TPInfovisLaPercanta-Mapadecalordeldelivery/Mapa/1_rss.png' style='border: none' />
       </a>
     </noscript>
     <object class='tableauViz' style='display:none;'>
       <param name='host_url' value='https://public.tableau.com/' />
       <param name='embed_code_version' value='3' />
       <param name='site_root' value='' />
-      <param name='name' value='TPInfovisLaPercanta-Semaforodedemoras/Hoja1' />
+      <param name='name' value='TPInfovisLaPercanta-Mapadecalordeldelivery/Mapa' />
       <param name='tabs' value='no' />
       <param name='toolbar' value='yes' />
-      <param name='static_image' value='https://public.tableau.com/static/images/TP/TPInfovisLaPercanta-Semaforodedemoras/Hoja1/1.png' />
+      <param name='static_image' value='https://public.tableau.com/static/images/TP/TPInfovisLaPercanta-Mapadecalordeldelivery/Mapa/1.png' />
       <param name='animate_transition' value='yes' />
       <param name='display_static_image' value='yes' />
       <param name='display_spinner' value='yes' />
@@ -213,14 +209,13 @@
 
   <script>
     (function () {
-      var div = document.getElementById('vizPercantaDemoras');
+      var div = document.getElementById('vizPercantaMapa');
       var viz = div.getElementsByTagName('object')[0];
       function ajustar() {
         var ancho = div.offsetWidth;
         viz.style.width = '100%';
-        // en pantallas angostas el grafico necesita mas alto proporcional,
-        // si no las diez filas quedan aplastadas o directamente sin espacio
-        viz.style.height = Math.max(420, ancho * (ancho < 600 ? 1.1 : 0.62)) + 'px';
+        // un mapa necesita alto: en pantallas angostas casi cuadrado, en anchas apaisado
+        viz.style.height = Math.max(460, ancho * (ancho < 600 ? 1.15 : 0.66)) + 'px';
       }
       ajustar();
       window.addEventListener('resize', ajustar);
@@ -234,76 +229,81 @@
   <h2>Qué aprendí mirando esto</h2>
   <p>
     Las cuatro preguntas terminan contando lo mismo desde ángulos distintos:
-    <span class="dato">La Percanta es un local mucho más chico y más concentrado de lo que
-    su carta declara</span>. Ofrece 357 productos pero factura con 25. Abre todos los días
-    pero hace en un sábado lo que hace en cuatro lunes y medio. Y la promesa que peor
-    cumple no es la difícil —salir a la calle— sino la fácil: los 30 minutos del retiro
-    por mostrador, que falla 8 de cada 10 veces.
+    <span class="dato">lo que se pide por la aplicación es mucho menos variado y mucho más
+    cercano de lo que la carta y la zona de reparto hacen suponer</span>. La carta ofrece
+    357 productos, pero la mitad de la plata la hacen 8. La cocina abre de 8 a medianoche,
+    pero el trabajo se amontona en una sola hora, las 20. Y el delivery llega a todo
+    Puerto Madero, pero la mitad de los pedidos viaja menos de 400 metros.
   </p>
   <p>
-    Si tuviera que recomendar tres cosas a partir de estos gráficos serían: podar la carta
-    empezando por los 210 platos que no se vendieron nunca, mover gente al sábado a la
-    noche en lugar de repartirla pareja, y subir el tiempo prometido del retiro de 30 a 40
-    minutos, que es lo que realmente tarda. Ninguna de las tres se veía en la base; se
-    ven en los gráficos.
+    Si tuviera que recomendar tres cosas a partir de estos gráficos serían: reforzar cocina
+    y reparto entre las 20 y las 21 de los fines de semana, que es cuando se concentra el
+    trabajo; armar lo que muestra la aplicación alrededor de empanadas, pizzas y carnes, que
+    es lo que de verdad se pide, en lugar de 357 platos con el mismo peso; y promocionar
+    la aplicación en las torres de Puerto Madero Este que ya piden, donde un mismo viaje
+    puede llevar más de un pedido. Ninguna de las tres se veía en la base; se ven en los
+    gráficos.
   </p>
 
   <!-- ============ METODOLOGÍA ============ -->
   <h2 id="metodo">De dónde salen los datos</h2>
   <p>
     La aplicación de pedidos de La Percanta está hecha con Next.js y PostgreSQL sobre
-    Supabase. Los datos se extrajeron de esa base con consultas de solo lectura.
+    Supabase. Los datos se extrajeron de la base de producción el 27 de septiembre de 2026,
+    con consultas dentro de transacciones de solo lectura: la base no se modificó.
   </p>
 
   <table>
     <tr><th>Archivo</th><th>Filas</th><th>Qué contiene</th></tr>
     <tr>
       <td><a href="datos/pedidos.csv">datos/pedidos.csv</a></td>
-      <td>158</td>
-      <td>Un pedido por fila: momento, forma de entrega, medio de pago, rubros que tocó, detalle de lo pedido y montos. 143 entregados y 15 cancelados</td>
+      <td>124</td>
+      <td>Un pedido por fila: momento, forma de entrega, rubros que tocó, detalle de lo pedido, montos y demora. 119 entregados y 5 cancelados</td>
     </tr>
     <tr>
       <td><a href="datos/renglones.csv">datos/renglones.csv</a></td>
-      <td>326</td>
+      <td>304</td>
       <td>Un producto pedido por fila, con sus modificadores (guarnición, tamaño, corte)</td>
     </tr>
     <tr>
       <td><a href="datos/carta.csv">datos/carta.csv</a></td>
       <td>357</td>
-      <td>La carta completa del local, con códigos y precios reales</td>
+      <td>La carta completa del local, con códigos y precios</td>
     </tr>
   </table>
 
   <p>
-    <strong>Sobre el universo.</strong> Los cuatro gráficos usan los 143 pedidos
-    entregados. El de Tableau usa 136 de esos 143: los otros siete son pedidos reales cuyo
-    tiempo no se puede medir, porque los estados se avanzaron a mano durante las pruebas
-    de la aplicación y registran demoras de entre 1 y 18 minutos. No miden servicio, así
-    que quedaron sin dato en lugar de ensuciar el promedio.
+    <strong>Sobre el universo.</strong> Los cuatro gráficos usan los 119 pedidos
+    entregados. Todos entraron por la aplicación web: los pedidos por teléfono y los del
+    salón no pasan por ella, así que estos datos hablan de lo que se pide por la aplicación
+    y no de todo el restaurante. Las horas son de Buenos Aires, y las
+    franjas siguen el horario del servicio: almuerzo hasta las 16, tarde de 16 a 19:30 y
+    cena desde las 19:30, que es cuando la web empieza a tomar los pedidos del delivery de
+    la noche.
   </p>
 
   <p>
     <strong>Sobre los rubros.</strong> La carta tiene una categoría «Recomendados» que no
     es un rubro sino una vidriera: son diez platos destacados que ya pertenecen a su rubro
-    real. Cada uno se cuenta en el suyo —la Milanesa de Ternera en Carnes y pescados, la
-    Empanada de Carne Suave en Empanadas— y así quedan 17 rubros reales. El diagrama
-    aluvial le da nombre propio a todo rubro con tres pedidos o más; los cuatro que quedan
-    por debajo van a «Otros rubros».
+    real, y cada uno se cuenta en el suyo. El diagrama aluvial le da nombre propio a todo
+    rubro que fue el principal de tres pedidos o más; los 5 pedidos restantes van a «Otros
+    rubros». En el treemap, las pizzas mitad y mitad reparten su facturación en partes
+    iguales entre los dos sabores, por eso algunas pizzas muestran medias unidades.
   </p>
 
   <p>
-    <strong>Sobre la muestra.</strong> De los 158 pedidos, 58 son reales y 100 fueron
-    generados sobre la carta real. Los generados se calibraron contra los reales —ticket
-    promedio, productos por pedido, proporción de delivery y de cancelados— y usan
-    exactamente los mismos precios y grupos de modificadores. Hay que decir además que de
-    los 58 reales, 41 son las pruebas de madrugada del propio desarrollo: el volumen
-    genuinamente comercial de la app es todavía chico, y por eso la muestra se amplió.
+    <strong>Sobre el mapa.</strong> Las direcciones se ubicaron con el normalizador de
+    direcciones del Gobierno de la Ciudad (USIG), enviando solo la calle y la altura. Una
+    altura que el callejero oficial no tiene (Juana Manso 1965) se ubicó en la última
+    altura válida de esa calle. Las distancias son en línea recta desde el local.
   </p>
 
   <p>
-    <strong>Sobre las personas.</strong> No se exportó ningún dato personal. Los nombres
-    de cliente son seudónimos asignados de forma estable; no hay teléfonos, direcciones
-    ni correos en ninguno de los archivos publicados (Ley 25.326).
+    <strong>Sobre las personas.</strong> No se publicó ningún dato personal. Los clientes
+    aparecen como códigos (C01, C02…) asignados de forma estable; no hay nombres,
+    teléfonos, correos ni departamentos en ninguno de los archivos. El dataset del mapa
+    tiene un punto por pedido a nivel de edificio, sin el número de pedido ni la
+    dirección, así que no se puede cruzar con lo que se pidió (Ley 25.326).
   </p>
 
 </body>
