@@ -171,40 +171,42 @@
   <p class="tool">Tableau Public</p>
   <p>
     Casi 7 de cada 10 pedidos salen por delivery, y la aplicación guarda la dirección de
-    cada uno. La ubiqué edificio por edificio y la dibujé en dos capas. Abajo, un mapa de
-    calor: cada pedido suma calor en el edificio al que se entregó, así que cuanto más
-    rojo, más pedidos salieron a ese punto. Arriba, un círculo por pedido, abierto en ronda
-    alrededor de su edificio y coloreado según el ticket, en cinco rangos que van del
-    celeste (hasta $15.000) al azul oscuro (más de $45.000). El cuadrado negro es el local,
-    en Aimé Painé 1607.
+    cada uno. La ubiqué edificio por edificio y armé un tablero con dos mapas del mismo
+    barrio, porque la pregunta tiene dos partes que no dan lo mismo. El de la izquierda
+    cuenta <strong>pedidos</strong>: es un mapa de calor donde cada entrega suma calor en
+    su edificio, así que cuanto más rojo, más pedidos salieron a ese punto. El de la
+    derecha cuenta <strong>plata</strong>: cada edificio es un círculo cuyo tamaño es lo
+    que gastó en total, pintado según su ticket promedio en cinco rangos, del celeste
+    (hasta $15.000) al azul marino (más de $45.000). En los dos, el cuadrado negro es el
+    local, en Aimé Painé 1607, y el filtro de la derecha separa el almuerzo de la cena (a
+    la tarde no hubo ningún delivery).
   </p>
   <p>
-    Lo que aparece es un barrio chico: <span class="dato">la mitad de los deliveries viaja
-    menos de 400 metros en línea recta</span>, y 77 de los 81 quedan a menos de un
-    kilómetro. Casi todo el calor está del lado este de los diques; del otro lado del agua
-    llegaron apenas 3 pedidos. Y está concentrado: el edificio que más pide recibió 12
-    pedidos y los tres primeros suman 26 de los 81, mientras que 18 edificios pidieron una
-    sola vez. Los colores cuentan otra cosa: <span class="dato">los pedidos de más de
-    $45.000 son uno de cada tres, pero hacen el 55% de la plata del delivery</span>, y
-    quien pide de más lejos gasta más: el ticket mediano pasa de $34.300 a menos de 400
-    metros a $42.600 más allá. El filtro de la derecha separa el almuerzo de la cena (a la
-    tarde no hubo ningún delivery).
+    El mapa de pedidos muestra un barrio chico: <span class="dato">la mitad de los
+    deliveries viaja menos de 400 metros en línea recta</span>, 77 de los 81 quedan a menos
+    de un kilómetro y del otro lado de los diques llegaron apenas 3. El de la plata cambia
+    el orden: el edificio que más pide también es el que más gasta ($518.000, el 15% de
+    todo el delivery), pero <span class="dato">el tercero en cantidad de pedidos baja al
+    sexto lugar en plata</span>, porque su ticket promedio es de $25.400, y un edificio
+    que pidió una sola vez gastó $140.100. Los pedidos de más de $45.000 son uno de cada
+    tres, pero hacen el 55% de la plata del delivery, y quien pide de más lejos gasta más:
+    el ticket mediano pasa de $34.300 a menos de 400 metros a $42.600 más allá.
   </p>
 
   <div class='tableauPlaceholder' id='vizPercantaMapa' style='position: relative'>
     <noscript>
-      <a href='https://public.tableau.com/views/TPInfovisLaPercanta-Mapadecalordeldelivery/Mapa'>
-        <img alt='¿Desde dónde piden el delivery de La Percanta, y cuánto gastan?' src='https://public.tableau.com/static/images/TP/TPInfovisLaPercanta-Mapadecalordeldelivery/Mapa/1_rss.png' style='border: none' />
+      <a href='https://public.tableau.com/views/TPInfovisLaPercanta-Delivery/Tablero'>
+        <img alt='Tablero con dos mapas de Puerto Madero: dónde se concentran los pedidos de delivery y dónde se concentra la plata' src='https://public.tableau.com/static/images/TP/TPInfovisLaPercanta-Delivery/Tablero/1_rss.png' style='border: none' />
       </a>
     </noscript>
     <object class='tableauViz' style='display:none;'>
       <param name='host_url' value='https://public.tableau.com/' />
       <param name='embed_code_version' value='3' />
       <param name='site_root' value='' />
-      <param name='name' value='TPInfovisLaPercanta-Mapadecalordeldelivery/Mapa' />
+      <param name='name' value='TPInfovisLaPercanta-Delivery/Tablero' />
       <param name='tabs' value='no' />
       <param name='toolbar' value='yes' />
-      <param name='static_image' value='https://public.tableau.com/static/images/TP/TPInfovisLaPercanta-Mapadecalordeldelivery/Mapa/1.png' />
+      <param name='static_image' value='https://public.tableau.com/static/images/TP/TPInfovisLaPercanta-Delivery/Tablero/1.png' />
       <param name='animate_transition' value='yes' />
       <param name='display_static_image' value='yes' />
       <param name='display_spinner' value='yes' />
@@ -221,8 +223,9 @@
       function ajustar() {
         var ancho = div.offsetWidth;
         viz.style.width = '100%';
-        // un mapa necesita alto: en pantallas angostas casi cuadrado, en anchas apaisado
-        viz.style.height = Math.max(460, ancho * (ancho < 600 ? 1.15 : 0.66)) + 'px';
+        // dos mapas lado a lado: apaisado en pantallas anchas; en el celular Tableau
+        // los apila, así que ahí hace falta mucho más alto
+        viz.style.height = Math.max(480, ancho * (ancho < 600 ? 2.2 : 0.6)) + 'px';
       }
       ajustar();
       window.addEventListener('resize', ajustar);
@@ -299,10 +302,12 @@
   </p>
 
   <p>
-    <strong>Sobre el mapa.</strong> Las direcciones se ubicaron con el normalizador de
-    direcciones del Gobierno de la Ciudad (USIG), enviando solo la calle y la altura. Una
-    altura que el callejero oficial no tiene (Juana Manso 1965) se ubicó en la última
-    altura válida de esa calle. Las distancias son en línea recta desde el local.
+    <strong>Sobre los mapas.</strong> Las direcciones se ubicaron con el normalizador
+    de direcciones del Gobierno de la Ciudad (USIG), enviando solo la calle y la altura.
+    Una altura que el callejero oficial no tiene (Juana Manso 1965) se ubicó en la última
+    altura válida de esa calle. Los rangos de gasto se aplican al ticket promedio de cada
+    edificio, y se recalculan con el filtro de franja. Las distancias son en línea recta
+    desde el local.
   </p>
 
   <p>

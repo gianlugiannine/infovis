@@ -54,13 +54,15 @@ ingreso del pedido a la marca de entregado)
   el resto va a «Otros rubros».
 - **Treemap:** una pizza mitad y mitad reparte su facturación y su unidad en partes
   iguales entre los dos sabores.
-- **Rangos de ticket del mapa:** hasta $15.000 · $15.000 a $25.000 · $25.000 a $35.000 ·
-  $35.000 a $45.000 · más de $45.000. Ningún pedido cae justo en un límite.
+- **Rangos de gasto:** hasta $15.000 · $15.000 a $25.000 · $25.000 a $35.000 ·
+  $35.000 a $45.000 · más de $45.000. El CSV trae el rango de cada pedido
+  (`rango_ticket`); el tablero de Tableau los aplica al ticket promedio de cada edificio,
+  con el tamaño del círculo según la plata total. Ningún pedido cae justo en un límite.
 - **Mapa:** calle y altura geocodificadas con el normalizador de la Ciudad (USIG). Juana
   Manso 1965 no existe en el callejero oficial y se ubicó en la última altura válida de
-  la calle (1900). `lat_punto`/`lng_punto` abren los pedidos de un mismo edificio en
-  una espiral de pocos metros para que no queden superpuestos; `Latitude`/`Longitude` son
-  las del edificio.
+  la calle (1900). `Latitude`/`Longitude` son las del edificio; `lat_punto`/`lng_punto`
+  abren los pedidos de un mismo edificio en una espiral de pocos metros, por si se quiere
+  dibujar un punto por pedido sin que se superpongan.
 - **Sin limpieza de pedidos:** no hay pruebas ni pedidos inventados en esta base; se
   publica todo tal cual.
 

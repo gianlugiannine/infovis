@@ -13,7 +13,7 @@ Percanta, un restaurante de Puerto Madero cuya aplicación de pedidos es un proy
 | 1 | ¿Cuándo se llena la cocina? | Datawrapper — tabla heatmap día × hora |
 | 2 | ¿Se pide distinto según la hora del día? | RawGraphs — diagrama aluvial |
 | 3 | ¿Cuánta carta trabaja de verdad? | Flourish — treemap jerárquico |
-| 4 | ¿Desde dónde piden el delivery? | Tableau Public — mapa de calor |
+| 4 | ¿Desde dónde piden el delivery, y cuánto gastan? | Tableau Public — tablero con dos mapas |
 
 ## Los datos
 
