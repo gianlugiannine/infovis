@@ -20,7 +20,7 @@ aplicación, así que el dataset describe lo que se pide por la app, no todo el 
 | `1-datawrapper-heatmap-dia-hora.csv` | 7 | Pedidos entregados por día de la semana × hora de entrada |
 | `2-rawgraphs-alluvial-franja-rubro-entrega.csv` | 23 | Franja → rubro principal → forma de entrega |
 | `3-flourish-carta.csv` | 71 | Facturación y unidades por producto vendido |
-| `4-tableau-mapa-delivery.csv` | 81 | Un punto por pedido de delivery entregado, a nivel de edificio |
+| `4-tableau-mapa-delivery.csv` | 81 | Un punto por pedido de delivery entregado, a nivel de edificio, con su ticket y rango |
 
 ## `pedidos.csv` — columnas
 
@@ -54,9 +54,13 @@ ingreso del pedido a la marca de entregado)
   el resto va a «Otros rubros».
 - **Treemap:** una pizza mitad y mitad reparte su facturación y su unidad en partes
   iguales entre los dos sabores.
+- **Rangos de ticket del mapa:** hasta $15.000 · $15.000 a $25.000 · $25.000 a $35.000 ·
+  $35.000 a $45.000 · más de $45.000. Ningún pedido cae justo en un límite.
 - **Mapa:** calle y altura geocodificadas con el normalizador de la Ciudad (USIG). Juana
   Manso 1965 no existe en el callejero oficial y se ubicó en la última altura válida de
-  la calle (1900).
+  la calle (1900). `lat_punto`/`lng_punto` abren los pedidos de un mismo edificio en
+  una espiral de pocos metros para que no queden superpuestos; `Latitude`/`Longitude` son
+  las del edificio.
 - **Sin limpieza de pedidos:** no hay pruebas ni pedidos inventados en esta base; se
   publica todo tal cual.
 
