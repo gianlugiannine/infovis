@@ -1,24 +1,29 @@
 ﻿franja,rubro,entrega,pedidos
-Almuerzo,Carnes y pescados,Delivery,7
-Almuerzo,Empanadas,Delivery,3
-Almuerzo,Otros rubros,Retiro en local,2
-Almuerzo,Carnes y pescados,Retiro en local,2
-Almuerzo,Pizzas artesanales,Delivery,2
-Almuerzo,Pizzas artesanales,Retiro en local,2
-Almuerzo,Entradas,Delivery,1
-Almuerzo,Pastas,Delivery,1
-Almuerzo,Empanadas,Retiro en local,1
+Almuerzo,Carnes y pescados,Delivery,16
+Almuerzo,Empanadas,Delivery,10
+Almuerzo,Carnes y pescados,Retiro en local,8
+Almuerzo,Empanadas,Retiro en local,5
+Almuerzo,Pizzas artesanales,Delivery,4
+Almuerzo,Ensaladas,Retiro en local,3
+Almuerzo,Pastas,Delivery,3
+Almuerzo,Sándwiches,Delivery,3
+Almuerzo,Pizzas artesanales,Retiro en local,3
+Almuerzo,Entradas,Delivery,2
 Almuerzo,Otros rubros,Delivery,1
-Tarde,Empanadas,Retiro en local,6
-Tarde,Carnes y pescados,Retiro en local,1
-Cena,Empanadas,Delivery,19
-Cena,Pizzas artesanales,Delivery,18
-Cena,Carnes y pescados,Delivery,16
-Cena,Carnes y pescados,Retiro en local,8
-Cena,Empanadas,Retiro en local,8
-Cena,Pastas,Delivery,7
-Cena,Pizzas artesanales,Retiro en local,6
-Cena,Entradas,Delivery,5
+Tarde,Empanadas,Retiro en local,15
+Tarde,Carnes y pescados,Retiro en local,2
+Tarde,Pizzas artesanales,Retiro en local,2
+Cena,Pizzas artesanales,Delivery,72
+Cena,Carnes y pescados,Delivery,56
+Cena,Empanadas,Delivery,53
+Cena,Carnes y pescados,Retiro en local,27
+Cena,Empanadas,Retiro en local,23
+Cena,Pizzas artesanales,Retiro en local,14
+Cena,Entradas,Delivery,12
+Cena,Pastas,Delivery,10
+Cena,Entradas,Retiro en local,2
+Cena,Ensaladas,Delivery,2
 Cena,Otros rubros,Delivery,1
-Cena,Entradas,Retiro en local,1
-Cena,Otros rubros,Retiro en local,1
+Cena,Sándwiches,Retiro en local,1
+Cena,Pastas,Retiro en local,1
+Cena,Ensaladas,Retiro en local,1

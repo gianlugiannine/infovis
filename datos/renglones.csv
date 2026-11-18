@@ -303,3 +303,514 @@ LP-260926-005,Entregado,2026-09-26,22,Cena,Sábado,Delivery,0404,Empanada de Jam
 LP-260926-006,Entregado,2026-09-26,22,Cena,Sábado,Retiro en local,0404,Empanada de Jamón y Queso,,Empanadas,3,3400,,0,10200
 LP-260926-006,Entregado,2026-09-26,22,Cena,Sábado,Retiro en local,0408,Empanada de Roquefort,,Empanadas,1,3400,,0,3400
 LP-260926-006,Entregado,2026-09-26,22,Cena,Sábado,Retiro en local,0401,Empanada de Carne Suave,,Empanadas,4,3800,,0,15200
+LP-260927-001,Entregado,2026-09-27,12,Almuerzo,Domingo,Delivery,0403,Empanada de Pollo,,Empanadas,1,3500,,0,3500
+LP-260927-001,Entregado,2026-09-27,12,Almuerzo,Domingo,Delivery,0409,Empanada de Queso y Cebolla,,Empanadas,1,3400,,0,3400
+LP-260927-001,Entregado,2026-09-27,12,Almuerzo,Domingo,Delivery,0404,Empanada de Jamón y Queso,,Empanadas,1,3400,,0,3400
+LP-260927-001,Entregado,2026-09-27,12,Almuerzo,Domingo,Delivery,0401,Empanada de Carne Suave,,Empanadas,2,3800,,0,7600
+LP-260927-002,Entregado,2026-09-27,19,Tarde,Domingo,Retiro en local,0519,Pizza Jamón y morrones,,Pizzas artesanales,1,27600,Tamaño: 6 porciones,0,27600
+LP-260927-003,Entregado,2026-09-27,20,Cena,Domingo,Delivery,0224,Fainá (porción),,Entradas,2,3300,,0,6600
+LP-260927-003,Entregado,2026-09-27,20,Cena,Domingo,Delivery,0408,Empanada de Roquefort,,Empanadas,1,3400,,0,3400
+LP-260927-003,Entregado,2026-09-27,20,Cena,Domingo,Delivery,0505,MITAD Provolone + MITAD Fugazzeta rellena,Pizza Fugazzeta rellena,Pizzas artesanales,1,33500,Tamaño: 8 porciones,4750,38250
+LP-260927-004,Entregado,2026-09-27,20,Cena,Domingo,Delivery,0519,Pizza Jamón y morrones,,Pizzas artesanales,1,27600,Tamaño: 6 porciones,0,27600
+LP-260927-004,Entregado,2026-09-27,20,Cena,Domingo,Delivery,0406,Empanada Caprese,,Empanadas,1,3400,,0,3400
+LP-260927-004,Entregado,2026-09-27,20,Cena,Domingo,Delivery,0401,Empanada de Carne Suave,,Empanadas,1,3800,,0,3800
+LP-260928-001,Entregado,2026-09-28,21,Cena,Lunes,Retiro en local,0807,Bife de Chorizo,,Carnes y pescados,2,26000,Guarnición: Puré de papa,0,52000
+LP-260928-002,Entregado,2026-09-28,21,Cena,Lunes,Delivery,0705,Ravioles de Verdura,,Pastas,1,14400,Salsa: Pesto de Rúcula,6200,20600
+LP-260928-002,Entregado,2026-09-28,21,Cena,Lunes,Delivery,0804,Milanesa de Ternera,,Carnes y pescados,1,21000,Guarnición: Ensalada básica,0,21000
+LP-260928-002,Entregado,2026-09-28,21,Cena,Lunes,Delivery,0812,Suprema Rellena con Papas a la Española,,Carnes y pescados,1,23000,Guarnición: Papas fritas,0,23000
+LP-260928-002,Entregado,2026-09-28,21,Cena,Lunes,Delivery,0707,Sorrentino (Salmón),,Pastas,1,17100,Salsa: Crema de Puerros,6200,23300
+LP-260928-003,Entregado,2026-09-28,22,Cena,Lunes,Retiro en local,0812,Suprema Rellena con Papas a la Española,,Carnes y pescados,1,23000,Guarnición: Papas fritas,0,23000
+LP-260928-003,Entregado,2026-09-28,22,Cena,Lunes,Retiro en local,0701,Tallarín casero,,Pastas,1,13600,Salsa: Parisien,8200,21800
+LP-260928-004,Entregado,2026-09-28,23,Cena,Lunes,Delivery,0804,Milanesa de Ternera,,Carnes y pescados,1,21000,Guarnición: Puré de papa,0,21000
+LP-260929-001,Entregado,2026-09-29,20,Cena,Martes,Delivery,0811,Pollo Grille,,Carnes y pescados,1,18500,Corte: Pechuga · Guarnición: Puré de papa,0,18500
+LP-260929-002,Entregado,2026-09-29,21,Cena,Martes,Delivery,0406,Empanada Caprese,,Empanadas,3,3400,,0,10200
+LP-260929-002,Entregado,2026-09-29,21,Cena,Martes,Delivery,0403,Empanada de Pollo,,Empanadas,2,3500,,0,7000
+LP-260929-002,Entregado,2026-09-29,21,Cena,Martes,Delivery,0404,Empanada de Jamón y Queso,,Empanadas,7,3400,,0,23800
+LP-260929-002,Entregado,2026-09-29,21,Cena,Martes,Delivery,0401,Empanada de Carne Suave,,Empanadas,9,3800,,0,34200
+LP-260930-001,Entregado,2026-09-30,20,Cena,Miércoles,Retiro en local,0813,Pollo al Verdeo,,Carnes y pescados,1,23000,Corte: Pechuga · Guarnición: Puré de calabaza,0,23000
+LP-260930-001,Entregado,2026-09-30,20,Cena,Miércoles,Retiro en local,1105,Armá tu ensalada,,Ensaladas,1,12500,Ensalada (hasta 4 variedades): Zanahorias · Ensalada (hasta 4 variedades): Remolacha,0,12500
+LP-260930-001,Entregado,2026-09-30,20,Cena,Miércoles,Retiro en local,0815,Salmón Rosado,,Carnes y pescados,1,32400,,0,32400
+LP-260930-002,Entregado,2026-09-30,20,Cena,Miércoles,Delivery,0501,Pizza Mozzarella,,Pizzas artesanales,1,22600,Tamaño: 8 porciones,5400,28000
+LP-260930-002,Entregado,2026-09-30,20,Cena,Miércoles,Delivery,0224,Fainá (porción),,Entradas,2,3300,,0,6600
+LP-260930-003,Entregado,2026-09-30,21,Cena,Miércoles,Delivery,0222,Tortilla de papa,,Entradas,2,14500,,0,29000
+LP-260930-004,Entregado,2026-09-30,21,Cena,Miércoles,Delivery,0506,Pizza Roquefort,,Pizzas artesanales,1,32800,Tamaño: 6 porciones,0,32800
+LP-261001-001,Entregado,2026-10-01,20,Cena,Jueves,Retiro en local,0406,Empanada Caprese,,Empanadas,1,3400,,0,3400
+LP-261001-001,Entregado,2026-10-01,20,Cena,Jueves,Retiro en local,0401,Empanada de Carne Suave,,Empanadas,1,3800,,0,3800
+LP-261001-002,Entregado,2026-10-01,20,Cena,Jueves,Delivery,0401,Empanada de Carne Suave,,Empanadas,1,3800,,0,3800
+LP-261001-002,Entregado,2026-10-01,20,Cena,Jueves,Delivery,0501,Pizza Mozzarella,,Pizzas artesanales,1,22600,Tamaño: 8 porciones,5400,28000
+LP-261001-002,Entregado,2026-10-01,20,Cena,Jueves,Delivery,1311,Cuadradito: Brownie,,Panadería y dulces,1,5800,,0,5800
+LP-261001-003,Entregado,2026-10-01,20,Cena,Jueves,Retiro en local,0504,MITAD Mexicana + MITAD Ananá,Pizza Ananá,Pizzas artesanales,1,32900,Tamaño: 6 porciones,0,32900
+LP-261001-004,Entregado,2026-10-01,22,Cena,Jueves,Delivery,0524,Pizza Fugazzeta rellena,,Pizzas artesanales,1,34100,Tamaño: 8 porciones,4800,38900
+LP-261002-001,Entregado,2026-10-02,20,Cena,Viernes,Delivery,0224,Fainá (porción),,Entradas,1,3300,,0,3300
+LP-261002-001,Entregado,2026-10-02,20,Cena,Viernes,Delivery,0534,Pan de Pizza,,Pizzas artesanales,1,27800,Tamaño: 6 porciones,0,27800
+LP-261002-001,Entregado,2026-10-02,20,Cena,Viernes,Delivery,0519,MITAD Jamón y morrones + MITAD Provolone,Pizza Provolone,Pizzas artesanales,1,30250,Tamaño: 8 porciones,6500,36750
+LP-261002-002,Entregado,2026-10-02,21,Cena,Viernes,Delivery,0403,Empanada de Pollo,,Empanadas,1,3500,,0,3500
+LP-261002-002,Entregado,2026-10-02,21,Cena,Viernes,Delivery,0401,Empanada de Carne Suave,,Empanadas,1,3800,,0,3800
+LP-261002-002,Entregado,2026-10-02,21,Cena,Viernes,Delivery,0501,Pizza Mozzarella,,Pizzas artesanales,1,22600,Tamaño: 8 porciones,5400,28000
+LP-261002-003,Entregado,2026-10-02,21,Cena,Viernes,Delivery,0501,Pizza Mozzarella,,Pizzas artesanales,1,22600,Tamaño: 8 porciones,5400,28000
+LP-261002-003,Entregado,2026-10-02,21,Cena,Viernes,Delivery,0702,Gnocchi,,Pastas,1,13600,Salsa: Crema,6100,19700
+LP-261002-003,Entregado,2026-10-02,21,Cena,Viernes,Delivery,0816,Merluza,,Carnes y pescados,1,22000,,0,22000
+LP-261002-004,Entregado,2026-10-02,21,Cena,Viernes,Delivery,0401,Empanada de Carne Suave,,Empanadas,6,3800,,0,22800
+LP-261002-005,Entregado,2026-10-02,21,Cena,Viernes,Retiro en local,0409,Empanada de Queso y Cebolla,,Empanadas,1,3400,,0,3400
+LP-261002-005,Entregado,2026-10-02,21,Cena,Viernes,Retiro en local,0401,Empanada de Carne Suave,,Empanadas,3,3800,,0,11400
+LP-261002-005,Entregado,2026-10-02,21,Cena,Viernes,Retiro en local,0404,Empanada de Jamón y Queso,,Empanadas,8,3400,,0,27200
+LP-261002-005,Entregado,2026-10-02,21,Cena,Viernes,Retiro en local,0408,Empanada de Roquefort,,Empanadas,1,3400,,0,3400
+LP-261002-006,Entregado,2026-10-02,23,Cena,Viernes,Delivery,0402,Empanada de Carne Picante,,Empanadas,3,3800,,0,11400
+LP-261002-006,Entregado,2026-10-02,23,Cena,Viernes,Delivery,0804,Milanesa de Ternera,,Carnes y pescados,1,21000,Guarnición: Papas fritas,0,21000
+LP-261002-006,Entregado,2026-10-02,23,Cena,Viernes,Delivery,0804,Milanesa de Ternera,,Carnes y pescados,2,21000,"Guarnición: Puré de papa · ¿A la napolitana?: Sí, napolitana",600,43200
+LP-261003-001,Entregado,2026-10-03,12,Almuerzo,Sábado,Delivery,0401,Empanada de Carne Suave,,Empanadas,7,3800,,0,26600
+LP-261003-002,Entregado,2026-10-03,19,Tarde,Sábado,Retiro en local,0501,Pizza Mozzarella,,Pizzas artesanales,1,22600,Tamaño: 6 porciones,0,22600
+LP-261003-002,Entregado,2026-10-03,19,Tarde,Sábado,Retiro en local,0224,Fainá (porción),,Entradas,2,3300,,0,6600
+LP-261003-002,Entregado,2026-10-03,19,Tarde,Sábado,Retiro en local,0401,Empanada de Carne Suave,,Empanadas,2,3800,,0,7600
+LP-261003-003,Entregado,2026-10-03,20,Cena,Sábado,Delivery,0507,MITAD Cuatro quesos + MITAD Jamón y morrones,Pizza Jamón y morrones,Pizzas artesanales,1,30300,Tamaño: 8 porciones,6550,36850
+LP-261003-004,Entregado,2026-10-03,21,Cena,Sábado,Delivery,0501,MITAD Mozzarella + MITAD Jamón y morrones,Pizza Jamón y morrones,Pizzas artesanales,1,25100,Tamaño: 8 porciones,6850,31950
+LP-261004-001,Entregado,2026-10-04,20,Cena,Domingo,Delivery,0822,Risotto Pollo,,Carnes y pescados,2,23000,,0,46000
+LP-261004-002,Entregado,2026-10-04,20,Cena,Domingo,Delivery,0811,Pollo Grille,,Carnes y pescados,1,18500,Corte: Pechuga · Guarnición: Papas fritas,0,18500
+LP-261004-003,Entregado,2026-10-04,20,Cena,Domingo,Delivery,0529,Pizza Palmitos,,Pizzas artesanales,1,33900,Tamaño: 6 porciones,0,33900
+LP-261004-003,Entregado,2026-10-04,20,Cena,Domingo,Delivery,0505,Pizza Provolone,,Pizzas artesanales,1,32900,Tamaño: 8 porciones,4700,37600
+LP-261004-004,Entregado,2026-10-04,20,Cena,Domingo,Delivery,0702,Gnocchi,,Pastas,1,13600,Salsa: Bolognesa,7600,21200
+LP-261004-004,Entregado,2026-10-04,20,Cena,Domingo,Delivery,1520,Tiramisú,,Hora dulce,1,10700,,0,10700
+LP-261004-005,Entregado,2026-10-04,20,Cena,Domingo,Delivery,0401,Empanada de Carne Suave,,Empanadas,3,3800,,0,11400
+LP-261004-005,Entregado,2026-10-04,20,Cena,Domingo,Delivery,0406,Empanada Caprese,,Empanadas,1,3400,,0,3400
+LP-261004-005,Entregado,2026-10-04,20,Cena,Domingo,Delivery,0404,Empanada de Jamón y Queso,,Empanadas,3,3400,,0,10200
+LP-261004-005,Entregado,2026-10-04,20,Cena,Domingo,Delivery,0403,Empanada de Pollo,,Empanadas,2,3500,,0,7000
+LP-261005-001,Entregado,2026-10-05,21,Cena,Lunes,Delivery,1508,Flan casero,,Hora dulce,1,8200,,0,8200
+LP-261005-001,Entregado,2026-10-05,21,Cena,Lunes,Delivery,0519,MITAD Jamón y morrones + MITAD Percanta,Pizza Percanta,Pizzas artesanales,1,31900,Tamaño: 6 porciones,0,31900
+LP-261005-001,Entregado,2026-10-05,21,Cena,Lunes,Delivery,0405,Empanada de Verdura,,Empanadas,1,3400,,0,3400
+LP-261005-001,Entregado,2026-10-05,21,Cena,Lunes,Delivery,0407,Empanada de Choclo,,Empanadas,1,3400,,0,3400
+LP-261005-001,Entregado,2026-10-05,21,Cena,Lunes,Delivery,0225,Fainá Percanta (porción),,Entradas,1,3900,,0,3900
+LP-261005-002,Entregado,2026-10-05,21,Cena,Lunes,Delivery,0812,Suprema Rellena con Papas a la Española,,Carnes y pescados,1,23000,Guarnición: Arroz,0,23000
+LP-261005-003,Entregado,2026-10-05,22,Cena,Lunes,Delivery,0404,Empanada de Jamón y Queso,,Empanadas,1,3400,,0,3400
+LP-261005-003,Entregado,2026-10-05,22,Cena,Lunes,Delivery,0401,Empanada de Carne Suave,,Empanadas,1,3800,,0,3800
+LP-261005-003,Entregado,2026-10-05,22,Cena,Lunes,Delivery,0213,Provoleta Clásica,,Entradas,1,14600,,0,14600
+LP-261006-001,Entregado,2026-10-06,12,Almuerzo,Martes,Delivery,0811,Pollo Grille,,Carnes y pescados,1,18500,Corte: Pechuga · Guarnición: Puré de calabaza,0,18500
+LP-261006-002,Entregado,2026-10-06,20,Cena,Martes,Retiro en local,0804,Milanesa de Ternera,,Carnes y pescados,1,21000,Guarnición: Puré de papa,0,21000
+LP-261006-003,Entregado,2026-10-06,21,Cena,Martes,Delivery,0409,Empanada de Queso y Cebolla,,Empanadas,1,3400,,0,3400
+LP-261006-003,Entregado,2026-10-06,21,Cena,Martes,Delivery,0404,Empanada de Jamón y Queso,,Empanadas,1,3400,,0,3400
+LP-261006-003,Entregado,2026-10-06,21,Cena,Martes,Delivery,0402,Empanada de Carne Picante,,Empanadas,2,3800,,0,7600
+LP-261006-003,Entregado,2026-10-06,21,Cena,Martes,Delivery,0407,Empanada de Choclo,,Empanadas,1,3400,,0,3400
+LP-261006-003,Entregado,2026-10-06,21,Cena,Martes,Delivery,0403,Empanada de Pollo,,Empanadas,2,3500,,0,7000
+LP-261006-003,Entregado,2026-10-06,21,Cena,Martes,Delivery,0401,Empanada de Carne Suave,,Empanadas,10,3800,,0,38000
+LP-261006-004,Entregado,2026-10-06,22,Cena,Martes,Delivery,0407,Empanada de Choclo,,Empanadas,2,3400,,0,6800
+LP-261006-004,Entregado,2026-10-06,22,Cena,Martes,Delivery,0404,Empanada de Jamón y Queso,,Empanadas,3,3400,,0,10200
+LP-261006-004,Entregado,2026-10-06,22,Cena,Martes,Delivery,0401,Empanada de Carne Suave,,Empanadas,3,3800,,0,11400
+LP-261006-005,Entregado,2026-10-06,23,Cena,Martes,Retiro en local,0701,Tallarín casero,,Pastas,1,13600,Salsa: Bolognesa,7600,21200
+LP-261006-005,Entregado,2026-10-06,23,Cena,Martes,Retiro en local,1015,Panini Lomo,,Sándwiches,1,16800,,0,16800
+LP-261007-001,Entregado,2026-10-07,12,Almuerzo,Miércoles,Delivery,1101,Armá tu ensalada (hasta 4 variedades),,Ensaladas,1,12500,Variedades (hasta 4): Tomate · Variedades (hasta 4): Huevo Duro · Variedades (hasta 4): Choclo,0,12500
+LP-261007-001,Entregado,2026-10-07,12,Almuerzo,Miércoles,Delivery,0811,Pollo Grille,,Carnes y pescados,1,18500,Corte: Pechuga · Guarnición: Puré de papa,0,18500
+LP-261007-002,Entregado,2026-10-07,12,Almuerzo,Miércoles,Delivery,0404,Empanada de Jamón y Queso,,Empanadas,4,3400,,0,13600
+LP-261007-002,Entregado,2026-10-07,12,Almuerzo,Miércoles,Delivery,0401,Empanada de Carne Suave,,Empanadas,2,3800,,0,7600
+LP-261007-003,Entregado,2026-10-07,19,Cena,Miércoles,Delivery,1101,Armá tu ensalada (hasta 4 variedades),,Ensaladas,1,12500,Variedades (hasta 4): Espinaca · Variedades (hasta 4): Calabaza · Variedades (hasta 4): Tomate · Variedades (hasta 4): Zanahorias,0,12500
+LP-261007-004,Entregado,2026-10-07,21,Cena,Miércoles,Delivery,1701,Jugo de Naranja,,Bebidas,1,5400,Tamaño: Grande,1900,7300
+LP-261007-004,Entregado,2026-10-07,21,Cena,Miércoles,Delivery,0804,Milanesa de Ternera,,Carnes y pescados,2,21000,Guarnición: Puré de calabaza,0,42000
+LP-261007-005,Entregado,2026-10-07,21,Cena,Miércoles,Delivery,0703,Gnocchi rellenos,,Pastas,1,14200,Salsa: Carbonara,8200,22400
+LP-261007-005,Entregado,2026-10-07,21,Cena,Miércoles,Delivery,0822,Risotto Pollo,,Carnes y pescados,1,23000,,0,23000
+LP-261008-001,Entregado,2026-10-08,21,Cena,Jueves,Retiro en local,0209,Papas Fritas (Provenzal o regular),,Entradas,1,10600,Preparación: Regular,0,10600
+LP-261009-001,Entregado,2026-10-09,13,Almuerzo,Viernes,Delivery,0406,Empanada Caprese,,Empanadas,1,3400,,0,3400
+LP-261009-001,Entregado,2026-10-09,13,Almuerzo,Viernes,Delivery,0404,Empanada de Jamón y Queso,,Empanadas,1,3400,,0,3400
+LP-261009-001,Entregado,2026-10-09,13,Almuerzo,Viernes,Delivery,0408,Empanada de Roquefort,,Empanadas,1,3400,,0,3400
+LP-261009-001,Entregado,2026-10-09,13,Almuerzo,Viernes,Delivery,0407,Empanada de Choclo,,Empanadas,1,3400,,0,3400
+LP-261009-001,Entregado,2026-10-09,13,Almuerzo,Viernes,Delivery,0401,Empanada de Carne Suave,,Empanadas,9,3800,,0,34200
+LP-261009-001,Entregado,2026-10-09,13,Almuerzo,Viernes,Delivery,0902,Mex-Burger,,Hamburguesas,1,17200,Formato: Con pan clásico,0,17200
+LP-261009-001,Entregado,2026-10-09,13,Almuerzo,Viernes,Delivery,0901,Classic-Burger,,Hamburguesas,1,16800,Formato: Con pan clásico,0,16800
+LP-261009-002,Entregado,2026-10-09,20,Cena,Viernes,Retiro en local,0405,Empanada de Verdura,,Empanadas,1,3400,,0,3400
+LP-261009-002,Entregado,2026-10-09,20,Cena,Viernes,Retiro en local,0407,Empanada de Choclo,,Empanadas,3,3400,,0,10200
+LP-261009-002,Entregado,2026-10-09,20,Cena,Viernes,Retiro en local,0408,Empanada de Roquefort,,Empanadas,4,3400,,0,13600
+LP-261009-002,Entregado,2026-10-09,20,Cena,Viernes,Retiro en local,0402,Empanada de Carne Picante,,Empanadas,6,3800,,0,22800
+LP-261009-002,Entregado,2026-10-09,20,Cena,Viernes,Retiro en local,0404,Empanada de Jamón y Queso,,Empanadas,3,3400,,0,10200
+LP-261009-002,Entregado,2026-10-09,20,Cena,Viernes,Retiro en local,0403,Empanada de Pollo,,Empanadas,1,3500,,0,3500
+LP-261009-002,Entregado,2026-10-09,20,Cena,Viernes,Retiro en local,0401,Empanada de Carne Suave,,Empanadas,7,3800,,0,26600
+LP-261009-003,Entregado,2026-10-09,20,Cena,Viernes,Delivery,0811,Pollo Grille,,Carnes y pescados,1,18500,Corte: Pechuga · Guarnición: Papas fritas,0,18500
+LP-261009-003,Entregado,2026-10-09,20,Cena,Viernes,Delivery,0807,Bife de Chorizo,,Carnes y pescados,1,26000,Guarnición: Papas fritas,0,26000
+LP-261009-004,Entregado,2026-10-09,20,Cena,Viernes,Delivery,0813,Pollo al Verdeo,,Carnes y pescados,2,23000,Corte: Patamuslo · Guarnición: Puré de papa,0,46000
+LP-261009-005,Entregado,2026-10-09,21,Cena,Viernes,Delivery,0408,Empanada de Roquefort,,Empanadas,1,3400,,0,3400
+LP-261009-005,Entregado,2026-10-09,21,Cena,Viernes,Delivery,0224,Fainá (porción),,Entradas,3,3300,,0,9900
+LP-261009-005,Entregado,2026-10-09,21,Cena,Viernes,Delivery,0502,Pizza Napolitana,,Pizzas artesanales,1,27200,Tamaño: 8 porciones,8200,35400
+LP-261009-006,Entregado,2026-10-09,21,Cena,Viernes,Delivery,0406,Empanada Caprese,,Empanadas,1,3400,,0,3400
+LP-261009-006,Entregado,2026-10-09,21,Cena,Viernes,Delivery,0409,Empanada de Queso y Cebolla,,Empanadas,1,3400,,0,3400
+LP-261009-006,Entregado,2026-10-09,21,Cena,Viernes,Delivery,0401,Empanada de Carne Suave,,Empanadas,11,3800,,0,41800
+LP-261009-007,Entregado,2026-10-09,22,Cena,Viernes,Delivery,1703,Agua Mineral Sin Gas (Villavicencio),,Bebidas,3,4200,,0,12600
+LP-261009-007,Entregado,2026-10-09,22,Cena,Viernes,Delivery,0812,Suprema Rellena con Papas a la Española,,Carnes y pescados,1,23000,Guarnición: Arroz,0,23000
+LP-261010-001,Entregado,2026-10-10,12,Almuerzo,Sábado,Retiro en local,0401,Empanada de Carne Suave,,Empanadas,4,3800,,0,15200
+LP-261010-001,Entregado,2026-10-10,12,Almuerzo,Sábado,Retiro en local,0404,Empanada de Jamón y Queso,,Empanadas,2,3400,,0,6800
+LP-261010-001,Entregado,2026-10-10,12,Almuerzo,Sábado,Retiro en local,0405,Empanada de Verdura,,Empanadas,2,3400,,0,6800
+LP-261010-002,Entregado,2026-10-10,12,Almuerzo,Sábado,Delivery,0822,Risotto Pollo,,Carnes y pescados,1,23000,,0,23000
+LP-261010-003,Entregado,2026-10-10,21,Cena,Sábado,Delivery,0408,Empanada de Roquefort,,Empanadas,2,3400,,0,6800
+LP-261010-003,Entregado,2026-10-10,21,Cena,Sábado,Delivery,0404,Empanada de Jamón y Queso,,Empanadas,4,3400,,0,13600
+LP-261010-003,Entregado,2026-10-10,21,Cena,Sábado,Delivery,0401,Empanada de Carne Suave,,Empanadas,6,3800,,0,22800
+LP-261010-004,Entregado,2026-10-10,21,Cena,Sábado,Retiro en local,0815,Salmón Rosado,,Carnes y pescados,1,32400,,0,32400
+LP-261010-005,Entregado,2026-10-10,21,Cena,Sábado,Retiro en local,0501,MITAD Mozzarella + MITAD Fugazza con mozzarella,Pizza Fugazza con mozzarella,Pizzas artesanales,1,24900,Tamaño: 8 porciones,6800,31700
+LP-261010-006,Entregado,2026-10-10,22,Cena,Sábado,Delivery,0804,Milanesa de Ternera,,Carnes y pescados,1,21000,Guarnición: Ensalada básica,0,21000
+LP-261010-006,Entregado,2026-10-10,22,Cena,Sábado,Delivery,0823,Risotto de Vegetales,,Carnes y pescados,1,21000,,0,21000
+LP-261010-006,Entregado,2026-10-10,22,Cena,Sábado,Delivery,0817,Trucha Ahumada,,Carnes y pescados,1,27000,,0,27000
+LP-261010-007,Entregado,2026-10-10,22,Cena,Sábado,Delivery,0406,Empanada Caprese,,Empanadas,1,3400,,0,3400
+LP-261010-007,Entregado,2026-10-10,22,Cena,Sábado,Delivery,0409,Empanada de Queso y Cebolla,,Empanadas,1,3400,,0,3400
+LP-261010-007,Entregado,2026-10-10,22,Cena,Sábado,Delivery,0404,Empanada de Jamón y Queso,,Empanadas,2,3400,,0,6800
+LP-261010-007,Entregado,2026-10-10,22,Cena,Sábado,Delivery,0401,Empanada de Carne Suave,,Empanadas,3,3800,,0,11400
+LP-261011-001,Entregado,2026-10-11,20,Cena,Domingo,Delivery,0224,Fainá (porción),,Entradas,4,3300,,0,13200
+LP-261011-001,Entregado,2026-10-11,20,Cena,Domingo,Delivery,0512,Pizza Fugazza Cabrona,,Pizzas artesanales,1,32900,Tamaño: 6 porciones,0,32900
+LP-261011-001,Entregado,2026-10-11,20,Cena,Domingo,Delivery,0519,Pizza Jamón y morrones,,Pizzas artesanales,1,27600,Tamaño: 8 porciones,8300,35900
+LP-261011-001,Entregado,2026-10-11,20,Cena,Domingo,Delivery,0505,Pizza Provolone,,Pizzas artesanales,1,32900,Tamaño: 8 porciones,4700,37600
+LP-261011-002,Entregado,2026-10-11,21,Cena,Domingo,Retiro en local,0404,Empanada de Jamón y Queso,,Empanadas,3,3400,,0,10200
+LP-261011-002,Entregado,2026-10-11,21,Cena,Domingo,Retiro en local,0406,Empanada Caprese,,Empanadas,3,3400,,0,10200
+LP-261011-002,Entregado,2026-10-11,21,Cena,Domingo,Retiro en local,0408,Empanada de Roquefort,,Empanadas,6,3400,,0,20400
+LP-261011-002,Entregado,2026-10-11,21,Cena,Domingo,Retiro en local,0401,Empanada de Carne Suave,,Empanadas,18,3800,,0,68400
+LP-261011-003,Entregado,2026-10-11,21,Cena,Domingo,Delivery,0403,Empanada de Pollo,,Empanadas,2,3500,,0,7000
+LP-261011-003,Entregado,2026-10-11,21,Cena,Domingo,Delivery,0404,Empanada de Jamón y Queso,,Empanadas,5,3400,,0,17000
+LP-261011-004,Entregado,2026-10-11,21,Cena,Domingo,Delivery,0501,Pizza Mozzarella,,Pizzas artesanales,1,22600,Tamaño: 6 porciones,0,22600
+LP-261011-005,Entregado,2026-10-11,21,Cena,Domingo,Retiro en local,0522,Pizza Fugazza con mozzarella,,Pizzas artesanales,1,27200,Tamaño: 6 porciones,0,27200
+LP-261011-005,Entregado,2026-10-11,21,Cena,Domingo,Retiro en local,0502,Pizza Napolitana,,Pizzas artesanales,1,27200,Tamaño: 6 porciones,0,27200
+LP-261011-006,Entregado,2026-10-11,21,Cena,Domingo,Delivery,0401,Empanada de Carne Suave,,Empanadas,7,3800,,0,26600
+LP-261012-001,Entregado,2026-10-12,13,Almuerzo,Lunes,Delivery,0901,Classic-Burger,,Hamburguesas,1,16800,Formato: Con pan clásico,0,16800
+LP-261012-001,Entregado,2026-10-12,13,Almuerzo,Lunes,Delivery,0901,Classic-Burger,,Hamburguesas,1,16800,Formato: Con pan clásico,0,16800
+LP-261012-001,Entregado,2026-10-12,13,Almuerzo,Lunes,Delivery,0901,Classic-Burger,,Hamburguesas,1,16800,Formato: Con pan clásico,0,16800
+LP-261012-002,Entregado,2026-10-12,20,Cena,Lunes,Delivery,0224,Fainá (porción),,Entradas,1,3300,,0,3300
+LP-261012-002,Entregado,2026-10-12,20,Cena,Lunes,Delivery,0501,Pizza Mozzarella,,Pizzas artesanales,1,22600,Tamaño: 8 porciones,5400,28000
+LP-261012-003,Entregado,2026-10-12,20,Cena,Lunes,Retiro en local,0524,Pizza Fugazzeta rellena,,Pizzas artesanales,1,34100,Tamaño: 8 porciones,4800,38900
+LP-261012-003,Entregado,2026-10-12,20,Cena,Lunes,Retiro en local,0409,Empanada de Queso y Cebolla,,Empanadas,1,3400,,0,3400
+LP-261012-003,Entregado,2026-10-12,20,Cena,Lunes,Retiro en local,0405,Empanada de Verdura,,Empanadas,1,3400,,0,3400
+LP-261012-003,Entregado,2026-10-12,20,Cena,Lunes,Retiro en local,0404,Empanada de Jamón y Queso,,Empanadas,3,3400,,0,10200
+LP-261012-003,Entregado,2026-10-12,20,Cena,Lunes,Retiro en local,0401,Empanada de Carne Suave,,Empanadas,3,3800,,0,11400
+LP-261012-004,Entregado,2026-10-12,20,Cena,Lunes,Retiro en local,0404,Empanada de Jamón y Queso,,Empanadas,1,3400,,0,3400
+LP-261012-004,Entregado,2026-10-12,20,Cena,Lunes,Retiro en local,0405,Empanada de Verdura,,Empanadas,1,3400,,0,3400
+LP-261012-004,Entregado,2026-10-12,20,Cena,Lunes,Retiro en local,0401,Empanada de Carne Suave,,Empanadas,2,3800,,0,7600
+LP-261012-005,Entregado,2026-10-12,22,Cena,Lunes,Delivery,0205,Romana Rabas (con salsa Provenzal),,Entradas,1,18500,,0,18500
+LP-261012-006,Entregado,2026-10-12,22,Cena,Lunes,Delivery,0524,MITAD Fugazzeta rellena + MITAD Napolitana,Pizza Napolitana,Pizzas artesanales,1,30650,Tamaño: 8 porciones,6500,37150
+LP-261013-001,Entregado,2026-10-13,12,Almuerzo,Martes,Delivery,1011,Panini de Pollo,,Sándwiches,1,14600,,0,14600
+LP-261013-001,Entregado,2026-10-13,12,Almuerzo,Martes,Delivery,0401,Empanada de Carne Suave,,Empanadas,1,3800,,0,3800
+LP-261013-002,Entregado,2026-10-13,13,Almuerzo,Martes,Retiro en local,0822,Risotto Pollo,,Carnes y pescados,1,23000,,0,23000
+LP-261013-003,Entregado,2026-10-13,13,Almuerzo,Martes,Delivery,0813,Pollo al Verdeo,,Carnes y pescados,1,23000,Corte: Pechuga · Guarnición: Puré de papa,0,23000
+LP-261013-004,Entregado,2026-10-13,19,Cena,Martes,Retiro en local,0405,Empanada de Verdura,,Empanadas,2,3400,,0,6800
+LP-261013-005,Entregado,2026-10-13,21,Cena,Martes,Delivery,0701,Tallarín casero,,Pastas,1,13600,Salsa: Pomodoro,6100,19700
+LP-261013-005,Entregado,2026-10-13,21,Cena,Martes,Delivery,0804,Milanesa de Ternera,,Carnes y pescados,1,21000,Guarnición: Puré de papa,0,21000
+LP-261014-001,Entregado,2026-10-14,13,Almuerzo,Miércoles,Retiro en local,0401,Empanada de Carne Suave,,Empanadas,3,3800,,0,11400
+LP-261014-002,Entregado,2026-10-14,18,Tarde,Miércoles,Retiro en local,0406,Empanada Caprese,,Empanadas,2,3400,,0,6800
+LP-261014-002,Entregado,2026-10-14,18,Tarde,Miércoles,Retiro en local,0405,Empanada de Verdura,,Empanadas,2,3400,,0,6800
+LP-261014-002,Entregado,2026-10-14,18,Tarde,Miércoles,Retiro en local,0403,Empanada de Pollo,,Empanadas,2,3500,,0,7000
+LP-261014-003,Entregado,2026-10-14,22,Cena,Miércoles,Retiro en local,0401,Empanada de Carne Suave,,Empanadas,12,3800,,0,45600
+LP-261015-001,Entregado,2026-10-15,20,Cena,Jueves,Delivery,0711,Penne Rigatti,,Pastas,1,13600,Salsa: Cuatro Quesos,7600,21200
+LP-261015-001,Entregado,2026-10-15,20,Cena,Jueves,Delivery,1114,Caesar con Pollo,,Ensaladas,1,17100,,0,17100
+LP-261015-001,Entregado,2026-10-15,20,Cena,Jueves,Delivery,1116,Palacio con Langostinos,,Ensaladas,1,21000,,0,21000
+LP-261015-002,Entregado,2026-10-15,21,Cena,Jueves,Delivery,0224,Fainá (porción),,Entradas,2,3300,,0,6600
+LP-261015-002,Entregado,2026-10-15,21,Cena,Jueves,Delivery,0501,Pizza Mozzarella,,Pizzas artesanales,1,22600,Tamaño: 8 porciones,5400,28000
+LP-261015-003,Entregado,2026-10-15,22,Cena,Jueves,Delivery,0810,Lomo al Champignon,,Carnes y pescados,1,28500,Guarnición: Puré de papa,0,28500
+LP-261015-003,Entregado,2026-10-15,22,Cena,Jueves,Delivery,0822,Risotto Pollo,,Carnes y pescados,1,23000,,0,23000
+LP-261015-003,Entregado,2026-10-15,22,Cena,Jueves,Delivery,0813,Pollo al Verdeo,,Carnes y pescados,1,23000,Corte: Pechuga · Guarnición: Puré de calabaza,0,23000
+LP-261016-001,Entregado,2026-10-16,20,Cena,Viernes,Delivery,0524,Pizza Fugazzeta rellena,,Pizzas artesanales,1,34100,Tamaño: 8 porciones,4800,38900
+LP-261016-001,Entregado,2026-10-16,20,Cena,Viernes,Delivery,0501,Pizza Mozzarella,,Pizzas artesanales,1,22600,Tamaño: 6 porciones,0,22600
+LP-261016-002,Entregado,2026-10-16,21,Cena,Viernes,Delivery,0401,Empanada de Carne Suave,,Empanadas,1,3800,,0,3800
+LP-261016-002,Entregado,2026-10-16,21,Cena,Viernes,Delivery,0404,Empanada de Jamón y Queso,,Empanadas,2,3400,,0,6800
+LP-261016-002,Entregado,2026-10-16,21,Cena,Viernes,Delivery,0402,Empanada de Carne Picante,,Empanadas,1,3800,,0,3800
+LP-261016-002,Entregado,2026-10-16,21,Cena,Viernes,Delivery,0224,Fainá (porción),,Entradas,3,3300,,0,9900
+LP-261017-001,Entregado,2026-10-17,20,Cena,Sábado,Delivery,0811,Pollo Grille,,Carnes y pescados,1,18500,Corte: Pechuga · Guarnición: Papas fritas,0,18500
+LP-261017-002,Entregado,2026-10-17,20,Cena,Sábado,Delivery,0519,Pizza Jamón y morrones,,Pizzas artesanales,1,27600,Tamaño: 8 porciones,8300,35900
+LP-261017-002,Entregado,2026-10-17,20,Cena,Sábado,Delivery,0502,Pizza Napolitana,,Pizzas artesanales,1,27200,Tamaño: 8 porciones,8200,35400
+LP-261017-003,Entregado,2026-10-17,20,Cena,Sábado,Retiro en local,0815,Salmón Rosado,,Carnes y pescados,1,32400,,0,32400
+LP-261017-004,Entregado,2026-10-17,22,Cena,Sábado,Delivery,1105,Armá tu ensalada,,Ensaladas,1,12500,Ensalada (hasta 4 variedades): Lechugas mixtas · Ensalada (hasta 4 variedades): Huevo Duro · Ensalada (hasta 4 variedades): Zanahorias · Ensalada (hasta 4 variedades): Tomate,0,12500
+LP-261017-004,Entregado,2026-10-17,22,Cena,Sábado,Delivery,0524,Pizza Fugazzeta rellena,,Pizzas artesanales,1,34100,Tamaño: 6 porciones,0,34100
+LP-261018-001,Entregado,2026-10-18,19,Cena,Domingo,Delivery,1709,Coca-Cola Zero,,Bebidas,2,4200,,0,8400
+LP-261018-001,Entregado,2026-10-18,19,Cena,Domingo,Delivery,0404,Empanada de Jamón y Queso,,Empanadas,3,3400,,0,10200
+LP-261018-001,Entregado,2026-10-18,19,Cena,Domingo,Delivery,0401,Empanada de Carne Suave,,Empanadas,3,3800,,0,11400
+LP-261018-002,Entregado,2026-10-18,20,Cena,Domingo,Delivery,0404,Empanada de Jamón y Queso,,Empanadas,3,3400,,0,10200
+LP-261018-002,Entregado,2026-10-18,20,Cena,Domingo,Delivery,0410,Empanada de Atún,,Empanadas,3,4000,,0,12000
+LP-261018-002,Entregado,2026-10-18,20,Cena,Domingo,Delivery,0403,Empanada de Pollo,,Empanadas,3,3500,,0,10500
+LP-261018-002,Entregado,2026-10-18,20,Cena,Domingo,Delivery,0402,Empanada de Carne Picante,,Empanadas,3,3800,,0,11400
+LP-261018-002,Entregado,2026-10-18,20,Cena,Domingo,Delivery,0401,Empanada de Carne Suave,,Empanadas,3,3800,,0,11400
+LP-261018-002,Entregado,2026-10-18,20,Cena,Domingo,Delivery,0521,Pizza Fugazza,,Pizzas artesanales,1,27100,Tamaño: 8 porciones,8200,35300
+LP-261018-002,Entregado,2026-10-18,20,Cena,Domingo,Delivery,0519,Pizza Jamón y morrones,,Pizzas artesanales,1,27600,Tamaño: 8 porciones,8300,35900
+LP-261018-002,Entregado,2026-10-18,20,Cena,Domingo,Delivery,0501,Pizza Mozzarella,,Pizzas artesanales,2,22600,Tamaño: 8 porciones,5400,56000
+LP-261018-003,Entregado,2026-10-18,20,Cena,Domingo,Delivery,0401,Empanada de Carne Suave,,Empanadas,6,3800,,0,22800
+LP-261018-004,Entregado,2026-10-18,21,Cena,Domingo,Delivery,0401,Empanada de Carne Suave,,Empanadas,2,3800,,0,7600
+LP-261018-004,Entregado,2026-10-18,21,Cena,Domingo,Delivery,0502,Pizza Napolitana,,Pizzas artesanales,1,27200,Tamaño: 6 porciones,0,27200
+LP-261018-005,Entregado,2026-10-18,22,Cena,Domingo,Delivery,0401,Empanada de Carne Suave,,Empanadas,2,3800,,0,7600
+LP-261018-005,Entregado,2026-10-18,22,Cena,Domingo,Delivery,0407,Empanada de Choclo,,Empanadas,1,3400,,0,3400
+LP-261018-005,Entregado,2026-10-18,22,Cena,Domingo,Delivery,0403,Empanada de Pollo,,Empanadas,1,3500,,0,3500
+LP-261018-005,Entregado,2026-10-18,22,Cena,Domingo,Delivery,0805,Lomo a la Pimienta Negra,,Carnes y pescados,2,28500,Guarnición: Arroz,0,57000
+LP-261019-001,Entregado,2026-10-19,19,Tarde,Lunes,Retiro en local,0809,Ojo de Bife,,Carnes y pescados,1,28500,Guarnición: Puré de papa,0,28500
+LP-261019-001,Entregado,2026-10-19,19,Tarde,Lunes,Retiro en local,0802,Medallón de Lomo,,Carnes y pescados,1,28000,Guarnición: Puré de calabaza,0,28000
+LP-261019-002,Entregado,2026-10-19,20,Cena,Lunes,Delivery,0407,Empanada de Choclo,,Empanadas,1,3400,,0,3400
+LP-261019-002,Entregado,2026-10-19,20,Cena,Lunes,Delivery,0401,Empanada de Carne Suave,,Empanadas,2,3800,,0,7600
+LP-261019-002,Entregado,2026-10-19,20,Cena,Lunes,Delivery,0408,Empanada de Roquefort,,Empanadas,1,3400,,0,3400
+LP-261019-002,Entregado,2026-10-19,20,Cena,Lunes,Delivery,0404,Empanada de Jamón y Queso,,Empanadas,2,3400,,0,6800
+LP-261019-002,Entregado,2026-10-19,20,Cena,Lunes,Delivery,0402,Empanada de Carne Picante,,Empanadas,2,3800,,0,7600
+LP-261019-003,Entregado,2026-10-19,22,Cena,Lunes,Retiro en local,0811,Pollo Grille,,Carnes y pescados,1,18500,Corte: Pechuga · Guarnición: Puré de calabaza,0,18500
+LP-261020-001,Entregado,2026-10-20,12,Almuerzo,Martes,Retiro en local,0804,Milanesa de Ternera,,Carnes y pescados,1,21000,Guarnición: Puré de papa,0,21000
+LP-261020-002,Entregado,2026-10-20,19,Tarde,Martes,Retiro en local,0405,Empanada de Verdura,,Empanadas,6,3400,,0,20400
+LP-261020-003,Entregado,2026-10-20,20,Cena,Martes,Delivery,0802,Medallón de Lomo,,Carnes y pescados,1,28000,Guarnición: Puré de papa,0,28000
+LP-261020-003,Entregado,2026-10-20,20,Cena,Martes,Delivery,0802,Medallón de Lomo,,Carnes y pescados,1,28000,Guarnición: Puré de calabaza,0,28000
+LP-261020-003,Entregado,2026-10-20,20,Cena,Martes,Delivery,0812,Suprema Rellena con Papas a la Española,,Carnes y pescados,1,23000,Guarnición: Arroz,0,23000
+LP-261020-004,Entregado,2026-10-20,20,Cena,Martes,Delivery,0804,Milanesa de Ternera,,Carnes y pescados,1,21000,"Guarnición: Puré de papa · ¿A la napolitana?: Sí, napolitana",600,21600
+LP-261020-005,Entregado,2026-10-20,20,Cena,Martes,Delivery,0224,Fainá (porción),,Entradas,2,3300,,0,6600
+LP-261020-005,Entregado,2026-10-20,20,Cena,Martes,Delivery,0505,Pizza Provolone,,Pizzas artesanales,1,32900,Tamaño: 6 porciones,0,32900
+LP-261020-005,Entregado,2026-10-20,20,Cena,Martes,Delivery,0804,Milanesa de Ternera,,Carnes y pescados,1,21000,"Guarnición: Puré de papa · ¿A la napolitana?: Sí, napolitana",600,21600
+LP-261020-006,Entregado,2026-10-20,20,Cena,Martes,Delivery,0404,Empanada de Jamón y Queso,,Empanadas,6,3400,,0,20400
+LP-261020-007,Entregado,2026-10-20,21,Cena,Martes,Delivery,0403,Empanada de Pollo,,Empanadas,1,3500,,0,3500
+LP-261020-007,Entregado,2026-10-20,21,Cena,Martes,Delivery,0401,Empanada de Carne Suave,,Empanadas,5,3800,,0,19000
+LP-261020-007,Entregado,2026-10-20,21,Cena,Martes,Delivery,0404,Empanada de Jamón y Queso,,Empanadas,2,3400,,0,6800
+LP-261021-001,Entregado,2026-10-21,13,Almuerzo,Miércoles,Retiro en local,0507,Pizza Cuatro quesos,,Pizzas artesanales,1,33000,Tamaño: 6 porciones,0,33000
+LP-261021-001,Entregado,2026-10-21,13,Almuerzo,Miércoles,Retiro en local,0519,MITAD Jamón y morrones + MITAD Napolitana,Pizza Napolitana,Pizzas artesanales,1,27400,Tamaño: 8 porciones,8250,35650
+LP-261021-002,Entregado,2026-10-21,20,Cena,Miércoles,Delivery,0702,Gnocchi,,Pastas,1,13600,Salsa: Crema,6100,19700
+LP-261021-002,Entregado,2026-10-21,20,Cena,Miércoles,Delivery,0811,Pollo Grille,,Carnes y pescados,1,18500,Corte: Patamuslo · Guarnición: Puré de papa,0,18500
+LP-261021-002,Entregado,2026-10-21,20,Cena,Miércoles,Delivery,0802,Medallón de Lomo,,Carnes y pescados,1,28000,Guarnición: Ensalada básica,0,28000
+LP-261021-003,Entregado,2026-10-21,20,Cena,Miércoles,Retiro en local,0802,Medallón de Lomo,,Carnes y pescados,1,28000,Guarnición: Puré de papa,0,28000
+LP-261021-003,Entregado,2026-10-21,20,Cena,Miércoles,Retiro en local,0811,Pollo Grille,,Carnes y pescados,1,18500,Corte: Pechuga · Guarnición: Puré de calabaza,0,18500
+LP-261021-004,Entregado,2026-10-21,21,Cena,Miércoles,Delivery,0804,Milanesa de Ternera,,Carnes y pescados,1,21000,"Guarnición: Puré de papa · ¿A la napolitana?: Sí, napolitana",600,21600
+LP-261021-004,Entregado,2026-10-21,21,Cena,Miércoles,Delivery,0807,Bife de Chorizo,,Carnes y pescados,1,26000,Guarnición: Papas fritas,0,26000
+LP-261021-005,Entregado,2026-10-21,21,Cena,Miércoles,Retiro en local,0807,Bife de Chorizo,,Carnes y pescados,1,26000,Guarnición: Puré de calabaza,0,26000
+LP-261022-001,Entregado,2026-10-22,14,Almuerzo,Jueves,Delivery,0210,Papa Puré,,Entradas,1,10500,,0,10500
+LP-261022-001,Entregado,2026-10-22,14,Almuerzo,Jueves,Delivery,0811,Pollo Grille,,Carnes y pescados,1,18500,Corte: Patamuslo · Guarnición: Ensalada básica,0,18500
+LP-261022-001,Entregado,2026-10-22,14,Almuerzo,Jueves,Delivery,0702,Gnocchi,,Pastas,1,13600,Salsa: Crema,6100,19700
+LP-261022-002,Entregado,2026-10-22,20,Cena,Jueves,Delivery,1508,Flan casero,,Hora dulce,2,8200,,0,16400
+LP-261022-002,Entregado,2026-10-22,20,Cena,Jueves,Delivery,0405,Empanada de Verdura,,Empanadas,4,3400,,0,13600
+LP-261022-002,Entregado,2026-10-22,20,Cena,Jueves,Delivery,0404,Empanada de Jamón y Queso,,Empanadas,2,3400,,0,6800
+LP-261022-002,Entregado,2026-10-22,20,Cena,Jueves,Delivery,0403,Empanada de Pollo,,Empanadas,4,3500,,0,14000
+LP-261022-002,Entregado,2026-10-22,20,Cena,Jueves,Delivery,0401,Empanada de Carne Suave,,Empanadas,10,3800,,0,38000
+LP-261022-003,Entregado,2026-10-22,22,Cena,Jueves,Delivery,0502,Pizza Napolitana,,Pizzas artesanales,1,27200,Tamaño: 6 porciones,0,27200
+LP-261023-001,Entregado,2026-10-23,12,Almuerzo,Viernes,Delivery,0209,Papas Fritas (Provenzal o regular),,Entradas,1,10600,Preparación: Regular,0,10600
+LP-261023-002,Entregado,2026-10-23,13,Almuerzo,Viernes,Delivery,0811,Pollo Grille,,Carnes y pescados,3,18500,Corte: Pechuga · Guarnición: Papas fritas,0,55500
+LP-261023-003,Entregado,2026-10-23,14,Almuerzo,Viernes,Delivery,0816,Merluza,,Carnes y pescados,1,22000,,0,22000
+LP-261023-004,Entregado,2026-10-23,20,Cena,Viernes,Delivery,0224,Fainá (porción),,Entradas,1,3300,,0,3300
+LP-261023-004,Entregado,2026-10-23,20,Cena,Viernes,Delivery,0505,MITAD Provolone + MITAD Jamón y morrones,Pizza Jamón y morrones,Pizzas artesanales,1,30250,Tamaño: 8 porciones,6500,36750
+LP-261023-005,Entregado,2026-10-23,21,Cena,Viernes,Delivery,0524,Pizza Fugazzeta rellena,,Pizzas artesanales,1,34100,Tamaño: 8 porciones,4800,38900
+LP-261023-005,Entregado,2026-10-23,21,Cena,Viernes,Delivery,0501,Pizza Mozzarella,,Pizzas artesanales,1,22600,Tamaño: 6 porciones,0,22600
+LP-261024-001,Entregado,2026-10-24,20,Cena,Sábado,Delivery,0217,Mozzarella Marinara,,Entradas,1,13900,,0,13900
+LP-261024-001,Entregado,2026-10-24,20,Cena,Sábado,Delivery,0401,Empanada de Carne Suave,,Empanadas,4,3800,,0,15200
+LP-261024-002,Entregado,2026-10-24,21,Cena,Sábado,Delivery,0505,MITAD Provolone + MITAD Fugazza con mozzarella,Pizza Fugazza con mozzarella,Pizzas artesanales,1,30050,Tamaño: 8 porciones,6450,36500
+LP-261024-002,Entregado,2026-10-24,21,Cena,Sábado,Delivery,0401,Empanada de Carne Suave,,Empanadas,1,3800,,0,3800
+LP-261024-002,Entregado,2026-10-24,21,Cena,Sábado,Delivery,0224,Fainá (porción),,Entradas,2,3300,,0,6600
+LP-261024-003,Entregado,2026-10-24,22,Cena,Sábado,Delivery,0522,MITAD Fugazza con mozzarella + MITAD Cuatro quesos,Pizza Cuatro quesos,Pizzas artesanales,1,30100,Tamaño: 8 porciones,6500,36600
+LP-261024-003,Entregado,2026-10-24,22,Cena,Sábado,Delivery,0401,Empanada de Carne Suave,,Empanadas,2,3800,,0,7600
+LP-261025-001,Entregado,2026-10-25,15,Almuerzo,Domingo,Retiro en local,0809,Ojo de Bife,,Carnes y pescados,1,28500,Guarnición: Papas fritas,0,28500
+LP-261025-002,Entregado,2026-10-25,19,Tarde,Domingo,Retiro en local,0403,Empanada de Pollo,,Empanadas,1,3500,,0,3500
+LP-261025-002,Entregado,2026-10-25,19,Tarde,Domingo,Retiro en local,0408,Empanada de Roquefort,,Empanadas,2,3400,,0,6800
+LP-261025-002,Entregado,2026-10-25,19,Tarde,Domingo,Retiro en local,0409,Empanada de Queso y Cebolla,,Empanadas,1,3400,,0,3400
+LP-261025-002,Entregado,2026-10-25,19,Tarde,Domingo,Retiro en local,0401,Empanada de Carne Suave,,Empanadas,8,3800,,0,30400
+LP-261025-003,Entregado,2026-10-25,19,Cena,Domingo,Delivery,0505,MITAD Provolone + MITAD Jamón y morrones,Pizza Jamón y morrones,Pizzas artesanales,1,30250,Tamaño: 8 porciones,6500,36750
+LP-261025-004,Entregado,2026-10-25,19,Cena,Domingo,Delivery,1709,Coca-Cola Zero,,Bebidas,2,4200,,0,8400
+LP-261025-004,Entregado,2026-10-25,19,Cena,Domingo,Delivery,0404,Empanada de Jamón y Queso,,Empanadas,3,3400,,0,10200
+LP-261025-004,Entregado,2026-10-25,19,Cena,Domingo,Delivery,0401,Empanada de Carne Suave,,Empanadas,3,3800,,0,11400
+LP-261025-005,Entregado,2026-10-25,20,Cena,Domingo,Delivery,0404,Empanada de Jamón y Queso,,Empanadas,4,3400,,0,13600
+LP-261025-005,Entregado,2026-10-25,20,Cena,Domingo,Delivery,0401,Empanada de Carne Suave,,Empanadas,2,3800,,0,7600
+LP-261025-005,Entregado,2026-10-25,20,Cena,Domingo,Delivery,0405,Empanada de Verdura,,Empanadas,1,3400,,0,3400
+LP-261025-006,Entregado,2026-10-25,21,Cena,Domingo,Delivery,0225,Fainá Percanta (porción),,Entradas,2,3900,,0,7800
+LP-261025-006,Entregado,2026-10-25,21,Cena,Domingo,Delivery,0501,MITAD Mozzarella + MITAD Jamón y morrones,Pizza Jamón y morrones,Pizzas artesanales,1,25100,Tamaño: 8 porciones,6850,31950
+LP-261025-007,Entregado,2026-10-25,22,Cena,Domingo,Delivery,0804,Milanesa de Ternera,,Carnes y pescados,1,21000,"Guarnición: Papas fritas · ¿A la napolitana?: Sí, napolitana",600,21600
+LP-261025-007,Entregado,2026-10-25,22,Cena,Domingo,Delivery,0703,Gnocchi rellenos,,Pastas,1,14200,Salsa: Cuatro Quesos,7600,21800
+LP-261025-007,Entregado,2026-10-25,22,Cena,Domingo,Delivery,0705,Ravioles de Verdura,,Pastas,1,14400,Salsa: Pomodoro,6100,20500
+LP-261025-007,Entregado,2026-10-25,22,Cena,Domingo,Delivery,0821,Risotto al Frutti di Mare,,Carnes y pescados,1,27800,,0,27800
+LP-261026-001,Entregado,2026-10-26,18,Tarde,Lunes,Retiro en local,1701,Jugo de Naranja,,Bebidas,1,5400,Tamaño: Grande,1900,7300
+LP-261026-001,Entregado,2026-10-26,18,Tarde,Lunes,Retiro en local,0401,Empanada de Carne Suave,,Empanadas,6,3800,,0,22800
+LP-261026-002,Entregado,2026-10-26,21,Cena,Lunes,Delivery,0501,Pizza Mozzarella,,Pizzas artesanales,1,22600,Tamaño: 8 porciones,5400,28000
+LP-261026-003,Entregado,2026-10-26,21,Cena,Lunes,Delivery,0206,Romana Langostinos,,Entradas,1,20500,,0,20500
+LP-261026-003,Entregado,2026-10-26,21,Cena,Lunes,Delivery,0205,Romana Rabas (con salsa Provenzal),,Entradas,1,18500,,0,18500
+LP-261027-001,Entregado,2026-10-27,19,Cena,Martes,Retiro en local,0405,Empanada de Verdura,,Empanadas,6,3400,,0,20400
+LP-261027-002,Entregado,2026-10-27,21,Cena,Martes,Delivery,0222,Tortilla de papa,,Entradas,2,14500,,0,29000
+LP-261028-001,Entregado,2026-10-28,20,Cena,Miércoles,Retiro en local,0807,Bife de Chorizo,,Carnes y pescados,1,26000,Guarnición: Ensalada básica,0,26000
+LP-261028-002,Entregado,2026-10-28,20,Cena,Miércoles,Delivery,0802,Medallón de Lomo,,Carnes y pescados,1,28000,Guarnición: Arroz,0,28000
+LP-261028-002,Entregado,2026-10-28,20,Cena,Miércoles,Delivery,0501,Pizza Mozzarella,,Pizzas artesanales,1,22600,Tamaño: 8 porciones,5400,28000
+LP-261028-002,Entregado,2026-10-28,20,Cena,Miércoles,Delivery,0702,Gnocchi,,Pastas,1,13600,Salsa: Crema,6100,19700
+LP-261028-003,Entregado,2026-10-28,20,Cena,Miércoles,Delivery,0811,Pollo Grille,,Carnes y pescados,1,18500,Corte: Pechuga · Guarnición: Papas fritas,0,18500
+LP-261029-001,Entregado,2026-10-29,19,Cena,Jueves,Delivery,0811,Pollo Grille,,Carnes y pescados,2,18500,Corte: Pechuga · Guarnición: Ensalada básica,0,37000
+LP-261029-001,Entregado,2026-10-29,19,Cena,Jueves,Delivery,0804,Milanesa de Ternera,,Carnes y pescados,1,21000,Guarnición: Puré de papa,0,21000
+LP-261029-002,Entregado,2026-10-29,22,Cena,Jueves,Delivery,0812,Suprema Rellena con Papas a la Española,,Carnes y pescados,1,23000,Guarnición: Puré de papa,0,23000
+LP-261030-001,Entregado,2026-10-30,20,Cena,Viernes,Retiro en local,0222,Tortilla de papa,,Entradas,1,14500,,0,14500
+LP-261030-001,Entregado,2026-10-30,20,Cena,Viernes,Retiro en local,0805,Lomo a la Pimienta Negra,,Carnes y pescados,1,28500,Guarnición: Puré de papa,0,28500
+LP-261030-001,Entregado,2026-10-30,20,Cena,Viernes,Retiro en local,0802,Medallón de Lomo,,Carnes y pescados,1,28000,Guarnición: Ensalada básica,0,28000
+LP-261030-002,Entregado,2026-10-30,20,Cena,Viernes,Delivery,0224,Fainá (porción),,Entradas,1,3300,,0,3300
+LP-261030-002,Entregado,2026-10-30,20,Cena,Viernes,Delivery,0505,MITAD Provolone + MITAD Jamón y morrones,Pizza Jamón y morrones,Pizzas artesanales,1,30250,Tamaño: 8 porciones,6500,36750
+LP-261030-003,Entregado,2026-10-30,20,Cena,Viernes,Delivery,0501,Pizza Mozzarella,,Pizzas artesanales,1,22600,Tamaño: 8 porciones,5400,28000
+LP-261030-003,Entregado,2026-10-30,20,Cena,Viernes,Delivery,0224,Fainá (porción),,Entradas,2,3300,,0,6600
+LP-261030-003,Entregado,2026-10-30,20,Cena,Viernes,Delivery,0401,Empanada de Carne Suave,,Empanadas,1,3800,,0,3800
+LP-261030-004,Entregado,2026-10-30,21,Cena,Viernes,Delivery,0501,Pizza Mozzarella,,Pizzas artesanales,1,22600,Tamaño: 6 porciones,0,22600
+LP-261030-005,Entregado,2026-10-30,22,Cena,Viernes,Delivery,0509,Pizza Calabresa,,Pizzas artesanales,1,32900,Tamaño: 8 porciones,4700,37600
+LP-261030-006,Entregado,2026-10-30,22,Cena,Viernes,Retiro en local,0504,MITAD Mexicana + MITAD Ananá,Pizza Ananá,Pizzas artesanales,1,32900,Tamaño: 8 porciones,4650,37550
+LP-261031-001,Entregado,2026-10-31,12,Almuerzo,Sábado,Retiro en local,0410,Empanada de Atún,,Empanadas,1,4000,,0,4000
+LP-261031-001,Entregado,2026-10-31,12,Almuerzo,Sábado,Retiro en local,0407,Empanada de Choclo,,Empanadas,1,3400,,0,3400
+LP-261031-001,Entregado,2026-10-31,12,Almuerzo,Sábado,Retiro en local,0405,Empanada de Verdura,,Empanadas,1,3400,,0,3400
+LP-261031-001,Entregado,2026-10-31,12,Almuerzo,Sábado,Retiro en local,0401,Empanada de Carne Suave,,Empanadas,4,3800,,0,15200
+LP-261031-001,Entregado,2026-10-31,12,Almuerzo,Sábado,Retiro en local,0209,Papas Fritas (Provenzal o regular),,Entradas,1,10600,Preparación: Regular,0,10600
+LP-261031-001,Entregado,2026-10-31,12,Almuerzo,Sábado,Retiro en local,0224,Fainá (porción),,Entradas,2,3300,,0,6600
+LP-261031-002,Entregado,2026-10-31,14,Almuerzo,Sábado,Delivery,0501,Pizza Mozzarella,,Pizzas artesanales,1,22600,Tamaño: 8 porciones,5400,28000
+LP-261031-003,Entregado,2026-10-31,20,Cena,Sábado,Delivery,0224,Fainá (porción),,Entradas,2,3300,,0,6600
+LP-261031-003,Entregado,2026-10-31,20,Cena,Sábado,Delivery,0501,Pizza Mozzarella,,Pizzas artesanales,1,22600,Tamaño: 8 porciones,5400,28000
+LP-261031-004,Entregado,2026-10-31,20,Cena,Sábado,Delivery,0519,Pizza Jamón y morrones,,Pizzas artesanales,1,27600,Tamaño: 6 porciones,0,27600
+LP-261031-005,Entregado,2026-10-31,20,Cena,Sábado,Delivery,0813,Pollo al Verdeo,,Carnes y pescados,2,23000,Corte: Patamuslo · Guarnición: Puré de calabaza,0,46000
+LP-261031-005,Entregado,2026-10-31,20,Cena,Sábado,Delivery,0602,Calzón Napolitano (pequeño),,Calzones,1,35800,,0,35800
+LP-261031-006,Entregado,2026-10-31,20,Cena,Sábado,Delivery,0702,Gnocchi,,Pastas,1,13600,Salsa: Crema,6100,19700
+LP-261031-007,Entregado,2026-10-31,21,Cena,Sábado,Delivery,0706,Sorrentino (Jamón y Mozzarella),,Pastas,1,14800,Salsa: Bolognesa,7600,22400
+LP-261031-007,Entregado,2026-10-31,21,Cena,Sábado,Delivery,0822,Risotto Pollo,,Carnes y pescados,1,23000,,0,23000
+LP-261031-008,Entregado,2026-10-31,21,Cena,Sábado,Delivery,0505,MITAD Provolone + MITAD Fugazza con mozzarella,Pizza Fugazza con mozzarella,Pizzas artesanales,1,30050,Tamaño: 8 porciones,6450,36500
+LP-261031-008,Entregado,2026-10-31,21,Cena,Sábado,Delivery,0401,Empanada de Carne Suave,,Empanadas,2,3800,,0,7600
+LP-261031-009,Entregado,2026-10-31,21,Cena,Sábado,Delivery,1709,Coca-Cola Zero,,Bebidas,2,4200,,0,8400
+LP-261031-009,Entregado,2026-10-31,21,Cena,Sábado,Delivery,0404,Empanada de Jamón y Queso,,Empanadas,2,3400,,0,6800
+LP-261031-009,Entregado,2026-10-31,21,Cena,Sábado,Delivery,0405,Empanada de Verdura,,Empanadas,2,3400,,0,6800
+LP-261031-009,Entregado,2026-10-31,21,Cena,Sábado,Delivery,0401,Empanada de Carne Suave,,Empanadas,2,3800,,0,7600
+LP-261031-009,Entregado,2026-10-31,21,Cena,Sábado,Delivery,0519,MITAD Jamón y morrones + MITAD Fugazzeta rellena,Pizza Fugazzeta rellena,Pizzas artesanales,1,30850,Tamaño: 8 porciones,6550,37400
+LP-261031-010,Entregado,2026-10-31,21,Cena,Sábado,Retiro en local,0814,Suprema de Pollo,,Carnes y pescados,1,19800,Guarnición: Puré de papa,0,19800
+LP-261031-010,Entregado,2026-10-31,21,Cena,Sábado,Retiro en local,0815,Salmón Rosado,,Carnes y pescados,1,32400,,0,32400
+LP-261031-011,Entregado,2026-10-31,21,Cena,Sábado,Delivery,0401,Empanada de Carne Suave,,Empanadas,3,3800,,0,11400
+LP-261031-011,Entregado,2026-10-31,21,Cena,Sábado,Delivery,0213,Provoleta Clásica,,Entradas,1,14600,,0,14600
+LP-261031-012,Entregado,2026-10-31,22,Cena,Sábado,Delivery,0401,Empanada de Carne Suave,,Empanadas,1,3800,,0,3800
+LP-261031-012,Entregado,2026-10-31,22,Cena,Sábado,Delivery,0522,MITAD Fugazza con mozzarella + MITAD Mozzarella,Pizza Mozzarella,Pizzas artesanales,1,24900,Tamaño: 8 porciones,6800,31700
+LP-261031-013,Entregado,2026-10-31,22,Cena,Sábado,Delivery,1701,Jugo de Naranja,,Bebidas,1,5400,Tamaño: Normal,0,5400
+LP-261031-013,Entregado,2026-10-31,22,Cena,Sábado,Delivery,0802,Medallón de Lomo,,Carnes y pescados,1,28000,Guarnición: Puré de papa,0,28000
+LP-261101-001,Entregado,2026-11-01,19,Tarde,Domingo,Retiro en local,0405,Empanada de Verdura,,Empanadas,3,3400,,0,10200
+LP-261101-002,Entregado,2026-11-01,19,Cena,Domingo,Delivery,0410,Empanada de Atún,,Empanadas,1,4000,,0,4000
+LP-261101-002,Entregado,2026-11-01,19,Cena,Domingo,Delivery,1709,Coca-Cola Zero,,Bebidas,2,4200,,0,8400
+LP-261101-002,Entregado,2026-11-01,19,Cena,Domingo,Delivery,0404,Empanada de Jamón y Queso,,Empanadas,3,3400,,0,10200
+LP-261101-002,Entregado,2026-11-01,19,Cena,Domingo,Delivery,0401,Empanada de Carne Suave,,Empanadas,3,3800,,0,11400
+LP-261101-003,Entregado,2026-11-01,20,Cena,Domingo,Delivery,0404,Empanada de Jamón y Queso,,Empanadas,4,3400,,0,13600
+LP-261101-003,Entregado,2026-11-01,20,Cena,Domingo,Delivery,0405,Empanada de Verdura,,Empanadas,1,3400,,0,3400
+LP-261101-003,Entregado,2026-11-01,20,Cena,Domingo,Delivery,0401,Empanada de Carne Suave,,Empanadas,1,3800,,0,3800
+LP-261101-004,Entregado,2026-11-01,20,Cena,Domingo,Delivery,0507,Pizza Cuatro quesos,,Pizzas artesanales,1,33000,Tamaño: 6 porciones,0,33000
+LP-261102-001,Entregado,2026-11-02,12,Almuerzo,Lunes,Delivery,0401,Empanada de Carne Suave,,Empanadas,1,3800,,0,3800
+LP-261102-001,Entregado,2026-11-02,12,Almuerzo,Lunes,Delivery,0405,Empanada de Verdura,,Empanadas,1,3400,,0,3400
+LP-261102-001,Entregado,2026-11-02,12,Almuerzo,Lunes,Delivery,0403,Empanada de Pollo,,Empanadas,2,3500,,0,7000
+LP-261102-002,Entregado,2026-11-02,13,Almuerzo,Lunes,Retiro en local,0813,Pollo al Verdeo,,Carnes y pescados,1,23000,Corte: Pechuga · Guarnición: Arroz,0,23000
+LP-261102-003,Entregado,2026-11-02,13,Almuerzo,Lunes,Delivery,0401,Empanada de Carne Suave,,Empanadas,6,3800,,0,22800
+LP-261102-003,Entregado,2026-11-02,13,Almuerzo,Lunes,Delivery,0405,Empanada de Verdura,,Empanadas,6,3400,,0,20400
+LP-261102-003,Entregado,2026-11-02,13,Almuerzo,Lunes,Delivery,0403,Empanada de Pollo,,Empanadas,6,3500,,0,21000
+LP-261102-003,Entregado,2026-11-02,13,Almuerzo,Lunes,Delivery,0404,Empanada de Jamón y Queso,,Empanadas,6,3400,,0,20400
+LP-261102-004,Entregado,2026-11-02,20,Cena,Lunes,Delivery,0811,Pollo Grille,,Carnes y pescados,2,18500,Corte: Pechuga · Guarnición: Papas fritas,0,37000
+LP-261102-005,Entregado,2026-11-02,20,Cena,Lunes,Delivery,0408,Empanada de Roquefort,,Empanadas,2,3400,,0,6800
+LP-261102-005,Entregado,2026-11-02,20,Cena,Lunes,Delivery,0404,Empanada de Jamón y Queso,,Empanadas,4,3400,,0,13600
+LP-261102-005,Entregado,2026-11-02,20,Cena,Lunes,Delivery,0401,Empanada de Carne Suave,,Empanadas,6,3800,,0,22800
+LP-261102-006,Entregado,2026-11-02,21,Cena,Lunes,Delivery,0501,Pizza Mozzarella,,Pizzas artesanales,1,22600,Tamaño: 6 porciones,0,22600
+LP-261102-006,Entregado,2026-11-02,21,Cena,Lunes,Delivery,0401,Empanada de Carne Suave,,Empanadas,4,3800,,0,15200
+LP-261103-001,Entregado,2026-11-03,11,Almuerzo,Martes,Delivery,1011,Panini de Pollo,,Sándwiches,1,14600,,0,14600
+LP-261103-002,Entregado,2026-11-03,12,Almuerzo,Martes,Delivery,0705,Ravioles de Verdura,,Pastas,2,14400,Salsa: Crema,6100,41000
+LP-261103-003,Entregado,2026-11-03,13,Almuerzo,Martes,Retiro en local,0403,Empanada de Pollo,,Empanadas,2,3500,,0,7000
+LP-261103-003,Entregado,2026-11-03,13,Almuerzo,Martes,Retiro en local,0401,Empanada de Carne Suave,,Empanadas,1,3800,,0,3800
+LP-261103-004,Entregado,2026-11-03,13,Almuerzo,Martes,Delivery,0822,Risotto Pollo,,Carnes y pescados,2,23000,,0,46000
+LP-261103-005,Entregado,2026-11-03,19,Cena,Martes,Delivery,0222,Tortilla de papa,,Entradas,2,14500,,0,29000
+LP-261103-006,Entregado,2026-11-03,20,Cena,Martes,Retiro en local,0405,Empanada de Verdura,,Empanadas,4,3400,,0,13600
+LP-261103-007,Entregado,2026-11-03,21,Cena,Martes,Delivery,0716,Spaghetti integral (de espinaca),,Pastas,1,13400,Salsa: Cuatro Quesos,7600,21000
+LP-261104-001,Entregado,2026-11-04,14,Almuerzo,Miércoles,Delivery,0821,Risotto al Frutti di Mare,,Carnes y pescados,1,27800,,0,27800
+LP-261104-001,Entregado,2026-11-04,14,Almuerzo,Miércoles,Delivery,0813,Pollo al Verdeo,,Carnes y pescados,1,23000,Corte: Patamuslo · Guarnición: Puré de papa,0,23000
+LP-261104-002,Entregado,2026-11-04,20,Cena,Miércoles,Retiro en local,0807,Bife de Chorizo,,Carnes y pescados,1,26000,Guarnición: Ensalada básica,0,26000
+LP-261104-003,Entregado,2026-11-04,20,Cena,Miércoles,Retiro en local,0225,Fainá Percanta (porción),,Entradas,1,3900,,0,3900
+LP-261104-003,Entregado,2026-11-04,20,Cena,Miércoles,Retiro en local,0224,Fainá (porción),,Entradas,2,3300,,0,6600
+LP-261104-003,Entregado,2026-11-04,20,Cena,Miércoles,Retiro en local,0519,Pizza Jamón y morrones,,Pizzas artesanales,1,27600,Tamaño: 8 porciones,8300,35900
+LP-261104-003,Entregado,2026-11-04,20,Cena,Miércoles,Retiro en local,0501,Pizza Mozzarella,,Pizzas artesanales,1,22600,Tamaño: 8 porciones,5400,28000
+LP-261104-004,Entregado,2026-11-04,21,Cena,Miércoles,Delivery,0804,Milanesa de Ternera,,Carnes y pescados,1,21000,"Guarnición: Puré de papa · ¿A la napolitana?: Sí, napolitana",600,21600
+LP-261104-004,Entregado,2026-11-04,21,Cena,Miércoles,Delivery,0807,Bife de Chorizo,,Carnes y pescados,1,26000,Guarnición: Puré de papa,0,26000
+LP-261105-001,Entregado,2026-11-05,20,Cena,Jueves,Retiro en local,0802,Medallón de Lomo,,Carnes y pescados,1,28000,Guarnición: Ensalada básica,0,28000
+LP-261105-001,Entregado,2026-11-05,20,Cena,Jueves,Retiro en local,0807,Bife de Chorizo,,Carnes y pescados,1,26000,Guarnición: Ensalada básica,0,26000
+LP-261105-001,Entregado,2026-11-05,20,Cena,Jueves,Retiro en local,0804,Milanesa de Ternera,,Carnes y pescados,1,21000,"Guarnición: Papas fritas · ¿A la napolitana?: Sí, napolitana",600,21600
+LP-261105-002,Entregado,2026-11-05,22,Cena,Jueves,Delivery,0809,Ojo de Bife,,Carnes y pescados,1,28500,Guarnición: Arroz,0,28500
+LP-261106-001,Entregado,2026-11-06,13,Almuerzo,Viernes,Delivery,0804,Milanesa de Ternera,,Carnes y pescados,1,21000,Guarnición: Puré de papa,0,21000
+LP-261106-002,Entregado,2026-11-06,19,Cena,Viernes,Delivery,0410,Empanada de Atún,,Empanadas,1,4000,,0,4000
+LP-261106-002,Entregado,2026-11-06,19,Cena,Viernes,Delivery,0404,Empanada de Jamón y Queso,,Empanadas,4,3400,,0,13600
+LP-261106-002,Entregado,2026-11-06,19,Cena,Viernes,Delivery,0401,Empanada de Carne Suave,,Empanadas,6,3800,,0,22800
+LP-261106-003,Entregado,2026-11-06,20,Cena,Viernes,Retiro en local,0406,Empanada Caprese,,Empanadas,1,3400,,0,3400
+LP-261106-003,Entregado,2026-11-06,20,Cena,Viernes,Retiro en local,0408,Empanada de Roquefort,,Empanadas,1,3400,,0,3400
+LP-261106-003,Entregado,2026-11-06,20,Cena,Viernes,Retiro en local,0407,Empanada de Choclo,,Empanadas,1,3400,,0,3400
+LP-261106-003,Entregado,2026-11-06,20,Cena,Viernes,Retiro en local,0401,Empanada de Carne Suave,,Empanadas,5,3800,,0,19000
+LP-261106-004,Entregado,2026-11-06,20,Cena,Viernes,Delivery,0404,Empanada de Jamón y Queso,,Empanadas,4,3400,,0,13600
+LP-261106-005,Entregado,2026-11-06,21,Cena,Viernes,Delivery,0519,Pizza Jamón y morrones,,Pizzas artesanales,1,27600,Tamaño: 6 porciones,0,27600
+LP-261106-005,Entregado,2026-11-06,21,Cena,Viernes,Delivery,0501,Pizza Mozzarella,,Pizzas artesanales,1,22600,Tamaño: 6 porciones,0,22600
+LP-261106-006,Entregado,2026-11-06,23,Cena,Viernes,Retiro en local,0406,Empanada Caprese,,Empanadas,1,3400,,0,3400
+LP-261106-006,Entregado,2026-11-06,23,Cena,Viernes,Retiro en local,0404,Empanada de Jamón y Queso,,Empanadas,2,3400,,0,6800
+LP-261106-006,Entregado,2026-11-06,23,Cena,Viernes,Retiro en local,0401,Empanada de Carne Suave,,Empanadas,4,3800,,0,15200
+LP-261107-001,Entregado,2026-11-07,18,Tarde,Sábado,Retiro en local,0401,Empanada de Carne Suave,,Empanadas,3,3800,,0,11400
+LP-261107-002,Entregado,2026-11-07,21,Cena,Sábado,Delivery,0501,Pizza Mozzarella,,Pizzas artesanales,1,22600,Tamaño: 4 porciones,0,22600
+LP-261107-002,Entregado,2026-11-07,21,Cena,Sábado,Delivery,0205,Romana Rabas (con salsa Provenzal),,Entradas,1,18500,,0,18500
+LP-261108-001,Entregado,2026-11-08,20,Cena,Domingo,Delivery,0812,Suprema Rellena con Papas a la Española,,Carnes y pescados,1,23000,Guarnición: Puré de papa,0,23000
+LP-261108-002,Entregado,2026-11-08,20,Cena,Domingo,Delivery,0505,MITAD Provolone + MITAD Jamón y morrones,Pizza Jamón y morrones,Pizzas artesanales,1,30250,Tamaño: 8 porciones,6500,36750
+LP-261108-002,Entregado,2026-11-08,20,Cena,Domingo,Delivery,0224,Fainá (porción),,Entradas,1,3300,,0,3300
+LP-261108-003,Entregado,2026-11-08,20,Cena,Domingo,Delivery,0401,Empanada de Carne Suave,,Empanadas,2,3800,,0,7600
+LP-261108-003,Entregado,2026-11-08,20,Cena,Domingo,Delivery,0404,Empanada de Jamón y Queso,,Empanadas,2,3400,,0,6800
+LP-261108-003,Entregado,2026-11-08,20,Cena,Domingo,Delivery,0532,Pizza Espárragos a la Parmesana,,Pizzas artesanales,1,33100,Tamaño: 8 porciones,4700,37800
+LP-261108-004,Entregado,2026-11-08,21,Cena,Domingo,Delivery,0404,Empanada de Jamón y Queso,,Empanadas,1,3400,,0,3400
+LP-261108-004,Entregado,2026-11-08,21,Cena,Domingo,Delivery,0401,Empanada de Carne Suave,,Empanadas,5,3800,,0,19000
+LP-261108-005,Entregado,2026-11-08,21,Cena,Domingo,Delivery,0224,Fainá (porción),,Entradas,1,3300,,0,3300
+LP-261108-005,Entregado,2026-11-08,21,Cena,Domingo,Delivery,0519,Pizza Jamón y morrones,,Pizzas artesanales,1,27600,Tamaño: 6 porciones,0,27600
+LP-261108-005,Entregado,2026-11-08,21,Cena,Domingo,Delivery,0501,Pizza Mozzarella,,Pizzas artesanales,1,22600,Tamaño: 8 porciones,5400,28000
+LP-261109-001,Entregado,2026-11-09,13,Almuerzo,Lunes,Delivery,1508,Flan casero,,Hora dulce,1,8200,,0,8200
+LP-261109-001,Entregado,2026-11-09,13,Almuerzo,Lunes,Delivery,0401,Empanada de Carne Suave,,Empanadas,4,3800,,0,15200
+LP-261109-002,Entregado,2026-11-09,20,Cena,Lunes,Delivery,0501,Pizza Mozzarella,,Pizzas artesanales,1,22600,Tamaño: 8 porciones,5400,28000
+LP-261109-003,Entregado,2026-11-09,21,Cena,Lunes,Retiro en local,0404,Empanada de Jamón y Queso,,Empanadas,1,3400,,0,3400
+LP-261109-003,Entregado,2026-11-09,21,Cena,Lunes,Retiro en local,0402,Empanada de Carne Picante,,Empanadas,2,3800,,0,7600
+LP-261109-003,Entregado,2026-11-09,21,Cena,Lunes,Retiro en local,0401,Empanada de Carne Suave,,Empanadas,6,3800,,0,22800
+LP-261109-004,Cancelado,2026-11-09,21,Cena,Lunes,Delivery,0405,Empanada de Verdura,,Empanadas,2,3400,,0,6800
+LP-261109-004,Cancelado,2026-11-09,21,Cena,Lunes,Delivery,0401,Empanada de Carne Suave,,Empanadas,11,3800,,0,41800
+LP-261109-004,Cancelado,2026-11-09,21,Cena,Lunes,Delivery,0404,Empanada de Jamón y Queso,,Empanadas,11,3400,,0,37400
+LP-261110-001,Entregado,2026-11-10,20,Cena,Martes,Delivery,0519,Pizza Jamón y morrones,,Pizzas artesanales,2,27600,Tamaño: 8 porciones,8300,71800
+LP-261110-002,Cancelado,2026-11-10,21,Cena,Martes,Retiro en local,0502,MITAD Napolitana + MITAD Fugazzeta rellena,Pizza Fugazzeta rellena,Pizzas artesanales,1,30650,Tamaño: 8 porciones,6500,37150
+LP-261110-003,Entregado,2026-11-10,23,Cena,Martes,Delivery,0401,Empanada de Carne Suave,,Empanadas,2,3800,,0,7600
+LP-261110-004,Entregado,2026-11-10,23,Cena,Martes,Delivery,0407,Empanada de Choclo,,Empanadas,2,3400,,0,6800
+LP-261110-004,Entregado,2026-11-10,23,Cena,Martes,Delivery,0404,Empanada de Jamón y Queso,,Empanadas,2,3400,,0,6800
+LP-261110-004,Entregado,2026-11-10,23,Cena,Martes,Delivery,0402,Empanada de Carne Picante,,Empanadas,2,3800,,0,7600
+LP-261110-004,Entregado,2026-11-10,23,Cena,Martes,Delivery,0401,Empanada de Carne Suave,,Empanadas,2,3800,,0,7600
+LP-261111-001,Entregado,2026-11-11,12,Almuerzo,Miércoles,Delivery,0501,Pizza Mozzarella,,Pizzas artesanales,1,22600,Tamaño: 8 porciones,5400,28000
+LP-261111-002,Entregado,2026-11-11,17,Tarde,Miércoles,Retiro en local,0405,Empanada de Verdura,,Empanadas,4,3400,,0,13600
+LP-261112-001,Entregado,2026-11-12,13,Almuerzo,Jueves,Retiro en local,0822,Risotto Pollo,,Carnes y pescados,1,23000,,0,23000
+LP-261112-002,Entregado,2026-11-12,20,Cena,Jueves,Retiro en local,0401,Empanada de Carne Suave,,Empanadas,1,3800,,0,3800
+LP-261112-002,Entregado,2026-11-12,20,Cena,Jueves,Retiro en local,0405,Empanada de Verdura,,Empanadas,1,3400,,0,3400
+LP-261112-003,Entregado,2026-11-12,20,Cena,Jueves,Delivery,0804,Milanesa de Ternera,,Carnes y pescados,1,21000,"Guarnición: Puré de papa · ¿A la napolitana?: Sí, napolitana",600,21600
+LP-261112-004,Entregado,2026-11-12,23,Cena,Jueves,Retiro en local,0410,Empanada de Atún,,Empanadas,1,4000,,0,4000
+LP-261112-004,Entregado,2026-11-12,23,Cena,Jueves,Retiro en local,0406,Empanada Caprese,,Empanadas,1,3400,,0,3400
+LP-261112-004,Entregado,2026-11-12,23,Cena,Jueves,Retiro en local,0401,Empanada de Carne Suave,,Empanadas,3,3800,,0,11400
+LP-261113-001,Entregado,2026-11-13,13,Almuerzo,Viernes,Retiro en local,0813,Pollo al Verdeo,,Carnes y pescados,1,23000,Corte: Pechuga · Guarnición: Papas fritas,0,23000
+LP-261113-002,Entregado,2026-11-13,20,Cena,Viernes,Delivery,0405,Empanada de Verdura,,Empanadas,1,3400,,0,3400
+LP-261113-002,Entregado,2026-11-13,20,Cena,Viernes,Delivery,0401,Empanada de Carne Suave,,Empanadas,1,3800,,0,3800
+LP-261113-002,Entregado,2026-11-13,20,Cena,Viernes,Delivery,0501,Pizza Mozzarella,,Pizzas artesanales,1,22600,Tamaño: 6 porciones,0,22600
+LP-261113-003,Entregado,2026-11-13,20,Cena,Viernes,Delivery,0403,Empanada de Pollo,,Empanadas,1,3500,,0,3500
+LP-261113-003,Entregado,2026-11-13,20,Cena,Viernes,Delivery,0405,Empanada de Verdura,,Empanadas,2,3400,,0,6800
+LP-261113-003,Entregado,2026-11-13,20,Cena,Viernes,Delivery,0404,Empanada de Jamón y Queso,,Empanadas,3,3400,,0,10200
+LP-261113-003,Entregado,2026-11-13,20,Cena,Viernes,Delivery,0401,Empanada de Carne Suave,,Empanadas,6,3800,,0,22800
+LP-261113-004,Entregado,2026-11-13,20,Cena,Viernes,Retiro en local,0407,Empanada de Choclo,,Empanadas,1,3400,,0,3400
+LP-261113-004,Entregado,2026-11-13,20,Cena,Viernes,Retiro en local,0811,Pollo Grille,,Carnes y pescados,2,18500,Corte: Pechuga · Guarnición: Puré de calabaza,0,37000
+LP-261113-004,Entregado,2026-11-13,20,Cena,Viernes,Retiro en local,0811,Pollo Grille,,Carnes y pescados,1,18500,Corte: Pechuga · Guarnición: Puré de papa,0,18500
+LP-261114-001,Entregado,2026-11-14,20,Cena,Sábado,Retiro en local,0401,Empanada de Carne Suave,,Empanadas,3,3800,,0,11400
+LP-261114-001,Entregado,2026-11-14,20,Cena,Sábado,Retiro en local,0502,MITAD Napolitana + MITAD Fugazza con mozzarella,Pizza Fugazza con mozzarella,Pizzas artesanales,1,27200,Tamaño: 8 porciones,8200,35400
+LP-261114-002,Entregado,2026-11-14,21,Cena,Sábado,Delivery,0409,Empanada de Queso y Cebolla,,Empanadas,1,3400,,0,3400
+LP-261114-002,Entregado,2026-11-14,21,Cena,Sábado,Delivery,0406,Empanada Caprese,,Empanadas,1,3400,,0,3400
+LP-261114-002,Entregado,2026-11-14,21,Cena,Sábado,Delivery,0402,Empanada de Carne Picante,,Empanadas,4,3800,,0,15200
+LP-261114-002,Entregado,2026-11-14,21,Cena,Sábado,Delivery,0403,Empanada de Pollo,,Empanadas,1,3500,,0,3500
+LP-261114-002,Entregado,2026-11-14,21,Cena,Sábado,Delivery,0405,Empanada de Verdura,,Empanadas,2,3400,,0,6800
+LP-261114-002,Entregado,2026-11-14,21,Cena,Sábado,Delivery,0404,Empanada de Jamón y Queso,,Empanadas,1,3400,,0,3400
+LP-261114-002,Entregado,2026-11-14,21,Cena,Sábado,Delivery,0401,Empanada de Carne Suave,,Empanadas,2,3800,,0,7600
+LP-261114-003,Entregado,2026-11-14,21,Cena,Sábado,Delivery,0404,Empanada de Jamón y Queso,,Empanadas,4,3400,,0,13600
+LP-261114-004,Entregado,2026-11-14,21,Cena,Sábado,Delivery,0409,Empanada de Queso y Cebolla,,Empanadas,2,3400,,0,6800
+LP-261114-004,Entregado,2026-11-14,21,Cena,Sábado,Delivery,0408,Empanada de Roquefort,,Empanadas,2,3400,,0,6800
+LP-261114-004,Entregado,2026-11-14,21,Cena,Sábado,Delivery,0404,Empanada de Jamón y Queso,,Empanadas,4,3400,,0,13600
+LP-261114-004,Entregado,2026-11-14,21,Cena,Sábado,Delivery,0401,Empanada de Carne Suave,,Empanadas,4,3800,,0,15200
+LP-261114-005,Entregado,2026-11-14,21,Cena,Sábado,Retiro en local,1101,Armá tu ensalada (hasta 4 variedades),,Ensaladas,1,12500,Variedades (hasta 4): Tomate · Variedades (hasta 4): Zanahorias · Variedades (hasta 4): Remolacha · Variedades (hasta 4): Lechugas mixtas,0,12500
+LP-261114-005,Entregado,2026-11-14,21,Cena,Sábado,Retiro en local,0811,Pollo Grille,,Carnes y pescados,1,18500,Corte: Patamuslo · Guarnición: Arroz,0,18500
+LP-261114-006,Entregado,2026-11-14,22,Cena,Sábado,Retiro en local,0811,Pollo Grille,,Carnes y pescados,1,18500,Corte: Pechuga · Guarnición: Ensalada básica,0,18500
+LP-261114-007,Entregado,2026-11-14,22,Cena,Sábado,Delivery,0408,Empanada de Roquefort,,Empanadas,1,3400,,0,3400
+LP-261114-007,Entregado,2026-11-14,22,Cena,Sábado,Delivery,0401,Empanada de Carne Suave,,Empanadas,4,3800,,0,15200
+LP-261115-001,Entregado,2026-11-15,20,Cena,Domingo,Delivery,1709,Coca-Cola Zero,,Bebidas,1,4200,,0,4200
+LP-261115-001,Entregado,2026-11-15,20,Cena,Domingo,Delivery,0404,Empanada de Jamón y Queso,,Empanadas,2,3400,,0,6800
+LP-261115-001,Entregado,2026-11-15,20,Cena,Domingo,Delivery,0401,Empanada de Carne Suave,,Empanadas,2,3800,,0,7600
+LP-261115-002,Entregado,2026-11-15,20,Cena,Domingo,Delivery,0224,Fainá (porción),,Entradas,1,3300,,0,3300
+LP-261115-002,Entregado,2026-11-15,20,Cena,Domingo,Delivery,0501,Pizza Mozzarella,,Pizzas artesanales,1,22600,Tamaño: 8 porciones,5400,28000
+LP-261115-003,Entregado,2026-11-15,20,Cena,Domingo,Delivery,0224,Fainá (porción),,Entradas,2,3300,,0,6600
+LP-261115-003,Entregado,2026-11-15,20,Cena,Domingo,Delivery,0505,Pizza Provolone,,Pizzas artesanales,1,32900,Tamaño: 8 porciones,4700,37600
+LP-261115-004,Entregado,2026-11-15,21,Cena,Domingo,Delivery,1701,Jugo de Naranja,,Bebidas,1,5400,Tamaño: Normal,0,5400
+LP-261115-004,Entregado,2026-11-15,21,Cena,Domingo,Delivery,0812,Suprema Rellena con Papas a la Española,,Carnes y pescados,1,23000,Guarnición: Arroz,0,23000
+LP-261115-005,Entregado,2026-11-15,21,Cena,Domingo,Delivery,0810,Lomo al Champignon,,Carnes y pescados,1,28500,Guarnición: Ensalada básica,0,28500
+LP-261115-005,Entregado,2026-11-15,21,Cena,Domingo,Delivery,0802,Medallón de Lomo,,Carnes y pescados,1,28000,Guarnición: Ensalada básica,0,28000
+LP-261115-005,Entregado,2026-11-15,21,Cena,Domingo,Delivery,0401,Empanada de Carne Suave,,Empanadas,1,3800,,0,3800
+LP-261116-001,Entregado,2026-11-16,14,Almuerzo,Lunes,Retiro en local,1105,Armá tu ensalada,,Ensaladas,1,12500,Ensalada (hasta 4 variedades): Lechugas mixtas · Ensalada (hasta 4 variedades): Huevo Duro · Ensalada (hasta 4 variedades): Arroz Blanco · Ensalada (hasta 4 variedades): Choclo · Adicionales: Parmesano,2800,15300
+LP-261116-002,Entregado,2026-11-16,17,Tarde,Lunes,Retiro en local,0404,Empanada de Jamón y Queso,,Empanadas,1,3400,,0,3400
+LP-261116-002,Entregado,2026-11-16,17,Tarde,Lunes,Retiro en local,0410,Empanada de Atún,,Empanadas,1,4000,,0,4000
+LP-261116-002,Entregado,2026-11-16,17,Tarde,Lunes,Retiro en local,0401,Empanada de Carne Suave,,Empanadas,3,3800,,0,11400
+LP-261116-003,Entregado,2026-11-16,20,Cena,Lunes,Retiro en local,1105,Armá tu ensalada,,Ensaladas,1,12500,Ensalada (hasta 4 variedades): Huevo Duro · Ensalada (hasta 4 variedades): Arroz Blanco · Ensalada (hasta 4 variedades): Choclo · Adicionales: Tomate Cherry · Adicionales: Atún,9200,21700
+LP-261116-003,Entregado,2026-11-16,20,Cena,Lunes,Retiro en local,0811,Pollo Grille,,Carnes y pescados,1,18500,Corte: Patamuslo · Guarnición: Ensalada básica,0,18500
+LP-261116-004,Entregado,2026-11-16,20,Cena,Lunes,Retiro en local,0811,Pollo Grille,,Carnes y pescados,1,18500,Corte: Pechuga · Guarnición: Papas fritas,0,18500
+LP-261116-005,Entregado,2026-11-16,20,Cena,Lunes,Delivery,0807,Bife de Chorizo,,Carnes y pescados,1,26000,Guarnición: Puré de papa,0,26000
+LP-261116-005,Entregado,2026-11-16,20,Cena,Lunes,Delivery,0807,Bife de Chorizo,,Carnes y pescados,1,26000,Guarnición: Papas fritas,0,26000
+LP-261116-006,Entregado,2026-11-16,21,Cena,Lunes,Retiro en local,0401,Empanada de Carne Suave,,Empanadas,2,3800,,0,7600
+LP-261116-006,Entregado,2026-11-16,21,Cena,Lunes,Retiro en local,0522,Pizza Fugazza con mozzarella,,Pizzas artesanales,1,27200,Tamaño: 6 porciones,0,27200
+LP-261116-007,Entregado,2026-11-16,21,Cena,Lunes,Delivery,0811,Pollo Grille,,Carnes y pescados,1,18500,Corte: Pechuga · Guarnición: Ensalada básica,0,18500
+LP-261116-008,Entregado,2026-11-16,22,Cena,Lunes,Retiro en local,0409,Empanada de Queso y Cebolla,,Empanadas,1,3400,,0,3400
+LP-261116-008,Entregado,2026-11-16,22,Cena,Lunes,Retiro en local,0408,Empanada de Roquefort,,Empanadas,1,3400,,0,3400
+LP-261116-008,Entregado,2026-11-16,22,Cena,Lunes,Retiro en local,0405,Empanada de Verdura,,Empanadas,1,3400,,0,3400
+LP-261116-009,Entregado,2026-11-16,22,Cena,Lunes,Delivery,0819,Pollo al Curry,,Carnes y pescados,1,25800,Acompañamiento: Arroz,0,25800
+LP-261117-001,Entregado,2026-11-17,18,Tarde,Martes,Retiro en local,0405,Empanada de Verdura,,Empanadas,4,3400,,0,13600
+LP-261117-002,Entregado,2026-11-17,20,Cena,Martes,Delivery,0815,Salmón Rosado,,Carnes y pescados,1,32400,,0,32400
+LP-261117-002,Entregado,2026-11-17,20,Cena,Martes,Delivery,0803,Matambrito de Cerdo,,Carnes y pescados,1,21000,Guarnición: Puré de papa,0,21000
+LP-261117-002,Entregado,2026-11-17,20,Cena,Martes,Delivery,0223,Tortilla española,,Entradas,1,15800,,0,15800
+LP-261117-003,Entregado,2026-11-17,23,Cena,Martes,Retiro en local,0821,Risotto al Frutti di Mare,,Carnes y pescados,1,27800,,0,27800

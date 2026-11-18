@@ -32,6 +32,10 @@
       letter-spacing: 1px;
       margin-bottom: 10px;
     }
+    .nuevo {
+      color: #c0392b;
+      font-weight: bold;
+    }
     .dato { color: #2c3e50; font-weight: bold; }
     .aviso {
       border-left: 3px solid #b0b7bd;
@@ -67,26 +71,56 @@
 
   <p>
     Este proyecto analiza los pedidos de La Percanta, un restaurante de Puerto Madero cuya
-    aplicación de pedidos es un proyecto propio. A partir de los datos de esa base exploro a
-    qué hora pide el barrio, qué pide en cada momento del día, cuánta carta sobra y desde
-    dónde llegan los pedidos de delivery.
+    aplicación de pedidos es un proyecto propio. A partir de los datos de esa base exploro si
+    la aplicación crece, a qué hora pide el barrio, qué pide en cada momento del día, cuánta
+    carta sobra, desde dónde llegan los pedidos de delivery y cómo se fue extendiendo el
+    reparto por el barrio.
   </p>
 
   <div class="aviso">
     <p>
       <strong>Qué estás mirando.</strong> Todos los pedidos que entraron por la aplicación
-      web entre el 4 de agosto y el 26 de septiembre de 2026: 124 en total.
-      <strong>Los cuatro gráficos usan los 119 que se entregaron</strong>, dejando afuera los
-      5 cancelados: un pedido cancelado no es trabajo hecho ni plata cobrada.
+      web entre el 4 de agosto y el 17 de noviembre de 2026: 359 en total.
+      <strong>Los gráficos usan los 352 que se entregaron</strong>, dejando afuera los 7
+      cancelados: un pedido cancelado no es trabajo hecho ni plata cobrada.
+    </p>
+    <p>
+      <strong>Versión actualizada.</strong> La entrega de septiembre trabajaba con los 119
+      pedidos entregados hasta el 26 de septiembre. Esta versión, de noviembre, repite los
+      cuatro gráficos con casi el triple de pedidos y suma dos preguntas que con tres meses
+      y medio de datos ya se pueden contestar: si la aplicación sigue creciendo y cómo se fue
+      extendiendo el delivery (marcadas como <span class="nuevo">nuevo</span>).
     </p>
     <p>
       <strong>De dónde salen.</strong> Son todos reales. Se leyeron de la base de producción
-      de la aplicación con consultas de solo lectura, sin ningún pedido inventado. En el
-      prototipo la muestra estaba completada con pedidos generados porque la aplicación
-      recién arrancaba; con casi dos meses de uso real, la versión final trabaja solo con lo
-      que pasó. El detalle del método está <a href="#metodo">al final de la página</a>.
+      de la aplicación con consultas de solo lectura, sin ningún pedido inventado. El
+      detalle del método está <a href="#metodo">al final de la página</a>.
     </p>
   </div>
+
+  <!-- ============ 0 · DATAWRAPPER · CRECIMIENTO (nuevo) ============ -->
+  <h2>¿La aplicación sigue creciendo?</h2>
+  <p class="tool">Datawrapper · <span class="nuevo">nuevo</span></p>
+  <p>
+    Antes de mirar qué y dónde se pide, la pregunta de fondo. Cada columna es una semana, de
+    lunes a domingo, partida en dos: en naranja, los pedidos que eran el primero de ese
+    cliente; en azul, los de clientes que ya habían pedido antes. La aplicación arrancó con
+    7 pedidos la primera semana de agosto y llegó a 34 la semana del 5 de octubre. Desde ahí
+    no siguió subiendo: <span class="dato">se estabilizó en unos 30 pedidos por
+    semana</span>. Lo que cambió es de quién vienen. Los clientes nuevos llegaron a 19 en
+    esa semana de octubre y en noviembre bajaron a 6, mientras que los que vuelven pasaron
+    de 2 a 26. De los 143 clientes distintos, 84 pidieron una sola vez, pero
+    <span class="dato">los otros 59 hicieron 268 de los 352 pedidos, el 76%</span>.
+  </p>
+
+  <iframe
+    title="¿La app sigue creciendo?"
+    src="https://datawrapper.dwcdn.net/QcQhN/1/"
+    scrolling="no"
+    frameborder="0"
+    style="width: 0; min-width: 100% !important; border: none;"
+    height="520">
+  </iframe>
 
   <!-- ============ 1 · DATAWRAPPER ============ -->
   <h2>¿Cuándo se llena la cocina?</h2>
@@ -95,17 +129,18 @@
     Un restaurante no trabaja parejo. Cruzando los siete días de la semana con la hora en
     que entró cada pedido aparecen dos turnos bien separados: el mediodía, entre las 12 y
     las 14, y la noche, que arranca cuando la web empieza a tomar los pedidos del delivery
-    de las 20. Entre las 15 y las 17 no entró ni un pedido. El pico es muy marcado:
-    <span class="dato">a las 20 horas entraron 50 de los 119 pedidos</span>, y los dos
-    casilleros más oscuros son el sábado y el domingo a esa hora, con 12 cada uno. La
-    columna de la derecha responde la pregunta operativa de fondo, que es qué días sale más
-    trabajo: <span class="dato">el sábado saca 26 pedidos y el lunes 9</span>, casi tres
-    veces menos.
+    de las 20. Entre las 15 y las 18 casi no entra nada: 4 pedidos en tres meses y medio.
+    El pico es muy marcado: <span class="dato">a las 20 horas entraron 129 de los 352
+    pedidos</span>, más de un tercio, y el casillero más oscuro es el domingo a esa hora,
+    con 31. La columna de la derecha responde la pregunta operativa de fondo, que es qué
+    días sale más trabajo: <span class="dato">el sábado saca 66 pedidos y el jueves, el día
+    más flojo, 38</span>. Viernes, sábado y domingo juntan 182, más de la mitad de la
+    semana.
   </p>
 
   <iframe
     title="¿Cuándo se llena la cocina de La Percanta?"
-    src="https://datawrapper.dwcdn.net/SCAyA/3/"
+    src="https://datawrapper.dwcdn.net/SCAyA/4/"
     scrolling="no"
     frameborder="0"
     style="width: 0; min-width: 100% !important; border: none;"
@@ -132,18 +167,18 @@
     Cada línea es un pedido. Entra por la franja en que se hizo, pasa por el rubro que
     más facturó dentro de ese pedido y sale por la forma en que se entregó; cuanto más
     gruesa la cinta, más pedidos hicieron ese mismo recorrido. Lo primero que se ve es el
-    tamaño de la noche: <span class="dato">la cena se lleva 90 de los 119 pedidos</span>, y
-    ahí mandan tres rubros casi empatados, empanadas (27), pizzas (24) y carnes y pescados
-    (24). Al mediodía lidera carnes y pescados, con 9 de 22. La tarde es chica y muy
-    particular: <span class="dato">sus 7 pedidos son para retirar en el local, y 6 son de
-    empanadas</span>. A la derecha, el delivery se lleva 81 de los 119 pedidos. Las
-    empanadas son el rubro que más se retira por mostrador (15 de 37), y las pastas no se
-    retiraron nunca: sus 8 pedidos salieron todos por delivery.
+    tamaño de la noche: <span class="dato">la cena se lleva 275 de los 352 pedidos</span>,
+    y ahí mandan tres rubros casi empatados, pizzas (86), carnes y pescados (83) y
+    empanadas (76). Al mediodía lidera carnes y pescados, con 24 de 58. La tarde es chica y
+    muy particular: <span class="dato">sus 19 pedidos son para retirar en el local, y 15
+    son de empanadas</span>. A la derecha, el delivery se lleva 245 de los 352 pedidos. Las
+    empanadas son el rubro que más se retira por mostrador (43 de 106), y las pastas casi
+    no se retiran: 13 de sus 14 pedidos salieron por delivery.
   </p>
 
   <div class="viz-scroll">
-    <img class="viz" src="img/rawgraphs-alluvial.svg"
-         alt="Diagrama aluvial: los 119 pedidos entregados fluyen desde la franja horaria hacia el rubro principal y de ahí a la forma de entrega." />
+    <img class="viz" src="img/rawgraphs-alluvial.svg?v=2026-11-18"
+         alt="Diagrama aluvial: los 352 pedidos entregados fluyen desde la franja horaria hacia el rubro principal y de ahí a la forma de entrega." />
   </div>
 
   <!-- ============ 3 · FLOURISH ============ -->
@@ -151,14 +186,16 @@
   <p class="tool">Flourish</p>
   <p>
     Cada rectángulo es un plato, agrupado por rubro y dimensionado por lo que facturó; se
-    puede tocar un rubro para entrar. Solo aparecen los 71 productos que se vendieron al
-    menos una vez en los 119 pedidos entregados, así que
-    <span class="dato">los 286 que nunca se vendieron son literalmente el espacio en
+    puede tocar un rubro para entrar. Solo aparecen los 97 productos que se vendieron al
+    menos una vez en los 352 pedidos entregados, así que
+    <span class="dato">los 260 que nunca se vendieron son literalmente el espacio en
     blanco del gráfico</span>. Hay rubros enteros que la aplicación no vendió ni una vez:
-    cafetería, panadería y dulces, desayuno y merienda, tablas, y vinos y cervezas. La
-    concentración es brutal: <span class="dato">8 productos, el 2% de la carta, hacen la
+    cafetería, desayuno y merienda, tablas, y vinos y cervezas. Con el triple de pedidos la
+    carta se abrió un poco (en septiembre se vendían 71 productos), pero la concentración
+    sigue siendo brutal: <span class="dato">9 productos, menos del 3% de la carta, hacen la
     mitad de la facturación</span>, y una sola empanada, la de carne suave, facturó
-    $710.600: el 14% de todo lo que vendió la aplicación.
+    $1.865.800: el 13% de todo lo que vendió la aplicación. Pizzas, carnes y empanadas se
+    reparten casi en partes iguales el 84% de la plata.
   </p>
 
   <div class="flourish-embed flourish-hierarchy" data-src="visualisation/30103369">
@@ -184,18 +221,18 @@
     la tarde no hubo ningún delivery).
   </p>
   <p>
-    El mapa de pedidos muestra un barrio chico: <span class="dato">la mitad de los
-    deliveries viaja menos de 400 metros en línea recta</span>, 77 de los 81 quedan a menos
-    de un kilómetro y del otro lado de los diques llegaron apenas 3. El de la plata cambia
-    el orden: el edificio que más pide también es el que más gasta ($518.000, el 15% de
-    todo el delivery), pero el tercero en cantidad de pedidos baja al sexto lugar en
-    plata, porque su ticket promedio es de $25.400. Las barras lo explican.
-    <span class="dato">Cuanto más lejos, más grande el pedido</span>: los de más de $45.000
-    pasan del 24% a menos de 200 metros al 41% a más de 400, y el ticket mediano sube de
-    $31.800 a $42.600. Y la plata no depende solo de los clientes fieles: los 18 edificios
-    que pidieron una sola vez, la mitad del mapa, dejaron el 28% de la plata, casi lo
-    mismo que los 3 edificios que pidieron cinco veces o más (29%). Con el filtro en
-    almuerzo hay solo 15 envíos, así que ahí conviene mirar el mapa y no los porcentajes.
+    El mapa de pedidos muestra un barrio chico: <span class="dato">más de la mitad de los
+    deliveries (151 de 245) viaja menos de 400 metros en línea recta</span>, 226 quedan a
+    menos de un kilómetro y del otro lado de los diques hay apenas 3 edificios, con 6
+    pedidos. El de la plata cambia el orden: el edificio que más pide también es el que más
+    gasta ($1.158.500, el 11,5% de todo el delivery), pero otro con 12 pedidos, de los que
+    más piden, baja al noveno lugar en plata, porque su ticket promedio es de $23.400. Las
+    barras lo explican. <span class="dato">Cuanto más lejos, más grande el pedido</span>:
+    los de más de $45.000 pasan del 20% a menos de 200 metros al 46% a más de 400, y el
+    ticket mediano sube de $29.300 a $42.800. Y la plata depende cada vez más de los
+    edificios fieles: los 20 que pidieron cinco veces o más dejaron el 69% de la plata del
+    delivery, y los 14 que pidieron una sola vez, el 11%. Con el filtro en almuerzo hay
+    solo 39 envíos, así que ahí conviene mirar el mapa y no los porcentajes.
   </p>
 
   <div class='tableauPlaceholder' id='vizPercantaMapa' style='position: relative'>
@@ -221,63 +258,116 @@
     </object>
   </div>
 
+  <!-- ============ 5 · TABLEAU · EXTENSIÓN (nuevo) ============ -->
+  <h2>¿Cómo se fue extendiendo el delivery?</h2>
+  <p class="tool">Tableau Public · <span class="nuevo">nuevo</span></p>
+  <p>
+    Con tres meses y medio de pedidos se puede ver algo que en septiembre no se veía: cómo
+    fue creciendo el mapa. Es el mismo barrio, con un círculo por edificio: el tamaño es la
+    cantidad de pedidos de delivery que hizo, y el color, el mes en que pidió por primera
+    vez, de dorado (agosto) a rojo oscuro (noviembre). <span class="dato">Los 14 edificios
+    que arrancaron en agosto siguen siendo el corazón del delivery</span>: hicieron 110 de
+    los 245 envíos, el 45%, y 11 de ellos están a menos de 600 metros del local.
+    Septiembre fue el mes que más edificios sumó, 23. Después el mapa se estira hacia los
+    bordes: <span class="dato">los 15 edificios que se sumaron en octubre y noviembre están,
+    en la mediana, a 554 metros del local, contra 373 los de agosto</span>, y tres de los
+    cuatro edificios más lejanos del mapa, a más de 1,3 kilómetros en la punta norte, se
+    sumaron en octubre. Pero pidieron poco: entre todos, 31 envíos. El delivery llega cada
+    vez más lejos, y la plata sigue saliendo de cerca.
+  </p>
+
+  <div class='tableauPlaceholder' id='vizPercantaCrecimiento' style='position: relative'>
+    <noscript>
+      <a href='https://public.tableau.com/views/TPInfovisLaPercanta-Delivery/Crecimiento'>
+        <img alt='Mapa de Puerto Madero con un círculo por edificio: el tamaño es la cantidad de pedidos de delivery y el color, el mes en que el edificio pidió por primera vez' src='https://public.tableau.com/static/images/TP/TPInfovisLaPercanta-Delivery/Crecimiento/1_rss.png' style='border: none' />
+      </a>
+    </noscript>
+    <object class='tableauViz' style='display:none;'>
+      <param name='host_url' value='https://public.tableau.com/' />
+      <param name='embed_code_version' value='3' />
+      <param name='site_root' value='' />
+      <param name='name' value='TPInfovisLaPercanta-Delivery/Crecimiento' />
+      <param name='tabs' value='no' />
+      <param name='toolbar' value='yes' />
+      <param name='static_image' value='https://public.tableau.com/static/images/TP/TPInfovisLaPercanta-Delivery/Crecimiento/1.png' />
+      <param name='animate_transition' value='yes' />
+      <param name='display_static_image' value='yes' />
+      <param name='display_spinner' value='yes' />
+      <param name='display_overlay' value='yes' />
+      <param name='display_count' value='yes' />
+      <param name='language' value='es-ES' />
+    </object>
+  </div>
+
   <script>
     (function () {
-      var div = document.getElementById('vizPercantaMapa');
-      var viz = div.getElementsByTagName('object')[0];
-      function ajustar() {
-        var ancho = div.offsetWidth;
-        viz.style.width = '100%';
-        // cuatro gráficos en dos filas; en el celular Tableau los apila, así que ahí
-        // hace falta mucho más alto
-        viz.style.height = Math.max(560, ancho * (ancho < 600 ? 3.4 : 0.78)) + 'px';
-      }
-      ajustar();
-      window.addEventListener('resize', ajustar);
-      var sc = document.createElement('script');
-      sc.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-      viz.parentNode.insertBefore(sc, viz);
+      // [id, alto/ancho en la compu, alto/ancho en el celular]
+      // El tablero tiene cuatro gráficos en dos filas y en el celular Tableau los apila;
+      // el mapa nuevo es uno solo, más alto que ancho porque Puerto Madero es angosto.
+      var vizzes = [
+        ['vizPercantaMapa', 0.78, 3.4],
+        ['vizPercantaCrecimiento', 0.72, 1.4]
+      ];
+      vizzes.forEach(function (v) {
+        var div = document.getElementById(v[0]);
+        var viz = div.getElementsByTagName('object')[0];
+        function ajustar() {
+          var ancho = div.offsetWidth;
+          viz.style.width = '100%';
+          viz.style.height = Math.max(520, ancho * (ancho < 600 ? v[2] : v[1])) + 'px';
+        }
+        ajustar();
+        window.addEventListener('resize', ajustar);
+        var sc = document.createElement('script');
+        sc.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        viz.parentNode.insertBefore(sc, viz);
+      });
     })();
   </script>
 
   <!-- ============ CONCLUSIONES ============ -->
   <h2>Qué aprendí mirando esto</h2>
   <p>
-    Las cuatro preguntas terminan contando lo mismo desde ángulos distintos:
+    Las seis preguntas terminan contando lo mismo desde ángulos distintos:
     <span class="dato">lo que se pide por la aplicación es mucho menos variado y mucho más
-    cercano de lo que la carta y la zona de reparto hacen suponer</span>. La carta ofrece
-    357 productos, pero la mitad de la plata la hacen 8. La cocina abre de 8 a medianoche,
-    pero el trabajo se amontona en una sola hora, las 20. Y el delivery llega a todo
-    Puerto Madero, pero la mitad de los pedidos viaja menos de 400 metros.
+    cercano de lo que la carta y la zona de reparto hacen suponer, y lo sostiene un grupo
+    de clientes que vuelve</span>. La carta ofrece 357 productos, pero la mitad de la plata
+    la hacen 9. La cocina abre de 8 a medianoche, pero más de un tercio del trabajo cae en
+    una sola hora, las 20. El delivery llega a todo Puerto Madero, pero más de la mitad de
+    los envíos viaja menos de 400 metros. Y desde octubre la aplicación no crece sumando
+    clientes nuevos: se sostiene porque los que la prueban vuelven.
   </p>
   <p>
     Si tuviera que recomendar tres cosas a partir de estos gráficos serían: reforzar cocina
     y reparto entre las 20 y las 21 de los fines de semana, que es cuando se concentra el
     trabajo; armar lo que muestra la aplicación alrededor de empanadas, pizzas y carnes, que
-    es lo que de verdad se pide, en lugar de 357 platos con el mismo peso; y promocionar
-    la aplicación en las torres de Puerto Madero Este que ya piden, donde un mismo viaje
-    puede llevar más de un pedido. Ninguna de las tres se veía en la base; se ven en los
-    gráficos.
+    es lo que de verdad se pide, en lugar de 357 platos con el mismo peso; y, ahora que el
+    volumen se estabilizó en unos 30 pedidos por semana, salir a buscar clientes nuevos en
+    las torres de Puerto Madero Este que todavía no piden o que pidieron una sola vez,
+    porque el que prueba la aplicación tiende a volver. Ninguna de las tres se veía en la
+    base; se ven en los gráficos.
   </p>
 
   <!-- ============ METODOLOGÍA ============ -->
   <h2 id="metodo">De dónde salen los datos</h2>
   <p>
     La aplicación de pedidos de La Percanta está hecha con Next.js y PostgreSQL sobre
-    Supabase. Los datos se extrajeron de la base de producción el 27 de septiembre de 2026,
-    con consultas dentro de transacciones de solo lectura: la base no se modificó.
+    Supabase. Los datos se extrajeron de la base de producción el 18 de noviembre de 2026,
+    con consultas dentro de transacciones de solo lectura: la base no se modificó. La
+    versión de septiembre se extrajo con el mismo método el 27 de septiembre; al volver a
+    armar los archivos, los 124 pedidos de entonces dieron exactamente igual.
   </p>
 
   <table>
     <tr><th>Archivo</th><th>Filas</th><th>Qué contiene</th></tr>
     <tr>
       <td><a href="datos/pedidos.csv">datos/pedidos.csv</a></td>
-      <td>124</td>
-      <td>Un pedido por fila: momento, forma de entrega, rubros que tocó, detalle de lo pedido, montos y demora. 119 entregados y 5 cancelados</td>
+      <td>359</td>
+      <td>Un pedido por fila: momento, forma de entrega, rubros que tocó, detalle de lo pedido, montos y demora. 352 entregados y 7 cancelados</td>
     </tr>
     <tr>
       <td><a href="datos/renglones.csv">datos/renglones.csv</a></td>
-      <td>304</td>
+      <td>815</td>
       <td>Un producto pedido por fila, con sus modificadores (guarnición, tamaño, corte)</td>
     </tr>
     <tr>
@@ -288,40 +378,55 @@
   </table>
 
   <p>
-    <strong>Sobre el universo.</strong> Los cuatro gráficos usan los 119 pedidos
-    entregados. Todos entraron por la aplicación web: los pedidos por teléfono y los del
-    salón no pasan por ella, así que estos datos hablan de lo que se pide por la aplicación
-    y no de todo el restaurante. Las horas son de Buenos Aires, y las
-    franjas siguen el horario del servicio: almuerzo hasta las 16, tarde de 16 a 19:30 y
-    cena desde las 19:30, que es cuando la web empieza a tomar los pedidos del delivery de
-    la noche.
+    <strong>Sobre el universo.</strong> Los gráficos usan los 352 pedidos entregados. Todos
+    entraron por la aplicación web: los pedidos por teléfono y los del salón no pasan por
+    ella, así que estos datos hablan de lo que se pide por la aplicación y no de todo el
+    restaurante. Las horas son de Buenos Aires, y las franjas siguen el horario del
+    servicio: almuerzo hasta las 16, tarde de 16 a 19:30 y cena desde las 19:30, que es
+    cuando la web empieza a tomar los pedidos del delivery de la noche. El gráfico de
+    semanas usa solo semanas completas, de lunes a domingo: la del 16 de noviembre, que al
+    extraer los datos llevaba dos días y 12 pedidos, queda afuera.
+  </p>
+
+  <p>
+    <strong>Sobre los clientes.</strong> Un pedido es «el primero del cliente» si ese
+    cliente no tenía ningún pedido entregado antes. La aplicación identifica a cada cliente
+    por su teléfono, así que alguien que pidió con dos números distintos cuenta como dos
+    clientes.
   </p>
 
   <p>
     <strong>Sobre los rubros.</strong> La carta tiene una categoría «Recomendados» que no
     es un rubro sino una vidriera: son diez platos destacados que ya pertenecen a su rubro
     real, y cada uno se cuenta en el suyo. El diagrama aluvial le da nombre propio a todo
-    rubro que fue el principal de tres pedidos o más; los 5 pedidos restantes van a «Otros
-    rubros». En el treemap, las pizzas mitad y mitad reparten su facturación en partes
-    iguales entre los dos sabores, por eso algunas pizzas muestran medias unidades.
+    rubro que fue el principal de tres pedidos o más; los 2 pedidos restantes (dos de
+    hamburguesas) van a «Otros rubros». En el treemap, las pizzas mitad y mitad reparten su
+    facturación en partes iguales entre los dos sabores, por eso algunas pizzas muestran
+    medias unidades.
   </p>
 
   <p>
     <strong>Sobre los mapas.</strong> Las direcciones se ubicaron con el normalizador
     de direcciones del Gobierno de la Ciudad (USIG), enviando solo la calle y la altura.
-    Una altura que el callejero oficial no tiene (Juana Manso 1965) se ubicó en la última
-    altura válida de esa calle. En el mapa, los tres tramos de gasto se aplican al ticket
-    promedio de cada edificio; en las barras de distancia, a cada pedido. Los dos se
-    recalculan con el filtro de franja. Las distancias son en línea recta desde el local, y
-    la frecuencia de cada edificio cuenta sus pedidos en todo el período.
+    Antes corregí a mano los errores de tipeo en el nombre de algunas calles («Marta
+    Salotti», «Olga Cosettini»). Una altura que el callejero oficial no tiene (Juana Manso
+    1965) se ubicó en la última altura válida de esa calle, y una calle que la USIG no
+    ubica por altura (Benjamín Lavaisse) se ubicó con el georreferenciador nacional
+    (georef). Un edificio es un punto del mapa: dos direcciones que caen en el mismo punto
+    cuentan como el mismo edificio. En el tablero, los tres tramos de gasto se aplican al
+    ticket promedio de cada edificio en el mapa y a cada pedido en las barras de
+    distancia; los dos se recalculan con el filtro de franja. En el mapa nuevo, el mes de
+    cada edificio es el de su primer pedido de delivery entregado. Las distancias son en
+    línea recta desde el local, y la frecuencia de cada edificio cuenta sus pedidos en todo
+    el período.
   </p>
 
   <p>
     <strong>Sobre las personas.</strong> No se publicó ningún dato personal. Los clientes
     aparecen como códigos (C01, C02…) asignados de forma estable; no hay nombres,
-    teléfonos, correos ni departamentos en ninguno de los archivos. El dataset del mapa
-    tiene un punto por pedido a nivel de edificio, sin el número de pedido ni la
-    dirección, así que no se puede cruzar con lo que se pidió (Ley 25.326).
+    teléfonos, correos ni departamentos en ninguno de los archivos. Los datasets de los
+    mapas tienen coordenadas de edificio, sin el número de pedido ni la dirección, así que
+    no se pueden cruzar con lo que se pidió (Ley 25.326).
   </p>
 
 </body>

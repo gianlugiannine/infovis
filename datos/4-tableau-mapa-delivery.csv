@@ -1,82 +1,246 @@
-﻿id,edificio,Latitude,Longitude,lat_punto,lng_punto,franja,dia_semana,es_finde,total,rango_ticket,distancia_m,banda_distancia,pedidos_edificio,frecuencia_edificio,clientes_edificio
-1,E01,-34.613401,-58.359898,-34.613401,-58.35979,Cena,Jueves,No,14500,1 · Hasta $30.000,385,2 · De 200 a 400 m,12,3 · 5 pedidos o más,2
-2,E01,-34.613401,-58.359898,-34.613297,-58.360036,Cena,Jueves,No,18500,1 · Hasta $30.000,385,2 · De 200 a 400 m,12,3 · 5 pedidos o más,2
-3,E01,-34.613401,-58.359898,-34.613599,-58.359877,Cena,Jueves,No,29000,1 · Hasta $30.000,385,2 · De 200 a 400 m,12,3 · 5 pedidos o más,2
-4,E01,-34.613401,-58.359898,-34.613214,-58.359724,Cena,Domingo,Sí,31300,2 · $30.000 a $45.000,385,2 · De 200 a 400 m,12,3 · 5 pedidos o más,2
-5,E01,-34.613401,-58.359898,-34.613447,-58.360217,Cena,Lunes,No,37000,2 · $30.000 a $45.000,385,2 · De 200 a 400 m,12,3 · 5 pedidos o más,2
-6,E01,-34.613401,-58.359898,-34.613559,-58.359596,Cena,Sábado,Sí,37000,2 · $30.000 a $45.000,385,2 · De 200 a 400 m,12,3 · 5 pedidos o más,2
-7,E01,-34.613401,-58.359898,-34.613091,-58.359999,Cena,Sábado,Sí,39400,2 · $30.000 a $45.000,385,2 · De 200 a 400 m,12,3 · 5 pedidos o más,2
-8,E01,-34.613401,-58.359898,-34.613707,-58.360091,Cena,Domingo,Sí,42300,2 · $30.000 a $45.000,385,2 · De 200 a 400 m,12,3 · 5 pedidos o más,2
-9,E01,-34.613401,-58.359898,-34.613275,-58.35948,Cena,Jueves,No,55500,3 · Más de $45.000,385,2 · De 200 a 400 m,12,3 · 5 pedidos o más,2
-10,E01,-34.613401,-58.359898,-34.613253,-58.360333,Cena,Domingo,Sí,58900,3 · Más de $45.000,385,2 · De 200 a 400 m,12,3 · 5 pedidos o más,2
-11,E01,-34.613401,-58.359898,-34.61377,-58.359688,Cena,Domingo,Sí,73500,3 · Más de $45.000,385,2 · De 200 a 400 m,12,3 · 5 pedidos o más,2
-12,E01,-34.613401,-58.359898,-34.612994,-58.359743,Cena,Viernes,No,81100,3 · Más de $45.000,385,2 · De 200 a 400 m,12,3 · 5 pedidos o más,2
-13,E02,-34.611031,-58.362685,-34.611031,-58.362577,Cena,Jueves,No,28800,1 · Hasta $30.000,651,3 · Más de 400 m,8,3 · 5 pedidos o más,2
-14,E02,-34.611031,-58.362685,-34.610927,-58.362823,Cena,Lunes,No,34600,2 · $30.000 a $45.000,651,3 · Más de 400 m,8,3 · 5 pedidos o más,2
-15,E02,-34.611031,-58.362685,-34.611229,-58.362664,Cena,Viernes,No,36400,2 · $30.000 a $45.000,651,3 · Más de 400 m,8,3 · 5 pedidos o más,2
-16,E02,-34.611031,-58.362685,-34.610844,-58.362511,Cena,Jueves,No,38900,2 · $30.000 a $45.000,651,3 · Más de 400 m,8,3 · 5 pedidos o más,2
-17,E02,-34.611031,-58.362685,-34.611077,-58.363004,Cena,Jueves,No,38900,2 · $30.000 a $45.000,651,3 · Más de 400 m,8,3 · 5 pedidos o más,2
-18,E02,-34.611031,-58.362685,-34.611189,-58.362383,Cena,Miércoles,No,43000,2 · $30.000 a $45.000,651,3 · Más de 400 m,8,3 · 5 pedidos o más,2
-19,E02,-34.611031,-58.362685,-34.610721,-58.362786,Cena,Martes,No,45400,3 · Más de $45.000,651,3 · Más de 400 m,8,3 · 5 pedidos o más,2
-20,E02,-34.611031,-58.362685,-34.611337,-58.362878,Almuerzo,Viernes,No,57100,3 · Más de $45.000,651,3 · Más de 400 m,8,3 · 5 pedidos o más,2
-21,E03,-34.619175,-58.362809,-34.619175,-58.362701,Cena,Domingo,Sí,15200,1 · Hasta $30.000,316,2 · De 200 a 400 m,6,3 · 5 pedidos o más,3
-22,E03,-34.619175,-58.362809,-34.619071,-58.362947,Cena,Domingo,Sí,18600,1 · Hasta $30.000,316,2 · De 200 a 400 m,6,3 · 5 pedidos o más,3
-23,E03,-34.619175,-58.362809,-34.619373,-58.362788,Cena,Domingo,Sí,24700,1 · Hasta $30.000,316,2 · De 200 a 400 m,6,3 · 5 pedidos o más,3
-24,E03,-34.619175,-58.362809,-34.618988,-58.362635,Cena,Sábado,Sí,25100,1 · Hasta $30.000,316,2 · De 200 a 400 m,6,3 · 5 pedidos o más,3
-25,E03,-34.619175,-58.362809,-34.619221,-58.363128,Cena,Domingo,Sí,33400,2 · $30.000 a $45.000,316,2 · De 200 a 400 m,6,3 · 5 pedidos o más,3
-26,E03,-34.619175,-58.362809,-34.619333,-58.362507,Cena,Viernes,No,35200,2 · $30.000 a $45.000,316,2 · De 200 a 400 m,6,3 · 5 pedidos o más,3
-27,E04,-34.613531,-58.360484,-34.613531,-58.360376,Almuerzo,Sábado,Sí,14500,1 · Hasta $30.000,360,2 · De 200 a 400 m,4,2 · De 2 a 4 pedidos,1
-28,E04,-34.613531,-58.360484,-34.613427,-58.360622,Cena,Viernes,No,17400,1 · Hasta $30.000,360,2 · De 200 a 400 m,4,2 · De 2 a 4 pedidos,1
-29,E04,-34.613531,-58.360484,-34.613729,-58.360463,Cena,Sábado,Sí,42300,2 · $30.000 a $45.000,360,2 · De 200 a 400 m,4,2 · De 2 a 4 pedidos,1
-30,E04,-34.613531,-58.360484,-34.613344,-58.36031,Cena,Viernes,No,46000,3 · Más de $45.000,360,2 · De 200 a 400 m,4,2 · De 2 a 4 pedidos,1
-31,E05,-34.621233,-58.361017,-34.621233,-58.360909,Cena,Viernes,No,21200,1 · Hasta $30.000,500,3 · Más de 400 m,3,2 · De 2 a 4 pedidos,2
-32,E05,-34.621233,-58.361017,-34.621129,-58.361155,Cena,Sábado,Sí,37600,2 · $30.000 a $45.000,500,3 · Más de 400 m,3,2 · De 2 a 4 pedidos,2
-33,E05,-34.621233,-58.361017,-34.621431,-58.360996,Cena,Lunes,No,127400,3 · Más de $45.000,500,3 · Más de 400 m,3,2 · De 2 a 4 pedidos,2
-34,E06,-34.616812,-58.362069,-34.616812,-58.361961,Cena,Domingo,Sí,10600,1 · Hasta $30.000,94,1 · Menos de 200 m,3,2 · De 2 a 4 pedidos,1
-35,E06,-34.616812,-58.362069,-34.616708,-58.362207,Cena,Martes,No,19800,1 · Hasta $30.000,94,1 · Menos de 200 m,3,2 · De 2 a 4 pedidos,1
-36,E06,-34.616812,-58.362069,-34.61701,-58.362048,Cena,Lunes,No,37000,2 · $30.000 a $45.000,94,1 · Menos de 200 m,3,2 · De 2 a 4 pedidos,1
-37,E07,-34.61911,-58.361383,-34.61911,-58.361275,Almuerzo,Lunes,No,19700,1 · Hasta $30.000,266,2 · De 200 a 400 m,3,2 · De 2 a 4 pedidos,2
-38,E07,-34.61911,-58.361383,-34.619006,-58.361521,Cena,Jueves,No,78600,3 · Más de $45.000,266,2 · De 200 a 400 m,3,2 · De 2 a 4 pedidos,2
-39,E07,-34.61911,-58.361383,-34.619308,-58.361362,Cena,Jueves,No,104200,3 · Más de $45.000,266,2 · De 200 a 400 m,3,2 · De 2 a 4 pedidos,2
-40,E08,-34.617404,-58.361351,-34.617404,-58.361243,Cena,Miércoles,No,19800,1 · Hasta $30.000,80,1 · Menos de 200 m,3,2 · De 2 a 4 pedidos,3
-41,E08,-34.617404,-58.361351,-34.6173,-58.361489,Cena,Viernes,No,28400,1 · Hasta $30.000,80,1 · Menos de 200 m,3,2 · De 2 a 4 pedidos,3
-42,E08,-34.617404,-58.361351,-34.617602,-58.36133,Cena,Sábado,Sí,55400,3 · Más de $45.000,80,1 · Menos de 200 m,3,2 · De 2 a 4 pedidos,3
-43,E09,-34.617844,-58.359866,-34.617844,-58.359758,Cena,Sábado,Sí,10600,1 · Hasta $30.000,164,1 · Menos de 200 m,3,2 · De 2 a 4 pedidos,3
-44,E09,-34.617844,-58.359866,-34.61774,-58.360004,Cena,Miércoles,No,22800,1 · Hasta $30.000,164,1 · Menos de 200 m,3,2 · De 2 a 4 pedidos,3
-45,E09,-34.617844,-58.359866,-34.618042,-58.359845,Cena,Martes,No,49900,3 · Más de $45.000,164,1 · Menos de 200 m,3,2 · De 2 a 4 pedidos,3
-46,E10,-34.606316,-58.366743,-34.606316,-58.366635,Almuerzo,Martes,No,21000,1 · Hasta $30.000,1270,3 · Más de 400 m,2,2 · De 2 a 4 pedidos,1
-47,E10,-34.606316,-58.366743,-34.606212,-58.366881,Almuerzo,Miércoles,No,21000,1 · Hasta $30.000,1270,3 · Más de 400 m,2,2 · De 2 a 4 pedidos,1
-48,E11,-34.616148,-58.361489,-34.616148,-58.361381,Cena,Miércoles,No,21900,1 · Hasta $30.000,77,1 · Menos de 200 m,2,2 · De 2 a 4 pedidos,1
-49,E11,-34.616148,-58.361489,-34.616044,-58.361627,Cena,Jueves,No,47900,3 · Más de $45.000,77,1 · Menos de 200 m,2,2 · De 2 a 4 pedidos,1
-50,E12,-34.61064,-58.362734,-34.61064,-58.362626,Cena,Martes,No,42600,2 · $30.000 a $45.000,695,3 · Más de 400 m,2,2 · De 2 a 4 pedidos,2
-51,E12,-34.61064,-58.362734,-34.610536,-58.362872,Cena,Lunes,No,49600,3 · Más de $45.000,695,3 · Más de 400 m,2,2 · De 2 a 4 pedidos,2
-52,E13,-34.615476,-58.362038,-34.615476,-58.36193,Cena,Sábado,Sí,22600,1 · Hasta $30.000,167,1 · Menos de 200 m,2,2 · De 2 a 4 pedidos,1
-53,E13,-34.615476,-58.362038,-34.615372,-58.362176,Cena,Viernes,No,40600,2 · $30.000 a $45.000,167,1 · Menos de 200 m,2,2 · De 2 a 4 pedidos,1
-54,E14,-34.616789,-58.361769,-34.616789,-58.361661,Cena,Miércoles,No,28500,1 · Hasta $30.000,67,1 · Menos de 200 m,2,2 · De 2 a 4 pedidos,1
-55,E14,-34.616789,-58.361769,-34.616685,-58.361907,Cena,Sábado,Sí,35600,2 · $30.000 a $45.000,67,1 · Menos de 200 m,2,2 · De 2 a 4 pedidos,1
-56,E15,-34.621244,-58.361401,-34.621244,-58.361293,Cena,Viernes,No,31950,2 · $30.000 a $45.000,503,3 · Más de 400 m,2,2 · De 2 a 4 pedidos,2
-57,E15,-34.621244,-58.361401,-34.62114,-58.361539,Cena,Jueves,No,55900,3 · Más de $45.000,503,3 · Más de 400 m,2,2 · De 2 a 4 pedidos,2
-58,E16,-34.613529,-58.362918,-34.613529,-58.36281,Cena,Miércoles,No,50200,3 · Más de $45.000,395,2 · De 200 a 400 m,2,2 · De 2 a 4 pedidos,1
-59,E16,-34.613529,-58.362918,-34.613425,-58.363056,Cena,Martes,No,131000,3 · Más de $45.000,395,2 · De 200 a 400 m,2,2 · De 2 a 4 pedidos,1
-60,E17,-34.613475,-58.362804,-34.613475,-58.362696,Cena,Sábado,Sí,14500,1 · Hasta $30.000,396,2 · De 200 a 400 m,2,2 · De 2 a 4 pedidos,1
-61,E17,-34.613475,-58.362804,-34.613371,-58.362942,Cena,Miércoles,No,17800,1 · Hasta $30.000,396,2 · De 200 a 400 m,2,2 · De 2 a 4 pedidos,1
-62,E18,-34.616865,-58.362761,-34.616865,-58.362653,Cena,Domingo,Sí,31800,2 · $30.000 a $45.000,158,1 · Menos de 200 m,2,2 · De 2 a 4 pedidos,2
-63,E18,-34.616865,-58.362761,-34.616761,-58.362899,Almuerzo,Domingo,Sí,44200,2 · $30.000 a $45.000,158,1 · Menos de 200 m,2,2 · De 2 a 4 pedidos,2
-64,E19,-34.61023,-58.362071,-34.61023,-58.362071,Almuerzo,Sábado,Sí,31400,2 · $30.000 a $45.000,729,3 · Más de 400 m,1,1 · Pidieron una sola vez,1
-65,E20,-34.61276,-58.361483,-34.61276,-58.361483,Cena,Jueves,No,44000,2 · $30.000 a $45.000,443,3 · Más de 400 m,1,1 · Pidieron una sola vez,1
-66,E21,-34.61655,-58.36748,-34.61655,-58.36748,Almuerzo,Martes,No,52000,3 · Más de $45.000,589,3 · Más de 400 m,1,1 · Pidieron una sola vez,1
-67,E22,-34.611482,-58.36098,-34.611482,-58.36098,Almuerzo,Jueves,No,18500,1 · Hasta $30.000,584,3 · Más de 400 m,1,1 · Pidieron una sola vez,1
-68,E23,-34.61619,-58.362741,-34.61619,-58.362741,Cena,Domingo,Sí,39000,2 · $30.000 a $45.000,166,1 · Menos de 200 m,1,1 · Pidieron una sola vez,1
-69,E24,-34.616218,-58.362478,-34.616218,-58.362478,Almuerzo,Miércoles,No,77400,3 · Más de $45.000,143,1 · Menos de 200 m,1,1 · Pidieron una sola vez,1
-70,E25,-34.603986,-58.363359,-34.603986,-58.363359,Cena,Jueves,No,21600,1 · Hasta $30.000,1433,3 · Más de 400 m,1,1 · Pidieron una sola vez,1
-71,E26,-34.610222,-58.362786,-34.610222,-58.362786,Cena,Sábado,Sí,86700,3 · Más de $45.000,741,3 · Más de 400 m,1,1 · Pidieron una sola vez,1
-72,E27,-34.612825,-58.362521,-34.612825,-58.362521,Cena,Miércoles,No,75900,3 · Más de $45.000,455,3 · Más de 400 m,1,1 · Pidieron una sola vez,1
-73,E28,-34.616789,-58.361769,-34.616789,-58.361769,Almuerzo,Miércoles,No,18500,1 · Hasta $30.000,67,1 · Menos de 200 m,1,1 · Pidieron una sola vez,1
-74,E29,-34.619805,-58.361499,-34.619805,-58.361499,Almuerzo,Jueves,No,6800,1 · Hasta $30.000,344,2 · De 200 a 400 m,1,1 · Pidieron una sola vez,1
-75,E30,-34.619109,-58.361373,-34.619109,-58.361373,Almuerzo,Miércoles,No,101000,3 · Más de $45.000,266,2 · De 200 a 400 m,1,1 · Pidieron una sola vez,1
-76,E31,-34.605164,-58.362143,-34.605164,-58.362143,Almuerzo,Viernes,No,140100,3 · Más de $45.000,1290,3 · Más de 400 m,1,1 · Pidieron una sola vez,1
-77,E32,-34.610213,-58.360789,-34.610213,-58.360789,Cena,Domingo,Sí,56700,3 · Más de $45.000,725,3 · Más de 400 m,1,1 · Pidieron una sola vez,1
-78,E33,-34.613397,-58.360869,-34.613397,-58.360869,Cena,Domingo,Sí,36750,2 · $30.000 a $45.000,371,2 · De 200 a 400 m,1,1 · Pidieron una sola vez,1
-79,E34,-34.611088,-58.363435,-34.611088,-58.363435,Cena,Miércoles,No,45800,3 · Más de $45.000,665,3 · Más de 400 m,1,1 · Pidieron una sola vez,1
-80,E35,-34.615397,-58.362988,-34.615397,-58.362988,Almuerzo,Sábado,Sí,22000,1 · Hasta $30.000,232,2 · De 200 a 400 m,1,1 · Pidieron una sola vez,1
-81,E36,-34.61793,-58.362365,-34.61793,-58.362365,Cena,Sábado,Sí,82400,3 · Más de $45.000,180,1 · Menos de 200 m,1,1 · Pidieron una sola vez,1
+﻿id,edificio,Latitude,Longitude,lat_punto,lng_punto,franja,dia_semana,es_finde,total,rango_ticket,distancia_m,banda_distancia,pedidos_edificio,frecuencia_edificio,clientes_edificio,mes,primer_mes_edificio
+1,E01,-34.613401,-58.359898,-34.613346,-58.35997,Cena,Viernes,No,13600,1 · Hasta $30.000,385,2 · De 200 a 400 m,32,3 · 5 pedidos o más,2,4 · Noviembre,1 · Agosto
+2,E01,-34.613401,-58.359898,-34.613515,-58.359886,Cena,Sábado,Sí,13600,1 · Hasta $30.000,385,2 · De 200 a 400 m,32,3 · 5 pedidos o más,2,4 · Noviembre,1 · Agosto
+3,E01,-34.613401,-58.359898,-34.61329,-58.359794,Cena,Jueves,No,14500,1 · Hasta $30.000,385,2 · De 200 a 400 m,32,3 · 5 pedidos o más,2,2 · Septiembre,1 · Agosto
+4,E01,-34.613401,-58.359898,-34.613429,-58.360091,Cena,Jueves,No,18500,1 · Hasta $30.000,385,2 · De 200 a 400 m,32,3 · 5 pedidos o más,2,1 · Agosto,1 · Agosto
+5,E01,-34.613401,-58.359898,-34.613498,-58.359713,Cena,Martes,No,20400,1 · Hasta $30.000,385,2 · De 200 a 400 m,32,3 · 5 pedidos o más,2,3 · Octubre,1 · Agosto
+6,E01,-34.613401,-58.359898,-34.61321,-58.35996,Cena,Domingo,Sí,20800,1 · Hasta $30.000,385,2 · De 200 a 400 m,32,3 · 5 pedidos o más,2,4 · Noviembre,1 · Agosto
+7,E01,-34.613401,-58.359898,-34.613591,-58.360018,Almuerzo,Miércoles,No,21200,1 · Hasta $30.000,385,2 · De 200 a 400 m,32,3 · 5 pedidos o más,2,3 · Octubre,1 · Agosto
+8,E01,-34.613401,-58.359898,-34.613323,-58.359637,Cena,Domingo,Sí,24000,1 · Hasta $30.000,385,2 · De 200 a 400 m,32,3 · 5 pedidos o más,2,3 · Octubre,1 · Agosto
+9,E01,-34.613401,-58.359898,-34.613308,-58.36017,Cena,Domingo,Sí,24600,1 · Hasta $30.000,385,2 · De 200 a 400 m,32,3 · 5 pedidos o más,2,3 · Octubre,1 · Agosto
+10,E01,-34.613401,-58.359898,-34.613633,-58.359767,Cena,Sábado,Sí,27600,1 · Hasta $30.000,385,2 · De 200 a 400 m,32,3 · 5 pedidos o más,2,3 · Octubre,1 · Agosto
+11,E01,-34.613401,-58.359898,-34.613145,-58.3598,Cena,Jueves,No,29000,1 · Hasta $30.000,385,2 · De 200 a 400 m,32,3 · 5 pedidos o más,2,2 · Septiembre,1 · Agosto
+12,E01,-34.613401,-58.359898,-34.613541,-58.360193,Cena,Miércoles,No,29000,1 · Hasta $30.000,385,2 · De 200 a 400 m,32,3 · 5 pedidos o más,2,2 · Septiembre,1 · Agosto
+13,E01,-34.613401,-58.359898,-34.613464,-58.359552,Cena,Martes,No,29000,1 · Hasta $30.000,385,2 · De 200 a 400 m,32,3 · 5 pedidos o más,2,3 · Octubre,1 · Agosto
+14,E01,-34.613401,-58.359898,-34.613153,-58.360109,Cena,Martes,No,29000,1 · Hasta $30.000,385,2 · De 200 a 400 m,32,3 · 5 pedidos o más,2,4 · Noviembre,1 · Agosto
+15,E01,-34.613401,-58.359898,-34.613711,-58.359948,Cena,Domingo,Sí,31300,2 · $30.000 a $45.000,385,2 · De 200 a 400 m,32,3 · 5 pedidos o más,2,1 · Agosto,1 · Agosto
+16,E01,-34.613401,-58.359898,-34.613193,-58.359597,Cena,Lunes,No,31300,2 · $30.000 a $45.000,385,2 · De 200 a 400 m,32,3 · 5 pedidos o más,2,3 · Octubre,1 · Agosto
+17,E01,-34.613401,-58.359898,-34.613386,-58.360303,Cena,Domingo,Sí,31300,2 · $30.000 a $45.000,385,2 · De 200 a 400 m,32,3 · 5 pedidos o más,2,4 · Noviembre,1 · Agosto
+18,E01,-34.613401,-58.359898,-34.613644,-58.359603,Cena,Sábado,Sí,34600,2 · $30.000 a $45.000,385,2 · De 200 a 400 m,32,3 · 5 pedidos o más,2,3 · Octubre,1 · Agosto
+19,E01,-34.613401,-58.359898,-34.613049,-58.359917,Cena,Domingo,Sí,34800,2 · $30.000 a $45.000,385,2 · De 200 a 400 m,32,3 · 5 pedidos o más,2,2 · Septiembre,1 · Agosto
+20,E01,-34.613401,-58.359898,-34.613678,-58.36018,Cena,Viernes,No,35300,2 · $30.000 a $45.000,385,2 · De 200 a 400 m,32,3 · 5 pedidos o más,2,3 · Octubre,1 · Agosto
+21,E01,-34.613401,-58.359898,-34.613353,-58.359452,Cena,Lunes,No,37000,2 · $30.000 a $45.000,385,2 · De 200 a 400 m,32,3 · 5 pedidos o más,2,1 · Agosto,1 · Agosto
+22,E01,-34.613401,-58.359898,-34.613183,-58.360275,Cena,Sábado,Sí,37000,2 · $30.000 a $45.000,385,2 · De 200 a 400 m,32,3 · 5 pedidos o más,2,1 · Agosto,1 · Agosto
+23,E01,-34.613401,-58.359898,-34.61378,-58.359796,Cena,Sábado,Sí,39400,2 · $30.000 a $45.000,385,2 · De 200 a 400 m,32,3 · 5 pedidos o más,2,2 · Septiembre,1 · Agosto
+24,E01,-34.613401,-58.359898,-34.613058,-58.359657,Cena,Domingo,Sí,42300,2 · $30.000 a $45.000,385,2 · De 200 a 400 m,32,3 · 5 pedidos o más,2,2 · Septiembre,1 · Agosto
+25,E01,-34.613401,-58.359898,-34.613523,-58.360366,Cena,Viernes,No,44500,2 · $30.000 a $45.000,385,2 · De 200 a 400 m,32,3 · 5 pedidos o más,2,3 · Octubre,1 · Agosto
+26,E01,-34.613401,-58.359898,-34.613575,-58.359444,Cena,Jueves,No,55500,3 · Más de $45.000,385,2 · De 200 a 400 m,32,3 · 5 pedidos o más,2,1 · Agosto,1 · Agosto
+27,E01,-34.613401,-58.359898,-34.613013,-58.360093,Almuerzo,Viernes,No,55500,3 · Más de $45.000,385,2 · De 200 a 400 m,32,3 · 5 pedidos o más,2,3 · Octubre,1 · Agosto
+28,E01,-34.613401,-58.359898,-34.613803,-58.360076,Cena,Domingo,Sí,58900,3 · Más de $45.000,385,2 · De 200 a 400 m,32,3 · 5 pedidos o más,2,1 · Agosto,1 · Agosto
+29,E01,-34.613401,-58.359898,-34.6132,-58.359429,Cena,Domingo,Sí,58900,3 · Más de $45.000,385,2 · De 200 a 400 m,32,3 · 5 pedidos o más,2,4 · Noviembre,1 · Agosto
+30,E01,-34.613401,-58.359898,-34.613286,-58.360418,Cena,Viernes,No,61500,3 · Más de $45.000,385,2 · De 200 a 400 m,32,3 · 5 pedidos o más,2,3 · Octubre,1 · Agosto
+31,E01,-34.613401,-58.359898,-34.613781,-58.359604,Cena,Domingo,Sí,73500,3 · Más de $45.000,385,2 · De 200 a 400 m,32,3 · 5 pedidos o más,2,2 · Septiembre,1 · Agosto
+32,E01,-34.613401,-58.359898,-34.612951,-58.359802,Cena,Viernes,No,81100,3 · Más de $45.000,385,2 · De 200 a 400 m,32,3 · 5 pedidos o más,2,2 · Septiembre,1 · Agosto
+33,E02,-34.619175,-58.362809,-34.61912,-58.362881,Cena,Domingo,Sí,15200,1 · Hasta $30.000,316,2 · De 200 a 400 m,14,3 · 5 pedidos o más,3,2 · Septiembre,2 · Septiembre
+34,E02,-34.619175,-58.362809,-34.619289,-58.362797,Cena,Domingo,Sí,18600,1 · Hasta $30.000,316,2 · De 200 a 400 m,14,3 · 5 pedidos o más,3,2 · Septiembre,2 · Septiembre
+35,E02,-34.619175,-58.362809,-34.619064,-58.362705,Cena,Domingo,Sí,18600,1 · Hasta $30.000,316,2 · De 200 a 400 m,14,3 · 5 pedidos o más,3,4 · Noviembre,2 · Septiembre
+36,E02,-34.619175,-58.362809,-34.619203,-58.363002,Almuerzo,Lunes,No,23400,1 · Hasta $30.000,316,2 · De 200 a 400 m,14,3 · 5 pedidos o más,3,4 · Noviembre,2 · Septiembre
+37,E02,-34.619175,-58.362809,-34.619272,-58.362624,Cena,Domingo,Sí,24700,1 · Hasta $30.000,316,2 · De 200 a 400 m,14,3 · 5 pedidos o más,3,2 · Septiembre,2 · Septiembre
+38,E02,-34.619175,-58.362809,-34.618984,-58.362871,Cena,Sábado,Sí,25100,1 · Hasta $30.000,316,2 · De 200 a 400 m,14,3 · 5 pedidos o más,3,2 · Septiembre,2 · Septiembre
+39,E02,-34.619175,-58.362809,-34.619365,-58.362929,Cena,Lunes,No,25800,1 · Hasta $30.000,316,2 · De 200 a 400 m,14,3 · 5 pedidos o más,3,4 · Noviembre,2 · Septiembre
+40,E02,-34.619175,-58.362809,-34.619097,-58.362548,Cena,Domingo,Sí,30000,1 · Hasta $30.000,316,2 · De 200 a 400 m,14,3 · 5 pedidos o más,3,3 · Octubre,2 · Septiembre
+41,E02,-34.619175,-58.362809,-34.619082,-58.363081,Cena,Domingo,Sí,30000,1 · Hasta $30.000,316,2 · De 200 a 400 m,14,3 · 5 pedidos o más,3,3 · Octubre,2 · Septiembre
+42,E02,-34.619175,-58.362809,-34.619407,-58.362678,Cena,Domingo,Sí,33400,2 · $30.000 a $45.000,316,2 · De 200 a 400 m,14,3 · 5 pedidos o más,3,2 · Septiembre,2 · Septiembre
+43,E02,-34.619175,-58.362809,-34.618919,-58.362711,Cena,Domingo,Sí,34000,2 · $30.000 a $45.000,316,2 · De 200 a 400 m,14,3 · 5 pedidos o más,3,4 · Noviembre,2 · Septiembre
+44,E02,-34.619175,-58.362809,-34.619315,-58.363104,Cena,Viernes,No,35200,2 · $30.000 a $45.000,316,2 · De 200 a 400 m,14,3 · 5 pedidos o más,3,2 · Septiembre,2 · Septiembre
+45,E02,-34.619175,-58.362809,-34.619238,-58.362463,Cena,Martes,No,75200,3 · Más de $45.000,316,2 · De 200 a 400 m,14,3 · 5 pedidos o más,3,2 · Septiembre,2 · Septiembre
+46,E02,-34.619175,-58.362809,-34.618927,-58.36302,Cena,Jueves,No,88800,3 · Más de $45.000,316,2 · De 200 a 400 m,14,3 · 5 pedidos o más,3,3 · Octubre,2 · Septiembre
+47,E03,-34.621233,-58.361017,-34.621178,-58.361089,Cena,Viernes,No,21200,1 · Hasta $30.000,500,3 · Más de 400 m,13,3 · 5 pedidos o más,5,2 · Septiembre,1 · Agosto
+48,E03,-34.621233,-58.361017,-34.621347,-58.361005,Cena,Martes,No,29300,1 · Hasta $30.000,500,3 · Más de 400 m,13,3 · 5 pedidos o más,5,3 · Octubre,1 · Agosto
+49,E03,-34.621233,-58.361017,-34.621122,-58.360913,Cena,Sábado,Sí,37600,2 · $30.000 a $45.000,500,3 · Más de 400 m,13,3 · 5 pedidos o más,5,1 · Agosto,1 · Agosto
+50,E03,-34.621233,-58.361017,-34.621261,-58.361211,Cena,Viernes,No,40050,2 · $30.000 a $45.000,500,3 · Más de 400 m,13,3 · 5 pedidos o más,5,3 · Octubre,1 · Agosto
+51,E03,-34.621233,-58.361017,-34.62133,-58.360832,Cena,Viernes,No,40050,2 · $30.000 a $45.000,500,3 · Más de 400 m,13,3 · 5 pedidos o más,5,3 · Octubre,1 · Agosto
+52,E03,-34.621233,-58.361017,-34.621042,-58.361079,Cena,Domingo,Sí,40050,2 · $30.000 a $45.000,500,3 · Más de 400 m,13,3 · 5 pedidos o más,5,4 · Noviembre,1 · Agosto
+53,E03,-34.621233,-58.361017,-34.621423,-58.361137,Cena,Sábado,Sí,44100,2 · $30.000 a $45.000,500,3 · Más de 400 m,13,3 · 5 pedidos o más,5,3 · Octubre,1 · Agosto
+54,E03,-34.621233,-58.361017,-34.621155,-58.360756,Cena,Sábado,Sí,44200,2 · $30.000 a $45.000,500,3 · Más de 400 m,13,3 · 5 pedidos o más,5,3 · Octubre,1 · Agosto
+55,E03,-34.621233,-58.361017,-34.62114,-58.361289,Cena,Viernes,No,48600,3 · Más de $45.000,500,3 · Más de 400 m,13,3 · 5 pedidos o más,5,3 · Octubre,1 · Agosto
+56,E03,-34.621233,-58.361017,-34.621465,-58.360886,Cena,Sábado,Sí,67000,3 · Más de $45.000,500,3 · Más de 400 m,13,3 · 5 pedidos o más,5,3 · Octubre,1 · Agosto
+57,E03,-34.621233,-58.361017,-34.620977,-58.360919,Cena,Viernes,No,67850,3 · Más de $45.000,500,3 · Más de 400 m,13,3 · 5 pedidos o más,5,3 · Octubre,1 · Agosto
+58,E03,-34.621233,-58.361017,-34.621373,-58.361312,Cena,Domingo,Sí,119600,3 · Más de $45.000,500,3 · Más de 400 m,13,3 · 5 pedidos o más,5,3 · Octubre,1 · Agosto
+59,E03,-34.621233,-58.361017,-34.621296,-58.360671,Cena,Lunes,No,127400,3 · Más de $45.000,500,3 · Más de 400 m,13,3 · 5 pedidos o más,5,2 · Septiembre,1 · Agosto
+60,E04,-34.61911,-58.361383,-34.619055,-58.361455,Almuerzo,Lunes,No,19700,1 · Hasta $30.000,266,2 · De 200 a 400 m,12,3 · 5 pedidos o más,7,1 · Agosto,1 · Agosto
+61,E04,-34.61911,-58.361383,-34.619224,-58.361371,Cena,Viernes,No,22800,1 · Hasta $30.000,266,2 · De 200 a 400 m,12,3 · 5 pedidos o más,7,3 · Octubre,1 · Agosto
+62,E04,-34.61911,-58.361383,-34.618999,-58.361279,Cena,Domingo,Sí,39750,2 · $30.000 a $45.000,266,2 · De 200 a 400 m,12,3 · 5 pedidos o más,7,3 · Octubre,1 · Agosto
+63,E04,-34.61911,-58.361383,-34.619138,-58.361576,Cena,Sábado,Sí,42400,2 · $30.000 a $45.000,266,2 · De 200 a 400 m,12,3 · 5 pedidos o más,7,4 · Noviembre,1 · Agosto
+64,E04,-34.61911,-58.361383,-34.619207,-58.361198,Cena,Sábado,Sí,43200,2 · $30.000 a $45.000,266,2 · De 200 a 400 m,12,3 · 5 pedidos o más,7,3 · Octubre,1 · Agosto
+65,E04,-34.61911,-58.361383,-34.618919,-58.361445,Cena,Lunes,No,43200,2 · $30.000 a $45.000,266,2 · De 200 a 400 m,12,3 · 5 pedidos o más,7,4 · Noviembre,1 · Agosto
+66,E04,-34.61911,-58.361383,-34.6193,-58.361503,Cena,Viernes,No,43300,2 · $30.000 a $45.000,266,2 · De 200 a 400 m,12,3 · 5 pedidos o más,7,4 · Noviembre,1 · Agosto
+67,E04,-34.61911,-58.361383,-34.619032,-58.361122,Cena,Domingo,Sí,44200,2 · $30.000 a $45.000,266,2 · De 200 a 400 m,12,3 · 5 pedidos o más,7,4 · Noviembre,1 · Agosto
+68,E04,-34.61911,-58.361383,-34.619017,-58.361655,Cena,Martes,No,61100,3 · Más de $45.000,266,2 · De 200 a 400 m,12,3 · 5 pedidos o más,7,3 · Octubre,1 · Agosto
+69,E04,-34.61911,-58.361383,-34.619342,-58.361252,Cena,Sábado,Sí,69000,3 · Más de $45.000,266,2 · De 200 a 400 m,12,3 · 5 pedidos o más,7,3 · Octubre,1 · Agosto
+70,E04,-34.61911,-58.361383,-34.618854,-58.361285,Cena,Jueves,No,78600,3 · Más de $45.000,266,2 · De 200 a 400 m,12,3 · 5 pedidos o más,7,1 · Agosto,1 · Agosto
+71,E04,-34.61911,-58.361383,-34.61925,-58.361678,Cena,Jueves,No,104200,3 · Más de $45.000,266,2 · De 200 a 400 m,12,3 · 5 pedidos o más,7,1 · Agosto,1 · Agosto
+72,E05,-34.611031,-58.362685,-34.610976,-58.362757,Cena,Jueves,No,28800,1 · Hasta $30.000,651,3 · Más de 400 m,12,3 · 5 pedidos o más,2,1 · Agosto,1 · Agosto
+73,E05,-34.611031,-58.362685,-34.611145,-58.362673,Cena,Lunes,No,28800,1 · Hasta $30.000,651,3 · Más de 400 m,12,3 · 5 pedidos o más,2,3 · Octubre,1 · Agosto
+74,E05,-34.611031,-58.362685,-34.61092,-58.362581,Cena,Lunes,No,34600,2 · $30.000 a $45.000,651,3 · Más de 400 m,12,3 · 5 pedidos o más,2,2 · Septiembre,1 · Agosto
+75,E05,-34.611031,-58.362685,-34.611059,-58.362878,Cena,Miércoles,No,34600,2 · $30.000 a $45.000,651,3 · Más de 400 m,12,3 · 5 pedidos o más,2,2 · Septiembre,1 · Agosto
+76,E05,-34.611031,-58.362685,-34.611128,-58.3625,Cena,Jueves,No,34600,2 · $30.000 a $45.000,651,3 · Más de 400 m,12,3 · 5 pedidos o más,2,3 · Octubre,1 · Agosto
+77,E05,-34.611031,-58.362685,-34.61084,-58.362747,Cena,Viernes,No,36400,2 · $30.000 a $45.000,651,3 · Más de 400 m,12,3 · 5 pedidos o más,2,2 · Septiembre,1 · Agosto
+78,E05,-34.611031,-58.362685,-34.611221,-58.362805,Cena,Viernes,No,38400,2 · $30.000 a $45.000,651,3 · Más de 400 m,12,3 · 5 pedidos o más,2,3 · Octubre,1 · Agosto
+79,E05,-34.611031,-58.362685,-34.610953,-58.362424,Cena,Jueves,No,38900,2 · $30.000 a $45.000,651,3 · Más de 400 m,12,3 · 5 pedidos o más,2,1 · Agosto,1 · Agosto
+80,E05,-34.611031,-58.362685,-34.610938,-58.362957,Cena,Jueves,No,38900,2 · $30.000 a $45.000,651,3 · Más de 400 m,12,3 · 5 pedidos o más,2,2 · Septiembre,1 · Agosto
+81,E05,-34.611031,-58.362685,-34.611263,-58.362554,Cena,Miércoles,No,43000,2 · $30.000 a $45.000,651,3 · Más de 400 m,12,3 · 5 pedidos o más,2,1 · Agosto,1 · Agosto
+82,E05,-34.611031,-58.362685,-34.610775,-58.362587,Cena,Martes,No,45400,3 · Más de $45.000,651,3 · Más de 400 m,12,3 · 5 pedidos o más,2,1 · Agosto,1 · Agosto
+83,E05,-34.611031,-58.362685,-34.611171,-58.36298,Almuerzo,Viernes,No,57100,3 · Más de $45.000,651,3 · Más de 400 m,12,3 · 5 pedidos o más,2,2 · Septiembre,1 · Agosto
+84,E06,-34.616812,-58.362069,-34.616757,-58.362141,Cena,Domingo,Sí,10600,1 · Hasta $30.000,94,1 · Menos de 200 m,12,3 · 5 pedidos o más,1,2 · Septiembre,1 · Agosto
+85,E06,-34.616812,-58.362069,-34.616926,-58.362057,Almuerzo,Viernes,No,10600,1 · Hasta $30.000,94,1 · Menos de 200 m,12,3 · 5 pedidos o más,1,3 · Octubre,1 · Agosto
+86,E06,-34.616812,-58.362069,-34.616701,-58.361965,Cena,Domingo,Sí,18500,1 · Hasta $30.000,94,1 · Menos de 200 m,12,3 · 5 pedidos o más,1,3 · Octubre,1 · Agosto
+87,E06,-34.616812,-58.362069,-34.61684,-58.362262,Cena,Sábado,Sí,18500,1 · Hasta $30.000,94,1 · Menos de 200 m,12,3 · 5 pedidos o más,1,3 · Octubre,1 · Agosto
+88,E06,-34.616812,-58.362069,-34.616909,-58.361884,Cena,Miércoles,No,18500,1 · Hasta $30.000,94,1 · Menos de 200 m,12,3 · 5 pedidos o más,1,3 · Octubre,1 · Agosto
+89,E06,-34.616812,-58.362069,-34.616621,-58.362131,Cena,Martes,No,19800,1 · Hasta $30.000,94,1 · Menos de 200 m,12,3 · 5 pedidos o más,1,2 · Septiembre,1 · Agosto
+90,E06,-34.616812,-58.362069,-34.617002,-58.362189,Cena,Martes,No,21000,1 · Hasta $30.000,94,1 · Menos de 200 m,12,3 · 5 pedidos o más,1,4 · Noviembre,1 · Agosto
+91,E06,-34.616812,-58.362069,-34.616734,-58.361808,Cena,Lunes,No,28000,1 · Hasta $30.000,94,1 · Menos de 200 m,12,3 · 5 pedidos o más,1,3 · Octubre,1 · Agosto
+92,E06,-34.616812,-58.362069,-34.616719,-58.362341,Cena,Lunes,No,28000,1 · Hasta $30.000,94,1 · Menos de 200 m,12,3 · 5 pedidos o más,1,4 · Noviembre,1 · Agosto
+93,E06,-34.616812,-58.362069,-34.617044,-58.361938,Cena,Domingo,Sí,33000,2 · $30.000 a $45.000,94,1 · Menos de 200 m,12,3 · 5 pedidos o más,1,4 · Noviembre,1 · Agosto
+94,E06,-34.616812,-58.362069,-34.616556,-58.361971,Cena,Lunes,No,37000,2 · $30.000 a $45.000,94,1 · Menos de 200 m,12,3 · 5 pedidos o más,1,1 · Agosto,1 · Agosto
+95,E06,-34.616812,-58.362069,-34.616952,-58.362364,Cena,Lunes,No,37000,2 · $30.000 a $45.000,94,1 · Menos de 200 m,12,3 · 5 pedidos o más,1,4 · Noviembre,1 · Agosto
+96,E07,-34.617404,-58.361351,-34.617349,-58.361423,Cena,Miércoles,No,19800,1 · Hasta $30.000,80,1 · Menos de 200 m,9,3 · 5 pedidos o más,5,2 · Septiembre,2 · Septiembre
+97,E07,-34.617404,-58.361351,-34.617518,-58.361339,Cena,Viernes,No,28400,1 · Hasta $30.000,80,1 · Menos de 200 m,9,3 · 5 pedidos o más,5,2 · Septiembre,2 · Septiembre
+98,E07,-34.617404,-58.361351,-34.617293,-58.361247,Cena,Martes,No,28400,1 · Hasta $30.000,80,1 · Menos de 200 m,9,3 · 5 pedidos o más,5,3 · Octubre,2 · Septiembre
+99,E07,-34.617404,-58.361351,-34.617432,-58.361544,Cena,Martes,No,28800,1 · Hasta $30.000,80,1 · Menos de 200 m,9,3 · 5 pedidos o más,5,4 · Noviembre,2 · Septiembre
+100,E07,-34.617404,-58.361351,-34.617501,-58.361166,Cena,Sábado,Sí,35500,2 · $30.000 a $45.000,80,1 · Menos de 200 m,9,3 · 5 pedidos o más,5,3 · Octubre,2 · Septiembre
+101,E07,-34.617404,-58.361351,-34.617213,-58.361413,Cena,Viernes,No,40400,2 · $30.000 a $45.000,80,1 · Menos de 200 m,9,3 · 5 pedidos o más,5,4 · Noviembre,2 · Septiembre
+102,E07,-34.617404,-58.361351,-34.617594,-58.361471,Cena,Miércoles,No,49300,3 · Más de $45.000,80,1 · Menos de 200 m,9,3 · 5 pedidos o más,5,3 · Octubre,2 · Septiembre
+103,E07,-34.617404,-58.361351,-34.617326,-58.36109,Cena,Sábado,Sí,55400,3 · Más de $45.000,80,1 · Menos de 200 m,9,3 · 5 pedidos o más,5,2 · Septiembre,2 · Septiembre
+104,E07,-34.617404,-58.361351,-34.617311,-58.361623,Cena,Jueves,No,58000,3 · Más de $45.000,80,1 · Menos de 200 m,9,3 · 5 pedidos o más,5,3 · Octubre,2 · Septiembre
+105,E08,-34.613475,-58.362804,-34.61342,-58.362876,Cena,Sábado,Sí,14500,1 · Hasta $30.000,396,2 · De 200 a 400 m,9,3 · 5 pedidos o más,1,2 · Septiembre,2 · Septiembre
+106,E08,-34.613475,-58.362804,-34.613589,-58.362792,Cena,Miércoles,No,17800,1 · Hasta $30.000,396,2 · De 200 a 400 m,9,3 · 5 pedidos o más,1,2 · Septiembre,2 · Septiembre
+107,E08,-34.613475,-58.362804,-34.613364,-58.3627,Almuerzo,Domingo,Sí,17900,1 · Hasta $30.000,396,2 · De 200 a 400 m,9,3 · 5 pedidos o más,1,2 · Septiembre,2 · Septiembre
+108,E08,-34.613475,-58.362804,-34.613503,-58.362997,Cena,Lunes,No,21000,1 · Hasta $30.000,396,2 · De 200 a 400 m,9,3 · 5 pedidos o más,1,2 · Septiembre,2 · Septiembre
+109,E08,-34.613475,-58.362804,-34.613572,-58.362619,Cena,Lunes,No,21800,1 · Hasta $30.000,396,2 · De 200 a 400 m,9,3 · 5 pedidos o más,1,3 · Octubre,2 · Septiembre
+110,E08,-34.613475,-58.362804,-34.613284,-58.362866,Cena,Sábado,Sí,25000,1 · Hasta $30.000,396,2 · De 200 a 400 m,9,3 · 5 pedidos o más,1,3 · Octubre,2 · Septiembre
+111,E08,-34.613475,-58.362804,-34.613665,-58.362924,Cena,Sábado,Sí,26000,1 · Hasta $30.000,396,2 · De 200 a 400 m,9,3 · 5 pedidos o más,1,3 · Octubre,2 · Septiembre
+112,E08,-34.613475,-58.362804,-34.613397,-58.362543,Cena,Martes,No,62800,3 · Más de $45.000,396,2 · De 200 a 400 m,9,3 · 5 pedidos o más,1,3 · Octubre,2 · Septiembre
+113,E08,-34.613475,-58.362804,-34.613382,-58.363076,Cena,Domingo,Sí,71500,3 · Más de $45.000,396,2 · De 200 a 400 m,9,3 · 5 pedidos o más,1,3 · Octubre,2 · Septiembre
+114,E09,-34.616148,-58.361489,-34.616093,-58.361561,Cena,Miércoles,No,12500,1 · Hasta $30.000,77,1 · Menos de 200 m,8,3 · 5 pedidos o más,2,3 · Octubre,2 · Septiembre
+115,E09,-34.616148,-58.361489,-34.616262,-58.361477,Cena,Martes,No,18500,1 · Hasta $30.000,77,1 · Menos de 200 m,8,3 · 5 pedidos o más,2,2 · Septiembre,2 · Septiembre
+116,E09,-34.616148,-58.361489,-34.616037,-58.361385,Cena,Miércoles,No,21900,1 · Hasta $30.000,77,1 · Menos de 200 m,8,3 · 5 pedidos o más,2,2 · Septiembre,2 · Septiembre
+117,E09,-34.616148,-58.361489,-34.616176,-58.361682,Cena,Jueves,No,23000,1 · Hasta $30.000,77,1 · Menos de 200 m,8,3 · 5 pedidos o más,2,3 · Octubre,2 · Septiembre
+118,E09,-34.616148,-58.361489,-34.616245,-58.361304,Cena,Domingo,Sí,23000,1 · Hasta $30.000,77,1 · Menos de 200 m,8,3 · 5 pedidos o más,2,4 · Noviembre,2 · Septiembre
+119,E09,-34.616148,-58.361489,-34.615957,-58.361551,Cena,Viernes,No,29800,1 · Hasta $30.000,77,1 · Menos de 200 m,8,3 · 5 pedidos o más,2,4 · Noviembre,2 · Septiembre
+120,E09,-34.616148,-58.361489,-34.616338,-58.361609,Cena,Lunes,No,37800,2 · $30.000 a $45.000,77,1 · Menos de 200 m,8,3 · 5 pedidos o más,2,4 · Noviembre,2 · Septiembre
+121,E09,-34.616148,-58.361489,-34.61607,-58.361228,Cena,Jueves,No,47900,3 · Más de $45.000,77,1 · Menos de 200 m,8,3 · 5 pedidos o más,2,2 · Septiembre,2 · Septiembre
+122,E10,-34.611088,-58.363435,-34.611033,-58.363507,Cena,Domingo,Sí,32000,2 · $30.000 a $45.000,665,3 · Más de 400 m,7,3 · 5 pedidos o más,4,3 · Octubre,2 · Septiembre
+123,E10,-34.611088,-58.363435,-34.611202,-58.363423,Cena,Miércoles,No,45800,3 · Más de $45.000,665,3 · Más de 400 m,7,3 · 5 pedidos o más,4,2 · Septiembre,2 · Septiembre
+124,E10,-34.611088,-58.363435,-34.610977,-58.363331,Almuerzo,Jueves,No,48700,3 · Más de $45.000,665,3 · Más de 400 m,7,3 · 5 pedidos o más,4,3 · Octubre,2 · Septiembre
+125,E10,-34.611088,-58.363435,-34.611116,-58.363628,Cena,Miércoles,No,66200,3 · Más de $45.000,665,3 · Más de 400 m,7,3 · 5 pedidos o más,4,3 · Octubre,2 · Septiembre
+126,E10,-34.611088,-58.363435,-34.611185,-58.36325,Cena,Viernes,No,69700,3 · Más de $45.000,665,3 · Más de 400 m,7,3 · 5 pedidos o más,4,3 · Octubre,2 · Septiembre
+127,E10,-34.611088,-58.363435,-34.610897,-58.363497,Cena,Miércoles,No,75700,3 · Más de $45.000,665,3 · Más de 400 m,7,3 · 5 pedidos o más,4,3 · Octubre,2 · Septiembre
+128,E10,-34.611088,-58.363435,-34.611278,-58.363555,Cena,Lunes,No,87900,3 · Más de $45.000,665,3 · Más de 400 m,7,3 · 5 pedidos o más,4,2 · Septiembre,2 · Septiembre
+129,E11,-34.61276,-58.361483,-34.612705,-58.361555,Almuerzo,Sábado,Sí,23000,1 · Hasta $30.000,443,3 · Más de 400 m,7,3 · 5 pedidos o más,3,3 · Octubre,2 · Septiembre
+130,E11,-34.61276,-58.361483,-34.612874,-58.361471,Almuerzo,Martes,No,23000,1 · Hasta $30.000,443,3 · Más de 400 m,7,3 · 5 pedidos o más,3,3 · Octubre,2 · Septiembre
+131,E11,-34.61276,-58.361483,-34.612649,-58.361379,Almuerzo,Sábado,Sí,28000,1 · Hasta $30.000,443,3 · Más de 400 m,7,3 · 5 pedidos o más,3,3 · Octubre,2 · Septiembre
+132,E11,-34.61276,-58.361483,-34.612788,-58.361676,Cena,Jueves,No,44000,2 · $30.000 a $45.000,443,3 · Más de 400 m,7,3 · 5 pedidos o más,3,2 · Septiembre,2 · Septiembre
+133,E11,-34.61276,-58.361483,-34.612857,-58.361298,Almuerzo,Miércoles,No,50800,3 · Más de $45.000,443,3 · Más de 400 m,7,3 · 5 pedidos o más,3,4 · Noviembre,2 · Septiembre
+134,E11,-34.61276,-58.361483,-34.612569,-58.361545,Cena,Sábado,Sí,71300,3 · Más de $45.000,443,3 · Más de 400 m,7,3 · 5 pedidos o más,3,3 · Octubre,2 · Septiembre
+135,E11,-34.61276,-58.361483,-34.61295,-58.361603,Cena,Jueves,No,74500,3 · Más de $45.000,443,3 · Más de 400 m,7,3 · 5 pedidos o más,3,3 · Octubre,2 · Septiembre
+136,E12,-34.60399,-58.363413,-34.603935,-58.363485,Almuerzo,Viernes,No,21000,1 · Hasta $30.000,1433,3 · Más de 400 m,7,3 · 5 pedidos o más,3,4 · Noviembre,3 · Octubre
+137,E12,-34.60399,-58.363413,-34.604104,-58.363401,Cena,Martes,No,21600,1 · Hasta $30.000,1433,3 · Más de 400 m,7,3 · 5 pedidos o más,3,3 · Octubre,3 · Octubre
+138,E12,-34.60399,-58.363413,-34.603879,-58.363309,Cena,Jueves,No,21600,1 · Hasta $30.000,1433,3 · Más de 400 m,7,3 · 5 pedidos o más,3,4 · Noviembre,3 · Octubre
+139,E12,-34.60399,-58.363413,-34.604018,-58.363606,Cena,Viernes,No,37600,2 · $30.000 a $45.000,1433,3 · Más de 400 m,7,3 · 5 pedidos o más,3,3 · Octubre,3 · Octubre
+140,E12,-34.60399,-58.363413,-34.604087,-58.363228,Cena,Miércoles,No,47600,3 · Más de $45.000,1433,3 · Más de 400 m,7,3 · 5 pedidos o más,3,3 · Octubre,3 · Octubre
+141,E12,-34.60399,-58.363413,-34.603799,-58.363475,Cena,Miércoles,No,47600,3 · Más de $45.000,1433,3 · Más de 400 m,7,3 · 5 pedidos o más,3,4 · Noviembre,3 · Octubre
+142,E12,-34.60399,-58.363413,-34.60418,-58.363533,Cena,Lunes,No,52000,3 · Más de $45.000,1433,3 · Más de 400 m,7,3 · 5 pedidos o más,3,4 · Noviembre,3 · Octubre
+143,E13,-34.61619,-58.362741,-34.616135,-58.362813,Cena,Domingo,Sí,34800,2 · $30.000 a $45.000,166,1 · Menos de 200 m,5,3 · 5 pedidos o más,2,3 · Octubre,2 · Septiembre
+144,E13,-34.61619,-58.362741,-34.616304,-58.362729,Cena,Domingo,Sí,39000,2 · $30.000 a $45.000,166,1 · Menos de 200 m,5,3 · 5 pedidos o más,2,2 · Septiembre,2 · Septiembre
+145,E13,-34.61619,-58.362741,-34.616079,-58.362637,Cena,Sábado,Sí,45400,3 · Más de $45.000,166,1 · Menos de 200 m,5,3 · 5 pedidos o más,2,3 · Octubre,2 · Septiembre
+146,E13,-34.61619,-58.362741,-34.616218,-58.362934,Cena,Jueves,No,59300,3 · Más de $45.000,166,1 · Menos de 200 m,5,3 · 5 pedidos o más,2,3 · Octubre,2 · Septiembre
+147,E13,-34.61619,-58.362741,-34.616287,-58.362556,Cena,Martes,No,79000,3 · Más de $45.000,166,1 · Menos de 200 m,5,3 · 5 pedidos o más,2,3 · Octubre,2 · Septiembre
+148,E14,-34.611482,-58.36098,-34.611427,-58.361052,Almuerzo,Jueves,No,18500,1 · Hasta $30.000,584,3 · Más de 400 m,5,3 · 5 pedidos o más,4,1 · Agosto,1 · Agosto
+149,E14,-34.611482,-58.36098,-34.611596,-58.360968,Cena,Lunes,No,18500,1 · Hasta $30.000,584,3 · Más de 400 m,5,3 · 5 pedidos o más,4,4 · Noviembre,1 · Agosto
+150,E14,-34.611482,-58.36098,-34.611371,-58.360876,Cena,Domingo,Sí,52200,3 · Más de $45.000,584,3 · Más de 400 m,5,3 · 5 pedidos o más,4,4 · Noviembre,1 · Agosto
+151,E14,-34.611482,-58.36098,-34.61151,-58.361173,Cena,Domingo,Sí,60300,3 · Más de $45.000,584,3 · Más de 400 m,5,3 · 5 pedidos o más,4,4 · Noviembre,1 · Agosto
+152,E14,-34.611482,-58.36098,-34.611579,-58.360795,Cena,Viernes,No,75600,3 · Más de $45.000,584,3 · Más de 400 m,5,3 · 5 pedidos o más,4,3 · Octubre,1 · Agosto
+153,E15,-34.613531,-58.360484,-34.613476,-58.360556,Almuerzo,Sábado,Sí,14500,1 · Hasta $30.000,360,2 · De 200 a 400 m,5,3 · 5 pedidos o más,2,1 · Agosto,1 · Agosto
+154,E15,-34.613531,-58.360484,-34.613645,-58.360472,Cena,Viernes,No,17400,1 · Hasta $30.000,360,2 · De 200 a 400 m,5,3 · 5 pedidos o más,2,1 · Agosto,1 · Agosto
+155,E15,-34.613531,-58.360484,-34.61342,-58.36038,Cena,Sábado,Sí,42300,2 · $30.000 a $45.000,360,2 · De 200 a 400 m,5,3 · 5 pedidos o más,2,1 · Agosto,1 · Agosto
+156,E15,-34.613531,-58.360484,-34.613559,-58.360677,Cena,Viernes,No,46000,3 · Más de $45.000,360,2 · De 200 a 400 m,5,3 · 5 pedidos o más,2,1 · Agosto,1 · Agosto
+157,E15,-34.613531,-58.360484,-34.613628,-58.360299,Cena,Viernes,No,61500,3 · Más de $45.000,360,2 · De 200 a 400 m,5,3 · 5 pedidos o más,2,3 · Octubre,1 · Agosto
+158,E16,-34.616865,-58.362761,-34.61681,-58.362833,Cena,Domingo,Sí,28400,1 · Hasta $30.000,158,1 · Menos de 200 m,5,3 · 5 pedidos o más,3,4 · Noviembre,2 · Septiembre
+159,E16,-34.616865,-58.362761,-34.616979,-58.362749,Cena,Jueves,No,28500,1 · Hasta $30.000,158,1 · Menos de 200 m,5,3 · 5 pedidos o más,3,4 · Noviembre,2 · Septiembre
+160,E16,-34.616865,-58.362761,-34.616754,-58.362657,Cena,Domingo,Sí,31800,2 · $30.000 a $45.000,158,1 · Menos de 200 m,5,3 · 5 pedidos o más,3,2 · Septiembre,2 · Septiembre
+161,E16,-34.616865,-58.362761,-34.616893,-58.362954,Cena,Sábado,Sí,33400,2 · $30.000 a $45.000,158,1 · Menos de 200 m,5,3 · 5 pedidos o más,3,3 · Octubre,2 · Septiembre
+162,E16,-34.616865,-58.362761,-34.616962,-58.362576,Almuerzo,Domingo,Sí,44200,2 · $30.000 a $45.000,158,1 · Menos de 200 m,5,3 · 5 pedidos o más,3,2 · Septiembre,2 · Septiembre
+163,E17,-34.617844,-58.359866,-34.617789,-58.359938,Cena,Sábado,Sí,10600,1 · Hasta $30.000,164,1 · Menos de 200 m,5,3 · 5 pedidos o más,5,2 · Septiembre,1 · Agosto
+164,E17,-34.617844,-58.359866,-34.617958,-58.359854,Cena,Domingo,Sí,22400,1 · Hasta $30.000,164,1 · Menos de 200 m,5,3 · 5 pedidos o más,5,4 · Noviembre,1 · Agosto
+165,E17,-34.617844,-58.359866,-34.617733,-58.359762,Cena,Miércoles,No,22800,1 · Hasta $30.000,164,1 · Menos de 200 m,5,3 · 5 pedidos o más,5,1 · Agosto,1 · Agosto
+166,E17,-34.617844,-58.359866,-34.617872,-58.360059,Cena,Viernes,No,46000,3 · Más de $45.000,164,1 · Menos de 200 m,5,3 · 5 pedidos o más,5,3 · Octubre,1 · Agosto
+167,E17,-34.617844,-58.359866,-34.617941,-58.359681,Cena,Martes,No,49900,3 · Más de $45.000,164,1 · Menos de 200 m,5,3 · 5 pedidos o más,5,1 · Agosto,1 · Agosto
+168,E18,-34.603986,-58.363359,-34.603931,-58.363431,Cena,Jueves,No,21600,1 · Hasta $30.000,1433,3 · Más de 400 m,5,3 · 5 pedidos o más,4,1 · Agosto,1 · Agosto
+169,E18,-34.603986,-58.363359,-34.6041,-58.363347,Cena,Viernes,No,22600,1 · Hasta $30.000,1433,3 · Más de 400 m,5,3 · 5 pedidos o más,4,3 · Octubre,1 · Agosto
+170,E18,-34.603986,-58.363359,-34.603875,-58.363255,Cena,Viernes,No,24300,1 · Hasta $30.000,1433,3 · Más de 400 m,5,3 · 5 pedidos o más,4,3 · Octubre,1 · Agosto
+171,E18,-34.603986,-58.363359,-34.604014,-58.363552,Cena,Jueves,No,27200,1 · Hasta $30.000,1433,3 · Más de 400 m,5,3 · 5 pedidos o más,4,3 · Octubre,1 · Agosto
+172,E18,-34.603986,-58.363359,-34.604083,-58.363174,Cena,Viernes,No,48700,3 · Más de $45.000,1433,3 · Más de 400 m,5,3 · 5 pedidos o más,4,3 · Octubre,1 · Agosto
+173,E19,-34.616789,-58.361769,-34.616734,-58.361841,Almuerzo,Miércoles,No,18500,1 · Hasta $30.000,67,1 · Menos de 200 m,5,3 · 5 pedidos o más,2,2 · Septiembre,2 · Septiembre
+174,E19,-34.616789,-58.361769,-34.616903,-58.361757,Cena,Lunes,No,23000,1 · Hasta $30.000,67,1 · Menos de 200 m,5,3 · 5 pedidos o más,2,3 · Octubre,2 · Septiembre
+175,E19,-34.616789,-58.361769,-34.616678,-58.361665,Cena,Miércoles,No,28500,1 · Hasta $30.000,67,1 · Menos de 200 m,5,3 · 5 pedidos o más,2,2 · Septiembre,2 · Septiembre
+176,E19,-34.616789,-58.361769,-34.616817,-58.361962,Almuerzo,Miércoles,No,31000,2 · $30.000 a $45.000,67,1 · Menos de 200 m,5,3 · 5 pedidos o más,2,3 · Octubre,2 · Septiembre
+177,E19,-34.616789,-58.361769,-34.616886,-58.361584,Cena,Sábado,Sí,35600,2 · $30.000 a $45.000,67,1 · Menos de 200 m,5,3 · 5 pedidos o más,2,2 · Septiembre,2 · Septiembre
+178,E20,-34.615476,-58.362038,-34.615421,-58.36211,Cena,Sábado,Sí,19700,1 · Hasta $30.000,167,1 · Menos de 200 m,5,3 · 5 pedidos o más,2,3 · Octubre,2 · Septiembre
+179,E20,-34.615476,-58.362038,-34.61559,-58.362026,Cena,Sábado,Sí,22600,1 · Hasta $30.000,167,1 · Menos de 200 m,5,3 · 5 pedidos o más,2,2 · Septiembre,2 · Septiembre
+180,E20,-34.615476,-58.362038,-34.615365,-58.361934,Cena,Domingo,Sí,22600,1 · Hasta $30.000,167,1 · Menos de 200 m,5,3 · 5 pedidos o más,2,3 · Octubre,2 · Septiembre
+181,E20,-34.615476,-58.362038,-34.615504,-58.362231,Almuerzo,Sábado,Sí,26600,1 · Hasta $30.000,167,1 · Menos de 200 m,5,3 · 5 pedidos o más,2,3 · Octubre,2 · Septiembre
+182,E20,-34.615476,-58.362038,-34.615573,-58.361853,Cena,Viernes,No,40600,2 · $30.000 a $45.000,167,1 · Menos de 200 m,5,3 · 5 pedidos o más,2,2 · Septiembre,2 · Septiembre
+183,E21,-34.612825,-58.362521,-34.61277,-58.362593,Cena,Miércoles,No,45400,3 · Más de $45.000,455,3 · Más de 400 m,4,2 · De 2 a 4 pedidos,2,3 · Octubre,2 · Septiembre
+184,E21,-34.612825,-58.362521,-34.612939,-58.362509,Cena,Domingo,Sí,46000,3 · Más de $45.000,455,3 · Más de 400 m,4,2 · De 2 a 4 pedidos,2,3 · Octubre,2 · Septiembre
+185,E21,-34.612825,-58.362521,-34.612714,-58.362417,Almuerzo,Martes,No,46000,3 · Más de $45.000,455,3 · Más de 400 m,4,2 · De 2 a 4 pedidos,2,4 · Noviembre,2 · Septiembre
+186,E21,-34.612825,-58.362521,-34.612853,-58.362714,Cena,Miércoles,No,75900,3 · Más de $45.000,455,3 · Más de 400 m,4,2 · De 2 a 4 pedidos,2,2 · Septiembre,2 · Septiembre
+187,E22,-34.613397,-58.360869,-34.613342,-58.360941,Cena,Domingo,Sí,36750,2 · $30.000 a $45.000,371,2 · De 200 a 400 m,4,2 · De 2 a 4 pedidos,4,2 · Septiembre,2 · Septiembre
+188,E22,-34.613397,-58.360869,-34.613511,-58.360857,Cena,Domingo,Sí,36750,2 · $30.000 a $45.000,371,2 · De 200 a 400 m,4,2 · De 2 a 4 pedidos,4,3 · Octubre,2 · Septiembre
+189,E22,-34.613397,-58.360869,-34.613286,-58.360765,Cena,Sábado,Sí,36850,2 · $30.000 a $45.000,371,2 · De 200 a 400 m,4,2 · De 2 a 4 pedidos,4,3 · Octubre,2 · Septiembre
+190,E22,-34.613397,-58.360869,-34.613425,-58.361062,Cena,Domingo,Sí,91700,3 · Más de $45.000,371,2 · De 200 a 400 m,4,2 · De 2 a 4 pedidos,4,3 · Octubre,2 · Septiembre
+191,E23,-34.621244,-58.361401,-34.621189,-58.361473,Cena,Viernes,No,31950,2 · $30.000 a $45.000,503,3 · Más de 400 m,4,2 · De 2 a 4 pedidos,2,2 · Septiembre,1 · Agosto
+192,E23,-34.621244,-58.361401,-34.621358,-58.361389,Cena,Sábado,Sí,31950,2 · $30.000 a $45.000,503,3 · Más de 400 m,4,2 · De 2 a 4 pedidos,2,3 · Octubre,1 · Agosto
+193,E23,-34.621244,-58.361401,-34.621133,-58.361297,Cena,Viernes,No,50200,3 · Más de $45.000,503,3 · Más de 400 m,4,2 · De 2 a 4 pedidos,2,4 · Noviembre,1 · Agosto
+194,E23,-34.621244,-58.361401,-34.621272,-58.361595,Cena,Jueves,No,55900,3 · Más de $45.000,503,3 · Más de 400 m,4,2 · De 2 a 4 pedidos,2,1 · Agosto,1 · Agosto
+195,E24,-34.612072,-58.361089,-34.612017,-58.361161,Cena,Domingo,Sí,31900,2 · $30.000 a $45.000,518,3 · Más de 400 m,4,2 · De 2 a 4 pedidos,2,3 · Octubre,2 · Septiembre
+196,E24,-34.612072,-58.361089,-34.612186,-58.361077,Cena,Jueves,No,37600,2 · $30.000 a $45.000,518,3 · Más de 400 m,4,2 · De 2 a 4 pedidos,2,3 · Octubre,2 · Septiembre
+197,E24,-34.612072,-58.361089,-34.611961,-58.360985,Cena,Sábado,Sí,46900,3 · Más de $45.000,518,3 · Más de 400 m,4,2 · De 2 a 4 pedidos,2,3 · Octubre,2 · Septiembre
+198,E24,-34.612072,-58.361089,-34.6121,-58.361282,Cena,Domingo,Sí,48250,3 · Más de $45.000,518,3 · Más de 400 m,4,2 · De 2 a 4 pedidos,2,2 · Septiembre,2 · Septiembre
+199,E25,-34.613403,-58.361792,-34.613348,-58.361864,Cena,Martes,No,7600,1 · Hasta $30.000,376,2 · De 200 a 400 m,4,2 · De 2 a 4 pedidos,1,4 · Noviembre,3 · Octubre
+200,E25,-34.613403,-58.361792,-34.613517,-58.36178,Cena,Lunes,No,18500,1 · Hasta $30.000,376,2 · De 200 a 400 m,4,2 · De 2 a 4 pedidos,1,3 · Octubre,3 · Octubre
+201,E25,-34.613403,-58.361792,-34.613292,-58.361688,Cena,Lunes,No,39000,2 · $30.000 a $45.000,376,2 · De 200 a 400 m,4,2 · De 2 a 4 pedidos,1,3 · Octubre,3 · Octubre
+202,E25,-34.613403,-58.361792,-34.613431,-58.361985,Cena,Martes,No,40700,2 · $30.000 a $45.000,376,2 · De 200 a 400 m,4,2 · De 2 a 4 pedidos,1,3 · Octubre,3 · Octubre
+203,E26,-34.613529,-58.362918,-34.613474,-58.36299,Cena,Domingo,Sí,22800,1 · Hasta $30.000,395,2 · De 200 a 400 m,3,2 · De 2 a 4 pedidos,2,3 · Octubre,2 · Septiembre
+204,E26,-34.613529,-58.362918,-34.613643,-58.362906,Cena,Miércoles,No,50200,3 · Más de $45.000,395,2 · De 200 a 400 m,3,2 · De 2 a 4 pedidos,2,2 · Septiembre,2 · Septiembre
+205,E26,-34.613529,-58.362918,-34.613418,-58.362814,Cena,Martes,No,131000,3 · Más de $45.000,395,2 · De 200 a 400 m,3,2 · De 2 a 4 pedidos,2,2 · Septiembre,2 · Septiembre
+206,E27,-34.623317,-58.358025,-34.623262,-58.358097,Almuerzo,Lunes,No,14200,1 · Hasta $30.000,783,3 · Más de 400 m,3,2 · De 2 a 4 pedidos,1,4 · Noviembre,4 · Noviembre
+207,E27,-34.623317,-58.358025,-34.623431,-58.358013,Almuerzo,Miércoles,No,28000,1 · Hasta $30.000,783,3 · Más de 400 m,3,2 · De 2 a 4 pedidos,1,4 · Noviembre,4 · Noviembre
+208,E27,-34.623317,-58.358025,-34.623206,-58.357921,Almuerzo,Martes,No,41000,2 · $30.000 a $45.000,783,3 · Más de 400 m,3,2 · De 2 a 4 pedidos,1,4 · Noviembre,4 · Noviembre
+209,E28,-34.603629,-58.363505,-34.603574,-58.363577,Almuerzo,Martes,No,14600,1 · Hasta $30.000,1474,3 · Más de 400 m,3,2 · De 2 a 4 pedidos,1,4 · Noviembre,3 · Octubre
+210,E28,-34.603629,-58.363505,-34.603743,-58.363493,Almuerzo,Martes,No,18400,1 · Hasta $30.000,1474,3 · Más de 400 m,3,2 · De 2 a 4 pedidos,1,3 · Octubre,3 · Octubre
+211,E28,-34.603629,-58.363505,-34.603518,-58.363401,Almuerzo,Martes,No,18500,1 · Hasta $30.000,1474,3 · Más de 400 m,3,2 · De 2 a 4 pedidos,1,3 · Octubre,3 · Octubre
+212,E29,-34.61793,-58.362365,-34.617875,-58.362437,Cena,Martes,No,69200,3 · Más de $45.000,180,1 · Menos de 200 m,2,2 · De 2 a 4 pedidos,2,4 · Noviembre,2 · Septiembre
+213,E29,-34.61793,-58.362365,-34.618044,-58.362353,Cena,Sábado,Sí,82400,3 · Más de $45.000,180,1 · Menos de 200 m,2,2 · De 2 a 4 pedidos,2,2 · Septiembre,2 · Septiembre
+214,E30,-34.61655,-58.36748,-34.616495,-58.367552,Cena,Sábado,Sí,46600,3 · Más de $45.000,589,3 · Más de 400 m,2,2 · De 2 a 4 pedidos,2,3 · Octubre,2 · Septiembre
+215,E30,-34.61655,-58.36748,-34.616664,-58.367468,Almuerzo,Martes,No,52000,3 · Más de $45.000,589,3 · Más de 400 m,2,2 · De 2 a 4 pedidos,2,2 · Septiembre,2 · Septiembre
+216,E31,-34.610213,-58.360789,-34.610158,-58.360861,Cena,Lunes,No,37150,2 · $30.000 a $45.000,725,3 · Más de 400 m,2,2 · De 2 a 4 pedidos,2,3 · Octubre,2 · Septiembre
+217,E31,-34.610213,-58.360789,-34.610327,-58.360777,Cena,Domingo,Sí,56700,3 · Más de $45.000,725,3 · Más de 400 m,2,2 · De 2 a 4 pedidos,2,2 · Septiembre,2 · Septiembre
+218,E32,-34.61064,-58.362734,-34.610585,-58.362806,Cena,Martes,No,42600,2 · $30.000 a $45.000,695,3 · Más de 400 m,2,2 · De 2 a 4 pedidos,2,2 · Septiembre,2 · Septiembre
+219,E32,-34.61064,-58.362734,-34.610754,-58.362722,Cena,Lunes,No,49600,3 · Más de $45.000,695,3 · Más de 400 m,2,2 · De 2 a 4 pedidos,2,2 · Septiembre,2 · Septiembre
+220,E33,-34.620317,-58.365452,-34.620262,-58.365524,Cena,Domingo,Sí,26600,1 · Hasta $30.000,567,3 · Más de 400 m,2,2 · De 2 a 4 pedidos,1,3 · Octubre,3 · Octubre
+221,E33,-34.620317,-58.365452,-34.620431,-58.36544,Almuerzo,Lunes,No,50400,3 · Más de $45.000,567,3 · Más de 400 m,2,2 · De 2 a 4 pedidos,1,3 · Octubre,3 · Octubre
+222,E34,-34.61023,-58.362071,-34.610175,-58.362143,Almuerzo,Sábado,Sí,31400,2 · $30.000 a $45.000,729,3 · Más de 400 m,2,2 · De 2 a 4 pedidos,2,2 · Septiembre,2 · Septiembre
+223,E34,-34.61023,-58.362071,-34.610344,-58.362059,Cena,Jueves,No,38900,2 · $30.000 a $45.000,729,3 · Más de 400 m,2,2 · De 2 a 4 pedidos,2,3 · Octubre,2 · Septiembre
+224,E35,-34.620204,-58.361453,-34.620149,-58.361525,Cena,Sábado,Sí,29100,1 · Hasta $30.000,388,2 · De 200 a 400 m,2,2 · De 2 a 4 pedidos,1,3 · Octubre,3 · Octubre
+225,E35,-34.620204,-58.361453,-34.620318,-58.361441,Cena,Sábado,Sí,41100,2 · $30.000 a $45.000,388,2 · De 200 a 400 m,2,2 · De 2 a 4 pedidos,1,4 · Noviembre,3 · Octubre
+226,E36,-34.611683,-58.362999,-34.611628,-58.363071,Cena,Sábado,Sí,18600,1 · Hasta $30.000,589,3 · Más de 400 m,2,2 · De 2 a 4 pedidos,2,4 · Noviembre,3 · Octubre
+227,E36,-34.611683,-58.362999,-34.611797,-58.362987,Cena,Lunes,No,50800,3 · Más de $45.000,589,3 · Más de 400 m,2,2 · De 2 a 4 pedidos,2,3 · Octubre,3 · Octubre
+228,E37,-34.615397,-58.362988,-34.615342,-58.36306,Almuerzo,Sábado,Sí,22000,1 · Hasta $30.000,232,2 · De 200 a 400 m,2,2 · De 2 a 4 pedidos,1,2 · Septiembre,2 · Septiembre
+229,E37,-34.615397,-58.362988,-34.615511,-58.362976,Almuerzo,Viernes,No,22000,1 · Hasta $30.000,232,2 · De 200 a 400 m,2,2 · De 2 a 4 pedidos,1,3 · Octubre,2 · Septiembre
+230,E38,-34.606316,-58.366743,-34.606261,-58.366815,Almuerzo,Martes,No,21000,1 · Hasta $30.000,1270,3 · Más de 400 m,2,2 · De 2 a 4 pedidos,1,1 · Agosto,1 · Agosto
+231,E38,-34.606316,-58.366743,-34.60643,-58.366731,Almuerzo,Miércoles,No,21000,1 · Hasta $30.000,1270,3 · Más de 400 m,2,2 · De 2 a 4 pedidos,1,1 · Agosto,1 · Agosto
+232,E39,-34.604849,-58.364121,-34.604794,-58.364193,Cena,Domingo,Sí,182700,3 · Más de $45.000,1351,3 · Más de 400 m,1,1 · Pidieron una sola vez,1,3 · Octubre,3 · Octubre
+233,E40,-34.605164,-58.362143,-34.605109,-58.362215,Almuerzo,Viernes,No,140100,3 · Más de $45.000,1290,3 · Más de 400 m,1,1 · Pidieron una sola vez,1,2 · Septiembre,2 · Septiembre
+234,E41,-34.619109,-58.361373,-34.619054,-58.361445,Almuerzo,Miércoles,No,101000,3 · Más de $45.000,266,2 · De 200 a 400 m,1,1 · Pidieron una sola vez,1,1 · Agosto,1 · Agosto
+235,E42,-34.610222,-58.362786,-34.610167,-58.362858,Cena,Sábado,Sí,86700,3 · Más de $45.000,741,3 · Más de 400 m,1,1 · Pidieron una sola vez,1,2 · Septiembre,2 · Septiembre
+236,E43,-34.621248,-58.361229,-34.621193,-58.361301,Almuerzo,Lunes,No,84600,3 · Más de $45.000,502,3 · Más de 400 m,1,1 · Pidieron una sola vez,1,4 · Noviembre,4 · Noviembre
+237,E44,-34.614159,-58.362376,-34.614104,-58.362448,Almuerzo,Viernes,No,81800,3 · Más de $45.000,311,2 · De 200 a 400 m,1,1 · Pidieron una sola vez,1,3 · Octubre,3 · Octubre
+238,E45,-34.619082,-58.361006,-34.619027,-58.361078,Cena,Sábado,Sí,81800,3 · Más de $45.000,261,2 · De 200 a 400 m,1,1 · Pidieron una sola vez,1,3 · Octubre,3 · Octubre
+239,E46,-34.616218,-58.362478,-34.616163,-58.36255,Almuerzo,Miércoles,No,77400,3 · Más de $45.000,143,1 · Menos de 200 m,1,1 · Pidieron una sola vez,1,1 · Agosto,1 · Agosto
+240,E47,-34.611287,-58.361932,-34.611232,-58.362004,Cena,Martes,No,71800,3 · Más de $45.000,611,3 · Más de 400 m,1,1 · Pidieron una sola vez,1,4 · Noviembre,4 · Noviembre
+241,E48,-34.611945,-58.359367,-34.61189,-58.359439,Cena,Domingo,Sí,71500,3 · Más de $45.000,554,3 · Más de 400 m,1,1 · Pidieron una sola vez,1,3 · Octubre,3 · Octubre
+242,E49,-34.616056,-58.361512,-34.616001,-58.361584,Cena,Sábado,Sí,43300,2 · $30.000 a $45.000,86,1 · Menos de 200 m,1,1 · Pidieron una sola vez,1,4 · Noviembre,4 · Noviembre
+243,E50,-34.616732,-58.361045,-34.616677,-58.361117,Cena,Viernes,No,35600,2 · $30.000 a $45.000,0,1 · Menos de 200 m,1,1 · Pidieron una sola vez,1,3 · Octubre,3 · Octubre
+244,E51,-34.616864,-58.361029,-34.616809,-58.361101,Cena,Miércoles,No,32800,2 · $30.000 a $45.000,15,1 · Menos de 200 m,1,1 · Pidieron una sola vez,1,2 · Septiembre,2 · Septiembre
+245,E52,-34.619805,-58.361499,-34.61975,-58.361571,Almuerzo,Jueves,No,6800,1 · Hasta $30.000,344,2 · De 200 a 400 m,1,1 · Pidieron una sola vez,1,1 · Agosto,1 · Agosto

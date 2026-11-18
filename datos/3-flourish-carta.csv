@@ -1,72 +1,98 @@
 ﻿rubro,producto,facturacion,unidades,precio
-Empanadas,Empanada de Carne Suave,710600,187,3800
-Pizzas artesanales,Pizza Mozzarella,481175,17.5,22600
-Carnes y pescados,Pollo Grille,388500,21,18500
-Empanadas,Empanada de Jamón y Queso,285600,84,3400
-Carnes y pescados,Milanesa de Ternera,211800,10,21000
-Pizzas artesanales,Pizza Jamón y morrones,208250,7,27600
-Carnes y pescados,Bife de Chorizo,156000,6,26000
-Pizzas artesanales,Pizza Provolone,149925,4,32900
-Carnes y pescados,Pollo al Verdeo,138000,6,23000
-Carnes y pescados,Suprema de Pollo,120000,6,19800
-Pizzas artesanales,Pizza Fugazza con mozzarella,106200,3,27200
-Pizzas artesanales,Pizza Napolitana,98000,3,27200
-Pizzas artesanales,Pizza Cuatro quesos,94700,2.5,33000
-Empanadas,Empanada de Pollo,91000,26,3500
-Ensaladas,Caesar con Pollo,85500,5,17100
-Pastas,Gnocchi,80300,4,13600
+Empanadas,Empanada de Carne Suave,1865800,491,3800
+Pizzas artesanales,Pizza Mozzarella,1252225,46.5,22600
+Carnes y pescados,Pollo Grille,869500,47,18500
+Pizzas artesanales,Pizza Jamón y morrones,756375,23.5,27600
+Empanadas,Empanada de Jamón y Queso,724200,213,3400
+Carnes y pescados,Milanesa de Ternera,637200,30,21000
+Pizzas artesanales,Pizza Provolone,443125,12,32900
+Carnes y pescados,Bife de Chorizo,442000,17,26000
+Carnes y pescados,Pollo al Verdeo,368000,16,23000
+Pizzas artesanales,Pizza Fugazzeta rellena,323900,8.5,34100
+Pizzas artesanales,Pizza Napolitana,304500,9.5,27200
+Carnes y pescados,Risotto Pollo,299000,13,23000
+Carnes y pescados,Medallón de Lomo,280000,10,28000
+Pizzas artesanales,Pizza Fugazza con mozzarella,264800,8,27200
+Empanadas,Empanada de Verdura,255000,75,3400
+Empanadas,Empanada de Pollo,213500,61,3500
+Carnes y pescados,Suprema Rellena con Papas a la Española,207000,9,23000
+Pastas,Gnocchi,200000,10,13600
+Pizzas artesanales,Pizza Cuatro quesos,197425,5.5,33000
+Entradas,Fainá (porción),184800,56,3300
+Carnes y pescados,Salmón Rosado,162000,5,32400
+Entradas,Tortilla de papa,159500,11,14500
+Pastas,Ravioles de Verdura,146600,7,14400
+Carnes y pescados,Ojo de Bife,142500,5,28500
+Carnes y pescados,Suprema de Pollo,139800,7,19800
+Empanadas,Empanada de Carne Picante,136800,36,3800
+Empanadas,Empanada de Roquefort,132600,39,3400
+Carnes y pescados,Lomo a la Pimienta Negra,114000,4,28500
+Carnes y pescados,Lomo al Champignon,114000,4,28500
+Carnes y pescados,Merluza,110000,5,22000
+Pastas,Tallarín casero,106300,5,13600
+Empanadas,Empanada de Choclo,105400,31,3400
+Ensaladas,Caesar con Pollo,102600,6,17100
+Pastas,Sorrentino (Jamón y Mozzarella),85200,4,14800
+Empanadas,Empanada de Queso y Cebolla,85000,25,3400
+Carnes y pescados,Risotto al Frutti di Mare,83400,3,27800
+Empanadas,Empanada Caprese,81600,24,3400
 Pizzas artesanales,"Pizza Rúcula, Crudo y parmesano",77925,2,34100
-Pizzas artesanales,Pizza Fugazzeta rellena,77800,2,34100
-Carnes y pescados,Risotto Pollo,69000,3,23000
-Carnes y pescados,Merluza,66000,3,22000
-Pastas,Ravioles de Verdura,64500,3,14400
-Pastas,Sorrentino (Jamón y Mozzarella),62800,3,14800
-Entradas,Tortilla de papa,58000,4,14500
-Carnes y pescados,Lomo al Champignon,57000,2,28500
-Carnes y pescados,Ojo de Bife,57000,2,28500
-Entradas,Fainá (porción),56100,17,3300
-Empanadas,Empanada de Choclo,54400,16,3400
-Empanadas,Empanada de Verdura,51000,15,3400
-Empanadas,Empanada de Queso y Cebolla,47600,14,3400
-Empanadas,Empanada de Roquefort,44200,13,3400
-Pastas,Tallarín casero,43600,2,13600
-Empanadas,Empanada de Carne Picante,41800,11,3800
+Entradas,Romana Rabas (con salsa Provenzal),74000,4,18500
+Hamburguesas,Classic-Burger,67200,4,16800
+Pastas,Gnocchi rellenos,64500,3,14200
+Ensaladas,Armá tu ensalada,62000,4,12500
+Pizzas artesanales,Pizza Calabresa,56400,1.5,32900
+Entradas,Papas Fritas (Provenzal o regular),53000,5,10600
+Pizzas artesanales,Pizza Palmitos,53000,1.5,33900
+Pizzas artesanales,Pizza Fugazza Cabrona,51275,1.5,32900
+Pastas,Sorrentino (Salmón),48000,2,17100
+Bebidas,Coca-Cola Zero,46200,11,4200
+Empanadas,Empanada de Atún,44000,11,4000
+Sándwiches,Panini de Pollo,43800,3,14600
+Entradas,Provoleta Clásica,43800,3,14600
+Pastas,Spaghetti integral (de espinaca),42600,2,13400
+Pastas,Penne Rigatti,42400,2,13600
+Carnes y pescados,Matambrito de Cerdo,42000,2,21000
+Ensaladas,Palacio con Langostinos,42000,2,21000
+Pizzas artesanales,Pizza Espárragos a la Parmesana,37800,1,33100
+Ensaladas,Armá tu ensalada (hasta 4 variedades),37500,3,12500
 Calzones,Calzón Percanta (pequeño),36500,1,36500
+Calzones,Calzón Napolitano (pequeño),35800,1,35800
 Pizzas artesanales,Pizza Sorrentina,35800,1,27500
+Pizzas artesanales,Pizza Fugazza,35300,1,27100
+Pizzas artesanales,Pizza Ananá,35225,1,33000
+Pizzas artesanales,Pizza Mexicana,35225,1,32800
+Bebidas,Agua Mineral Sin Gas (Villavicencio),33600,8,4200
 Sándwiches,Panini de Lomo,33600,2,16800
-Carnes y pescados,Lomo a la Pimienta Negra,28500,1,28500
+Hora dulce,Flan casero,32800,4,8200
+Pizzas artesanales,Pizza Roquefort,32800,1,32800
+Entradas,Mozzarella Marinara,27800,2,13900
+Pizzas artesanales,Pan de Pizza,27800,1,27800
 Entradas,Pan de Pizza con Provolone (chico 6 porc.),27800,1,27800
-Pastas,Sorrentino (Salmón),24700,1,17100
-Carnes y pescados,Suprema Rellena con Papas a la Española,23000,1,23000
-Pastas,Spaghetti integral (de espinaca),21600,1,13400
-Entradas,Papas Fritas (Provenzal o regular),21200,2,10600
-Pastas,Penne Rigatti,21200,1,13600
-Bebidas,Agua Mineral Sin Gas (Villavicencio),21000,5,4200
-Carnes y pescados,Matambrito de Cerdo,21000,1,21000
-Ensaladas,Palacio con Langostinos,21000,1,21000
-Empanadas,Empanada Caprese,20400,6,3400
-Pastas,Gnocchi rellenos,20300,1,14200
+Entradas,Fainá Percanta (porción),27300,7,3900
+Carnes y pescados,Trucha Ahumada,27000,1,27000
+Carnes y pescados,Pollo al Curry,25800,1,25800
+Bebidas,Jugo de Naranja,25400,4,5400
+Carnes y pescados,Risotto de Vegetales,21000,1,21000
+Entradas,Romana Langostinos,20500,1,20500
 Pizzas artesanales,Pizza Rúcula y Brie,19575,0.5,34600
 Pizzas artesanales,Pizza Rúcula/Tomates Confitados,19450,0.5,34100
-Pizzas artesanales,Pizza Palmitos,19100,0.5,33900
-Pizzas artesanales,Pizza Calabresa,18800,0.5,32900
-Entradas,Romana Rabas (con salsa Provenzal),18500,1,18500
-Pizzas artesanales,Pizza Fugazza Cabrona,18375,0.5,32900
 Pizzas artesanales,Pizza Margarita,18325,0.5,27400
 Tortas,Chocotorta,17800,2,8900
 Hamburguesas,Patagonia Burger,17400,1,17400
+Hamburguesas,Mex-Burger,17200,1,17200
 Ensaladas,Mediterráneo con Pollo,17100,1,17100
 Ensaladas,Primavera con Pollo,17100,1,17100
+Sándwiches,Panini Lomo,16800,1,16800
+Pizzas artesanales,Pizza Percanta,15950,0.5,36200
+Entradas,Tortilla española,15800,1,15800
 Entradas,Mozzarella Flor di Latte,15400,1,15400
-Sándwiches,Panini de Pollo,14600,1,14600
-Entradas,Provoleta Clásica,14600,1,14600
 Sándwiches,Panini Pollo,14600,1,14600
 Entradas,Omelette Especial,14500,1,14500
-Entradas,Mozzarella Marinara,13900,1,13900
-Empanadas,Empanada de Atún,12000,3,4000
-Entradas,Fainá Percanta (porción),11700,3,3900
 Sándwiches,Panini de Vegetales,11000,1,11000
 Hora dulce,Tentación de Mousses,11000,1,11000
-Bebidas,Coca-Cola Zero,8400,2,4200
-Bebidas,Sprite Zero,4200,1,4200
+Hora dulce,Tiramisú,10700,1,10700
+Entradas,Papa Puré,10500,1,10500
+Panadería y dulces,Cuadradito: Brownie,5800,1,5800
 Bebidas,Coca-Cola Regular,4200,1,4200
+Bebidas,Sprite Zero,4200,1,4200
